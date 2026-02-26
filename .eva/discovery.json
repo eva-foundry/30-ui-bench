@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "schema": "eva.discovery.v2",
+    "generated_at": "2026-02-25T11:56:22.830Z",
+    "repo": "C:\\AICOE\\eva-foundation\\30-ui-bench"
+  },
+  "project": null,
+  "planned": {
+    "epic": {
+      "title": "30-ui-bench",
+      "source": "README.md"
+    },
+    "features": [
+      {
+        "id": "F30-01",
+        "title": "Component Scaffolding",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F30-02",
+        "title": "Component Demos",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F30-03",
+        "title": "Accessibility Validation",
+        "source": "veritas-plan.json"
+      }
+    ],
+    "stories": [
+      {
+        "id": "F30-01-001",
+        "title": "Fluent UI v9 environment setup",
+        "feature_id": "F30-01",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F30-01-002",
+        "title": "Core component inventory",
+        "feature_id": "F30-01",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F30-01-003",
+        "title": "Theme token exploration",
+        "feature_id": "F30-01",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F30-02-001",
+        "title": "Navigation and layout patterns",
+        "feature_id": "F30-02",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F30-02-002",
+        "title": "Form controls and validation",
+        "feature_id": "F30-02",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F30-02-003",
+        "title": "Data table and grid patterns",
+        "feature_id": "F30-02",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F30-03-001",
+        "title": "WCAG 2.1 AA compliance check",
+        "feature_id": "F30-03",
+        "source": "veritas-plan.json"
+      },
+      {
+        "id": "F30-03-002",
+        "title": "Keyboard navigation test",
+        "feature_id": "F30-03",
+        "source": "veritas-plan.json"
+      }
+    ],
+    "tasks": [],
+    "acceptance": [],
+    "declared_status": {}
+  },
+  "actual": {
+    "artifacts": [
+      {
+        "path": "ado-artifacts.json",
+        "type": "data",
+        "story_tags": []
+      },
+      {
+        "path": "ado-import.ps1",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "manifest.yml",
+        "type": "config",
+        "story_tags": [
+          "F30-01-001",
+          "F30-01-002",
+          "F30-01-003",
+          "F30-02-001",
+          "F30-02-002",
+          "F30-02-003",
+          "F30-03-001",
+          "F30-03-002"
+        ]
+      },
+      {
+        "path": "package.json",
+        "type": "data",
+        "story_tags": []
+      },
+      {
+        "path": "PLAN.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "tsconfig.json",
+        "type": "data",
+        "story_tags": []
+      },
+      {
+        "path": ".github/copilot-instructions.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": ".github/copilot-skills/00-skill-index.skill.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "tests/fixtures/locales/en.json",
+        "type": "test",
+        "story_tags": [],
+        "is_test": true
+      },
+      {
+        "path": "tests/fixtures/locales/fr.json",
+        "type": "test",
+        "story_tags": [],
+        "is_test": true
+      }
+    ],
+    "story_artifact_map": {
+      "F30-01-001": {
+        "artifacts": [
+          {
+            "path": "manifest.yml",
+            "type": "config",
+            "story_tags": [
+              "F30-01-001",
+              "F30-01-002",
+              "F30-01-003",
+              "F30-02-001",
+              "F30-02-002",
+              "F30-02-003",
+              "F30-03-001",
+              "F30-03-002"
+            ]
+          }
+        ]
+      },
+      "F30-01-002": {
+        "artifacts": [
+          {
+            "path": "manifest.yml",
+            "type": "config",
+            "story_tags": [
+              "F30-01-001",
+              "F30-01-002",
+              "F30-01-003",
+              "F30-02-001",
+              "F30-02-002",
+              "F30-02-003",
+              "F30-03-001",
+              "F30-03-002"
+            ]
+          }
+        ]
+      },
+      "F30-01-003": {
+        "artifacts": [
+          {
+            "path": "manifest.yml",
+            "type": "config",
+            "story_tags": [
+              "F30-01-001",
+              "F30-01-002",
+              "F30-01-003",
+              "F30-02-001",
+              "F30-02-002",
+              "F30-02-003",
+              "F30-03-001",
+              "F30-03-002"
+            ]
+          }
+        ]
+      },
+      "F30-02-001": {
+        "artifacts": [
+          {
+            "path": "manifest.yml",
+            "type": "config",
+            "story_tags": [
+              "F30-01-001",
+              "F30-01-002",
+              "F30-01-003",
+              "F30-02-001",
+              "F30-02-002",
+              "F30-02-003",
+              "F30-03-001",
+              "F30-03-002"
+            ]
+          }
+        ]
+      },
+      "F30-02-002": {
+        "artifacts": [
+          {
+            "path": "manifest.yml",
+            "type": "config",
+            "story_tags": [
+              "F30-01-001",
+              "F30-01-002",
+              "F30-01-003",
+              "F30-02-001",
+              "F30-02-002",
+              "F30-02-003",
+              "F30-03-001",
+              "F30-03-002"
+            ]
+          }
+        ]
+      },
+      "F30-02-003": {
+        "artifacts": [
+          {
+            "path": "manifest.yml",
+            "type": "config",
+            "story_tags": [
+              "F30-01-001",
+              "F30-01-002",
+              "F30-01-003",
+              "F30-02-001",
+              "F30-02-002",
+              "F30-02-003",
+              "F30-03-001",
+              "F30-03-002"
+            ]
+          }
+        ]
+      },
+      "F30-03-001": {
+        "artifacts": [
+          {
+            "path": "manifest.yml",
+            "type": "config",
+            "story_tags": [
+              "F30-01-001",
+              "F30-01-002",
+              "F30-01-003",
+              "F30-02-001",
+              "F30-02-002",
+              "F30-02-003",
+              "F30-03-001",
+              "F30-03-002"
+            ]
+          }
+        ]
+      },
+      "F30-03-002": {
+        "artifacts": [
+          {
+            "path": "manifest.yml",
+            "type": "config",
+            "story_tags": [
+              "F30-01-001",
+              "F30-01-002",
+              "F30-01-003",
+              "F30-02-001",
+              "F30-02-002",
+              "F30-02-003",
+              "F30-03-001",
+              "F30-03-002"
+            ]
+          }
+        ]
+      }
+    },
+    "commit_evidence_map": {}
+  }
+}

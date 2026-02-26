@@ -1,0 +1,88 @@
+{
+  "schema": "eva.veritas-plan.v1",
+  "generated_at": "2026-02-25T11:56:22.304Z",
+  "generated_from": [
+    "PLAN.md"
+  ],
+  "format_detected": "veritas",
+  "prefix": "F30",
+  "features": [
+    {
+      "id": "F30-01",
+      "title": "Component Scaffolding",
+      "source_heading": "## Feature: Component Scaffolding [ID=F30-01]",
+      "stories": [
+        {
+          "id": "F30-01-001",
+          "title": "Fluent UI v9 environment setup",
+          "feature_id": "F30-01",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F30-01-002",
+          "title": "Core component inventory",
+          "feature_id": "F30-01",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F30-01-003",
+          "title": "Theme token exploration",
+          "feature_id": "F30-01",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F30-02",
+      "title": "Component Demos",
+      "source_heading": "## Feature: Component Demos [ID=F30-02]",
+      "stories": [
+        {
+          "id": "F30-02-001",
+          "title": "Navigation and layout patterns",
+          "feature_id": "F30-02",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F30-02-002",
+          "title": "Form controls and validation",
+          "feature_id": "F30-02",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F30-02-003",
+          "title": "Data table and grid patterns",
+          "feature_id": "F30-02",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F30-03",
+      "title": "Accessibility Validation",
+      "source_heading": "## Feature: Accessibility Validation [ID=F30-03]",
+      "stories": [
+        {
+          "id": "F30-03-001",
+          "title": "WCAG 2.1 AA compliance check",
+          "feature_id": "F30-03",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F30-03-002",
+          "title": "Keyboard navigation test",
+          "feature_id": "F30-03",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-21T00:00:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/30-ui-bench",
+  "project_maturity": "poc",
+
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "EVA UI Testing Bench",
+    "description": "Standalone accessibility and component testing harness for all EVA UI products. Packages: jest, jest-axe (@testing-library/react). Decoupled from individual product repos — results feed 31-eva-faces and future EVA-JP frontends. WCAG 2.1 AA gate.",
+    "tags": "ui-bench;30",
+    "area_path": "eva-poc"
+  },
+
+  "features": [
+    {
+      "id_hint": "uib-axe",
+      "type": "Feature",
+      "title": "Accessibility Testing Suite — jest-axe",
+      "description": "Automated WCAG 2.1 AA testing via jest-axe for all EVA UI components. Zero violation gate. Runs on every PR for 31-eva-faces.",
+      "tags": "ui-bench;uib-axe",
+      "parent": "epic"
+    },
+    {
+      "id_hint": "uib-components",
+      "type": "Feature",
+      "title": "Component Regression Suite — React Testing Library",
+      "description": "@testing-library/react snapshot and interaction tests for EVA shared components. Catches regressions when @eva/ui or GC Design System components are updated.",
+      "tags": "ui-bench;uib-components",
+      "parent": "epic"
+    }
+  ],
+
+  "user_stories": [
+    {
+      "id_hint": "uib-wi-0",
+      "type": "Product Backlog Item",
+      "title": "[UIB-WI-0] UI bench setup — jest, jest-axe, @testing-library/react configured",
+      "acceptance_criteria": "npm test runs successfully. jest.config.js present. At least one axe smoke test passes. package.json name: eva-ui-bench.",
+      "tags": "ui-bench;uib-wi-0",
+      "iteration_path": "eva-poc\\Sprint-Backlog",
+      "state": "Done",
+      "parent": "uib-axe",
+      "evidence": { "test_count": null, "coverage_pct": null, "notes": "package.json confirmed: jest + jest-axe + @testing-library/react present." }
+    },
+    {
+      "id_hint": "uib-wi-1",
+      "type": "Product Backlog Item",
+      "title": "[UIB-WI-1] Accessibility baseline — all 31-eva-faces admin screens pass jest-axe (0 violations)",
+      "acceptance_criteria": "All 24 admin screen components tested via jest-axe. 0 violations on PR gate. Results reported as GitHub annotation on failing PRs.",
+      "tags": "ui-bench;uib-wi-1",
+      "iteration_path": "eva-poc\\Sprint-Backlog",
+      "state": "New",
+      "parent": "uib-axe",
+      "evidence": { "test_count": null, "coverage_pct": null, "notes": "Depends on FACES-WI-0 and full admin screen component library in 31-eva-faces." }
+    }
+  ],
+
+  "sprints_needed": [
+    { "name": "Sprint-Backlog", "start_date": null, "finish_date": null }
+  ]
+}

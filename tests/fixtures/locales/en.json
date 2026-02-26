@@ -1,0 +1,31 @@
+{
+  "chat": {
+    "title": "EVA Chat",
+    "empty": {
+      "message": "Ask anything about your case files"
+    },
+    "input": {
+      "label": "Prompt",
+      "placeholder": "Type your message here...",
+      "hint": "Use Ctrl+Enter to send",
+      "ariaLabel": "Chat input field"
+    },
+    "actions": {
+      "send": "Send"
+    },
+    "aria": {
+      "main": "Chat conversation",
+      "messageList": "Conversation history"
+    },
+    "citations": {
+      "title": "Sources",
+      "link": "Open citation {number}"
+    },
+    "loading": "Assistant is composing a response",
+    "errors": {
+      "chat": {
+        "failed": "Something went wrong"
+      }
+    }
+  }
+}

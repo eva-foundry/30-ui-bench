@@ -1,0 +1,27 @@
+{
+  "name": "eva-ui-bench",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "jest --runInBand",
+    "test:a11y": "jest --runInBand --testPathPattern=a11y",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.1",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.7.0",
+    "jest-axe": "^7.1.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.3.3",
+    "whatwg-fetch": "^3.6.20"
+  }
+}

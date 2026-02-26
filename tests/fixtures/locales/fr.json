@@ -1,0 +1,31 @@
+{
+  "chat": {
+    "title": "Clavardage EVA",
+    "empty": {
+      "message": "Posez vos questions sur vos dossiers"
+    },
+    "input": {
+      "label": "Invite",
+      "placeholder": "Tapez votre message ici...",
+      "hint": "Utilisez Ctrl+Entrée pour envoyer",
+      "ariaLabel": "Zone de saisie du clavardage"
+    },
+    "actions": {
+      "send": "Envoyer"
+    },
+    "aria": {
+      "main": "Conversation de clavardage",
+      "messageList": "Historique de la conversation"
+    },
+    "citations": {
+      "title": "Sources",
+      "link": "Ouvrir la citation {number}"
+    },
+    "loading": "L'assistant prépare une réponse",
+    "errors": {
+      "chat": {
+        "failed": "Un problème est survenu"
+      }
+    }
+  }
+}
