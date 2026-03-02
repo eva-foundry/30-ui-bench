@@ -3,7 +3,7 @@
 **Template Version**: 3.0.0
 **Last Updated**: February 23, 2026
 **Project**: UI Bench -- Component design bench and Fluent UI v9 playground for EVA Platform frontend engineers
-**Path**: `C:\AICOE\eva-foundation\30-ui-bench\`
+**Path**: `C:\AICOE\eva-foundry\30-ui-bench\`
 **Stack**: [TODO: language, framework, key libs]
 **Category**: Developer
 **Maturity**: poc
@@ -26,8 +26,8 @@ Before answering any question or writing any code:
 
 1. **Ping 37-data-model API**: `Invoke-RestMethod http://localhost:8010/health`
    - If `{"status":"ok"}` use HTTP queries for all discovery (fastest)
-   - If down: `env:PYTHONPATH="C:\AICOE\eva-foundation\37-data-model"; C:\AICOE\.venv\Scripts\python -m uvicorn api.server:app --port 8010 --reload`
-   - If no venv: `m = Get-Content C:\AICOE\eva-foundation\37-data-model\model\eva-model.json | ConvertFrom-Json`
+   - If down: `env:PYTHONPATH="C:\AICOE\eva-foundry\37-data-model"; C:\AICOE\.venv\Scripts\python -m uvicorn api.server:app --port 8010 --reload`
+   - If no venv: `m = Get-Content C:\AICOE\eva-foundry\37-data-model\model\eva-model.json | ConvertFrom-Json`
 
 2. **Read this project's governance docs** (in order):
    - `README.md` -- identity, stack, quick start
@@ -75,7 +75,7 @@ question then proceed.
 
 ### 3. EVA Data Model API -- Mandatory Protocol
 
-**Full reference**: `C:\AICOE\eva-foundation\37-data-model\USER-GUIDE.md`
+**Full reference**: `C:\AICOE\eva-foundry\37-data-model\USER-GUIDE.md`
 Read it at every sprint boundary or when a query pattern is unfamiliar.
 
 **Rule: query the model first -- never grep when the model has the answer**
@@ -121,6 +121,18 @@ Never use bare `python` or `python3`. Always use the full venv path.
 ---
 
 ## PART 2 -- PROJECT-SPECIFIC
+
+### Project Lock
+
+This file is the copilot-instructions for **30-ui-bench** (UI Bench).
+
+The workspace-level bootstrap rule "Step 1 -- Identify the active project from the currently open file path"
+applies **only at the initial load of this file** (first read at session start).
+Once this file has been loaded, the active project is locked to **30-ui-bench** for the entire session.
+Do NOT re-evaluate project identity from editorContext or terminal CWD on each subsequent request.
+Work state and sprint context are read from `STATUS.md` and `PLAN.md` at bootstrap -- not from this file.
+
+---
 > Fill all [TODO] values during the first active session on this project.
 
 ---
@@ -128,7 +140,7 @@ Never use bare `python` or `python3`. Always use the full venv path.
 ### Project Identity
 
 **Name**: UI Bench
-**Folder**: `C:\AICOE\eva-foundation\30-ui-bench`
+**Folder**: `C:\AICOE\eva-foundry\30-ui-bench`
 **ADO Epic**: #24
 **37-data-model record**: `GET /model/projects/30-ui-bench`
 **Maturity**: poc
@@ -236,5 +248,5 @@ All must pass before merging a PR:
 
 ---
 
-*Source template*: `C:\AICOE\eva-foundation\07-foundation-layer\02-design\artifact-templates\copilot-instructions-template.md` v3.0.0
-*EVA Data Model USER-GUIDE*: `C:\AICOE\eva-foundation\37-data-model\USER-GUIDE.md`
+*Source template*: `C:\AICOE\eva-foundry\07-foundation-layer\02-design\artifact-templates\copilot-instructions-template.md` v3.0.0
+*EVA Data Model USER-GUIDE*: `C:\AICOE\eva-foundry\37-data-model\USER-GUIDE.md`
