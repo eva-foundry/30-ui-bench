@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-39-sprintboardpage\\SprintboardpageDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "SprintboardpageDetail.tsx",
+                                "bytes":  5921
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-39-sprintboardpage\\SprintboardpageCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "SprintboardpageCreate.tsx",
+                                "bytes":  8904
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-39-sprintboardpage\\SprintboardpageEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "SprintboardpageEdit.tsx",
+                                "bytes":  10278
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-39-sprintboardpage\\SprintboardpageGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "SprintboardpageGraph.tsx",
+                                "bytes":  7817
+                            }
+                        ],
+    "entity_type":  "SprintBoardPageRecord",
+    "timestamp":  "2026-03-13T06:38:55.4110886-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "project-39-sprintboardpage",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-39-sprintboardpage\\SprintboardpageList.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "project-39-SprintBoardPage",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

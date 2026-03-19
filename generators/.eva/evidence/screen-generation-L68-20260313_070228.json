@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_remed_plans\\WorkserviceremedplansList.tsx",
+                                "component":  "ListView",
+                                "file":  "WorkserviceremedplansList.tsx",
+                                "bytes":  6224
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_remed_plans\\WorkserviceremedplansDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "WorkserviceremedplansDetail.tsx",
+                                "bytes":  5838
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_remed_plans\\WorkserviceremedplansCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "WorkserviceremedplansCreate.tsx",
+                                "bytes":  8831
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_remed_plans\\WorkserviceremedplansEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "WorkserviceremedplansEdit.tsx",
+                                "bytes":  10158
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_remed_plans\\WorkserviceremedplansGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "WorkserviceremedplansGraph.tsx",
+                                "bytes":  7784
+                            }
+                        ],
+    "entity_type":  "L68Record",
+    "timestamp":  "2026-03-13T07:02:28.3194863-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "work_service_remed_plans",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L68",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

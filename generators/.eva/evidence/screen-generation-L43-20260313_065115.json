@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\build_artifacts\\BuildartifactsList.tsx",
+                                "component":  "ListView",
+                                "file":  "BuildartifactsList.tsx",
+                                "bytes":  6059
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\build_artifacts\\BuildartifactsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "BuildartifactsDetail.tsx",
+                                "bytes":  5747
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\build_artifacts\\BuildartifactsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "BuildartifactsCreate.tsx",
+                                "bytes":  8672
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\build_artifacts\\BuildartifactsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "BuildartifactsEdit.tsx",
+                                "bytes":  9999
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\build_artifacts\\BuildartifactsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "BuildartifactsGraph.tsx",
+                                "bytes":  7677
+                            }
+                        ],
+    "entity_type":  "L43Record",
+    "timestamp":  "2026-03-13T06:51:16.0227054-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "build_artifacts",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L43",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l19\\L19List.tsx",
+                                "component":  "ListView",
+                                "file":  "L19List.tsx",
+                                "bytes":  5819
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l19\\L19Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L19Detail.tsx",
+                                "bytes":  5619
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l19\\L19Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L19Create.tsx",
+                                "bytes":  8450
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l19\\L19Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L19Edit.tsx",
+                                "bytes":  9777
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l19\\L19Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L19Graph.tsx",
+                                "bytes":  7526
+                            }
+                        ],
+    "entity_type":  "L19Record",
+    "timestamp":  "2026-03-13T06:53:40.1602521-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l19",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L19",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

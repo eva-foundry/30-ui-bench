@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_pattern_perf_profiles\\WorkpatternperfprofilesList.tsx",
+                                "component":  "ListView",
+                                "file":  "WorkpatternperfprofilesList.tsx",
+                                "bytes":  6266
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_pattern_perf_profiles\\WorkpatternperfprofilesDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "WorkpatternperfprofilesDetail.tsx",
+                                "bytes":  5860
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_pattern_perf_profiles\\WorkpatternperfprofilesCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "WorkpatternperfprofilesCreate.tsx",
+                                "bytes":  8869
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_pattern_perf_profiles\\WorkpatternperfprofilesEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "WorkpatternperfprofilesEdit.tsx",
+                                "bytes":  10196
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_pattern_perf_profiles\\WorkpatternperfprofilesGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "WorkpatternperfprofilesGraph.tsx",
+                                "bytes":  7810
+                            }
+                        ],
+    "entity_type":  "L60Record",
+    "timestamp":  "2026-03-13T07:20:27.4045212-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "work_pattern_perf_profiles",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L60",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

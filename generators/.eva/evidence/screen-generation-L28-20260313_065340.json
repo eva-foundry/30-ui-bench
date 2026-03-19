@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l28\\L28List.tsx",
+                                "component":  "ListView",
+                                "file":  "L28List.tsx",
+                                "bytes":  5819
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l28\\L28Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L28Detail.tsx",
+                                "bytes":  5619
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l28\\L28Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L28Create.tsx",
+                                "bytes":  8450
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l28\\L28Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L28Edit.tsx",
+                                "bytes":  9777
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l28\\L28Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L28Graph.tsx",
+                                "bytes":  7526
+                            }
+                        ],
+    "entity_type":  "L28Record",
+    "timestamp":  "2026-03-13T06:53:40.8188203-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l28",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L28",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

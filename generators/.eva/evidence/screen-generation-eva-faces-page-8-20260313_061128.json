@@ -1,0 +1,32 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\eva-faces-page-8List.tsx",
+                                "component":  "ListView",
+                                "file":  "eva-faces-page-8List.tsx",
+                                "bytes":  6063
+                            }
+                        ],
+    "entity_type":  "eva-faces-page-8Record",
+    "timestamp":  "2026-03-13T06:11:28.3545489-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "unknown",
+    "errors":  [
+                   "Failed to generate DetailView : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\eva-faces-page-8List.tsx\\unknown\\eva-faces-page-8Detail.tsx\u0027.",
+                   "Failed to generate CreateForm : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\eva-faces-page-8List.tsx\\unknown\\eva-faces-page-8Detail.tsx\\unknown\\eva-faces-page-8CreateForm.tsx\u0027.",
+                   "Failed to generate EditForm : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\eva-faces-page-8List.tsx\\unknown\\eva-faces-page-8Detail.tsx\\unknown\\eva-faces-page-8CreateForm.tsx\\unknown\\eva-faces-page-8EditForm.tsx\u0027.",
+                   "Failed to generate GraphView : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\eva-faces-page-8List.tsx\\unknown\\eva-faces-page-8Detail.tsx\\unknown\\eva-faces-page-8CreateForm.tsx\\unknown\\eva-faces-page-8EditForm.tsx\\unknown\\eva-faces-page-8Graph.tsx\u0027."
+               ],
+    "components_generated":  1,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  20,
+    "components_failed":  4,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "eva-faces-page-8",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

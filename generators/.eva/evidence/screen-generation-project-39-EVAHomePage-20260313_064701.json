@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-39-evahomepage\\Project39evahomepageList.tsx",
+                                "component":  "ListView",
+                                "file":  "Project39evahomepageList.tsx",
+                                "bytes":  6266
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-39-evahomepage\\Project39evahomepageDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "Project39evahomepageDetail.tsx",
+                                "bytes":  5911
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-39-evahomepage\\Project39evahomepageCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "Project39evahomepageCreate.tsx",
+                                "bytes":  8903
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-39-evahomepage\\Project39evahomepageEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "Project39evahomepageEdit.tsx",
+                                "bytes":  10283
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-39-evahomepage\\Project39evahomepageGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "Project39evahomepageGraph.tsx",
+                                "bytes":  7816
+                            }
+                        ],
+    "entity_type":  "Project39EvahomepageRecord",
+    "timestamp":  "2026-03-13T06:47:01.8752503-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "project-39-evahomepage",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "project-39-EVAHomePage",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l113\\attack_tactic_catalogDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "attack_tactic_catalogDetail.tsx",
+                                "bytes":  5737
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l113\\attack_tactic_catalogCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "attack_tactic_catalogCreate.tsx",
+                                "bytes":  8662
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l113\\attack_tactic_catalogEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "attack_tactic_catalogEdit.tsx",
+                                "bytes":  10026
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l113\\attack_tactic_catalogGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "attack_tactic_catalogGraph.tsx",
+                                "bytes":  7661
+                            }
+                        ],
+    "entity_type":  "attack_tactic_catalogRecord",
+    "timestamp":  "2026-03-13T06:21:29.9272851-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l113",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l113\\attack_tactic_catalogList.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L113",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

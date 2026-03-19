@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l114\\L114List.tsx",
+                                "component":  "ListView",
+                                "file":  "L114List.tsx",
+                                "bytes":  5844
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l114\\L114Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L114Detail.tsx",
+                                "bytes":  5635
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l114\\L114Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L114Create.tsx",
+                                "bytes":  8475
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l114\\L114Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L114Edit.tsx",
+                                "bytes":  9805
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l114\\L114Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L114Graph.tsx",
+                                "bytes":  7542
+                            }
+                        ],
+    "entity_type":  "L114Record",
+    "timestamp":  "2026-03-13T07:20:30.3199257-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l114",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L114",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

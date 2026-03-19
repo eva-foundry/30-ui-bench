@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\screens\\ScreensList.tsx",
+                                "component":  "ListView",
+                                "file":  "ScreensList.tsx",
+                                "bytes":  5899
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\screens\\ScreensDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "ScreensDetail.tsx",
+                                "bytes":  5658
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\screens\\ScreensCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "ScreensCreate.tsx",
+                                "bytes":  8520
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\screens\\ScreensEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "ScreensEdit.tsx",
+                                "bytes":  9844
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\screens\\ScreensGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "ScreensGraph.tsx",
+                                "bytes":  7575
+                            }
+                        ],
+    "entity_type":  "L7Record",
+    "timestamp":  "2026-03-13T06:51:18.2097817-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "screens",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L7",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

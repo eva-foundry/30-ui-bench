@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l104\\L104List.tsx",
+                                "component":  "ListView",
+                                "file":  "L104List.tsx",
+                                "bytes":  5844
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l104\\L104Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L104Detail.tsx",
+                                "bytes":  5635
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l104\\L104Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L104Create.tsx",
+                                "bytes":  8475
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l104\\L104Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L104Edit.tsx",
+                                "bytes":  9805
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l104\\L104Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L104Graph.tsx",
+                                "bytes":  7542
+                            }
+                        ],
+    "entity_type":  "L104Record",
+    "timestamp":  "2026-03-13T06:58:16.0658247-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l104",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L104",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

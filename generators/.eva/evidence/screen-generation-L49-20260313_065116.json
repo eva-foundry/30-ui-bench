@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\performance_metrics\\PerformancemetricsList.tsx",
+                                "component":  "ListView",
+                                "file":  "PerformancemetricsList.tsx",
+                                "bytes":  6143
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\performance_metrics\\PerformancemetricsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "PerformancemetricsDetail.tsx",
+                                "bytes":  5791
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\performance_metrics\\PerformancemetricsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "PerformancemetricsCreate.tsx",
+                                "bytes":  8748
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\performance_metrics\\PerformancemetricsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "PerformancemetricsEdit.tsx",
+                                "bytes":  10075
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\performance_metrics\\PerformancemetricsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "PerformancemetricsGraph.tsx",
+                                "bytes":  7729
+                            }
+                        ],
+    "entity_type":  "L49Record",
+    "timestamp":  "2026-03-13T06:51:16.4894151-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "performance_metrics",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L49",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

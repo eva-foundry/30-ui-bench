@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\roadmap\\RoadmapList.tsx",
+                                "component":  "ListView",
+                                "file":  "RoadmapList.tsx",
+                                "bytes":  5903
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\roadmap\\RoadmapDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "RoadmapDetail.tsx",
+                                "bytes":  5663
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\roadmap\\RoadmapCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "RoadmapCreate.tsx",
+                                "bytes":  8526
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\roadmap\\RoadmapEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "RoadmapEdit.tsx",
+                                "bytes":  9853
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\roadmap\\RoadmapGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "RoadmapGraph.tsx",
+                                "bytes":  7578
+                            }
+                        ],
+    "entity_type":  "L35Record",
+    "timestamp":  "2026-03-13T06:51:15.3864859-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "roadmap",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L35",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

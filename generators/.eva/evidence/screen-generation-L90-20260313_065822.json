@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l90\\L90List.tsx",
+                                "component":  "ListView",
+                                "file":  "L90List.tsx",
+                                "bytes":  5819
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l90\\L90Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L90Detail.tsx",
+                                "bytes":  5619
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l90\\L90Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L90Create.tsx",
+                                "bytes":  8450
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l90\\L90Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L90Edit.tsx",
+                                "bytes":  9777
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l90\\L90Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L90Graph.tsx",
+                                "bytes":  7526
+                            }
+                        ],
+    "entity_type":  "L90Record",
+    "timestamp":  "2026-03-13T06:58:22.6541353-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l90",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L90",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

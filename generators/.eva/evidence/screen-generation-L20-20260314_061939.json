@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\mcp_servers\\McpserversList.tsx",
+                                "component":  "ListView",
+                                "file":  "McpserversList.tsx",
+                                "bytes":  5989
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\mcp_servers\\McpserversDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "McpserversDetail.tsx",
+                                "bytes":  5717
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\mcp_servers\\McpserversCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "McpserversCreate.tsx",
+                                "bytes":  8631
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\mcp_servers\\McpserversEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "McpserversEdit.tsx",
+                                "bytes":  9972
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\mcp_servers\\McpserversGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "McpserversGraph.tsx",
+                                "bytes":  7639
+                            }
+                        ],
+    "entity_type":  "McpServersRecord",
+    "timestamp":  "2026-03-14T06:19:39.3829754-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "mcp_servers",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L20",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

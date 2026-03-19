@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-incidents\\IncidentTrackerList.tsx",
+                                "component":  "ListView",
+                                "file":  "IncidentTrackerList.tsx",
+                                "bytes":  6099
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-incidents\\IncidentTrackerDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "IncidentTrackerDetail.tsx",
+                                "bytes":  5793
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-incidents\\IncidentTrackerCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "IncidentTrackerCreate.tsx",
+                                "bytes":  8727
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-incidents\\IncidentTrackerEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "IncidentTrackerEdit.tsx",
+                                "bytes":  10090
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-incidents\\IncidentTrackerGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "IncidentTrackerGraph.tsx",
+                                "bytes":  7702
+                            }
+                        ],
+    "entity_type":  "Incident TrackerRecord",
+    "timestamp":  "2026-03-13T06:38:53.3427300-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "ops-incidents",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "ops-incidents",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-39-sprintboardpage.test\\SprintboardpageTestList.tsx",
+                                "component":  "ListView",
+                                "file":  "SprintboardpageTestList.tsx",
+                                "bytes":  6353
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-39-sprintboardpage.test\\SprintboardpageTestDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "SprintboardpageTestDetail.tsx",
+                                "bytes":  5997
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-39-sprintboardpage.test\\SprintboardpageTestCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "SprintboardpageTestCreate.tsx",
+                                "bytes":  9023
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-39-sprintboardpage.test\\SprintboardpageTestEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "SprintboardpageTestEdit.tsx",
+                                "bytes":  10412
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-39-sprintboardpage.test\\SprintboardpageTestGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "SprintboardpageTestGraph.tsx",
+                                "bytes":  7892
+                            }
+                        ],
+    "entity_type":  "SprintBoardPage.testRecord",
+    "timestamp":  "2026-03-13T06:38:55.4816134-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "project-39-sprintboardpage.test",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "project-39-SprintBoardPage.test",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

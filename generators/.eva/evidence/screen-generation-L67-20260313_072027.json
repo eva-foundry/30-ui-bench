@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_breaches\\WorkservicebreachesList.tsx",
+                                "component":  "ListView",
+                                "file":  "WorkservicebreachesList.tsx",
+                                "bytes":  6173
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_breaches\\WorkservicebreachesDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "WorkservicebreachesDetail.tsx",
+                                "bytes":  5809
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_breaches\\WorkservicebreachesCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "WorkservicebreachesCreate.tsx",
+                                "bytes":  8780
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_breaches\\WorkservicebreachesEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "WorkservicebreachesEdit.tsx",
+                                "bytes":  10107
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_breaches\\WorkservicebreachesGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "WorkservicebreachesGraph.tsx",
+                                "bytes":  7750
+                            }
+                        ],
+    "entity_type":  "L67Record",
+    "timestamp":  "2026-03-13T07:20:27.8668757-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "work_service_breaches",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L67",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

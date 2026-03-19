@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l112\\red_team_test_suitesDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "red_team_test_suitesDetail.tsx",
+                                "bytes":  5731
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l112\\red_team_test_suitesCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "red_team_test_suitesCreate.tsx",
+                                "bytes":  8651
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l112\\red_team_test_suitesEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "red_team_test_suitesEdit.tsx",
+                                "bytes":  10013
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l112\\red_team_test_suitesGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "red_team_test_suitesGraph.tsx",
+                                "bytes":  7654
+                            }
+                        ],
+    "entity_type":  "red_team_test_suitesRecord",
+    "timestamp":  "2026-03-13T06:21:29.8617234-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l112",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l112\\red_team_test_suitesList.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L112",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

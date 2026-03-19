@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l77\\L77List.tsx",
+                                "component":  "ListView",
+                                "file":  "L77List.tsx",
+                                "bytes":  7685
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l77\\L77Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L77Detail.tsx",
+                                "bytes":  5687
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l77\\L77Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L77Create.tsx",
+                                "bytes":  8337
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l77\\L77Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L77Edit.tsx",
+                                "bytes":  5854
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l77\\L77Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L77Graph.tsx",
+                                "bytes":  7631
+                            }
+                        ],
+    "entity_type":  "L77Record",
+    "timestamp":  "2026-03-13T07:14:05.0154032-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l77",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L77",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\infrastructure_drift\\InfrastructuredriftList.tsx",
+                                "component":  "ListView",
+                                "file":  "InfrastructuredriftList.tsx",
+                                "bytes":  6164
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\infrastructure_drift\\InfrastructuredriftDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "InfrastructuredriftDetail.tsx",
+                                "bytes":  5802
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\infrastructure_drift\\InfrastructuredriftCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "InfrastructuredriftCreate.tsx",
+                                "bytes":  8767
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\infrastructure_drift\\InfrastructuredriftEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "InfrastructuredriftEdit.tsx",
+                                "bytes":  10094
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\infrastructure_drift\\InfrastructuredriftGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "InfrastructuredriftGraph.tsx",
+                                "bytes":  7742
+                            }
+                        ],
+    "entity_type":  "L49Record",
+    "timestamp":  "2026-03-13T06:58:19.4498941-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "infrastructure_drift",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L49",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

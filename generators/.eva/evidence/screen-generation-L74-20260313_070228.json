@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_factory_decisions\\WorkfactorydecisionsList.tsx",
+                                "component":  "ListView",
+                                "file":  "WorkfactorydecisionsList.tsx",
+                                "bytes":  6194
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_factory_decisions\\WorkfactorydecisionsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "WorkfactorydecisionsDetail.tsx",
+                                "bytes":  5820
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_factory_decisions\\WorkfactorydecisionsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "WorkfactorydecisionsCreate.tsx",
+                                "bytes":  8799
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_factory_decisions\\WorkfactorydecisionsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "WorkfactorydecisionsEdit.tsx",
+                                "bytes":  10126
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_factory_decisions\\WorkfactorydecisionsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "WorkfactorydecisionsGraph.tsx",
+                                "bytes":  7763
+                            }
+                        ],
+    "entity_type":  "L74Record",
+    "timestamp":  "2026-03-13T07:02:28.7820480-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "work_factory_decisions",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L74",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

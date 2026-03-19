@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\deployment_records\\DeploymentrecordsList.tsx",
+                                "component":  "ListView",
+                                "file":  "DeploymentrecordsList.tsx",
+                                "bytes":  6150
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\deployment_records\\DeploymentrecordsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "DeploymentrecordsDetail.tsx",
+                                "bytes":  5808
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\deployment_records\\DeploymentrecordsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "DeploymentrecordsCreate.tsx",
+                                "bytes":  8799
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\deployment_records\\DeploymentrecordsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "DeploymentrecordsEdit.tsx",
+                                "bytes":  10154
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\deployment_records\\DeploymentrecordsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "DeploymentrecordsGraph.tsx",
+                                "bytes":  7744
+                            }
+                        ],
+    "entity_type":  "DeploymentRecordsRecord",
+    "timestamp":  "2026-03-14T06:19:41.6651170-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "deployment_records",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L47",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-infrastructure\\OpsinfrastructureList.tsx",
+                                "component":  "ListView",
+                                "file":  "OpsinfrastructureList.tsx",
+                                "bytes":  6180
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-infrastructure\\OpsinfrastructureDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "OpsinfrastructureDetail.tsx",
+                                "bytes":  5853
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-infrastructure\\OpsinfrastructureCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "OpsinfrastructureCreate.tsx",
+                                "bytes":  8814
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-infrastructure\\OpsinfrastructureEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "OpsinfrastructureEdit.tsx",
+                                "bytes":  10184
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-infrastructure\\OpsinfrastructureGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "OpsinfrastructureGraph.tsx",
+                                "bytes":  7759
+                            }
+                        ],
+    "entity_type":  "OpsInfrastructureRecord",
+    "timestamp":  "2026-03-13T06:51:21.8489152-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "ops-infrastructure",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "ops-infrastructure",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

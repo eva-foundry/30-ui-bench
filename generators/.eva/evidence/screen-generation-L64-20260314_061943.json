@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_runs\\WorkservicerunsList.tsx",
+                                "component":  "ListView",
+                                "file":  "WorkservicerunsList.tsx",
+                                "bytes":  6113
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_runs\\WorkservicerunsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "WorkservicerunsDetail.tsx",
+                                "bytes":  5789
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_runs\\WorkservicerunsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "WorkservicerunsCreate.tsx",
+                                "bytes":  8764
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_runs\\WorkservicerunsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "WorkservicerunsEdit.tsx",
+                                "bytes":  10115
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_runs\\WorkservicerunsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "WorkservicerunsGraph.tsx",
+                                "bytes":  7722
+                            }
+                        ],
+    "entity_type":  "WorkServiceRunsRecord",
+    "timestamp":  "2026-03-14T06:19:43.7155202-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "work_service_runs",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L64",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

@@ -1,0 +1,156 @@
+2026-03-13 06:21:33 [INFO] Starting generation for layer project-screen-11 (project-screen-11)
+2026-03-13 06:21:33 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:33 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:33 [INFO] Using directory: project-screen-11
+2026-03-13 06:21:33 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:33 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-11\Project Screen 11 (TBD)List.tsx' is denied.
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 11 (TBD)Detail.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 11 (TBD)Create.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 11 (TBD)Edit.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 11 (TBD)Graph.tsx
+2026-03-13 06:21:33 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-screen-11-20260313_062133.json
+2026-03-13 06:21:33 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:21:33 [INFO] Starting generation for layer project-screen-12 (project-screen-12)
+2026-03-13 06:21:33 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:33 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:33 [INFO] Using directory: project-screen-12
+2026-03-13 06:21:33 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:33 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-12\Project Screen 12 (TBD)List.tsx' is denied.
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 12 (TBD)Detail.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 12 (TBD)Create.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 12 (TBD)Edit.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 12 (TBD)Graph.tsx
+2026-03-13 06:21:33 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-screen-12-20260313_062133.json
+2026-03-13 06:21:33 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:21:33 [INFO] Starting generation for layer project-screen-13 (project-screen-13)
+2026-03-13 06:21:33 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:33 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:33 [INFO] Using directory: project-screen-13
+2026-03-13 06:21:33 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:33 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-13\Project Screen 13 (TBD)List.tsx' is denied.
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 13 (TBD)Detail.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 13 (TBD)Create.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 13 (TBD)Edit.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 13 (TBD)Graph.tsx
+2026-03-13 06:21:33 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-screen-13-20260313_062133.json
+2026-03-13 06:21:33 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:21:33 [INFO] Starting generation for layer project-screen-14 (project-screen-14)
+2026-03-13 06:21:33 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:33 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:33 [INFO] Using directory: project-screen-14
+2026-03-13 06:21:33 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:33 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-14\Project Screen 14 (TBD)List.tsx' is denied.
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 14 (TBD)Detail.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 14 (TBD)Create.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 14 (TBD)Edit.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 14 (TBD)Graph.tsx
+2026-03-13 06:21:33 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-screen-14-20260313_062133.json
+2026-03-13 06:21:33 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:21:33 [INFO] Starting generation for layer project-screen-15 (project-screen-15)
+2026-03-13 06:21:33 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:33 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:33 [INFO] Using directory: project-screen-15
+2026-03-13 06:21:33 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:33 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-15\Project Screen 15 (TBD)List.tsx' is denied.
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 15 (TBD)Detail.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 15 (TBD)Create.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 15 (TBD)Edit.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 15 (TBD)Graph.tsx
+2026-03-13 06:21:33 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-screen-15-20260313_062133.json
+2026-03-13 06:21:33 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:21:33 [INFO] Starting generation for layer project-screen-2 (project-screen-2)
+2026-03-13 06:21:33 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:33 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:33 [INFO] Using directory: project-screen-2
+2026-03-13 06:21:33 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:33 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-2\Project Screen 2 (TBD)List.tsx' is denied.
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 2 (TBD)Detail.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 2 (TBD)Create.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 2 (TBD)Edit.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 2 (TBD)Graph.tsx
+2026-03-13 06:21:33 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-screen-2-20260313_062133.json
+2026-03-13 06:21:33 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:21:33 [INFO] Starting generation for layer project-screen-3 (project-screen-3)
+2026-03-13 06:21:33 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:33 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:33 [INFO] Using directory: project-screen-3
+2026-03-13 06:21:33 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:33 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-3\Project Screen 3 (TBD)List.tsx' is denied.
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 3 (TBD)Detail.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 3 (TBD)Create.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 3 (TBD)Edit.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 3 (TBD)Graph.tsx
+2026-03-13 06:21:33 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-screen-3-20260313_062133.json
+2026-03-13 06:21:33 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:21:33 [INFO] Starting generation for layer project-screen-4 (project-screen-4)
+2026-03-13 06:21:33 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:33 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:33 [INFO] Using directory: project-screen-4
+2026-03-13 06:21:33 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:33 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-4\Project Screen 4 (TBD)List.tsx' is denied.
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 4 (TBD)Detail.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 4 (TBD)Create.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 4 (TBD)Edit.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 4 (TBD)Graph.tsx
+2026-03-13 06:21:33 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-screen-4-20260313_062133.json
+2026-03-13 06:21:33 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:21:33 [INFO] Starting generation for layer project-screen-5 (project-screen-5)
+2026-03-13 06:21:33 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:33 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:33 [INFO] Using directory: project-screen-5
+2026-03-13 06:21:33 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:33 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-5\Project Screen 5 (TBD)List.tsx' is denied.
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 5 (TBD)Detail.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 5 (TBD)Create.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 5 (TBD)Edit.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 5 (TBD)Graph.tsx
+2026-03-13 06:21:33 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-screen-5-20260313_062133.json
+2026-03-13 06:21:33 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:21:33 [INFO] Starting generation for layer project-screen-6 (project-screen-6)
+2026-03-13 06:21:33 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:33 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:33 [INFO] Using directory: project-screen-6
+2026-03-13 06:21:33 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:33 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-6\Project Screen 6 (TBD)List.tsx' is denied.
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 6 (TBD)Detail.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 6 (TBD)Create.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 6 (TBD)Edit.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 6 (TBD)Graph.tsx
+2026-03-13 06:21:33 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-screen-6-20260313_062133.json
+2026-03-13 06:21:33 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:21:33 [INFO] Starting generation for layer project-screen-7 (project-screen-7)
+2026-03-13 06:21:33 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:33 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:33 [INFO] Using directory: project-screen-7
+2026-03-13 06:21:33 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:33 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-7\Project Screen 7 (TBD)List.tsx' is denied.
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 7 (TBD)Detail.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 7 (TBD)Create.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 7 (TBD)Edit.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 7 (TBD)Graph.tsx
+2026-03-13 06:21:33 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-screen-7-20260313_062133.json
+2026-03-13 06:21:33 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:21:33 [INFO] Starting generation for layer project-screen-8 (project-screen-8)
+2026-03-13 06:21:33 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:33 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:33 [INFO] Using directory: project-screen-8
+2026-03-13 06:21:33 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:33 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-8\Project Screen 8 (TBD)List.tsx' is denied.
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 8 (TBD)Detail.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 8 (TBD)Create.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 8 (TBD)Edit.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 8 (TBD)Graph.tsx
+2026-03-13 06:21:33 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-screen-8-20260313_062133.json
+2026-03-13 06:21:33 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:21:33 [INFO] Starting generation for layer project-screen-9 (project-screen-9)
+2026-03-13 06:21:33 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:33 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:33 [INFO] Using directory: project-screen-9
+2026-03-13 06:21:33 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:33 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-9\Project Screen 9 (TBD)List.tsx' is denied.
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 9 (TBD)Detail.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 9 (TBD)Create.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 9 (TBD)Edit.tsx
+2026-03-13 06:21:33 [INFO] Generated: Project Screen 9 (TBD)Graph.tsx
+2026-03-13 06:21:33 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-screen-9-20260313_062133.json
+2026-03-13 06:21:33 [FAIL] Generation complete: 4/5 components - FAIL

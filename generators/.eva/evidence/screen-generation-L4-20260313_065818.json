@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\containers\\ContainersList.tsx",
+                                "component":  "ListView",
+                                "file":  "ContainersList.tsx",
+                                "bytes":  5962
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\containers\\ContainersDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "ContainersDetail.tsx",
+                                "bytes":  5691
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\containers\\ContainersCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "ContainersCreate.tsx",
+                                "bytes":  8577
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\containers\\ContainersEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "ContainersEdit.tsx",
+                                "bytes":  9901
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\containers\\ContainersGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "ContainersGraph.tsx",
+                                "bytes":  7614
+                            }
+                        ],
+    "entity_type":  "L4Record",
+    "timestamp":  "2026-03-13T06:58:18.6360968-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "containers",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L4",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

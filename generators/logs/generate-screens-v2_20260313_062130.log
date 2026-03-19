@@ -1,0 +1,192 @@
+2026-03-13 06:21:30 [INFO] Starting generation for layer L115 (l115)
+2026-03-13 06:21:30 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:30 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:30 [INFO] Using directory: l115
+2026-03-13 06:21:30 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:30 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l115\assertions_catalogList.tsx' is denied.
+2026-03-13 06:21:30 [INFO] Generated: assertions_catalogDetail.tsx
+2026-03-13 06:21:30 [INFO] Generated: assertions_catalogCreate.tsx
+2026-03-13 06:21:30 [INFO] Generated: assertions_catalogEdit.tsx
+2026-03-13 06:21:30 [INFO] Generated: assertions_catalogGraph.tsx
+2026-03-13 06:21:30 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L115-20260313_062130.json
+2026-03-13 06:21:30 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:21:30 [INFO] Starting generation for layer L116 (l116)
+2026-03-13 06:21:30 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:30 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:30 [INFO] Using directory: l116
+2026-03-13 06:21:30 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:30 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l116\ai_security_metricsList.tsx' is denied.
+2026-03-13 06:21:30 [INFO] Generated: ai_security_metricsDetail.tsx
+2026-03-13 06:21:30 [INFO] Generated: ai_security_metricsCreate.tsx
+2026-03-13 06:21:30 [INFO] Generated: ai_security_metricsEdit.tsx
+2026-03-13 06:21:30 [INFO] Generated: ai_security_metricsGraph.tsx
+2026-03-13 06:21:30 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L116-20260313_062130.json
+2026-03-13 06:21:30 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:21:30 [INFO] Starting generation for layer L117 (l117)
+2026-03-13 06:21:30 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:30 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:30 [INFO] Using directory: l117
+2026-03-13 06:21:30 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:30 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l117\vulnerability_scan_resultsList.tsx' is denied.
+2026-03-13 06:21:30 [INFO] Generated: vulnerability_scan_resultsDetail.tsx
+2026-03-13 06:21:30 [INFO] Generated: vulnerability_scan_resultsCreate.tsx
+2026-03-13 06:21:30 [INFO] Generated: vulnerability_scan_resultsEdit.tsx
+2026-03-13 06:21:30 [INFO] Generated: vulnerability_scan_resultsGraph.tsx
+2026-03-13 06:21:30 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L117-20260313_062130.json
+2026-03-13 06:21:30 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:21:30 [INFO] Starting generation for layer L118 (l118)
+2026-03-13 06:21:30 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:30 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:30 [INFO] Using directory: l118
+2026-03-13 06:21:30 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:30 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l118\infrastructure_cve_findingsList.tsx' is denied.
+2026-03-13 06:21:30 [INFO] Generated: infrastructure_cve_findingsDetail.tsx
+2026-03-13 06:21:30 [INFO] Generated: infrastructure_cve_findingsCreate.tsx
+2026-03-13 06:21:30 [INFO] Generated: infrastructure_cve_findingsEdit.tsx
+2026-03-13 06:21:30 [INFO] Generated: infrastructure_cve_findingsGraph.tsx
+2026-03-13 06:21:30 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L118-20260313_062130.json
+2026-03-13 06:21:30 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:21:30 [INFO] Starting generation for layer L119 (l119)
+2026-03-13 06:21:30 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:30 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:30 [INFO] Using directory: l119
+2026-03-13 06:21:30 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:30 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l119\risk_ranking_analysisList.tsx' is denied.
+2026-03-13 06:21:30 [INFO] Generated: risk_ranking_analysisDetail.tsx
+2026-03-13 06:21:30 [INFO] Generated: risk_ranking_analysisCreate.tsx
+2026-03-13 06:21:30 [INFO] Generated: risk_ranking_analysisEdit.tsx
+2026-03-13 06:21:30 [INFO] Generated: risk_ranking_analysisGraph.tsx
+2026-03-13 06:21:30 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L119-20260313_062130.json
+2026-03-13 06:21:30 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:21:30 [INFO] Starting generation for layer L120 (l120)
+2026-03-13 06:21:30 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:30 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:30 [INFO] Using directory: l120
+2026-03-13 06:21:30 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:30 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l120\remediation_tasksList.tsx' is denied.
+2026-03-13 06:21:30 [INFO] Generated: remediation_tasksDetail.tsx
+2026-03-13 06:21:30 [INFO] Generated: remediation_tasksCreate.tsx
+2026-03-13 06:21:30 [INFO] Generated: remediation_tasksEdit.tsx
+2026-03-13 06:21:30 [INFO] Generated: remediation_tasksGraph.tsx
+2026-03-13 06:21:30 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L120-20260313_062130.json
+2026-03-13 06:21:30 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:21:30 [INFO] Starting generation for layer L121 (l121)
+2026-03-13 06:21:30 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:30 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:30 [INFO] Using directory: l121
+2026-03-13 06:21:30 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:30 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l121\remediation_effectiveness_metricsList.tsx' is denied.
+2026-03-13 06:21:30 [INFO] Generated: remediation_effectiveness_metricsDetail.tsx
+2026-03-13 06:21:30 [INFO] Generated: remediation_effectiveness_metricsCreate.tsx
+2026-03-13 06:21:30 [INFO] Generated: remediation_effectiveness_metricsEdit.tsx
+2026-03-13 06:21:30 [INFO] Generated: remediation_effectiveness_metricsGraph.tsx
+2026-03-13 06:21:30 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L121-20260313_062130.json
+2026-03-13 06:21:30 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:21:30 [INFO] Starting generation for layer ops-alerts (ops-alerts)
+2026-03-13 06:21:30 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:30 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:30 [INFO] Using directory: ops-alerts
+2026-03-13 06:21:30 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:30 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-alerts\Alerts ManagementList.tsx' is denied.
+2026-03-13 06:21:30 [INFO] Generated: Alerts ManagementDetail.tsx
+2026-03-13 06:21:30 [INFO] Generated: Alerts ManagementCreate.tsx
+2026-03-13 06:21:30 [INFO] Generated: Alerts ManagementEdit.tsx
+2026-03-13 06:21:30 [INFO] Generated: Alerts ManagementGraph.tsx
+2026-03-13 06:21:30 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-alerts-20260313_062130.json
+2026-03-13 06:21:30 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:21:30 [INFO] Starting generation for layer ops-audit (ops-audit)
+2026-03-13 06:21:30 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:30 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:30 [INFO] Using directory: ops-audit
+2026-03-13 06:21:30 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:30 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-audit\Audit LogsList.tsx' is denied.
+2026-03-13 06:21:30 [INFO] Generated: Audit LogsDetail.tsx
+2026-03-13 06:21:30 [INFO] Generated: Audit LogsCreate.tsx
+2026-03-13 06:21:30 [INFO] Generated: Audit LogsEdit.tsx
+2026-03-13 06:21:30 [INFO] Generated: Audit LogsGraph.tsx
+2026-03-13 06:21:30 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-audit-20260313_062130.json
+2026-03-13 06:21:30 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:21:30 [INFO] Starting generation for layer ops-backup (ops-backup)
+2026-03-13 06:21:30 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:30 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:30 [INFO] Using directory: ops-backup
+2026-03-13 06:21:30 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:30 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-backup\Backup & RecoveryList.tsx' is denied.
+2026-03-13 06:21:30 [INFO] Generated: Backup & RecoveryDetail.tsx
+2026-03-13 06:21:30 [INFO] Generated: Backup & RecoveryCreate.tsx
+2026-03-13 06:21:30 [INFO] Generated: Backup & RecoveryEdit.tsx
+2026-03-13 06:21:30 [INFO] Generated: Backup & RecoveryGraph.tsx
+2026-03-13 06:21:30 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-backup-20260313_062130.json
+2026-03-13 06:21:30 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:21:30 [INFO] Starting generation for layer ops-configuration (ops-configuration)
+2026-03-13 06:21:30 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:30 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:30 [INFO] Using directory: ops-configuration
+2026-03-13 06:21:30 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:30 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-configuration\Configuration MgmtList.tsx' is denied.
+2026-03-13 06:21:30 [INFO] Generated: Configuration MgmtDetail.tsx
+2026-03-13 06:21:30 [INFO] Generated: Configuration MgmtCreate.tsx
+2026-03-13 06:21:30 [INFO] Generated: Configuration MgmtEdit.tsx
+2026-03-13 06:21:30 [INFO] Generated: Configuration MgmtGraph.tsx
+2026-03-13 06:21:30 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-configuration-20260313_062130.json
+2026-03-13 06:21:30 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:21:30 [INFO] Starting generation for layer ops-dashboard-main (ops-dashboard-main)
+2026-03-13 06:21:30 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:30 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:30 [INFO] Using directory: ops-dashboard-main
+2026-03-13 06:21:30 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:30 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-dashboard-main\Ops Main DashboardList.tsx' is denied.
+2026-03-13 06:21:30 [INFO] Generated: Ops Main DashboardDetail.tsx
+2026-03-13 06:21:30 [INFO] Generated: Ops Main DashboardCreate.tsx
+2026-03-13 06:21:30 [INFO] Generated: Ops Main DashboardEdit.tsx
+2026-03-13 06:21:30 [INFO] Generated: Ops Main DashboardGraph.tsx
+2026-03-13 06:21:30 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-dashboard-main-20260313_062130.json
+2026-03-13 06:21:30 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:21:30 [INFO] Starting generation for layer ops-deployment (ops-deployment)
+2026-03-13 06:21:30 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:30 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:30 [INFO] Using directory: ops-deployment
+2026-03-13 06:21:30 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:30 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-deployment\Deployment PipelineList.tsx' is denied.
+2026-03-13 06:21:30 [INFO] Generated: Deployment PipelineDetail.tsx
+2026-03-13 06:21:30 [INFO] Generated: Deployment PipelineCreate.tsx
+2026-03-13 06:21:30 [INFO] Generated: Deployment PipelineEdit.tsx
+2026-03-13 06:21:30 [INFO] Generated: Deployment PipelineGraph.tsx
+2026-03-13 06:21:30 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-deployment-20260313_062130.json
+2026-03-13 06:21:30 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:21:30 [INFO] Starting generation for layer ops-incidents (ops-incidents)
+2026-03-13 06:21:30 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:30 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:30 [INFO] Using directory: ops-incidents
+2026-03-13 06:21:30 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:30 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-incidents\Incident TrackerList.tsx' is denied.
+2026-03-13 06:21:30 [INFO] Generated: Incident TrackerDetail.tsx
+2026-03-13 06:21:30 [INFO] Generated: Incident TrackerCreate.tsx
+2026-03-13 06:21:30 [INFO] Generated: Incident TrackerEdit.tsx
+2026-03-13 06:21:30 [INFO] Generated: Incident TrackerGraph.tsx
+2026-03-13 06:21:30 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-incidents-20260313_062130.json
+2026-03-13 06:21:30 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:21:30 [INFO] Starting generation for layer ops-infrastructure (ops-infrastructure)
+2026-03-13 06:21:30 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:30 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:30 [INFO] Using directory: ops-infrastructure
+2026-03-13 06:21:30 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:30 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-infrastructure\Infrastructure StatusList.tsx' is denied.
+2026-03-13 06:21:30 [INFO] Generated: Infrastructure StatusDetail.tsx
+2026-03-13 06:21:30 [INFO] Generated: Infrastructure StatusCreate.tsx
+2026-03-13 06:21:30 [INFO] Generated: Infrastructure StatusEdit.tsx
+2026-03-13 06:21:30 [INFO] Generated: Infrastructure StatusGraph.tsx
+2026-03-13 06:21:30 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-infrastructure-20260313_062130.json
+2026-03-13 06:21:30 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:21:30 [INFO] Starting generation for layer ops-logs (ops-logs)
+2026-03-13 06:21:30 [PASS] PASS: All 7 templates verified
+2026-03-13 06:21:30 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:21:30 [INFO] Using directory: ops-logs
+2026-03-13 06:21:30 [INFO] Substituting templates for 5 components...
+2026-03-13 06:21:31 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-logs\Log ViewerList.tsx' is denied.
+2026-03-13 06:21:31 [INFO] Generated: Log ViewerDetail.tsx
+2026-03-13 06:21:31 [INFO] Generated: Log ViewerCreate.tsx
+2026-03-13 06:21:31 [INFO] Generated: Log ViewerEdit.tsx
+2026-03-13 06:21:31 [INFO] Generated: Log ViewerGraph.tsx
+2026-03-13 06:21:31 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-logs-20260313_062130.json
+2026-03-13 06:21:31 [FAIL] Generation complete: 4/5 components - FAIL

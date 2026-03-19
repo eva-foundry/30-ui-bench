@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l79\\L79List.tsx",
+                                "component":  "ListView",
+                                "file":  "L79List.tsx",
+                                "bytes":  5819
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l79\\L79Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L79Detail.tsx",
+                                "bytes":  5619
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l79\\L79Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L79Create.tsx",
+                                "bytes":  8450
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l79\\L79Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L79Edit.tsx",
+                                "bytes":  9777
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l79\\L79Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L79Graph.tsx",
+                                "bytes":  7526
+                            }
+                        ],
+    "entity_type":  "L79Record",
+    "timestamp":  "2026-03-13T06:54:30.7455904-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l79",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L79",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

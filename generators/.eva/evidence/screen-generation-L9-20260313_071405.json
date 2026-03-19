@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\agents\\AgentsList.tsx",
+                                "component":  "ListView",
+                                "file":  "AgentsList.tsx",
+                                "bytes":  7737
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\agents\\AgentsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "AgentsDetail.tsx",
+                                "bytes":  5715
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\agents\\AgentsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "AgentsCreate.tsx",
+                                "bytes":  8388
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\agents\\AgentsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "AgentsEdit.tsx",
+                                "bytes":  5890
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\agents\\AgentsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "AgentsGraph.tsx",
+                                "bytes":  7667
+                            }
+                        ],
+    "entity_type":  "L9Record",
+    "timestamp":  "2026-03-13T07:14:05.9171329-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "agents",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L9",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

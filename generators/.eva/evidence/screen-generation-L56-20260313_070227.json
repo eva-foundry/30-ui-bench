@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_outcomes\\WorkoutcomesList.tsx",
+                                "component":  "ListView",
+                                "file":  "WorkoutcomesList.tsx",
+                                "bytes":  6017
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_outcomes\\WorkoutcomesDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "WorkoutcomesDetail.tsx",
+                                "bytes":  5725
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_outcomes\\WorkoutcomesCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "WorkoutcomesCreate.tsx",
+                                "bytes":  8634
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_outcomes\\WorkoutcomesEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "WorkoutcomesEdit.tsx",
+                                "bytes":  9961
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_outcomes\\WorkoutcomesGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "WorkoutcomesGraph.tsx",
+                                "bytes":  7651
+                            }
+                        ],
+    "entity_type":  "L56Record",
+    "timestamp":  "2026-03-13T07:02:27.4500007-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "work_outcomes",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L56",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

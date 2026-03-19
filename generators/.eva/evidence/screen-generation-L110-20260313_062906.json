@@ -1,0 +1,27 @@
+﻿{
+    "generated_files":  [
+
+                        ],
+    "entity_type":  "L110Record",
+    "timestamp":  "2026-03-13T06:29:08.2261887-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l110",
+    "errors":  [
+                   "Failed to generate ListView : The term \u0027Join-String\u0027 is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.",
+                   "Failed to generate DetailView : The term \u0027Join-String\u0027 is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.",
+                   "Failed to generate CreateForm : The term \u0027Join-String\u0027 is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.",
+                   "Failed to generate EditForm : The term \u0027Join-String\u0027 is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.",
+                   "Failed to generate GraphView : The term \u0027Join-String\u0027 is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+               ],
+    "components_generated":  0,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  0,
+    "components_failed":  5,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L110",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

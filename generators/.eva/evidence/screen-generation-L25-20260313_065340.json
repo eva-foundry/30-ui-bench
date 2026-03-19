@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l25\\L25List.tsx",
+                                "component":  "ListView",
+                                "file":  "L25List.tsx",
+                                "bytes":  5819
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l25\\L25Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L25Detail.tsx",
+                                "bytes":  5619
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l25\\L25Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L25Create.tsx",
+                                "bytes":  8450
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l25\\L25Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L25Edit.tsx",
+                                "bytes":  9777
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l25\\L25Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L25Graph.tsx",
+                                "bytes":  7526
+                            }
+                        ],
+    "entity_type":  "L25Record",
+    "timestamp":  "2026-03-13T06:53:40.6166168-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l25",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L25",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

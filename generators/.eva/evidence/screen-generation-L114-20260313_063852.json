@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l114\\AiSecurityFindingsList.tsx",
+                                "component":  "ListView",
+                                "file":  "AiSecurityFindingsList.tsx",
+                                "bytes":  6044
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l114\\AiSecurityFindingsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "AiSecurityFindingsDetail.tsx",
+                                "bytes":  5723
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l114\\AiSecurityFindingsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "AiSecurityFindingsCreate.tsx",
+                                "bytes":  8639
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l114\\AiSecurityFindingsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "AiSecurityFindingsEdit.tsx",
+                                "bytes":  10001
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l114\\AiSecurityFindingsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "AiSecurityFindingsGraph.tsx",
+                                "bytes":  7644
+                            }
+                        ],
+    "entity_type":  "ai_security_findingsRecord",
+    "timestamp":  "2026-03-13T06:38:52.4055281-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l114",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L114",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

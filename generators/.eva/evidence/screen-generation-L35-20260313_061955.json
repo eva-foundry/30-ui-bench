@@ -1,0 +1,27 @@
+﻿{
+    "generated_files":  [
+
+                        ],
+    "entity_type":  "L35Record",
+    "timestamp":  "2026-03-13T06:19:56.0236763-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l35",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l35\\L35List.tsx\u0027 is denied.",
+                   "Failed to generate DetailView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l35\\L35List.tsx\\l35\\L35Detail.tsx\u0027 is denied.",
+                   "Failed to generate CreateForm : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l35\\L35List.tsx\\l35\\L35Detail.tsx\\l35\\L35Create.tsx\u0027 is denied.",
+                   "Failed to generate EditForm : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l35\\L35List.tsx\\l35\\L35Detail.tsx\\l35\\L35Create.tsx\\l35\\L35Edit.tsx\u0027 is denied.",
+                   "Failed to generate GraphView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l35\\L35List.tsx\\l35\\L35Detail.tsx\\l35\\L35Create.tsx\\l35\\L35Edit.tsx\\l35\\L35Graph.tsx\u0027 is denied."
+               ],
+    "components_generated":  0,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  0,
+    "components_failed":  5,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L35",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

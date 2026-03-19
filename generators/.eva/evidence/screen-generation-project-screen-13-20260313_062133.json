@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-screen-13\\Project Screen 13 (TBD)Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "Project Screen 13 (TBD)Detail.tsx",
+                                "bytes":  5879
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-screen-13\\Project Screen 13 (TBD)Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "Project Screen 13 (TBD)Create.tsx",
+                                "bytes":  8866
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-screen-13\\Project Screen 13 (TBD)Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "Project Screen 13 (TBD)Edit.tsx",
+                                "bytes":  10247
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-screen-13\\Project Screen 13 (TBD)Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "Project Screen 13 (TBD)Graph.tsx",
+                                "bytes":  7792
+                            }
+                        ],
+    "entity_type":  "Project Screen 13 (TBD)Record",
+    "timestamp":  "2026-03-13T06:21:33.1881238-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "project-screen-13",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-screen-13\\Project Screen 13 (TBD)List.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "project-screen-13",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\components\\ComponentsList.tsx",
+                                "component":  "ListView",
+                                "file":  "ComponentsList.tsx",
+                                "bytes":  5966
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\components\\ComponentsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "ComponentsDetail.tsx",
+                                "bytes":  5696
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\components\\ComponentsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "ComponentsCreate.tsx",
+                                "bytes":  8583
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\components\\ComponentsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "ComponentsEdit.tsx",
+                                "bytes":  9910
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\components\\ComponentsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "ComponentsGraph.tsx",
+                                "bytes":  7617
+                            }
+                        ],
+    "entity_type":  "L23Record",
+    "timestamp":  "2026-03-13T07:02:24.9680922-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "components",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L23",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

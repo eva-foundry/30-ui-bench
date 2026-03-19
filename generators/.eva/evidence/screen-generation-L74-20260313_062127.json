@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l74\\L74Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L74Detail.tsx",
+                                "bytes":  5619
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l74\\L74Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L74Create.tsx",
+                                "bytes":  8450
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l74\\L74Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L74Edit.tsx",
+                                "bytes":  9777
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l74\\L74Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L74Graph.tsx",
+                                "bytes":  7526
+                            }
+                        ],
+    "entity_type":  "L74Record",
+    "timestamp":  "2026-03-13T06:21:27.9766247-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l74",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l74\\L74List.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L74",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

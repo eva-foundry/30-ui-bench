@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-39-evahomepage.test\\EVAHomePage.testDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "EVAHomePage.testDetail.tsx",
+                                "bytes":  5937
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-39-evahomepage.test\\EVAHomePage.testCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "EVAHomePage.testCreate.tsx",
+                                "bytes":  8929
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-39-evahomepage.test\\EVAHomePage.testEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "EVAHomePage.testEdit.tsx",
+                                "bytes":  10306
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-39-evahomepage.test\\EVAHomePage.testGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "EVAHomePage.testGraph.tsx",
+                                "bytes":  7833
+                            }
+                        ],
+    "entity_type":  "EVAHomePage.testRecord",
+    "timestamp":  "2026-03-13T06:21:32.7336146-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "project-39-evahomepage.test",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-39-evahomepage.test\\EVAHomePage.testList.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "project-39-EVAHomePage.test",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

@@ -1,0 +1,132 @@
+2026-03-13 06:20:06 [INFO] Starting generation for layer eva-faces-page-8 (eva-faces-page-8)
+2026-03-13 06:20:06 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:06 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:06 [INFO] Using directory: eva-faces-page-8
+2026-03-13 06:20:06 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:06 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-8\Eva-Faces Page 8List.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-8\Eva-Faces Page 8List.tsx\eva-faces-page-8\Eva-Faces Page 8Detail.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-8\Eva-Faces Page 8List.tsx\eva-faces-page-8\Eva-Faces Page 8Detail.tsx\eva-faces-page-8\Eva-Faces Page 8Create.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-8\Eva-Faces Page 8List.tsx\eva-faces-page-8\Eva-Faces Page 8Detail.tsx\eva-faces-page-8\Eva-Faces Page 8Create.tsx\eva-faces-page-8\Eva-Faces Page 8Edit.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-8\Eva-Faces Page 8List.tsx\eva-faces-page-8\Eva-Faces Page 8Detail.tsx\eva-faces-page-8\Eva-Faces Page 8Create.tsx\eva-faces-page-8\Eva-Faces Page 8Edit.tsx\eva-faces-page-8\Eva-Faces Page 8Graph.tsx' is denied.
+2026-03-13 06:20:06 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-8-20260313_062006.json
+2026-03-13 06:20:06 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:06 [INFO] Starting generation for layer eva-faces-page-9 (eva-faces-page-9)
+2026-03-13 06:20:06 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:06 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:06 [INFO] Using directory: eva-faces-page-9
+2026-03-13 06:20:06 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:06 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-9\Eva-Faces Page 9List.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-9\Eva-Faces Page 9List.tsx\eva-faces-page-9\Eva-Faces Page 9Detail.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-9\Eva-Faces Page 9List.tsx\eva-faces-page-9\Eva-Faces Page 9Detail.tsx\eva-faces-page-9\Eva-Faces Page 9Create.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-9\Eva-Faces Page 9List.tsx\eva-faces-page-9\Eva-Faces Page 9Detail.tsx\eva-faces-page-9\Eva-Faces Page 9Create.tsx\eva-faces-page-9\Eva-Faces Page 9Edit.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-9\Eva-Faces Page 9List.tsx\eva-faces-page-9\Eva-Faces Page 9Detail.tsx\eva-faces-page-9\Eva-Faces Page 9Create.tsx\eva-faces-page-9\Eva-Faces Page 9Edit.tsx\eva-faces-page-9\Eva-Faces Page 9Graph.tsx' is denied.
+2026-03-13 06:20:06 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-9-20260313_062006.json
+2026-03-13 06:20:06 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:06 [INFO] Starting generation for layer project-39-EVAHomePage (project-39-evahomepage)
+2026-03-13 06:20:06 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:06 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:06 [INFO] Using directory: project-39-evahomepage
+2026-03-13 06:20:06 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:06 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-39-evahomepage\EVAHomePageList.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-39-evahomepage\EVAHomePageList.tsx\project-39-evahomepage\EVAHomePageDetail.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-39-evahomepage\EVAHomePageList.tsx\project-39-evahomepage\EVAHomePageDetail.tsx\project-39-evahomepage\EVAHomePageCreate.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-39-evahomepage\EVAHomePageList.tsx\project-39-evahomepage\EVAHomePageDetail.tsx\project-39-evahomepage\EVAHomePageCreate.tsx\project-39-evahomepage\EVAHomePageEdit.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-39-evahomepage\EVAHomePageList.tsx\project-39-evahomepage\EVAHomePageDetail.tsx\project-39-evahomepage\EVAHomePageCreate.tsx\project-39-evahomepage\EVAHomePageEdit.tsx\project-39-evahomepage\EVAHomePageGraph.tsx' is denied.
+2026-03-13 06:20:06 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-39-EVAHomePage-20260313_062006.json
+2026-03-13 06:20:06 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:06 [INFO] Starting generation for layer project-39-EVAHomePage.test (project-39-evahomepage.test)
+2026-03-13 06:20:06 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:06 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:06 [INFO] Using directory: project-39-evahomepage.test
+2026-03-13 06:20:06 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:06 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-39-evahomepage.test\EVAHomePage.testList.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-39-evahomepage.test\EVAHomePage.testList.tsx\project-39-evahomepage.test\EVAHomePage.testDetail.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-39-evahomepage.test\EVAHomePage.testList.tsx\project-39-evahomepage.test\EVAHomePage.testDetail.tsx\project-39-evahomepage.test\EVAHomePage.testCreate.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-39-evahomepage.test\EVAHomePage.testList.tsx\project-39-evahomepage.test\EVAHomePage.testDetail.tsx\project-39-evahomepage.test\EVAHomePage.testCreate.tsx\project-39-evahomepage.test\EVAHomePage.testEdit.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-39-evahomepage.test\EVAHomePage.testList.tsx\project-39-evahomepage.test\EVAHomePage.testDetail.tsx\project-39-evahomepage.test\EVAHomePage.testCreate.tsx\project-39-evahomepage.test\EVAHomePage.testEdit.tsx\project-39-evahomepage.test\EVAHomePage.testGraph.tsx' is denied.
+2026-03-13 06:20:06 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-39-EVAHomePage.test-20260313_062006.json
+2026-03-13 06:20:06 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:06 [INFO] Starting generation for layer project-39-SprintBoardPage (project-39-sprintboardpage)
+2026-03-13 06:20:06 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:06 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:06 [INFO] Using directory: project-39-sprintboardpage
+2026-03-13 06:20:06 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:06 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-39-sprintboardpage\SprintBoardPageList.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-39-sprintboardpage\SprintBoardPageList.tsx\project-39-sprintboardpage\SprintBoardPageDetail.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-39-sprintboardpage\SprintBoardPageList.tsx\project-39-sprintboardpage\SprintBoardPageDetail.tsx\project-39-sprintboardpage\SprintBoardPageCreate.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-39-sprintboardpage\SprintBoardPageList.tsx\project-39-sprintboardpage\SprintBoardPageDetail.tsx\project-39-sprintboardpage\SprintBoardPageCreate.tsx\project-39-sprintboardpage\SprintBoardPageEdit.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-39-sprintboardpage\SprintBoardPageList.tsx\project-39-sprintboardpage\SprintBoardPageDetail.tsx\project-39-sprintboardpage\SprintBoardPageCreate.tsx\project-39-sprintboardpage\SprintBoardPageEdit.tsx\project-39-sprintboardpage\SprintBoardPageGraph.tsx' is denied.
+2026-03-13 06:20:06 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-39-SprintBoardPage-20260313_062006.json
+2026-03-13 06:20:06 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:06 [INFO] Starting generation for layer project-39-SprintBoardPage.test (project-39-sprintboardpage.test)
+2026-03-13 06:20:06 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:06 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:06 [INFO] Using directory: project-39-sprintboardpage.test
+2026-03-13 06:20:06 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:06 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-39-sprintboardpage.test\SprintBoardPage.testList.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-39-sprintboardpage.test\SprintBoardPage.testList.tsx\project-39-sprintboardpage.test\SprintBoardPage.testDetail.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-39-sprintboardpage.test\SprintBoardPage.testList.tsx\project-39-sprintboardpage.test\SprintBoardPage.testDetail.tsx\project-39-sprintboardpage.test\SprintBoardPage.testCreate.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-39-sprintboardpage.test\SprintBoardPage.testList.tsx\project-39-sprintboardpage.test\SprintBoardPage.testDetail.tsx\project-39-sprintboardpage.test\SprintBoardPage.testCreate.tsx\project-39-sprintboardpage.test\SprintBoardPage.testEdit.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-39-sprintboardpage.test\SprintBoardPage.testList.tsx\project-39-sprintboardpage.test\SprintBoardPage.testDetail.tsx\project-39-sprintboardpage.test\SprintBoardPage.testCreate.tsx\project-39-sprintboardpage.test\SprintBoardPage.testEdit.tsx\project-39-sprintboardpage.test\SprintBoardPage.testGraph.tsx' is denied.
+2026-03-13 06:20:06 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-39-SprintBoardPage.test-20260313_062006.json
+2026-03-13 06:20:06 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:06 [INFO] Starting generation for layer project-screen-1 (project-screen-1)
+2026-03-13 06:20:06 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:06 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:06 [INFO] Using directory: project-screen-1
+2026-03-13 06:20:06 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:06 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-1\Project Screen 1 (TBD)List.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-1\Project Screen 1 (TBD)List.tsx\project-screen-1\Project Screen 1 (TBD)Detail.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-1\Project Screen 1 (TBD)List.tsx\project-screen-1\Project Screen 1 (TBD)Detail.tsx\project-screen-1\Project Screen 1 (TBD)Create.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-1\Project Screen 1 (TBD)List.tsx\project-screen-1\Project Screen 1 (TBD)Detail.tsx\project-screen-1\Project Screen 1 (TBD)Create.tsx\project-screen-1\Project Screen 1 (TBD)Edit.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-1\Project Screen 1 (TBD)List.tsx\project-screen-1\Project Screen 1 (TBD)Detail.tsx\project-screen-1\Project Screen 1 (TBD)Create.tsx\project-screen-1\Project Screen 1 (TBD)Edit.tsx\project-screen-1\Project Screen 1 (TBD)Graph.tsx' is denied.
+2026-03-13 06:20:06 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-screen-1-20260313_062006.json
+2026-03-13 06:20:06 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:06 [INFO] Starting generation for layer project-screen-10 (project-screen-10)
+2026-03-13 06:20:06 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:06 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:06 [INFO] Using directory: project-screen-10
+2026-03-13 06:20:06 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:06 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-10\Project Screen 10 (TBD)List.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-10\Project Screen 10 (TBD)List.tsx\project-screen-10\Project Screen 10 (TBD)Detail.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-10\Project Screen 10 (TBD)List.tsx\project-screen-10\Project Screen 10 (TBD)Detail.tsx\project-screen-10\Project Screen 10 (TBD)Create.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-10\Project Screen 10 (TBD)List.tsx\project-screen-10\Project Screen 10 (TBD)Detail.tsx\project-screen-10\Project Screen 10 (TBD)Create.tsx\project-screen-10\Project Screen 10 (TBD)Edit.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-10\Project Screen 10 (TBD)List.tsx\project-screen-10\Project Screen 10 (TBD)Detail.tsx\project-screen-10\Project Screen 10 (TBD)Create.tsx\project-screen-10\Project Screen 10 (TBD)Edit.tsx\project-screen-10\Project Screen 10 (TBD)Graph.tsx' is denied.
+2026-03-13 06:20:06 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-screen-10-20260313_062006.json
+2026-03-13 06:20:06 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:06 [INFO] Starting generation for layer project-screen-11 (project-screen-11)
+2026-03-13 06:20:06 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:06 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:06 [INFO] Using directory: project-screen-11
+2026-03-13 06:20:06 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:06 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-11\Project Screen 11 (TBD)List.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-11\Project Screen 11 (TBD)List.tsx\project-screen-11\Project Screen 11 (TBD)Detail.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-11\Project Screen 11 (TBD)List.tsx\project-screen-11\Project Screen 11 (TBD)Detail.tsx\project-screen-11\Project Screen 11 (TBD)Create.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-11\Project Screen 11 (TBD)List.tsx\project-screen-11\Project Screen 11 (TBD)Detail.tsx\project-screen-11\Project Screen 11 (TBD)Create.tsx\project-screen-11\Project Screen 11 (TBD)Edit.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-11\Project Screen 11 (TBD)List.tsx\project-screen-11\Project Screen 11 (TBD)Detail.tsx\project-screen-11\Project Screen 11 (TBD)Create.tsx\project-screen-11\Project Screen 11 (TBD)Edit.tsx\project-screen-11\Project Screen 11 (TBD)Graph.tsx' is denied.
+2026-03-13 06:20:06 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-screen-11-20260313_062006.json
+2026-03-13 06:20:06 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:06 [INFO] Starting generation for layer project-screen-12 (project-screen-12)
+2026-03-13 06:20:06 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:06 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:06 [INFO] Using directory: project-screen-12
+2026-03-13 06:20:06 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:06 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-12\Project Screen 12 (TBD)List.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-12\Project Screen 12 (TBD)List.tsx\project-screen-12\Project Screen 12 (TBD)Detail.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-12\Project Screen 12 (TBD)List.tsx\project-screen-12\Project Screen 12 (TBD)Detail.tsx\project-screen-12\Project Screen 12 (TBD)Create.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-12\Project Screen 12 (TBD)List.tsx\project-screen-12\Project Screen 12 (TBD)Detail.tsx\project-screen-12\Project Screen 12 (TBD)Create.tsx\project-screen-12\Project Screen 12 (TBD)Edit.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-12\Project Screen 12 (TBD)List.tsx\project-screen-12\Project Screen 12 (TBD)Detail.tsx\project-screen-12\Project Screen 12 (TBD)Create.tsx\project-screen-12\Project Screen 12 (TBD)Edit.tsx\project-screen-12\Project Screen 12 (TBD)Graph.tsx' is denied.
+2026-03-13 06:20:06 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-screen-12-20260313_062006.json
+2026-03-13 06:20:06 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:06 [INFO] Starting generation for layer project-screen-13 (project-screen-13)
+2026-03-13 06:20:06 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:06 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:06 [INFO] Using directory: project-screen-13
+2026-03-13 06:20:06 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:06 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-13\Project Screen 13 (TBD)List.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-13\Project Screen 13 (TBD)List.tsx\project-screen-13\Project Screen 13 (TBD)Detail.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-13\Project Screen 13 (TBD)List.tsx\project-screen-13\Project Screen 13 (TBD)Detail.tsx\project-screen-13\Project Screen 13 (TBD)Create.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-13\Project Screen 13 (TBD)List.tsx\project-screen-13\Project Screen 13 (TBD)Detail.tsx\project-screen-13\Project Screen 13 (TBD)Create.tsx\project-screen-13\Project Screen 13 (TBD)Edit.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-screen-13\Project Screen 13 (TBD)List.tsx\project-screen-13\Project Screen 13 (TBD)Detail.tsx\project-screen-13\Project Screen 13 (TBD)Create.tsx\project-screen-13\Project Screen 13 (TBD)Edit.tsx\project-screen-13\Project Screen 13 (TBD)Graph.tsx' is denied.
+2026-03-13 06:20:06 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-screen-13-20260313_062006.json
+2026-03-13 06:20:06 [FAIL] Generation complete: 0/5 components - FAIL

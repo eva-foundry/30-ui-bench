@@ -1,0 +1,60 @@
+2026-03-13 06:19:52 [INFO] Starting generation for layer L1 (l1)
+2026-03-13 06:19:52 [PASS] PASS: All 7 templates verified
+2026-03-13 06:19:52 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:19:52 [INFO] Using directory: l1
+2026-03-13 06:19:52 [INFO] Substituting templates for 5 components...
+2026-03-13 06:19:52 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l1\L1List.tsx' is denied.
+2026-03-13 06:19:52 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l1\L1List.tsx\l1\L1Detail.tsx' is denied.
+2026-03-13 06:19:52 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l1\L1List.tsx\l1\L1Detail.tsx\l1\L1Create.tsx' is denied.
+2026-03-13 06:19:52 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l1\L1List.tsx\l1\L1Detail.tsx\l1\L1Create.tsx\l1\L1Edit.tsx' is denied.
+2026-03-13 06:19:52 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l1\L1List.tsx\l1\L1Detail.tsx\l1\L1Create.tsx\l1\L1Edit.tsx\l1\L1Graph.tsx' is denied.
+2026-03-13 06:19:52 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L1-20260313_061952.json
+2026-03-13 06:19:52 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:19:52 [INFO] Starting generation for layer L10 (l10)
+2026-03-13 06:19:52 [PASS] PASS: All 7 templates verified
+2026-03-13 06:19:52 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:19:52 [INFO] Using directory: l10
+2026-03-13 06:19:52 [INFO] Substituting templates for 5 components...
+2026-03-13 06:19:52 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l10\L10List.tsx' is denied.
+2026-03-13 06:19:52 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l10\L10List.tsx\l10\L10Detail.tsx' is denied.
+2026-03-13 06:19:52 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l10\L10List.tsx\l10\L10Detail.tsx\l10\L10Create.tsx' is denied.
+2026-03-13 06:19:52 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l10\L10List.tsx\l10\L10Detail.tsx\l10\L10Create.tsx\l10\L10Edit.tsx' is denied.
+2026-03-13 06:19:52 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l10\L10List.tsx\l10\L10Detail.tsx\l10\L10Create.tsx\l10\L10Edit.tsx\l10\L10Graph.tsx' is denied.
+2026-03-13 06:19:52 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L10-20260313_061952.json
+2026-03-13 06:19:52 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:19:52 [INFO] Starting generation for layer L100 (l100)
+2026-03-13 06:19:52 [PASS] PASS: All 7 templates verified
+2026-03-13 06:19:52 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:19:52 [INFO] Using directory: l100
+2026-03-13 06:19:52 [INFO] Substituting templates for 5 components...
+2026-03-13 06:19:52 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l100\L100List.tsx' is denied.
+2026-03-13 06:19:52 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l100\L100List.tsx\l100\L100Detail.tsx' is denied.
+2026-03-13 06:19:52 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l100\L100List.tsx\l100\L100Detail.tsx\l100\L100Create.tsx' is denied.
+2026-03-13 06:19:52 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l100\L100List.tsx\l100\L100Detail.tsx\l100\L100Create.tsx\l100\L100Edit.tsx' is denied.
+2026-03-13 06:19:52 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l100\L100List.tsx\l100\L100Detail.tsx\l100\L100Create.tsx\l100\L100Edit.tsx\l100\L100Graph.tsx' is denied.
+2026-03-13 06:19:52 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L100-20260313_061952.json
+2026-03-13 06:19:52 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:19:52 [INFO] Starting generation for layer L101 (l101)
+2026-03-13 06:19:52 [PASS] PASS: All 7 templates verified
+2026-03-13 06:19:52 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:19:52 [INFO] Using directory: l101
+2026-03-13 06:19:52 [INFO] Substituting templates for 5 components...
+2026-03-13 06:19:52 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l101\L101List.tsx' is denied.
+2026-03-13 06:19:52 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l101\L101List.tsx\l101\L101Detail.tsx' is denied.
+2026-03-13 06:19:52 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l101\L101List.tsx\l101\L101Detail.tsx\l101\L101Create.tsx' is denied.
+2026-03-13 06:19:52 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l101\L101List.tsx\l101\L101Detail.tsx\l101\L101Create.tsx\l101\L101Edit.tsx' is denied.
+2026-03-13 06:19:52 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l101\L101List.tsx\l101\L101Detail.tsx\l101\L101Create.tsx\l101\L101Edit.tsx\l101\L101Graph.tsx' is denied.
+2026-03-13 06:19:52 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L101-20260313_061952.json
+2026-03-13 06:19:52 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:19:52 [INFO] Starting generation for layer L102 (l102)
+2026-03-13 06:19:52 [PASS] PASS: All 7 templates verified
+2026-03-13 06:19:52 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:19:52 [INFO] Using directory: l102
+2026-03-13 06:19:52 [INFO] Substituting templates for 5 components...
+2026-03-13 06:19:52 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l102\L102List.tsx' is denied.
+2026-03-13 06:19:52 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l102\L102List.tsx\l102\L102Detail.tsx' is denied.
+2026-03-13 06:19:52 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l102\L102List.tsx\l102\L102Detail.tsx\l102\L102Create.tsx' is denied.
+2026-03-13 06:19:52 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l102\L102List.tsx\l102\L102Detail.tsx\l102\L102Create.tsx\l102\L102Edit.tsx' is denied.
+2026-03-13 06:19:52 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l102\L102List.tsx\l102\L102Detail.tsx\l102\L102Create.tsx\l102\L102Edit.tsx\l102\L102Graph.tsx' is denied.
+2026-03-13 06:19:52 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L102-20260313_061952.json
+2026-03-13 06:19:52 [FAIL] Generation complete: 0/5 components - FAIL

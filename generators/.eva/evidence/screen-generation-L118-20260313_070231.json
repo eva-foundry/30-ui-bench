@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l118\\L118List.tsx",
+                                "component":  "ListView",
+                                "file":  "L118List.tsx",
+                                "bytes":  5844
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l118\\L118Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L118Detail.tsx",
+                                "bytes":  5635
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l118\\L118Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L118Create.tsx",
+                                "bytes":  8475
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l118\\L118Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L118Edit.tsx",
+                                "bytes":  9805
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l118\\L118Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L118Graph.tsx",
+                                "bytes":  7542
+                            }
+                        ],
+    "entity_type":  "L118Record",
+    "timestamp":  "2026-03-13T07:02:31.1243691-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l118",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L118",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

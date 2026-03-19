@@ -1,0 +1,27 @@
+﻿{
+    "generated_files":  [
+
+                        ],
+    "entity_type":  "Configuration MgmtRecord",
+    "timestamp":  "2026-03-13T06:20:03.1806268-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "ops-configuration",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-configuration\\Configuration MgmtList.tsx\u0027 is denied.",
+                   "Failed to generate DetailView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-configuration\\Configuration MgmtList.tsx\\ops-configuration\\Configuration MgmtDetail.tsx\u0027 is denied.",
+                   "Failed to generate CreateForm : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-configuration\\Configuration MgmtList.tsx\\ops-configuration\\Configuration MgmtDetail.tsx\\ops-configuration\\Configuration MgmtCreate.tsx\u0027 is denied.",
+                   "Failed to generate EditForm : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-configuration\\Configuration MgmtList.tsx\\ops-configuration\\Configuration MgmtDetail.tsx\\ops-configuration\\Configuration MgmtCreate.tsx\\ops-configuration\\Configuration MgmtEdit.tsx\u0027 is denied.",
+                   "Failed to generate GraphView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-configuration\\Configuration MgmtList.tsx\\ops-configuration\\Configuration MgmtDetail.tsx\\ops-configuration\\Configuration MgmtCreate.tsx\\ops-configuration\\Configuration MgmtEdit.tsx\\ops-configuration\\Configuration MgmtGraph.tsx\u0027 is denied."
+               ],
+    "components_generated":  0,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  0,
+    "components_failed":  5,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "ops-configuration",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

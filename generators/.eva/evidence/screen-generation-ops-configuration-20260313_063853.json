@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-configuration\\ConfigurationMgmtList.tsx",
+                                "component":  "ListView",
+                                "file":  "ConfigurationMgmtList.tsx",
+                                "bytes":  6171
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-configuration\\ConfigurationMgmtDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "ConfigurationMgmtDetail.tsx",
+                                "bytes":  5845
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-configuration\\ConfigurationMgmtCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "ConfigurationMgmtCreate.tsx",
+                                "bytes":  8805
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-configuration\\ConfigurationMgmtEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "ConfigurationMgmtEdit.tsx",
+                                "bytes":  10176
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-configuration\\ConfigurationMgmtGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "ConfigurationMgmtGraph.tsx",
+                                "bytes":  7752
+                            }
+                        ],
+    "entity_type":  "Configuration MgmtRecord",
+    "timestamp":  "2026-03-13T06:38:53.1379329-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "ops-configuration",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "ops-configuration",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

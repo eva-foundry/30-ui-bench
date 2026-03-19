@@ -1,0 +1,32 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\L80List.tsx",
+                                "component":  "ListView",
+                                "file":  "L80List.tsx",
+                                "bytes":  5855
+                            }
+                        ],
+    "entity_type":  "L80Record",
+    "timestamp":  "2026-03-13T06:11:23.2158307-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "unknown",
+    "errors":  [
+                   "Failed to generate DetailView : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\L80List.tsx\\unknown\\L80Detail.tsx\u0027.",
+                   "Failed to generate CreateForm : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\L80List.tsx\\unknown\\L80Detail.tsx\\unknown\\L80CreateForm.tsx\u0027.",
+                   "Failed to generate EditForm : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\L80List.tsx\\unknown\\L80Detail.tsx\\unknown\\L80CreateForm.tsx\\unknown\\L80EditForm.tsx\u0027.",
+                   "Failed to generate GraphView : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\L80List.tsx\\unknown\\L80Detail.tsx\\unknown\\L80CreateForm.tsx\\unknown\\L80EditForm.tsx\\unknown\\L80Graph.tsx\u0027."
+               ],
+    "components_generated":  1,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  20,
+    "components_failed":  4,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L80",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

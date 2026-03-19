@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l64\\L64List.tsx",
+                                "component":  "ListView",
+                                "file":  "L64List.tsx",
+                                "bytes":  5819
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l64\\L64Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L64Detail.tsx",
+                                "bytes":  5619
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l64\\L64Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L64Create.tsx",
+                                "bytes":  8450
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l64\\L64Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L64Edit.tsx",
+                                "bytes":  9777
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l64\\L64Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L64Graph.tsx",
+                                "bytes":  7526
+                            }
+                        ],
+    "entity_type":  "L64Record",
+    "timestamp":  "2026-03-13T06:51:17.7741622-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l64",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L64",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

@@ -1,15 +1,15 @@
 {
   "meta": {
     "schema": "eva.reconciliation.v2",
-    "generated_at": "2026-02-25T11:56:22.844Z",
-    "repo": "C:\\AICOE\\eva-foundation\\30-ui-bench",
-    "discovery_path": "C:\\AICOE\\eva-foundation\\30-ui-bench\\.eva\\discovery.json"
+    "generated_at": "2026-03-16T08:59:57.876Z",
+    "repo": "c:\\eva-foundry\\30-ui-bench",
+    "discovery_path": "c:\\eva-foundry\\30-ui-bench\\.eva\\discovery.json"
   },
   "coverage": {
     "stories_total": 8,
     "stories_with_artifacts": 8,
     "stories_with_evidence": 0,
-    "consistency_score": 0
+    "consistency_score": 1
   },
   "features": [
     {
@@ -18,8 +18,8 @@
       "story_count": 3,
       "stories_with_artifacts": 3,
       "stories_with_evidence": 0,
-      "consistency_score": 0,
-      "mti": 50,
+      "consistency_score": 1,
+      "mti": 80,
       "gap_count": 0
     },
     {
@@ -28,8 +28,8 @@
       "story_count": 3,
       "stories_with_artifacts": 3,
       "stories_with_evidence": 0,
-      "consistency_score": 0,
-      "mti": 50,
+      "consistency_score": 1,
+      "mti": 80,
       "gap_count": 0
     },
     {
@@ -38,8 +38,8 @@
       "story_count": 2,
       "stories_with_artifacts": 2,
       "stories_with_evidence": 0,
-      "consistency_score": 0,
-      "mti": 50,
+      "consistency_score": 1,
+      "mti": 80,
       "gap_count": 0
     }
   ],

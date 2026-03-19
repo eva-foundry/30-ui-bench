@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l9\\L9List.tsx",
+                                "component":  "ListView",
+                                "file":  "L9List.tsx",
+                                "bytes":  5794
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l9\\L9Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L9Detail.tsx",
+                                "bytes":  5603
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l9\\L9Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L9Create.tsx",
+                                "bytes":  8425
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l9\\L9Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L9Edit.tsx",
+                                "bytes":  9749
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l9\\L9Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L9Graph.tsx",
+                                "bytes":  7510
+                            }
+                        ],
+    "entity_type":  "L9Record",
+    "timestamp":  "2026-03-13T06:54:31.4029207-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l9",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L9",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

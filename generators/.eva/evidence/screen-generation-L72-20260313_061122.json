@@ -1,0 +1,32 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\L72List.tsx",
+                                "component":  "ListView",
+                                "file":  "L72List.tsx",
+                                "bytes":  5855
+                            }
+                        ],
+    "entity_type":  "L72Record",
+    "timestamp":  "2026-03-13T06:11:22.5090660-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "unknown",
+    "errors":  [
+                   "Failed to generate DetailView : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\L72List.tsx\\unknown\\L72Detail.tsx\u0027.",
+                   "Failed to generate CreateForm : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\L72List.tsx\\unknown\\L72Detail.tsx\\unknown\\L72CreateForm.tsx\u0027.",
+                   "Failed to generate EditForm : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\L72List.tsx\\unknown\\L72Detail.tsx\\unknown\\L72CreateForm.tsx\\unknown\\L72EditForm.tsx\u0027.",
+                   "Failed to generate GraphView : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\L72List.tsx\\unknown\\L72Detail.tsx\\unknown\\L72CreateForm.tsx\\unknown\\L72EditForm.tsx\\unknown\\L72Graph.tsx\u0027."
+               ],
+    "components_generated":  1,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  20,
+    "components_failed":  4,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L72",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

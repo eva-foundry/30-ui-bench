@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_requests\\WorkservicerequestsList.tsx",
+                                "component":  "ListView",
+                                "file":  "WorkservicerequestsList.tsx",
+                                "bytes":  8011
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_requests\\WorkservicerequestsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "WorkservicerequestsDetail.tsx",
+                                "bytes":  5877
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_requests\\WorkservicerequestsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "WorkservicerequestsCreate.tsx",
+                                "bytes":  8667
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_requests\\WorkservicerequestsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "WorkservicerequestsEdit.tsx",
+                                "bytes":  6112
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_requests\\WorkservicerequestsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "WorkservicerequestsGraph.tsx",
+                                "bytes":  7855
+                            }
+                        ],
+    "entity_type":  "L63Record",
+    "timestamp":  "2026-03-13T07:14:04.0575674-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "work_service_requests",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L63",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l112\\RedTeamTestSuitesList.tsx",
+                                "component":  "ListView",
+                                "file":  "RedTeamTestSuitesList.tsx",
+                                "bytes":  6032
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l112\\RedTeamTestSuitesDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "RedTeamTestSuitesDetail.tsx",
+                                "bytes":  5719
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l112\\RedTeamTestSuitesCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "RedTeamTestSuitesCreate.tsx",
+                                "bytes":  8633
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l112\\RedTeamTestSuitesEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "RedTeamTestSuitesEdit.tsx",
+                                "bytes":  9995
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l112\\RedTeamTestSuitesGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "RedTeamTestSuitesGraph.tsx",
+                                "bytes":  7639
+                            }
+                        ],
+    "entity_type":  "red_team_test_suitesRecord",
+    "timestamp":  "2026-03-13T06:38:52.2667982-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l112",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L112",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

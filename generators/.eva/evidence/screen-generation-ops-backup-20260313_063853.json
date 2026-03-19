@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-backup\\BackupRecoveryList.tsx",
+                                "component":  "ListView",
+                                "file":  "BackupRecoveryList.tsx",
+                                "bytes":  6056
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-backup\\BackupRecoveryDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "BackupRecoveryDetail.tsx",
+                                "bytes":  5761
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-backup\\BackupRecoveryCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "BackupRecoveryCreate.tsx",
+                                "bytes":  8684
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-backup\\BackupRecoveryEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "BackupRecoveryEdit.tsx",
+                                "bytes":  10046
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-backup\\BackupRecoveryGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "BackupRecoveryGraph.tsx",
+                                "bytes":  7672
+                            }
+                        ],
+    "entity_type":  "Backup \u0026 RecoveryRecord",
+    "timestamp":  "2026-03-13T06:38:53.0738978-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "ops-backup",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "ops-backup",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

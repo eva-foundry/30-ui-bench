@@ -1,88 +1,123 @@
 {
   "meta": {
-    "schema": "eva.discovery.v2",
-    "generated_at": "2026-02-25T11:56:22.830Z",
-    "repo": "C:\\AICOE\\eva-foundation\\30-ui-bench"
+    "schema": "eva.discovery.v3",
+    "generated_at": "2026-03-16T08:59:57.858Z",
+    "repo": "c:\\eva-foundry\\30-ui-bench",
+    "governance_source": "data-model-api",
+    "quality_gates": {
+      "detected_count": 0,
+      "gates": [],
+      "effective_mti_threshold": 70
+    }
   },
   "project": null,
   "planned": {
     "epic": {
       "title": "30-ui-bench",
-      "source": "README.md"
+      "source": "data-model-api"
     },
     "features": [
       {
+        "id": "F30-03",
+        "title": "Accessibility Validation",
+        "source": "data-model-api",
+        "status": "planned",
+        "percent_complete": 0
+      },
+      {
         "id": "F30-01",
         "title": "Component Scaffolding",
-        "source": "veritas-plan.json"
+        "source": "data-model-api",
+        "status": "planned",
+        "percent_complete": 0
       },
       {
         "id": "F30-02",
         "title": "Component Demos",
-        "source": "veritas-plan.json"
-      },
-      {
-        "id": "F30-03",
-        "title": "Accessibility Validation",
-        "source": "veritas-plan.json"
+        "source": "data-model-api",
+        "status": "planned",
+        "percent_complete": 0
       }
     ],
     "stories": [
       {
-        "id": "F30-01-001",
-        "title": "Fluent UI v9 environment setup",
-        "feature_id": "F30-01",
-        "source": "veritas-plan.json"
-      },
-      {
-        "id": "F30-01-002",
-        "title": "Core component inventory",
-        "feature_id": "F30-01",
-        "source": "veritas-plan.json"
-      },
-      {
-        "id": "F30-01-003",
-        "title": "Theme token exploration",
-        "feature_id": "F30-01",
-        "source": "veritas-plan.json"
-      },
-      {
-        "id": "F30-02-001",
-        "title": "Navigation and layout patterns",
-        "feature_id": "F30-02",
-        "source": "veritas-plan.json"
-      },
-      {
         "id": "F30-02-002",
         "title": "Form controls and validation",
         "feature_id": "F30-02",
-        "source": "veritas-plan.json"
+        "source": "data-model-api"
       },
       {
         "id": "F30-02-003",
         "title": "Data table and grid patterns",
         "feature_id": "F30-02",
-        "source": "veritas-plan.json"
+        "source": "data-model-api"
       },
       {
-        "id": "F30-03-001",
-        "title": "WCAG 2.1 AA compliance check",
-        "feature_id": "F30-03",
-        "source": "veritas-plan.json"
+        "id": "F30-01-001",
+        "title": "Fluent UI v9 environment setup",
+        "feature_id": "F30-01",
+        "source": "data-model-api"
+      },
+      {
+        "id": "F30-01-002",
+        "title": "Core component inventory",
+        "feature_id": "F30-01",
+        "source": "data-model-api"
+      },
+      {
+        "id": "F30-02-001",
+        "title": "Navigation and layout patterns",
+        "feature_id": "F30-02",
+        "source": "data-model-api"
       },
       {
         "id": "F30-03-002",
         "title": "Keyboard navigation test",
         "feature_id": "F30-03",
-        "source": "veritas-plan.json"
+        "source": "data-model-api"
+      },
+      {
+        "id": "F30-03-001",
+        "title": "WCAG 2.1 AA compliance check",
+        "feature_id": "F30-03",
+        "source": "data-model-api"
+      },
+      {
+        "id": "F30-01-003",
+        "title": "Theme token exploration",
+        "feature_id": "F30-01",
+        "source": "data-model-api"
       }
     ],
     "tasks": [],
     "acceptance": [],
-    "declared_status": {}
+    "declared_status": {
+      "STORY:F30-02-002": "planned",
+      "STORY:F30-02-003": "planned",
+      "FEATURE:F30-03": "planned",
+      "FEATURE:F30-01": "planned",
+      "STORY:WBS-30": "planned",
+      "STORY:F30-01-001": "planned",
+      "STORY:F30-01-002": "planned",
+      "STORY:F30-02-001": "planned",
+      "STORY:F30-03-002": "planned",
+      "STORY:F30-03-001": "planned",
+      "STORY:F30-01-003": "planned",
+      "FEATURE:F30-02": "planned"
+    }
   },
   "actual": {
     "artifacts": [
+      {
+        "path": ".gitignore",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "ACCEPTANCE.md",
+        "type": "doc",
+        "story_tags": []
+      },
       {
         "path": "ado-artifacts.json",
         "type": "data",
@@ -91,6 +126,21 @@
       {
         "path": "ado-import.ps1",
         "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "CODE_OF_CONDUCT.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "CONTRIBUTING.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "LICENSE",
+        "type": "other",
         "story_tags": []
       },
       {
@@ -118,6 +168,41 @@
         "story_tags": []
       },
       {
+        "path": "README.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "SECURITY.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "SESSION_45_SCREENGEN_RCA_COMPLETE_20260313_070532.json",
+        "type": "data",
+        "story_tags": []
+      },
+      {
+        "path": "SESSION_46_COMPREHENSIVE_QA_SUMMARY.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "sprint_10_config.json",
+        "type": "data",
+        "story_tags": []
+      },
+      {
+        "path": "sprint_11_config.json",
+        "type": "data",
+        "story_tags": []
+      },
+      {
+        "path": "STATUS.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
         "path": "tsconfig.json",
         "type": "data",
         "story_tags": []
@@ -128,7 +213,163 @@
         "story_tags": []
       },
       {
+        "path": ".github/PROJECT-ORGANIZATION.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "docs/20260315_130000_UTC_domain-screen-factory-plan.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "docs/20260315_223500-project37-ui-handoff.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "docs/DOCUMENTATION-HOUSEKEEPING-CHECK-REPORT.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "docs/EXECUTION-GUIDE.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "docs/MIGRATION-MANIFEST-SESSION-47.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "docs/PAPERLESS-TRANSFORMATION-PLAN.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "docs/SESSION_45_PART_11_SUMMARY.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "docs/SESSION_45_PART_12_SUMMARY.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "docs/SESSION_45_PART_13_PAPERLESS_COMPLETE.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "scripts/SYNC-TO-MODEL.ps1",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "scripts/Test-AllAcceptanceCriteria.ps1",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "evidence/index.md",
+        "type": "evidence",
+        "story_tags": []
+      },
+      {
+        "path": "evidence/pre-migration-test-report_20260312.json",
+        "type": "evidence",
+        "story_tags": []
+      },
+      {
+        "path": "evidence/qa-suite-20260313-071900.log",
+        "type": "evidence",
+        "story_tags": []
+      },
+      {
+        "path": "evidence/SESSION_45_PART_11_FINAL_REPORT_20260313_072500.json",
+        "type": "evidence",
+        "story_tags": []
+      },
+      {
+        "path": "evidence/VALIDATION-CHECKLIST-SESSION46.md",
+        "type": "evidence",
+        "story_tags": []
+      },
+      {
+        "path": "generators/batch-generation.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/generate-all-screens.ps1",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "generators/generate-screens-v2.ps1",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "generators/Repair-ScreenRegistryEntityTypes.ps1",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": ".github/workflows/comprehensive-qa.yml",
+        "type": "config",
+        "story_tags": []
+      },
+      {
+        "path": "templates/CreateForm.template.tsx",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "templates/DetailView.template.tsx",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "templates/EditForm.template.tsx",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "templates/evidence.json.template",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "templates/GraphView.template.tsx",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "templates/ListView.template.tsx",
+        "type": "code",
+        "story_tags": []
+      },
+      {
+        "path": "templates/README.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": "templates/test.spec.tsx.template",
+        "type": "test",
+        "story_tags": [],
+        "is_test": true
+      },
+      {
         "path": ".github/copilot-skills/00-skill-index.skill.md",
+        "type": "doc",
+        "story_tags": []
+      },
+      {
+        "path": ".memories/session/phase-1-kickoff-checkpoint.md",
         "type": "doc",
         "story_tags": []
       },
@@ -143,6 +384,2526 @@
         "type": "test",
         "story_tags": [],
         "is_test": true
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_061000.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_061115.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_061116.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_061117.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_061118.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_061119.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_061120.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_061121.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_061122.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_061123.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_061124.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_061125.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_061126.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_061127.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_061128.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_061129.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_061952.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_061953.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_061954.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_061955.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_061956.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_061957.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_061958.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_061959.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062000.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062001.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062002.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062003.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062004.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062005.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062006.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062007.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062122.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062123.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062124.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062125.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062126.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062127.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062128.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062129.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062130.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062131.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062132.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062133.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062848.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062849.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062851.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062853.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062854.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062855.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062857.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062858.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062859.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062901.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062902.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062904.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062905.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062906.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062908.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062909.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062911.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062912.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062913.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062915.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062916.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062918.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062919.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062920.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062922.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062923.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062924.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062926.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062928.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062929.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062930.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062932.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062933.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062934.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062936.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062937.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062938.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062940.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062941.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062942.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062944.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062946.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062947.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062948.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062950.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062951.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062953.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062954.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062955.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062957.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062958.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_062959.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063001.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063002.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063004.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063005.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063006.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063007.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063009.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063011.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063013.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063014.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063016.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063017.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063018.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063020.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063021.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063022.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063024.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063026.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063027.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063029.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063030.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063032.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063033.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063035.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063036.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063038.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063040.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063041.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063043.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063044.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063045.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063047.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063048.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063049.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063051.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063052.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063054.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063055.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063056.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063058.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063059.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063100.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063102.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063103.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063105.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063106.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063108.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063109.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063110.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063112.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063113.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063115.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063116.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063118.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063119.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063120.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063122.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063123.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063125.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063126.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063127.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063129.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063130.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063131.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063133.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063134.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063136.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063138.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063139.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063141.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063142.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063144.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063145.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063147.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063148.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063150.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063151.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063153.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063154.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063156.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063157.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063158.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063200.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063201.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063202.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063204.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063205.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063206.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063208.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063209.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063211.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063213.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063214.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063216.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063217.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063218.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063220.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063221.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063223.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063224.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063226.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063227.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063228.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063230.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063231.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063233.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063234.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063235.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063237.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063238.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063240.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063241.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063242.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063243.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063245.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063246.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063248.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063249.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063250.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063252.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063253.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063335.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063337.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063338.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063340.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063341.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063342.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063344.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063345.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063346.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063348.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063349.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063351.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063352.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063353.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063355.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063356.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063357.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063359.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063400.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063401.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063403.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063404.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063405.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063407.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063408.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063410.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063412.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063413.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063415.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063416.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063417.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063419.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063420.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063422.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063423.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063424.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063426.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063427.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063428.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063430.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063431.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063433.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063434.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063435.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063436.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063438.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063439.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063440.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063441.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063443.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063444.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063445.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063447.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063448.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063449.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063450.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063452.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063453.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063454.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063455.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063457.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063458.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063459.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063500.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063502.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063503.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063504.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063506.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063507.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063508.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063509.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063511.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063512.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063513.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063514.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063516.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063517.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063518.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063520.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063521.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063522.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063523.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063525.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063526.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063527.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063528.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063530.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063531.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063532.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063533.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063535.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063536.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063538.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063539.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063540.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063542.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063543.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063544.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063546.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063547.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063548.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063550.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063551.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063553.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063554.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063556.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063557.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063558.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063600.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063601.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063602.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063604.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063605.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063607.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063608.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063610.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063612.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063613.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063615.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063617.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063618.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063620.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063621.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063623.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063624.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063625.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063627.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063628.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063630.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063631.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063632.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063634.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063636.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063637.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063639.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063640.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063642.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063644.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063645.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063647.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063649.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063650.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063652.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063654.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063655.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063657.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063659.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063700.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063702.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063703.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063705.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063706.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063708.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063709.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063710.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063712.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063714.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063715.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063716.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063718.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063719.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063721.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063722.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063724.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063725.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063727.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063728.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063730.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063732.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063733.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063735.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063736.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063738.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063844.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063845.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063846.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063847.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063848.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063849.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063850.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063851.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063852.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063853.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063854.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063855.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_063856.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_064650.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_064651.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_064652.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_064653.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_064654.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_064655.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_064656.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_064657.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_064658.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_064659.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_064700.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_064701.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_064702.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_064703.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065112.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065113.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065114.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065115.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065116.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065117.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065118.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065119.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065120.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065121.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065122.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065123.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065124.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065125.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065338.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065339.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065340.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065341.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065342.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065343.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065344.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065345.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065346.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065347.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065348.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065349.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065424.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065425.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065426.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065427.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065428.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065429.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065430.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065431.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065432.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065433.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065434.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065435.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065815.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065816.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065817.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065818.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065819.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065820.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065821.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065822.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_065823.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_070222.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_070223.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_070224.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_070225.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_070226.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_070227.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_070228.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_070229.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_070230.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_070231.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_071359.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_071400.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_071401.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_071402.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_071403.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_071404.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_071405.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_071406.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_071407.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_072022.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_072023.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_072024.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_072025.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_072026.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_072027.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_072028.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_072029.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260313_072030.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260314_061937.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260314_061938.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260314_061939.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260314_061940.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260314_061941.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260314_061942.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260314_061943.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260314_061944.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260314_061945.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260314_061946.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260314_061947.log",
+        "type": "other",
+        "story_tags": []
+      },
+      {
+        "path": "generators/logs/generate-screens-v2_20260314_061948.log",
+        "type": "other",
+        "story_tags": []
       }
     ],
     "story_artifact_map": {
@@ -291,6 +3052,7 @@
         ]
       }
     },
-    "commit_evidence_map": {}
+    "commit_evidence_map": {},
+    "code_complexity": {}
   }
 }

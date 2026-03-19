@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\runbooks\\RunbooksList.tsx",
+                                "component":  "ListView",
+                                "file":  "RunbooksList.tsx",
+                                "bytes":  5924
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\runbooks\\RunbooksDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "RunbooksDetail.tsx",
+                                "bytes":  5674
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\runbooks\\RunbooksCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "RunbooksCreate.tsx",
+                                "bytes":  8545
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\runbooks\\RunbooksEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "RunbooksEdit.tsx",
+                                "bytes":  9872
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\runbooks\\RunbooksGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "RunbooksGraph.tsx",
+                                "bytes":  7591
+                            }
+                        ],
+    "entity_type":  "L17Record",
+    "timestamp":  "2026-03-13T07:20:24.2302565-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "runbooks",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L17",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

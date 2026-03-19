@@ -1,0 +1,27 @@
+﻿{
+    "generated_files":  [
+
+                        ],
+    "entity_type":  "L39Record",
+    "timestamp":  "2026-03-13T06:19:56.3338259-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l39",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l39\\L39List.tsx\u0027 is denied.",
+                   "Failed to generate DetailView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l39\\L39List.tsx\\l39\\L39Detail.tsx\u0027 is denied.",
+                   "Failed to generate CreateForm : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l39\\L39List.tsx\\l39\\L39Detail.tsx\\l39\\L39Create.tsx\u0027 is denied.",
+                   "Failed to generate EditForm : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l39\\L39List.tsx\\l39\\L39Detail.tsx\\l39\\L39Create.tsx\\l39\\L39Edit.tsx\u0027 is denied.",
+                   "Failed to generate GraphView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l39\\L39List.tsx\\l39\\L39Detail.tsx\\l39\\L39Create.tsx\\l39\\L39Edit.tsx\\l39\\L39Graph.tsx\u0027 is denied."
+               ],
+    "components_generated":  0,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  0,
+    "components_failed":  5,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L39",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

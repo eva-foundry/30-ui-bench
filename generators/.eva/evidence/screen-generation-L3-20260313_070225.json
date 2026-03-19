@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\feature_flags\\FeatureflagsList.tsx",
+                                "component":  "ListView",
+                                "file":  "FeatureflagsList.tsx",
+                                "bytes":  6013
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\feature_flags\\FeatureflagsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "FeatureflagsDetail.tsx",
+                                "bytes":  5720
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\feature_flags\\FeatureflagsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "FeatureflagsCreate.tsx",
+                                "bytes":  8628
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\feature_flags\\FeatureflagsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "FeatureflagsEdit.tsx",
+                                "bytes":  9952
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\feature_flags\\FeatureflagsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "FeatureflagsGraph.tsx",
+                                "bytes":  7648
+                            }
+                        ],
+    "entity_type":  "L3Record",
+    "timestamp":  "2026-03-13T07:02:25.4458785-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "feature_flags",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L3",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

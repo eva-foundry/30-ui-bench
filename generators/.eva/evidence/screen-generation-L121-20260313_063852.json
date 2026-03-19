@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l121\\RemediationEffectivenessMetricsList.tsx",
+                                "component":  "ListView",
+                                "file":  "RemediationEffectivenessMetricsList.tsx",
+                                "bytes":  6226
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l121\\RemediationEffectivenessMetricsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "RemediationEffectivenessMetricsDetail.tsx",
+                                "bytes":  5801
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l121\\RemediationEffectivenessMetricsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "RemediationEffectivenessMetricsCreate.tsx",
+                                "bytes":  8782
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l121\\RemediationEffectivenessMetricsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "RemediationEffectivenessMetricsEdit.tsx",
+                                "bytes":  10170
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l121\\RemediationEffectivenessMetricsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "RemediationEffectivenessMetricsGraph.tsx",
+                                "bytes":  7735
+                            }
+                        ],
+    "entity_type":  "remediation_effectiveness_metricsRecord",
+    "timestamp":  "2026-03-13T06:38:52.8644788-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l121",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L121",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

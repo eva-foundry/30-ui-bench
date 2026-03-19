@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-screen-8\\ProjectScreen8TbdList.tsx",
+                                "component":  "ListView",
+                                "file":  "ProjectScreen8TbdList.tsx",
+                                "bytes":  6168
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-screen-8\\ProjectScreen8TbdDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "ProjectScreen8TbdDetail.tsx",
+                                "bytes":  5843
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-screen-8\\ProjectScreen8TbdCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "ProjectScreen8TbdCreate.tsx",
+                                "bytes":  8811
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-screen-8\\ProjectScreen8TbdEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "ProjectScreen8TbdEdit.tsx",
+                                "bytes":  10189
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-screen-8\\ProjectScreen8TbdGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "ProjectScreen8TbdGraph.tsx",
+                                "bytes":  7751
+                            }
+                        ],
+    "entity_type":  "Project Screen 8 (TBD)Record",
+    "timestamp":  "2026-03-13T06:38:56.4904683-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "project-screen-8",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "project-screen-8",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

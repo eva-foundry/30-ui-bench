@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l62\\L62List.tsx",
+                                "component":  "ListView",
+                                "file":  "L62List.tsx",
+                                "bytes":  5819
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l62\\L62Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L62Detail.tsx",
+                                "bytes":  5619
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l62\\L62Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L62Create.tsx",
+                                "bytes":  8450
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l62\\L62Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L62Edit.tsx",
+                                "bytes":  9777
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l62\\L62Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L62Graph.tsx",
+                                "bytes":  7526
+                            }
+                        ],
+    "entity_type":  "L62Record",
+    "timestamp":  "2026-03-13T06:54:29.7145099-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l62",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L62",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

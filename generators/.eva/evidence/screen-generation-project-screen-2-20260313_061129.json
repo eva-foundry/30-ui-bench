@@ -1,0 +1,32 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\project-screen-2List.tsx",
+                                "component":  "ListView",
+                                "file":  "project-screen-2List.tsx",
+                                "bytes":  6063
+                            }
+                        ],
+    "entity_type":  "project-screen-2Record",
+    "timestamp":  "2026-03-13T06:11:29.4675587-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "unknown",
+    "errors":  [
+                   "Failed to generate DetailView : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\project-screen-2List.tsx\\unknown\\project-screen-2Detail.tsx\u0027.",
+                   "Failed to generate CreateForm : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\project-screen-2List.tsx\\unknown\\project-screen-2Detail.tsx\\unknown\\project-screen-2CreateForm.tsx\u0027.",
+                   "Failed to generate EditForm : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\project-screen-2List.tsx\\unknown\\project-screen-2Detail.tsx\\unknown\\project-screen-2CreateForm.tsx\\unknown\\project-screen-2EditForm.tsx\u0027.",
+                   "Failed to generate GraphView : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\project-screen-2List.tsx\\unknown\\project-screen-2Detail.tsx\\unknown\\project-screen-2CreateForm.tsx\\unknown\\project-screen-2EditForm.tsx\\unknown\\project-screen-2Graph.tsx\u0027."
+               ],
+    "components_generated":  1,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  20,
+    "components_failed":  4,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "project-screen-2",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

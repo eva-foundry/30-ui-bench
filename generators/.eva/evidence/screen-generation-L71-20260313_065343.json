@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l71\\L71List.tsx",
+                                "component":  "ListView",
+                                "file":  "L71List.tsx",
+                                "bytes":  5819
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l71\\L71Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L71Detail.tsx",
+                                "bytes":  5619
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l71\\L71Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L71Create.tsx",
+                                "bytes":  8450
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l71\\L71Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L71Edit.tsx",
+                                "bytes":  9777
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l71\\L71Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L71Graph.tsx",
+                                "bytes":  7526
+                            }
+                        ],
+    "entity_type":  "L71Record",
+    "timestamp":  "2026-03-13T06:53:43.9896965-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l71",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L71",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

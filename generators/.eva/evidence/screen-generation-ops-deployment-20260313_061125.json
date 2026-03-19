@@ -1,0 +1,32 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\ops-deploymentList.tsx",
+                                "component":  "ListView",
+                                "file":  "ops-deploymentList.tsx",
+                                "bytes":  6031
+                            }
+                        ],
+    "entity_type":  "ops-deploymentRecord",
+    "timestamp":  "2026-03-13T06:11:26.0469778-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "unknown",
+    "errors":  [
+                   "Failed to generate DetailView : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\ops-deploymentList.tsx\\unknown\\ops-deploymentDetail.tsx\u0027.",
+                   "Failed to generate CreateForm : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\ops-deploymentList.tsx\\unknown\\ops-deploymentDetail.tsx\\unknown\\ops-deploymentCreateForm.tsx\u0027.",
+                   "Failed to generate EditForm : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\ops-deploymentList.tsx\\unknown\\ops-deploymentDetail.tsx\\unknown\\ops-deploymentCreateForm.tsx\\unknown\\ops-deploymentEditForm.tsx\u0027.",
+                   "Failed to generate GraphView : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\ops-deploymentList.tsx\\unknown\\ops-deploymentDetail.tsx\\unknown\\ops-deploymentCreateForm.tsx\\unknown\\ops-deploymentEditForm.tsx\\unknown\\ops-deploymentGraph.tsx\u0027."
+               ],
+    "components_generated":  1,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  20,
+    "components_failed":  4,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "ops-deployment",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

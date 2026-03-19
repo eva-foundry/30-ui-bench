@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-screen-14\\Projectscreen14List.tsx",
+                                "component":  "ListView",
+                                "file":  "Projectscreen14List.tsx",
+                                "bytes":  6141
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-screen-14\\Projectscreen14Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "Projectscreen14Detail.tsx",
+                                "bytes":  5831
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-screen-14\\Projectscreen14Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "Projectscreen14Create.tsx",
+                                "bytes":  8778
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-screen-14\\Projectscreen14Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "Projectscreen14Edit.tsx",
+                                "bytes":  10143
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-screen-14\\Projectscreen14Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "Projectscreen14Graph.tsx",
+                                "bytes":  7736
+                            }
+                        ],
+    "entity_type":  "ProjectScreen14Record",
+    "timestamp":  "2026-03-13T06:47:02.4700705-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "project-screen-14",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "project-screen-14",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

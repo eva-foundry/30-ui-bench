@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l48\\L48Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L48Detail.tsx",
+                                "bytes":  5619
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l48\\L48Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L48Create.tsx",
+                                "bytes":  8450
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l48\\L48Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L48Edit.tsx",
+                                "bytes":  9777
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l48\\L48Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L48Graph.tsx",
+                                "bytes":  7526
+                            }
+                        ],
+    "entity_type":  "L48Record",
+    "timestamp":  "2026-03-13T06:38:48.4129170-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l48",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l48\\L48List.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L48",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

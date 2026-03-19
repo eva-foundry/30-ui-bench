@@ -1,0 +1,27 @@
+﻿{
+    "generated_files":  [
+
+                        ],
+    "entity_type":  "Eva-Faces Page 6Record",
+    "timestamp":  "2026-03-13T06:20:05.9463715-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "eva-faces-page-6",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\eva-faces-page-6\\Eva-Faces Page 6List.tsx\u0027 is denied.",
+                   "Failed to generate DetailView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\eva-faces-page-6\\Eva-Faces Page 6List.tsx\\eva-faces-page-6\\Eva-Faces Page 6Detail.tsx\u0027 is denied.",
+                   "Failed to generate CreateForm : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\eva-faces-page-6\\Eva-Faces Page 6List.tsx\\eva-faces-page-6\\Eva-Faces Page 6Detail.tsx\\eva-faces-page-6\\Eva-Faces Page 6Create.tsx\u0027 is denied.",
+                   "Failed to generate EditForm : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\eva-faces-page-6\\Eva-Faces Page 6List.tsx\\eva-faces-page-6\\Eva-Faces Page 6Detail.tsx\\eva-faces-page-6\\Eva-Faces Page 6Create.tsx\\eva-faces-page-6\\Eva-Faces Page 6Edit.tsx\u0027 is denied.",
+                   "Failed to generate GraphView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\eva-faces-page-6\\Eva-Faces Page 6List.tsx\\eva-faces-page-6\\Eva-Faces Page 6Detail.tsx\\eva-faces-page-6\\Eva-Faces Page 6Create.tsx\\eva-faces-page-6\\Eva-Faces Page 6Edit.tsx\\eva-faces-page-6\\Eva-Faces Page 6Graph.tsx\u0027 is denied."
+               ],
+    "components_generated":  0,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  0,
+    "components_failed":  5,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "eva-faces-page-6",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

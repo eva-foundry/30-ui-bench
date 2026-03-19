@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\resource_inventory\\ResourceinventoryList.tsx",
+                                "component":  "ListView",
+                                "file":  "ResourceinventoryList.tsx",
+                                "bytes":  6122
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\resource_inventory\\ResourceinventoryDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "ResourceinventoryDetail.tsx",
+                                "bytes":  5780
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\resource_inventory\\ResourceinventoryCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "ResourceinventoryCreate.tsx",
+                                "bytes":  8729
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\resource_inventory\\ResourceinventoryEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "ResourceinventoryEdit.tsx",
+                                "bytes":  10056
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\resource_inventory\\ResourceinventoryGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "ResourceinventoryGraph.tsx",
+                                "bytes":  7716
+                            }
+                        ],
+    "entity_type":  "L50Record",
+    "timestamp":  "2026-03-13T06:51:16.6669786-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "resource_inventory",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L50",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

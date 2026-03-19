@@ -1,0 +1,132 @@
+2026-03-13 06:11:27 [INFO] Starting generation for layer eva-faces-page-15 (unknown)
+2026-03-13 06:11:27 [PASS] PASS: All 7 templates verified
+2026-03-13 06:11:27 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:11:27 [INFO] Substituting templates for 5 components...
+2026-03-13 06:11:27 [INFO] Generated: eva-faces-page-15List.tsx
+2026-03-13 06:11:27 [ERROR] Failed to generate DetailView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-15List.tsx\unknown\eva-faces-page-15Detail.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate CreateForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-15List.tsx\unknown\eva-faces-page-15Detail.tsx\unknown\eva-faces-page-15CreateForm.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate EditForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-15List.tsx\unknown\eva-faces-page-15Detail.tsx\unknown\eva-faces-page-15CreateForm.tsx\unknown\eva-faces-page-15EditForm.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate GraphView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-15List.tsx\unknown\eva-faces-page-15Detail.tsx\unknown\eva-faces-page-15CreateForm.tsx\unknown\eva-faces-page-15EditForm.tsx\unknown\eva-faces-page-15Graph.tsx'.
+2026-03-13 06:11:27 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-15-20260313_061127.json
+2026-03-13 06:11:27 [FAIL] Generation complete: 1/5 components - FAIL
+2026-03-13 06:11:27 [INFO] Starting generation for layer eva-faces-page-16 (unknown)
+2026-03-13 06:11:27 [PASS] PASS: All 7 templates verified
+2026-03-13 06:11:27 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:11:27 [INFO] Substituting templates for 5 components...
+2026-03-13 06:11:27 [INFO] Generated: eva-faces-page-16List.tsx
+2026-03-13 06:11:27 [ERROR] Failed to generate DetailView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-16List.tsx\unknown\eva-faces-page-16Detail.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate CreateForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-16List.tsx\unknown\eva-faces-page-16Detail.tsx\unknown\eva-faces-page-16CreateForm.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate EditForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-16List.tsx\unknown\eva-faces-page-16Detail.tsx\unknown\eva-faces-page-16CreateForm.tsx\unknown\eva-faces-page-16EditForm.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate GraphView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-16List.tsx\unknown\eva-faces-page-16Detail.tsx\unknown\eva-faces-page-16CreateForm.tsx\unknown\eva-faces-page-16EditForm.tsx\unknown\eva-faces-page-16Graph.tsx'.
+2026-03-13 06:11:27 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-16-20260313_061127.json
+2026-03-13 06:11:27 [FAIL] Generation complete: 1/5 components - FAIL
+2026-03-13 06:11:27 [INFO] Starting generation for layer eva-faces-page-17 (unknown)
+2026-03-13 06:11:27 [PASS] PASS: All 7 templates verified
+2026-03-13 06:11:27 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:11:27 [INFO] Substituting templates for 5 components...
+2026-03-13 06:11:27 [INFO] Generated: eva-faces-page-17List.tsx
+2026-03-13 06:11:27 [ERROR] Failed to generate DetailView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-17List.tsx\unknown\eva-faces-page-17Detail.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate CreateForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-17List.tsx\unknown\eva-faces-page-17Detail.tsx\unknown\eva-faces-page-17CreateForm.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate EditForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-17List.tsx\unknown\eva-faces-page-17Detail.tsx\unknown\eva-faces-page-17CreateForm.tsx\unknown\eva-faces-page-17EditForm.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate GraphView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-17List.tsx\unknown\eva-faces-page-17Detail.tsx\unknown\eva-faces-page-17CreateForm.tsx\unknown\eva-faces-page-17EditForm.tsx\unknown\eva-faces-page-17Graph.tsx'.
+2026-03-13 06:11:27 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-17-20260313_061127.json
+2026-03-13 06:11:27 [FAIL] Generation complete: 1/5 components - FAIL
+2026-03-13 06:11:27 [INFO] Starting generation for layer eva-faces-page-18 (unknown)
+2026-03-13 06:11:27 [PASS] PASS: All 7 templates verified
+2026-03-13 06:11:27 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:11:27 [INFO] Substituting templates for 5 components...
+2026-03-13 06:11:27 [INFO] Generated: eva-faces-page-18List.tsx
+2026-03-13 06:11:27 [ERROR] Failed to generate DetailView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-18List.tsx\unknown\eva-faces-page-18Detail.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate CreateForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-18List.tsx\unknown\eva-faces-page-18Detail.tsx\unknown\eva-faces-page-18CreateForm.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate EditForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-18List.tsx\unknown\eva-faces-page-18Detail.tsx\unknown\eva-faces-page-18CreateForm.tsx\unknown\eva-faces-page-18EditForm.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate GraphView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-18List.tsx\unknown\eva-faces-page-18Detail.tsx\unknown\eva-faces-page-18CreateForm.tsx\unknown\eva-faces-page-18EditForm.tsx\unknown\eva-faces-page-18Graph.tsx'.
+2026-03-13 06:11:27 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-18-20260313_061127.json
+2026-03-13 06:11:27 [FAIL] Generation complete: 1/5 components - FAIL
+2026-03-13 06:11:27 [INFO] Starting generation for layer eva-faces-page-19 (unknown)
+2026-03-13 06:11:27 [PASS] PASS: All 7 templates verified
+2026-03-13 06:11:27 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:11:27 [INFO] Substituting templates for 5 components...
+2026-03-13 06:11:27 [INFO] Generated: eva-faces-page-19List.tsx
+2026-03-13 06:11:27 [ERROR] Failed to generate DetailView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-19List.tsx\unknown\eva-faces-page-19Detail.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate CreateForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-19List.tsx\unknown\eva-faces-page-19Detail.tsx\unknown\eva-faces-page-19CreateForm.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate EditForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-19List.tsx\unknown\eva-faces-page-19Detail.tsx\unknown\eva-faces-page-19CreateForm.tsx\unknown\eva-faces-page-19EditForm.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate GraphView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-19List.tsx\unknown\eva-faces-page-19Detail.tsx\unknown\eva-faces-page-19CreateForm.tsx\unknown\eva-faces-page-19EditForm.tsx\unknown\eva-faces-page-19Graph.tsx'.
+2026-03-13 06:11:27 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-19-20260313_061127.json
+2026-03-13 06:11:27 [FAIL] Generation complete: 1/5 components - FAIL
+2026-03-13 06:11:27 [INFO] Starting generation for layer eva-faces-page-2 (unknown)
+2026-03-13 06:11:27 [PASS] PASS: All 7 templates verified
+2026-03-13 06:11:27 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:11:27 [INFO] Substituting templates for 5 components...
+2026-03-13 06:11:27 [INFO] Generated: eva-faces-page-2List.tsx
+2026-03-13 06:11:27 [ERROR] Failed to generate DetailView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-2List.tsx\unknown\eva-faces-page-2Detail.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate CreateForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-2List.tsx\unknown\eva-faces-page-2Detail.tsx\unknown\eva-faces-page-2CreateForm.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate EditForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-2List.tsx\unknown\eva-faces-page-2Detail.tsx\unknown\eva-faces-page-2CreateForm.tsx\unknown\eva-faces-page-2EditForm.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate GraphView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-2List.tsx\unknown\eva-faces-page-2Detail.tsx\unknown\eva-faces-page-2CreateForm.tsx\unknown\eva-faces-page-2EditForm.tsx\unknown\eva-faces-page-2Graph.tsx'.
+2026-03-13 06:11:27 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-2-20260313_061127.json
+2026-03-13 06:11:27 [FAIL] Generation complete: 1/5 components - FAIL
+2026-03-13 06:11:27 [INFO] Starting generation for layer eva-faces-page-20 (unknown)
+2026-03-13 06:11:27 [PASS] PASS: All 7 templates verified
+2026-03-13 06:11:27 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:11:27 [INFO] Substituting templates for 5 components...
+2026-03-13 06:11:27 [INFO] Generated: eva-faces-page-20List.tsx
+2026-03-13 06:11:27 [ERROR] Failed to generate DetailView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-20List.tsx\unknown\eva-faces-page-20Detail.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate CreateForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-20List.tsx\unknown\eva-faces-page-20Detail.tsx\unknown\eva-faces-page-20CreateForm.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate EditForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-20List.tsx\unknown\eva-faces-page-20Detail.tsx\unknown\eva-faces-page-20CreateForm.tsx\unknown\eva-faces-page-20EditForm.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate GraphView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-20List.tsx\unknown\eva-faces-page-20Detail.tsx\unknown\eva-faces-page-20CreateForm.tsx\unknown\eva-faces-page-20EditForm.tsx\unknown\eva-faces-page-20Graph.tsx'.
+2026-03-13 06:11:27 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-20-20260313_061127.json
+2026-03-13 06:11:27 [FAIL] Generation complete: 1/5 components - FAIL
+2026-03-13 06:11:27 [INFO] Starting generation for layer eva-faces-page-21 (unknown)
+2026-03-13 06:11:27 [PASS] PASS: All 7 templates verified
+2026-03-13 06:11:27 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:11:27 [INFO] Substituting templates for 5 components...
+2026-03-13 06:11:27 [INFO] Generated: eva-faces-page-21List.tsx
+2026-03-13 06:11:27 [ERROR] Failed to generate DetailView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-21List.tsx\unknown\eva-faces-page-21Detail.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate CreateForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-21List.tsx\unknown\eva-faces-page-21Detail.tsx\unknown\eva-faces-page-21CreateForm.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate EditForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-21List.tsx\unknown\eva-faces-page-21Detail.tsx\unknown\eva-faces-page-21CreateForm.tsx\unknown\eva-faces-page-21EditForm.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate GraphView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-21List.tsx\unknown\eva-faces-page-21Detail.tsx\unknown\eva-faces-page-21CreateForm.tsx\unknown\eva-faces-page-21EditForm.tsx\unknown\eva-faces-page-21Graph.tsx'.
+2026-03-13 06:11:27 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-21-20260313_061127.json
+2026-03-13 06:11:27 [FAIL] Generation complete: 1/5 components - FAIL
+2026-03-13 06:11:27 [INFO] Starting generation for layer eva-faces-page-22 (unknown)
+2026-03-13 06:11:27 [PASS] PASS: All 7 templates verified
+2026-03-13 06:11:27 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:11:27 [INFO] Substituting templates for 5 components...
+2026-03-13 06:11:27 [INFO] Generated: eva-faces-page-22List.tsx
+2026-03-13 06:11:27 [ERROR] Failed to generate DetailView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-22List.tsx\unknown\eva-faces-page-22Detail.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate CreateForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-22List.tsx\unknown\eva-faces-page-22Detail.tsx\unknown\eva-faces-page-22CreateForm.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate EditForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-22List.tsx\unknown\eva-faces-page-22Detail.tsx\unknown\eva-faces-page-22CreateForm.tsx\unknown\eva-faces-page-22EditForm.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate GraphView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-22List.tsx\unknown\eva-faces-page-22Detail.tsx\unknown\eva-faces-page-22CreateForm.tsx\unknown\eva-faces-page-22EditForm.tsx\unknown\eva-faces-page-22Graph.tsx'.
+2026-03-13 06:11:27 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-22-20260313_061127.json
+2026-03-13 06:11:27 [FAIL] Generation complete: 1/5 components - FAIL
+2026-03-13 06:11:27 [INFO] Starting generation for layer eva-faces-page-23 (unknown)
+2026-03-13 06:11:27 [PASS] PASS: All 7 templates verified
+2026-03-13 06:11:27 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:11:27 [INFO] Substituting templates for 5 components...
+2026-03-13 06:11:27 [INFO] Generated: eva-faces-page-23List.tsx
+2026-03-13 06:11:27 [ERROR] Failed to generate DetailView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-23List.tsx\unknown\eva-faces-page-23Detail.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate CreateForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-23List.tsx\unknown\eva-faces-page-23Detail.tsx\unknown\eva-faces-page-23CreateForm.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate EditForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-23List.tsx\unknown\eva-faces-page-23Detail.tsx\unknown\eva-faces-page-23CreateForm.tsx\unknown\eva-faces-page-23EditForm.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate GraphView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-23List.tsx\unknown\eva-faces-page-23Detail.tsx\unknown\eva-faces-page-23CreateForm.tsx\unknown\eva-faces-page-23EditForm.tsx\unknown\eva-faces-page-23Graph.tsx'.
+2026-03-13 06:11:27 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-23-20260313_061127.json
+2026-03-13 06:11:27 [FAIL] Generation complete: 1/5 components - FAIL
+2026-03-13 06:11:27 [INFO] Starting generation for layer eva-faces-page-3 (unknown)
+2026-03-13 06:11:27 [PASS] PASS: All 7 templates verified
+2026-03-13 06:11:27 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:11:27 [INFO] Substituting templates for 5 components...
+2026-03-13 06:11:27 [INFO] Generated: eva-faces-page-3List.tsx
+2026-03-13 06:11:27 [ERROR] Failed to generate DetailView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-3List.tsx\unknown\eva-faces-page-3Detail.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate CreateForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-3List.tsx\unknown\eva-faces-page-3Detail.tsx\unknown\eva-faces-page-3CreateForm.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate EditForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-3List.tsx\unknown\eva-faces-page-3Detail.tsx\unknown\eva-faces-page-3CreateForm.tsx\unknown\eva-faces-page-3EditForm.tsx'.
+2026-03-13 06:11:27 [ERROR] Failed to generate GraphView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-3List.tsx\unknown\eva-faces-page-3Detail.tsx\unknown\eva-faces-page-3CreateForm.tsx\unknown\eva-faces-page-3EditForm.tsx\unknown\eva-faces-page-3Graph.tsx'.
+2026-03-13 06:11:27 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-3-20260313_061127.json
+2026-03-13 06:11:27 [FAIL] Generation complete: 1/5 components - FAIL
+2026-03-13 06:11:27 [INFO] Starting generation for layer eva-faces-page-4 (unknown)
+2026-03-13 06:11:27 [PASS] PASS: All 7 templates verified
+2026-03-13 06:11:27 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:11:27 [INFO] Substituting templates for 5 components...
+2026-03-13 06:11:28 [INFO] Generated: eva-faces-page-4List.tsx
+2026-03-13 06:11:28 [ERROR] Failed to generate DetailView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-4List.tsx\unknown\eva-faces-page-4Detail.tsx'.
+2026-03-13 06:11:28 [ERROR] Failed to generate CreateForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-4List.tsx\unknown\eva-faces-page-4Detail.tsx\unknown\eva-faces-page-4CreateForm.tsx'.
+2026-03-13 06:11:28 [ERROR] Failed to generate EditForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-4List.tsx\unknown\eva-faces-page-4Detail.tsx\unknown\eva-faces-page-4CreateForm.tsx\unknown\eva-faces-page-4EditForm.tsx'.
+2026-03-13 06:11:28 [ERROR] Failed to generate GraphView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\eva-faces-page-4List.tsx\unknown\eva-faces-page-4Detail.tsx\unknown\eva-faces-page-4CreateForm.tsx\unknown\eva-faces-page-4EditForm.tsx\unknown\eva-faces-page-4Graph.tsx'.
+2026-03-13 06:11:28 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-4-20260313_061127.json
+2026-03-13 06:11:28 [FAIL] Generation complete: 1/5 components - FAIL

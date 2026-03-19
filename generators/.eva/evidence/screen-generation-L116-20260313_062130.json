@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l116\\ai_security_metricsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "ai_security_metricsDetail.tsx",
+                                "bytes":  5725
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l116\\ai_security_metricsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "ai_security_metricsCreate.tsx",
+                                "bytes":  8640
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l116\\ai_security_metricsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "ai_security_metricsEdit.tsx",
+                                "bytes":  10000
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l116\\ai_security_metricsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "ai_security_metricsGraph.tsx",
+                                "bytes":  7647
+                            }
+                        ],
+    "entity_type":  "ai_security_metricsRecord",
+    "timestamp":  "2026-03-13T06:21:30.1371462-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l116",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l116\\ai_security_metricsList.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L116",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

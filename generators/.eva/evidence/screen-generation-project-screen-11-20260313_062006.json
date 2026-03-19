@@ -1,0 +1,27 @@
+﻿{
+    "generated_files":  [
+
+                        ],
+    "entity_type":  "Project Screen 11 (TBD)Record",
+    "timestamp":  "2026-03-13T06:20:06.8117774-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "project-screen-11",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-screen-11\\Project Screen 11 (TBD)List.tsx\u0027 is denied.",
+                   "Failed to generate DetailView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-screen-11\\Project Screen 11 (TBD)List.tsx\\project-screen-11\\Project Screen 11 (TBD)Detail.tsx\u0027 is denied.",
+                   "Failed to generate CreateForm : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-screen-11\\Project Screen 11 (TBD)List.tsx\\project-screen-11\\Project Screen 11 (TBD)Detail.tsx\\project-screen-11\\Project Screen 11 (TBD)Create.tsx\u0027 is denied.",
+                   "Failed to generate EditForm : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-screen-11\\Project Screen 11 (TBD)List.tsx\\project-screen-11\\Project Screen 11 (TBD)Detail.tsx\\project-screen-11\\Project Screen 11 (TBD)Create.tsx\\project-screen-11\\Project Screen 11 (TBD)Edit.tsx\u0027 is denied.",
+                   "Failed to generate GraphView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-screen-11\\Project Screen 11 (TBD)List.tsx\\project-screen-11\\Project Screen 11 (TBD)Detail.tsx\\project-screen-11\\Project Screen 11 (TBD)Create.tsx\\project-screen-11\\Project Screen 11 (TBD)Edit.tsx\\project-screen-11\\Project Screen 11 (TBD)Graph.tsx\u0027 is denied."
+               ],
+    "components_generated":  0,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  0,
+    "components_failed":  5,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "project-screen-11",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l116\\AiSecurityMetricsList.tsx",
+                                "component":  "ListView",
+                                "file":  "AiSecurityMetricsList.tsx",
+                                "bytes":  6030
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l116\\AiSecurityMetricsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "AiSecurityMetricsDetail.tsx",
+                                "bytes":  5717
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l116\\AiSecurityMetricsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "AiSecurityMetricsCreate.tsx",
+                                "bytes":  8628
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l116\\AiSecurityMetricsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "AiSecurityMetricsEdit.tsx",
+                                "bytes":  9988
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l116\\AiSecurityMetricsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "AiSecurityMetricsGraph.tsx",
+                                "bytes":  7637
+                            }
+                        ],
+    "entity_type":  "ai_security_metricsRecord",
+    "timestamp":  "2026-03-13T06:38:52.5380583-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l116",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L116",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

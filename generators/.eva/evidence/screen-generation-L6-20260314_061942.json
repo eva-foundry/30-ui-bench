@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\schemas\\SchemasList.tsx",
+                                "component":  "ListView",
+                                "file":  "SchemasList.tsx",
+                                "bytes":  5909
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\schemas\\SchemasDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "SchemasDetail.tsx",
+                                "bytes":  5668
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\schemas\\SchemasCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "SchemasCreate.tsx",
+                                "bytes":  8545
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\schemas\\SchemasEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "SchemasEdit.tsx",
+                                "bytes":  9879
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\schemas\\SchemasGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "SchemasGraph.tsx",
+                                "bytes":  7585
+                            }
+                        ],
+    "entity_type":  "SchemasRecord",
+    "timestamp":  "2026-03-14T06:19:42.8421135-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "schemas",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L6",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

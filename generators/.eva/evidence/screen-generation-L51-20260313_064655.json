@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l51\\L51Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L51Detail.tsx",
+                                "bytes":  5619
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l51\\L51Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L51Create.tsx",
+                                "bytes":  8450
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l51\\L51Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L51Edit.tsx",
+                                "bytes":  9777
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l51\\L51Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L51Graph.tsx",
+                                "bytes":  7526
+                            }
+                        ],
+    "entity_type":  "L51Record",
+    "timestamp":  "2026-03-13T06:46:55.2677505-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l51",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l51\\L51List.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L51",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

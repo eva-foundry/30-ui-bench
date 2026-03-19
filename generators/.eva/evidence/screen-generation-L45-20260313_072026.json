@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\compliance_audit\\ComplianceauditList.tsx",
+                                "component":  "ListView",
+                                "file":  "ComplianceauditList.tsx",
+                                "bytes":  6080
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\compliance_audit\\ComplianceauditDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "ComplianceauditDetail.tsx",
+                                "bytes":  5758
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\compliance_audit\\ComplianceauditCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "ComplianceauditCreate.tsx",
+                                "bytes":  8691
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\compliance_audit\\ComplianceauditEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "ComplianceauditEdit.tsx",
+                                "bytes":  10018
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\compliance_audit\\ComplianceauditGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "ComplianceauditGraph.tsx",
+                                "bytes":  7690
+                            }
+                        ],
+    "entity_type":  "L45Record",
+    "timestamp":  "2026-03-13T07:20:26.2811809-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "compliance_audit",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L45",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l66\\L66List.tsx",
+                                "component":  "ListView",
+                                "file":  "L66List.tsx",
+                                "bytes":  5819
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l66\\L66Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L66Detail.tsx",
+                                "bytes":  5619
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l66\\L66Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L66Create.tsx",
+                                "bytes":  8450
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l66\\L66Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L66Edit.tsx",
+                                "bytes":  9777
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l66\\L66Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L66Graph.tsx",
+                                "bytes":  7526
+                            }
+                        ],
+    "entity_type":  "L66Record",
+    "timestamp":  "2026-03-13T06:54:29.9576820-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l66",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L66",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

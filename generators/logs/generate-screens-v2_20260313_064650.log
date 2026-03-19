@@ -1,0 +1,12 @@
+2026-03-13 06:46:50 [INFO] Starting generation for layer L1 (l1)
+2026-03-13 06:46:50 [PASS] PASS: All 7 templates verified
+2026-03-13 06:46:50 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:46:50 [INFO] Using directory: l1
+2026-03-13 06:46:50 [INFO] Substituting templates for 5 components...
+2026-03-13 06:46:50 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l1\L1List.tsx' is denied.
+2026-03-13 06:46:50 [INFO] Generated: L1Detail.tsx
+2026-03-13 06:46:50 [INFO] Generated: L1Create.tsx
+2026-03-13 06:46:50 [INFO] Generated: L1Edit.tsx
+2026-03-13 06:46:51 [INFO] Generated: L1Graph.tsx
+2026-03-13 06:46:51 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L1-20260313_064650.json
+2026-03-13 06:46:51 [FAIL] Generation complete: 4/5 components - FAIL

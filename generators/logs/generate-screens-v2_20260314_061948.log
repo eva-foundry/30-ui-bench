@@ -1,0 +1,48 @@
+2026-03-14 06:19:48 [INFO] Starting generation for layer L118 (l118)
+2026-03-14 06:19:48 [PASS] PASS: All 7 templates verified
+2026-03-14 06:19:48 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-14 06:19:48 [INFO] Using directory: l118
+2026-03-14 06:19:48 [INFO] Substituting templates for 5 components...
+2026-03-14 06:19:48 [INFO] Generated: L118List.tsx
+2026-03-14 06:19:48 [INFO] Generated: L118Detail.tsx
+2026-03-14 06:19:48 [INFO] Generated: L118Create.tsx
+2026-03-14 06:19:48 [INFO] Generated: L118Edit.tsx
+2026-03-14 06:19:48 [INFO] Generated: L118Graph.tsx
+2026-03-14 06:19:48 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L118-20260314_061948.json
+2026-03-14 06:19:48 [PASS] Generation complete: 5/5 components - PASS
+2026-03-14 06:19:48 [INFO] Starting generation for layer L119 (l119)
+2026-03-14 06:19:48 [PASS] PASS: All 7 templates verified
+2026-03-14 06:19:48 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-14 06:19:48 [INFO] Using directory: l119
+2026-03-14 06:19:48 [INFO] Substituting templates for 5 components...
+2026-03-14 06:19:48 [INFO] Generated: L119List.tsx
+2026-03-14 06:19:48 [INFO] Generated: L119Detail.tsx
+2026-03-14 06:19:48 [INFO] Generated: L119Create.tsx
+2026-03-14 06:19:48 [INFO] Generated: L119Edit.tsx
+2026-03-14 06:19:48 [INFO] Generated: L119Graph.tsx
+2026-03-14 06:19:48 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L119-20260314_061948.json
+2026-03-14 06:19:48 [PASS] Generation complete: 5/5 components - PASS
+2026-03-14 06:19:48 [INFO] Starting generation for layer L120 (l120)
+2026-03-14 06:19:48 [PASS] PASS: All 7 templates verified
+2026-03-14 06:19:48 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-14 06:19:48 [INFO] Using directory: l120
+2026-03-14 06:19:48 [INFO] Substituting templates for 5 components...
+2026-03-14 06:19:48 [INFO] Generated: L120List.tsx
+2026-03-14 06:19:48 [INFO] Generated: L120Detail.tsx
+2026-03-14 06:19:48 [INFO] Generated: L120Create.tsx
+2026-03-14 06:19:48 [INFO] Generated: L120Edit.tsx
+2026-03-14 06:19:48 [INFO] Generated: L120Graph.tsx
+2026-03-14 06:19:48 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L120-20260314_061948.json
+2026-03-14 06:19:48 [PASS] Generation complete: 5/5 components - PASS
+2026-03-14 06:19:48 [INFO] Starting generation for layer L121 (l121)
+2026-03-14 06:19:48 [PASS] PASS: All 7 templates verified
+2026-03-14 06:19:48 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-14 06:19:48 [INFO] Using directory: l121
+2026-03-14 06:19:48 [INFO] Substituting templates for 5 components...
+2026-03-14 06:19:48 [INFO] Generated: L121List.tsx
+2026-03-14 06:19:48 [INFO] Generated: L121Detail.tsx
+2026-03-14 06:19:48 [INFO] Generated: L121Create.tsx
+2026-03-14 06:19:48 [INFO] Generated: L121Edit.tsx
+2026-03-14 06:19:48 [INFO] Generated: L121Graph.tsx
+2026-03-14 06:19:48 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L121-20260314_061948.json
+2026-03-14 06:19:48 [PASS] Generation complete: 5/5 components - PASS

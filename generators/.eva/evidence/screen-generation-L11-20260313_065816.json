@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\requirements\\RequirementsList.tsx",
+                                "component":  "ListView",
+                                "file":  "RequirementsList.tsx",
+                                "bytes":  6008
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\requirements\\RequirementsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "RequirementsDetail.tsx",
+                                "bytes":  5718
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\requirements\\RequirementsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "RequirementsCreate.tsx",
+                                "bytes":  8621
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\requirements\\RequirementsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "RequirementsEdit.tsx",
+                                "bytes":  9948
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\requirements\\RequirementsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "RequirementsGraph.tsx",
+                                "bytes":  7643
+                            }
+                        ],
+    "entity_type":  "L11Record",
+    "timestamp":  "2026-03-13T06:58:16.4783195-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "requirements",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L11",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

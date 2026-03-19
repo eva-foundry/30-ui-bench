@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\literals\\LiteralsList.tsx",
+                                "component":  "ListView",
+                                "file":  "LiteralsList.tsx",
+                                "bytes":  7775
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\literals\\LiteralsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "LiteralsDetail.tsx",
+                                "bytes":  5737
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\literals\\LiteralsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "LiteralsCreate.tsx",
+                                "bytes":  8426
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\literals\\LiteralsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "LiteralsEdit.tsx",
+                                "bytes":  5920
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\literals\\LiteralsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "LiteralsGraph.tsx",
+                                "bytes":  7693
+                            }
+                        ],
+    "entity_type":  "L8Record",
+    "timestamp":  "2026-03-13T07:14:05.2274319-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "literals",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L8",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

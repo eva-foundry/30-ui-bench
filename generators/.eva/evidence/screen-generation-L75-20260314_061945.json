@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_factory_authorizations\\WorkfactoryauthorizationsList.tsx",
+                                "component":  "ListView",
+                                "file":  "WorkfactoryauthorizationsList.tsx",
+                                "bytes":  6343
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_factory_authorizations\\WorkfactoryauthorizationsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "WorkfactoryauthorizationsDetail.tsx",
+                                "bytes":  5919
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_factory_authorizations\\WorkfactoryauthorizationsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "WorkfactoryauthorizationsCreate.tsx",
+                                "bytes":  9004
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_factory_authorizations\\WorkfactoryauthorizationsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "WorkfactoryauthorizationsEdit.tsx",
+                                "bytes":  10375
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_factory_authorizations\\WorkfactoryauthorizationsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "WorkfactoryauthorizationsGraph.tsx",
+                                "bytes":  7872
+                            }
+                        ],
+    "entity_type":  "WorkFactoryAuthorizationsRecord",
+    "timestamp":  "2026-03-14T06:19:45.4188264-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "work_factory_authorizations",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L75",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

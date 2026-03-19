@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l44\\L44List.tsx",
+                                "component":  "ListView",
+                                "file":  "L44List.tsx",
+                                "bytes":  5819
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l44\\L44Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L44Detail.tsx",
+                                "bytes":  5619
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l44\\L44Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L44Create.tsx",
+                                "bytes":  8450
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l44\\L44Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L44Edit.tsx",
+                                "bytes":  9777
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l44\\L44Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L44Graph.tsx",
+                                "bytes":  7526
+                            }
+                        ],
+    "entity_type":  "L44Record",
+    "timestamp":  "2026-03-13T06:54:28.4460703-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l44",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L44",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

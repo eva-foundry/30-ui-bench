@@ -1,0 +1,195 @@
+2026-03-13 07:20:24 [INFO] Starting generation for layer L15 (cp_skills)
+2026-03-13 07:20:24 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:24 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:24 [INFO] Using directory: cp_skills
+2026-03-13 07:20:24 [INFO] Created directory: cp_skills
+2026-03-13 07:20:24 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:24 [INFO] Generated: CpskillsList.tsx
+2026-03-13 07:20:24 [INFO] Generated: CpskillsDetail.tsx
+2026-03-13 07:20:24 [INFO] Generated: CpskillsCreate.tsx
+2026-03-13 07:20:24 [INFO] Generated: CpskillsEdit.tsx
+2026-03-13 07:20:24 [INFO] Generated: CpskillsGraph.tsx
+2026-03-13 07:20:24 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L15-20260313_072024.json
+2026-03-13 07:20:24 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:24 [INFO] Starting generation for layer L16 (cp_agents)
+2026-03-13 07:20:24 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:24 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:24 [INFO] Using directory: cp_agents
+2026-03-13 07:20:24 [INFO] Created directory: cp_agents
+2026-03-13 07:20:24 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:24 [INFO] Generated: CpagentsList.tsx
+2026-03-13 07:20:24 [INFO] Generated: CpagentsDetail.tsx
+2026-03-13 07:20:24 [INFO] Generated: CpagentsCreate.tsx
+2026-03-13 07:20:24 [INFO] Generated: CpagentsEdit.tsx
+2026-03-13 07:20:24 [INFO] Generated: CpagentsGraph.tsx
+2026-03-13 07:20:24 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L16-20260313_072024.json
+2026-03-13 07:20:24 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:24 [INFO] Starting generation for layer L17 (runbooks)
+2026-03-13 07:20:24 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:24 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:24 [INFO] Using directory: runbooks
+2026-03-13 07:20:24 [INFO] Created directory: runbooks
+2026-03-13 07:20:24 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:24 [INFO] Generated: RunbooksList.tsx
+2026-03-13 07:20:24 [INFO] Generated: RunbooksDetail.tsx
+2026-03-13 07:20:24 [INFO] Generated: RunbooksCreate.tsx
+2026-03-13 07:20:24 [INFO] Generated: RunbooksEdit.tsx
+2026-03-13 07:20:24 [INFO] Generated: RunbooksGraph.tsx
+2026-03-13 07:20:24 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L17-20260313_072024.json
+2026-03-13 07:20:24 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:24 [INFO] Starting generation for layer L18 (cp_workflows)
+2026-03-13 07:20:24 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:24 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:24 [INFO] Using directory: cp_workflows
+2026-03-13 07:20:24 [INFO] Created directory: cp_workflows
+2026-03-13 07:20:24 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:24 [INFO] Generated: CpworkflowsList.tsx
+2026-03-13 07:20:24 [INFO] Generated: CpworkflowsDetail.tsx
+2026-03-13 07:20:24 [INFO] Generated: CpworkflowsCreate.tsx
+2026-03-13 07:20:24 [INFO] Generated: CpworkflowsEdit.tsx
+2026-03-13 07:20:24 [INFO] Generated: CpworkflowsGraph.tsx
+2026-03-13 07:20:24 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L18-20260313_072024.json
+2026-03-13 07:20:24 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:24 [INFO] Starting generation for layer L19 (cp_policies)
+2026-03-13 07:20:24 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:24 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:24 [INFO] Using directory: cp_policies
+2026-03-13 07:20:24 [INFO] Created directory: cp_policies
+2026-03-13 07:20:24 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:24 [INFO] Generated: CppoliciesList.tsx
+2026-03-13 07:20:24 [INFO] Generated: CppoliciesDetail.tsx
+2026-03-13 07:20:24 [INFO] Generated: CppoliciesCreate.tsx
+2026-03-13 07:20:24 [INFO] Generated: CppoliciesEdit.tsx
+2026-03-13 07:20:24 [INFO] Generated: CppoliciesGraph.tsx
+2026-03-13 07:20:24 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L19-20260313_072024.json
+2026-03-13 07:20:24 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:24 [INFO] Starting generation for layer L2 (personas)
+2026-03-13 07:20:24 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:24 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:24 [INFO] Using directory: personas
+2026-03-13 07:20:24 [INFO] Created directory: personas
+2026-03-13 07:20:24 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:24 [INFO] Generated: PersonasList.tsx
+2026-03-13 07:20:24 [INFO] Generated: PersonasDetail.tsx
+2026-03-13 07:20:24 [INFO] Generated: PersonasCreate.tsx
+2026-03-13 07:20:24 [INFO] Generated: PersonasEdit.tsx
+2026-03-13 07:20:24 [INFO] Generated: PersonasGraph.tsx
+2026-03-13 07:20:24 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L2-20260313_072024.json
+2026-03-13 07:20:24 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:24 [INFO] Starting generation for layer L20 (mcp_servers)
+2026-03-13 07:20:24 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:24 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:24 [INFO] Using directory: mcp_servers
+2026-03-13 07:20:24 [INFO] Created directory: mcp_servers
+2026-03-13 07:20:24 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:24 [INFO] Generated: McpserversList.tsx
+2026-03-13 07:20:24 [INFO] Generated: McpserversDetail.tsx
+2026-03-13 07:20:24 [INFO] Generated: McpserversCreate.tsx
+2026-03-13 07:20:24 [INFO] Generated: McpserversEdit.tsx
+2026-03-13 07:20:24 [INFO] Generated: McpserversGraph.tsx
+2026-03-13 07:20:24 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L20-20260313_072024.json
+2026-03-13 07:20:24 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:24 [INFO] Starting generation for layer L21 (prompts)
+2026-03-13 07:20:24 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:24 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:24 [INFO] Using directory: prompts
+2026-03-13 07:20:24 [INFO] Created directory: prompts
+2026-03-13 07:20:24 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:24 [INFO] Generated: PromptsList.tsx
+2026-03-13 07:20:24 [INFO] Generated: PromptsDetail.tsx
+2026-03-13 07:20:24 [INFO] Generated: PromptsCreate.tsx
+2026-03-13 07:20:24 [INFO] Generated: PromptsEdit.tsx
+2026-03-13 07:20:24 [INFO] Generated: PromptsGraph.tsx
+2026-03-13 07:20:24 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L21-20260313_072024.json
+2026-03-13 07:20:24 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:24 [INFO] Starting generation for layer L22 (security_controls)
+2026-03-13 07:20:24 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:24 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:24 [INFO] Using directory: security_controls
+2026-03-13 07:20:24 [INFO] Created directory: security_controls
+2026-03-13 07:20:24 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:24 [INFO] Generated: SecuritycontrolsList.tsx
+2026-03-13 07:20:24 [INFO] Generated: SecuritycontrolsDetail.tsx
+2026-03-13 07:20:24 [INFO] Generated: SecuritycontrolsCreate.tsx
+2026-03-13 07:20:24 [INFO] Generated: SecuritycontrolsEdit.tsx
+2026-03-13 07:20:24 [INFO] Generated: SecuritycontrolsGraph.tsx
+2026-03-13 07:20:24 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L22-20260313_072024.json
+2026-03-13 07:20:24 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:24 [INFO] Starting generation for layer L23 (components)
+2026-03-13 07:20:24 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:24 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:24 [INFO] Using directory: components
+2026-03-13 07:20:24 [INFO] Created directory: components
+2026-03-13 07:20:24 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:24 [INFO] Generated: ComponentsList.tsx
+2026-03-13 07:20:24 [INFO] Generated: ComponentsDetail.tsx
+2026-03-13 07:20:24 [INFO] Generated: ComponentsCreate.tsx
+2026-03-13 07:20:24 [INFO] Generated: ComponentsEdit.tsx
+2026-03-13 07:20:24 [INFO] Generated: ComponentsGraph.tsx
+2026-03-13 07:20:24 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L23-20260313_072024.json
+2026-03-13 07:20:24 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:24 [INFO] Starting generation for layer L24 (hooks)
+2026-03-13 07:20:24 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:24 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:24 [INFO] Using directory: hooks
+2026-03-13 07:20:24 [INFO] Created directory: hooks
+2026-03-13 07:20:24 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:24 [INFO] Generated: HooksList.tsx
+2026-03-13 07:20:24 [INFO] Generated: HooksDetail.tsx
+2026-03-13 07:20:24 [INFO] Generated: HooksCreate.tsx
+2026-03-13 07:20:24 [INFO] Generated: HooksEdit.tsx
+2026-03-13 07:20:24 [INFO] Generated: HooksGraph.tsx
+2026-03-13 07:20:24 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L24-20260313_072024.json
+2026-03-13 07:20:24 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:24 [INFO] Starting generation for layer L25 (ts_types)
+2026-03-13 07:20:24 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:24 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:24 [INFO] Using directory: ts_types
+2026-03-13 07:20:24 [INFO] Created directory: ts_types
+2026-03-13 07:20:24 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:24 [INFO] Generated: TstypesList.tsx
+2026-03-13 07:20:24 [INFO] Generated: TstypesDetail.tsx
+2026-03-13 07:20:24 [INFO] Generated: TstypesCreate.tsx
+2026-03-13 07:20:24 [INFO] Generated: TstypesEdit.tsx
+2026-03-13 07:20:24 [INFO] Generated: TstypesGraph.tsx
+2026-03-13 07:20:24 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L25-20260313_072024.json
+2026-03-13 07:20:24 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:24 [INFO] Starting generation for layer L26 (projects)
+2026-03-13 07:20:24 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:24 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:24 [INFO] Using directory: projects
+2026-03-13 07:20:24 [INFO] Created directory: projects
+2026-03-13 07:20:24 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:24 [INFO] Generated: ProjectsList.tsx
+2026-03-13 07:20:24 [INFO] Generated: ProjectsDetail.tsx
+2026-03-13 07:20:24 [INFO] Generated: ProjectsCreate.tsx
+2026-03-13 07:20:24 [INFO] Generated: ProjectsEdit.tsx
+2026-03-13 07:20:24 [INFO] Generated: ProjectsGraph.tsx
+2026-03-13 07:20:24 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L26-20260313_072024.json
+2026-03-13 07:20:24 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:24 [INFO] Starting generation for layer L27 (wbs)
+2026-03-13 07:20:24 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:24 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:24 [INFO] Using directory: wbs
+2026-03-13 07:20:24 [INFO] Created directory: wbs
+2026-03-13 07:20:24 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:24 [INFO] Generated: WbsList.tsx
+2026-03-13 07:20:24 [INFO] Generated: WbsDetail.tsx
+2026-03-13 07:20:24 [INFO] Generated: WbsCreate.tsx
+2026-03-13 07:20:24 [INFO] Generated: WbsEdit.tsx
+2026-03-13 07:20:24 [INFO] Generated: WbsGraph.tsx
+2026-03-13 07:20:24 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L27-20260313_072024.json
+2026-03-13 07:20:24 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:24 [INFO] Starting generation for layer L28 (sprints)
+2026-03-13 07:20:24 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:24 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:24 [INFO] Using directory: sprints
+2026-03-13 07:20:24 [INFO] Created directory: sprints
+2026-03-13 07:20:24 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:24 [INFO] Generated: SprintsList.tsx
+2026-03-13 07:20:24 [INFO] Generated: SprintsDetail.tsx
+2026-03-13 07:20:25 [INFO] Generated: SprintsCreate.tsx
+2026-03-13 07:20:25 [INFO] Generated: SprintsEdit.tsx
+2026-03-13 07:20:25 [INFO] Generated: SprintsGraph.tsx
+2026-03-13 07:20:25 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L28-20260313_072024.json
+2026-03-13 07:20:25 [PASS] Generation complete: 5/5 components - PASS

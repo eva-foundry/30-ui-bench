@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_perf_profiles\\WorkserviceperfprofilesList.tsx",
+                                "component":  "ListView",
+                                "file":  "WorkserviceperfprofilesList.tsx",
+                                "bytes":  6306
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_perf_profiles\\WorkserviceperfprofilesDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "WorkserviceperfprofilesDetail.tsx",
+                                "bytes":  5900
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_perf_profiles\\WorkserviceperfprofilesCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "WorkserviceperfprofilesCreate.tsx",
+                                "bytes":  8969
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_perf_profiles\\WorkserviceperfprofilesEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "WorkserviceperfprofilesEdit.tsx",
+                                "bytes":  10336
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_perf_profiles\\WorkserviceperfprofilesGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "WorkserviceperfprofilesGraph.tsx",
+                                "bytes":  7850
+                            }
+                        ],
+    "entity_type":  "WorkServicePerfProfilesRecord",
+    "timestamp":  "2026-03-14T06:19:43.9109823-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "work_service_perf_profiles",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L65",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

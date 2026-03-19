@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-infrastructure\\InfrastructureStatusList.tsx",
+                                "component":  "ListView",
+                                "file":  "InfrastructureStatusList.tsx",
+                                "bytes":  6224
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-infrastructure\\InfrastructureStatusDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "InfrastructureStatusDetail.tsx",
+                                "bytes":  5873
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-infrastructure\\InfrastructureStatusCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "InfrastructureStatusCreate.tsx",
+                                "bytes":  8852
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-infrastructure\\InfrastructureStatusEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "InfrastructureStatusEdit.tsx",
+                                "bytes":  10230
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-infrastructure\\InfrastructureStatusGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "InfrastructureStatusGraph.tsx",
+                                "bytes":  7782
+                            }
+                        ],
+    "entity_type":  "Infrastructure StatusRecord",
+    "timestamp":  "2026-03-13T06:38:53.4106983-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "ops-infrastructure",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "ops-infrastructure",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

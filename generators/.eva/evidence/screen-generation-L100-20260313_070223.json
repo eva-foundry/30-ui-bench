@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l100\\L100List.tsx",
+                                "component":  "ListView",
+                                "file":  "L100List.tsx",
+                                "bytes":  5844
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l100\\L100Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L100Detail.tsx",
+                                "bytes":  5635
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l100\\L100Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L100Create.tsx",
+                                "bytes":  8475
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l100\\L100Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L100Edit.tsx",
+                                "bytes":  9805
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l100\\L100Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L100Graph.tsx",
+                                "bytes":  7542
+                            }
+                        ],
+    "entity_type":  "L100Record",
+    "timestamp":  "2026-03-13T07:02:23.1852521-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l100",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L100",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

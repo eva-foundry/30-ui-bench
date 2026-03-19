@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l118\\infrastructure_cve_findingsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "infrastructure_cve_findingsDetail.tsx",
+                                "bytes":  5773
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l118\\infrastructure_cve_findingsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "infrastructure_cve_findingsCreate.tsx",
+                                "bytes":  8728
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l118\\infrastructure_cve_findingsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "infrastructure_cve_findingsEdit.tsx",
+                                "bytes":  10104
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l118\\infrastructure_cve_findingsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "infrastructure_cve_findingsGraph.tsx",
+                                "bytes":  7703
+                            }
+                        ],
+    "entity_type":  "infrastructure_cve_findingsRecord",
+    "timestamp":  "2026-03-13T06:21:30.2616799-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l118",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l118\\infrastructure_cve_findingsList.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L118",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

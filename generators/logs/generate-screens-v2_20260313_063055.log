@@ -1,0 +1,12 @@
+2026-03-13 06:30:55 [INFO] Starting generation for layer L8 (l8)
+2026-03-13 06:30:55 [PASS] PASS: All 7 templates verified
+2026-03-13 06:30:55 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:30:55 [INFO] Using directory: l8
+2026-03-13 06:30:55 [INFO] Substituting templates for 5 components...
+2026-03-13 06:30:55 [ERROR] Failed to generate ListView : The term 'Join-String' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2026-03-13 06:30:56 [ERROR] Failed to generate DetailView : The term 'Join-String' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2026-03-13 06:30:56 [ERROR] Failed to generate CreateForm : The term 'Join-String' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2026-03-13 06:30:56 [ERROR] Failed to generate EditForm : The term 'Join-String' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2026-03-13 06:30:56 [ERROR] Failed to generate GraphView : The term 'Join-String' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2026-03-13 06:30:56 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L8-20260313_063055.json
+2026-03-13 06:30:56 [FAIL] Generation complete: 0/5 components - FAIL

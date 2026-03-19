@@ -1,0 +1,80 @@
+At C:\eva-foundry\30-ui-bench\scripts\Test-AllAcceptanceCriteria.ps1:57 char:30
++     Write-Host " $Category | $GateId: $Title" -ForegroundColor White
++                              ~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name 
+character. Consider using ${} to delimit the name.
+At C:\eva-foundry\30-ui-bench\scripts\Test-AllAcceptanceCriteria.ps1:902 
+char:50
++     Write-Host "  PHASE 1: CODE QUALITY GATES (5 Automated)" -Foregro ...
++                                                  ~~~~~~~~~
+Unexpected token 'Automated' in expression or statement.
+At C:\eva-foundry\30-ui-bench\scripts\Test-AllAcceptanceCriteria.ps1:902 
+char:49
++     Write-Host "  PHASE 1: CODE QUALITY GATES (5 Automated)" -Foregro ...
++                                                 ~
+Missing closing ')' in expression.
+At C:\eva-foundry\30-ui-bench\scripts\Test-AllAcceptanceCriteria.ps1:883 
+char:15
++ function Main {
++               ~
+Missing closing '}' in statement block or type definition.
+At C:\eva-foundry\30-ui-bench\scripts\Test-AllAcceptanceCriteria.ps1:902 
+char:59
++     Write-Host "  PHASE 1: CODE QUALITY GATES (5 Automated)" -Foregro ...
++                                                           ~
+Unexpected token ')' in expression or statement.
+At C:\eva-foundry\30-ui-bench\scripts\Test-AllAcceptanceCriteria.ps1:903 
+char:17
++ ... Write-Host "â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â? ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Unexpected token 'â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â
+?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â
+?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?" -ForegroundColor Magenta
+    Test-AC01-TypeScriptCompilation
+    Test-AC02-ESLint
+    Test-AC03-CircularDependencies
+    Test-AC04-DesignTokens
+    Test-AC05-BundleSize
+    
+    Write-Host ""
+    Write-Host "â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?
+â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â
+?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?" -ForegroundColor Magenta
+    Write-Host "' in expression or statement.
+At C:\eva-foundry\30-ui-bench\scripts\Test-AllAcceptanceCriteria.ps1:912 
+char:49
++     Write-Host "  PHASE 2: CONSISTENCY GATES (4 Automated)" -Foregrou ...
++                                                 ~~~~~~~~~
+Unexpected token 'Automated' in expression or statement.
+At C:\eva-foundry\30-ui-bench\scripts\Test-AllAcceptanceCriteria.ps1:912 
+char:48
++     Write-Host "  PHASE 2: CONSISTENCY GATES (4 Automated)" -Foregrou ...
++                                                ~
+Missing closing ')' in expression.
+At C:\eva-foundry\30-ui-bench\scripts\Test-AllAcceptanceCriteria.ps1:912 
+char:58
++     Write-Host "  PHASE 2: CONSISTENCY GATES (4 Automated)" -Foregrou ...
++                                                          ~
+Unexpected token ')' in expression or statement.
+At C:\eva-foundry\30-ui-bench\scripts\Test-AllAcceptanceCriteria.ps1:913 
+char:17
++ ... Write-Host "â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â? ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Unexpected token 'â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â
+?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â
+?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?" -ForegroundColor Magenta
+    Test-AC12-ComponentStructure
+    Test-AC13-ErrorHandling
+    Test-AC14-NamingConvention
+    Test-AC15-ImportPaths
+    
+    Write-Host ""
+    Write-Host "â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?
+â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â
+?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?â?" -ForegroundColor Magenta
+    Write-Host "' in expression or statement.
+Not all parse errors were reported.  Correct the reported errors and try again.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordEx 
+   ception
+    + FullyQualifiedErrorId : InvalidVariableReferenceWithDrive
+ 

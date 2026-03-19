@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l47\\L47List.tsx",
+                                "component":  "ListView",
+                                "file":  "L47List.tsx",
+                                "bytes":  5819
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l47\\L47Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L47Detail.tsx",
+                                "bytes":  5619
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l47\\L47Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L47Create.tsx",
+                                "bytes":  8450
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l47\\L47Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L47Edit.tsx",
+                                "bytes":  9777
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l47\\L47Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L47Graph.tsx",
+                                "bytes":  7526
+                            }
+                        ],
+    "entity_type":  "L47Record",
+    "timestamp":  "2026-03-13T06:54:28.6411734-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l47",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L47",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

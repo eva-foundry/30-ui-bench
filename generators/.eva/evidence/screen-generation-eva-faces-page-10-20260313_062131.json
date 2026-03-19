@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\eva-faces-page-10\\Eva-Faces Page 10Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "Eva-Faces Page 10Detail.tsx",
+                                "bytes":  5843
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\eva-faces-page-10\\Eva-Faces Page 10Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "Eva-Faces Page 10Create.tsx",
+                                "bytes":  8800
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\eva-faces-page-10\\Eva-Faces Page 10Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "Eva-Faces Page 10Edit.tsx",
+                                "bytes":  10169
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\eva-faces-page-10\\Eva-Faces Page 10Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "Eva-Faces Page 10Graph.tsx",
+                                "bytes":  7750
+                            }
+                        ],
+    "entity_type":  "Eva-Faces Page 10Record",
+    "timestamp":  "2026-03-13T06:21:31.2244979-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "eva-faces-page-10",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\eva-faces-page-10\\Eva-Faces Page 10List.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "eva-faces-page-10",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

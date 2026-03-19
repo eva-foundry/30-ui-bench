@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\services\\ServicesList.tsx",
+                                "component":  "ListView",
+                                "file":  "ServicesList.tsx",
+                                "bytes":  5920
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\services\\ServicesDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "ServicesDetail.tsx",
+                                "bytes":  5669
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\services\\ServicesCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "ServicesCreate.tsx",
+                                "bytes":  8539
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\services\\ServicesEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "ServicesEdit.tsx",
+                                "bytes":  9863
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\services\\ServicesGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "ServicesGraph.tsx",
+                                "bytes":  7588
+                            }
+                        ],
+    "entity_type":  "L1Record",
+    "timestamp":  "2026-03-13T07:02:22.9986054-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "services",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L1",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

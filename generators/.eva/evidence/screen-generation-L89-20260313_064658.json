@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l89\\L89Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L89Detail.tsx",
+                                "bytes":  5619
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l89\\L89Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L89Create.tsx",
+                                "bytes":  8450
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l89\\L89Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L89Edit.tsx",
+                                "bytes":  9777
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l89\\L89Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L89Graph.tsx",
+                                "bytes":  7526
+                            }
+                        ],
+    "entity_type":  "L89Record",
+    "timestamp":  "2026-03-13T06:46:58.0932463-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l89",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l89\\L89List.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L89",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

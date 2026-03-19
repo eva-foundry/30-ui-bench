@@ -1,280 +1,61 @@
-# 30-ui-bench -- EVA Screen Factory Status
-
-**Last Updated**: 2026-03-12 by AIAgentExpert (Session 46)
-**Data Model**: GET https://msub-eva-data-model.victoriousgrass-30debbd3.canadacentral.azurecontainerapps.io/model/projects/30-ui-bench
-**Veritas Trust**: Run `get_trust_score` MCP tool for current MTI score
-
+---
+project: 30-ui-bench
+last_updated: 20260319 09:43 UTC
+phase: Sprint Packet 10 closeout and Sprint 11 execution
+test_count: 6
+test_coverage: 0%
+mtI_score: 72
 ---
 
-<!-- eva-primed-status -->
+# 30-ui-bench Status
 
-## EVA Ecosystem Live Status
+> Local cache only. Paperless source of truth is the Project 37 data model API and `project_work` records for `30-ui-bench`.
 
-Query these endpoints to get live project state before starting any work:
+## Last Session Summary
 
-```powershell
-$base = "https://msub-eva-data-model.victoriousgrass-30debbd3.canadacentral.azurecontainerapps.io"
+Project 30 governance surfaces remain aligned locally, the Project 37 provider routes backing the IaC handoff are now proven live, and the active `project_work` packet has moved from Sprint 10 closeout into Sprint 11 execution. The remaining dependency is no longer route discovery but the explicit Sprint 11 API, navigation, and six-screen handoff package.
 
-# Project facts
-Invoke-RestMethod "$base/model/projects/30-ui-bench" | Select-Object id, maturity, phase, pbi_total, pbi_done
+## Current Status
 
-# Health
-Invoke-RestMethod "$base/health" | Select-Object status, store, version
+- Phase: Sprint Packet 10 closeout is complete locally and Sprint Packet 11 is now active in D1/P1 execution against the proven Project 37 provider runtime
+- Completion: story 10.1 complete; story 10.2 complete; story 11.1 in progress; the live packet now reads `Sprint 10 / A1 Act closeout, Sprint 11 D1/P1 execution`
+- Open blockers: noisy workspace diff state, warning-only lint backlog outside the five Wave 2 pages, and the need for the explicit Project 37 six-screen handoff package so Sprint 11 can finish against published semantics rather than inferred ones
 
-# One-call summary (all layer counts)
-Invoke-RestMethod "$base/model/agent-summary"
-```
+## Recent Changes
 
-For veritas audit:
-```
-MCP tool: audit_repo  repo_path=C:\eva-foundry\30-ui-bench
-MCP tool: get_trust_score  repo_path=C:\eva-foundry\30-ui-bench
-```
+- Revalidated workspace and Project 30 instruction alignment against the deterministic-orchestration template.
+- Removed stale scaffold residue and legacy provenance from the Project 30 instruction surfaces.
+- Rewrote the README and skill index so they describe the current Project 37 handoff model rather than the older standalone bench narrative.
+- Added a Project 30 sprint activation scaffold for workspace scrum-tool use.
+- Registered the live sprint packet `30-ui-bench-sprint-10-packet` through `sprint_activation.py` with three stories loaded successfully.
+- Repacked the Sprint 10 and Sprint 11 pair at `2026-03-16 08:26 UTC` so local governance docs no longer claim packet closure ahead of the paperless record.
+- Re-ran the five focused Wave 2 tests in `37-data-model/ui` and confirmed 6/6 tests pass at 08:44 UTC.
+- Re-ran the Project 37 production build and confirmed `npm run build` passes for the verified route set.
+- Fixed the lint root cause in `37-data-model/ui` by installing and enabling `eslint-plugin-react-hooks`, then re-ran lint to a warning-only exit.
+- Refreshed the live `30-ui-bench-sprint-10-packet` record at 08:57 UTC and verified stories 10.1 and 10.2 now persist as complete.
+- Ran the local Veritas audit for `30-ui-bench`, recorded MTI 72, and synced the verification record back to the data model at 09:00 UTC.
+- Advanced the live `project_work.current_phase` to `Sprint 10 / A1 Act closeout, Sprint 11 ready packet` at 09:07 UTC.
+- Re-read the live `30-ui-bench-sprint-10-packet` state after the Project 37 route breakthrough and confirmed Sprint 11 is now the active execution posture instead of a ready-only follow-up.
 
----
+## Active Issues
 
-## Current State
+- The lint baseline now exits 0, but 578 warnings remain across generated API and type surfaces and should be scheduled as follow-on cleanup rather than hidden inside Sprint 10 route proof.
+- Only the Project 37 client surface can prove delivery for routed pages; Project 30 cannot self-certify runtime behavior.
+- Project-specific skill automation is not yet published beyond the index, so repeated factory workflows still rely on repo instructions and handoff notes.
+- Sprint 11 FK-aware and ontology-view guidance is still being elaborated; the new guidance document and published Project 37 six-screen handoff package must fully land before Sprint 11 can be closed.
 
-### Templates v2.0.0
-**Status**: ✅ COMPLETE (Session 46, Commit 3771dcf in 37-data-model repo)
-**Location**: `37-data-model/scripts/templates/screens-machine/`
-**Files**:
-- ListView.template.tsx (v2.0.0)
-- DetailView.template.tsx (v2.0.0)
-- CreateForm.template.tsx (v2.0.0)
-- EditForm.template.tsx (v2.0.0)
-- GraphView.template.tsx (v2.0.0)
-- README.md (updated)
+## Test Results
 
-**Enhancements**:
-- ✅ Centralized GC Design tokens (@styles/tokens)
-- ✅ API Health Monitoring (SM-PATTERN-001)
-- ✅ Version footer for cache debugging
-- ✅ 6-language i18n (EN/FR/ES/DE/PT/CN)
-- ✅ WCAG 2.1 AA compliance patterns
-- ✅ Chart colors from tokens (GraphView)
+- Project 30 local governance docs updated: complete in this session
+- Project 30 local test suite: not rerun in this session
+- Project 37 focused Wave 2 test gate: fresh evidence shows 6/6 tests passed (`PersonaLoginPage`, `PersonaExperienceDashboardPage`, `A11yThemesPage`, `ActAsPage`, `RbacResponsibilitiesPage`) at 08:44 UTC
+- Project 37 production build gate: fresh evidence shows `npm run build` passed in `37-data-model/ui` at 08:45 UTC
+- Project 37 lint gate: `npm run lint` now exits 0 with 578 warnings and 0 errors after the `react-hooks` plugin/config fix at 08:49 UTC
+- Veritas MTI gate: local audit recorded trust score 72 and synced a verification record at 09:00 UTC
 
-### Clients
-**Current**: 1 active client (37-data-model UI)
-**Pending**: Regeneration of 111 pages with v2.0.0 templates
-**Future**: 31-eva-faces (Portal), 51-ACA
+## Evidence Checklist
 
-### Acceptance Criteria
-**Total**: 51 gates (25 current + 26 future)
-**Critical Blockers**: 14 must-pass gates
-**Status**: All PENDING (awaiting regeneration)
-
----
-
-## Session Log
-
-### 2026-03-12 -- Session 46: Screen Factory Promotion
-
-**Activity**: Project 30-ui-bench promoted from "UI playground" to "Screen Factory"
-
-**Scope Expansion**:
-- Not limited to 111 Data Model pages
-- Can generate screens for ANY EVA project
-- Factory pattern: improve templates → regenerate all artifacts
-
-**Governance Updates**:
-- ✅ README.md rewritten (factory vision, architecture, clients)
-- ✅ PLAN.md restructured (6 features, 20+ stories)
-- ✅ ACCEPTANCE.md comprehensive (51 gates, 25 current + 26 future)
-- ✅ STATUS.md updated (this file)
-
-**Templates**:
-- ✅ All 5 core templates upgraded to v2.0.0
-- ✅ Commit 3771dcf in 37-data-model repo
-- ✅ tokens.ts enhanced with chart colors, semantic aliases
-
-**Next Steps**:
-1. Regenerate 111 Data Model pages
-2. Execute 25 acceptance criteria tests
-3. Deploy to Azure (Build #15+)
-4. Validate quality gates
-
----
-
-### 2026-03-03 -- Initial Prime by agent:copilot
-
-**Activity**: Project primed by foundation-primer workflow.
-**Template**: copilot-instructions-template.md v3.1.0
-**Governance docs created**: PLAN.md, STATUS.md, ACCEPTANCE.md, README (placeholder)
-
----
-
-## Feature Status
-
-| Feature | Status | Stories Complete | Notes |
-|---------|--------|------------------|-------|
-| F30-01: Template System v2.0.0 | ✅ COMPLETE | 5/5 | All enhancements done |
-| F30-02: Batch Regeneration | 🔄 IN PROGRESS | 0/4 | Awaiting user approval |
-| F30-03: Multi-Client Support | 📋 PLANNED | 0/4 | v2.2.0+ |
-| F30-04: Test Generation | 📋 PLANNED | 0/4 | v3.0.0 |
-| F30-05: Quality Gates Automation | 📋 PLANNED | 0/4 | v2.3.0 |
-| F30-06: Evidence & Observability | 📋 PLANNED | 0/3 | v2.4.0 |
-
----
-
-## Quality Metrics
-
-### Templates
-- **Version**: v2.0.0
-- **Files**: 5 core + 1 README
-- **Lines of Code**: ~2,500 (templates + docs)
-- **Token Usage**: Centralized (@styles/tokens)
-- **Languages**: 6 (EN/FR/ES/DE/PT/CN)
-
-### Generated Code (Future)
-- **Target**: 111 layers × 5 components = 555 files
-- **Estimated LOC**: ~110,000 lines
-- **Bundle Size Target**: < 2MB gzipped
-- **Performance Target**: < 3s initial load
-
-### Acceptance Criteria
-- **Total Gates**: 51 (25 current + 26 future)
-- **Critical Blockers**: 14
-- **Passed**: 0 (pending regeneration)
-- **Failed**: 0
-- **Skipped**: 26 (future features)
-
----
-
-## Blockers
-
-**None** - Templates complete, awaiting user approval for batch regeneration.
-
----
-
-## Risks
-
-| Risk | Mitigation | Status |
-|------|------------|--------|
-| Breaking changes in templates | Incremental rollout (3-5 pages first) | MITIGATED |
-| Bundle size increases | Tree-shaking, code splitting | MONITORED |
-| TypeScript errors after regen | Pre/post-generation validation | PLANNED |
-| Manual fixes overwritten | Discourage manual edits, improve templates | DOCUMENTED |
-
----
-
-## Next Steps
-
-1. **User Approval**: Choose regeneration strategy (full 111 pages vs incremental)
-2. **Regeneration**: Run generate-all-screens.ps1 with v2.0.0 templates (~9 minutes)
-3. **Build Verification**: npm run build (expect 0 errors)
-4. **Acceptance Testing**: Execute 25 current acceptance criteria
-5. **Deployment**: Deploy to Azure (Build #15+)
-6. **Quality Gate**: Validate WCAG 2.1 AA, 6-language support, performance
-7. **Evidence**: Document results in evidence/ directory
-8. **Commit**: Git commit with comprehensive message
-
----
-
-## Test / Build State
-
-> Update this section after each test run.
-
-| Command | Status | Last Run | Result |
-|---------|--------|----------|--------|
-| npm run build (37-data-model/ui) | ✅ PASS | 2026-03-12 (Build #14) | 499 modules, i18n upgrade |
-| npm run lint | PENDING | (not run) | - |
-| TypeScript compilation | PENDING | (after regeneration) | - |
-| 25 Acceptance Criteria | PENDING | (after regeneration) | - |
-
----
-
-## Evidence Trail
-
-### Session 46 Commits
-- **3771dcf** (37-data-model): feat(screens-machine): upgrade templates to v2.0.0
-  - 7 files changed, 305 insertions, 225 deletions
-  - All 5 templates upgraded
-  - tokens.ts enhanced
-  - README.md updated
-
-### Documentation
-- SCREEN-MACHINE-V2-UPGRADE.md (37-data-model/docs/)
-- Complete upgrade guide with before/after examples
-
----
-
-**Philosophy**: "Marco Sandbox... but the work is done with World Class Enterprise & Government production ready code in mind. so a11y and i18n is basic and implicit requirement for us."
-
-**Status**: Templates ready, governance updated, awaiting batch regeneration approval.
-
----
-
-<!-- eva-primed-status -->
-
-## EVA Ecosystem Live Status
-
-Query these endpoints to get live project state before starting any work:
-
-```powershell
-$base = "http://localhost:8010"
-
-# Project facts
-Invoke-RestMethod "$base/model/projects/30-ui-bench" | Select-Object id, maturity, phase, pbi_total, pbi_done
-
-# Health
-Invoke-RestMethod "$base/health" | Select-Object status, store, version
-
-# One-call summary (all layer counts)
-Invoke-RestMethod "$base/model/agent-summary"
-```
-
-For 29-foundry agent assistance:
-```python
-import sys
-from pathlib import Path
-foundry_path = Path("C:/eva-foundry/eva-foundation/29-foundry")
-sys.path.insert(0, str(foundry_path))
-from tools.search import EVASearchClient
-```
-
-For veritas audit:
-```
-MCP tool: audit_repo  repo_path=C:\eva-foundry\30-ui-bench
-MCP tool: get_trust_score  repo_path=C:\eva-foundry\30-ui-bench
-```
-
----
-
-## Session Log
-
-### 2026-03-03 -- Initial Prime by agent:copilot
-
-**Activity**: Project primed by foundation-primer workflow.
-**Template**: copilot-instructions-template.md v3.1.0
-**Governance docs created**: PLAN.md, STATUS.md, ACCEPTANCE.md, README (updated)
-**Data model record**: http://localhost:8010/model/projects/30-ui-bench
-**Veritas audit**: pending (run audit_repo to establish baseline)
-
----
-
-## Test / Build State
-
-> Update this section after each test run.
-
-| Command | Status | Last Run |
-|---------|--------|----------|
-| (add project test command here) | PENDING | (date) |
-
----
-
-## Blockers
-
-> Log any blockers here with discovery date and resolution.
-
-(none at prime time)
-
----
-
-## Next Steps
-
-1. Run veritas audit: `audit_repo` MCP tool, repo_path = C:\eva-foundry\30-ui-bench
-2. Check data model record: GET /model/projects/30-ui-bench
-3. Update PLAN.md with actual sprint stories
-4. Fill ACCEPTANCE.md gate table with project-specific criteria
-5. Commit first evidence: PUT /model/projects/30-ui-bench with updated notes
+- [x] All completed governance edits have proof in repo history
+- [x] Test reports attached for the active Wave 2 execution packet
+- [x] Data model updated where applicable
+- [x] PLAN.md reflects actual work

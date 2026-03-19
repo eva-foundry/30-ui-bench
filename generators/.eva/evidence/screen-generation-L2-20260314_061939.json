@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\personas\\PersonasList.tsx",
+                                "component":  "ListView",
+                                "file":  "PersonasList.tsx",
+                                "bytes":  5932
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\personas\\PersonasDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "PersonasDetail.tsx",
+                                "bytes":  5681
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\personas\\PersonasCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "PersonasCreate.tsx",
+                                "bytes":  8569
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\personas\\PersonasEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "PersonasEdit.tsx",
+                                "bytes":  9905
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\personas\\PersonasGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "PersonasGraph.tsx",
+                                "bytes":  7600
+                            }
+                        ],
+    "entity_type":  "PersonasRecord",
+    "timestamp":  "2026-03-14T06:19:39.3164257-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "personas",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L2",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l113\\L113List.tsx",
+                                "component":  "ListView",
+                                "file":  "L113List.tsx",
+                                "bytes":  5844
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l113\\L113Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L113Detail.tsx",
+                                "bytes":  5635
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l113\\L113Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L113Create.tsx",
+                                "bytes":  8475
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l113\\L113Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L113Edit.tsx",
+                                "bytes":  9805
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l113\\L113Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L113Graph.tsx",
+                                "bytes":  7542
+                            }
+                        ],
+    "entity_type":  "L113Record",
+    "timestamp":  "2026-03-13T07:02:30.7213515-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l113",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L113",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_factory_roadmaps\\WorkfactoryroadmapsList.tsx",
+                                "component":  "ListView",
+                                "file":  "WorkfactoryroadmapsList.tsx",
+                                "bytes":  6173
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_factory_roadmaps\\WorkfactoryroadmapsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "WorkfactoryroadmapsDetail.tsx",
+                                "bytes":  5809
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_factory_roadmaps\\WorkfactoryroadmapsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "WorkfactoryroadmapsCreate.tsx",
+                                "bytes":  8780
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_factory_roadmaps\\WorkfactoryroadmapsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "WorkfactoryroadmapsEdit.tsx",
+                                "bytes":  10107
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_factory_roadmaps\\WorkfactoryroadmapsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "WorkfactoryroadmapsGraph.tsx",
+                                "bytes":  7750
+                            }
+                        ],
+    "entity_type":  "L72Record",
+    "timestamp":  "2026-03-13T06:58:21.2816030-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "work_factory_roadmaps",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L72",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

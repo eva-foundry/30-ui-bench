@@ -1,0 +1,132 @@
+2026-03-13 06:20:05 [INFO] Starting generation for layer eva-faces-page-19 (eva-faces-page-19)
+2026-03-13 06:20:05 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:05 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:05 [INFO] Using directory: eva-faces-page-19
+2026-03-13 06:20:05 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:05 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-19\Eva-Faces Page 19List.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-19\Eva-Faces Page 19List.tsx\eva-faces-page-19\Eva-Faces Page 19Detail.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-19\Eva-Faces Page 19List.tsx\eva-faces-page-19\Eva-Faces Page 19Detail.tsx\eva-faces-page-19\Eva-Faces Page 19Create.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-19\Eva-Faces Page 19List.tsx\eva-faces-page-19\Eva-Faces Page 19Detail.tsx\eva-faces-page-19\Eva-Faces Page 19Create.tsx\eva-faces-page-19\Eva-Faces Page 19Edit.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-19\Eva-Faces Page 19List.tsx\eva-faces-page-19\Eva-Faces Page 19Detail.tsx\eva-faces-page-19\Eva-Faces Page 19Create.tsx\eva-faces-page-19\Eva-Faces Page 19Edit.tsx\eva-faces-page-19\Eva-Faces Page 19Graph.tsx' is denied.
+2026-03-13 06:20:05 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-19-20260313_062005.json
+2026-03-13 06:20:05 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:05 [INFO] Starting generation for layer eva-faces-page-2 (eva-faces-page-2)
+2026-03-13 06:20:05 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:05 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:05 [INFO] Using directory: eva-faces-page-2
+2026-03-13 06:20:05 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:05 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-2\Eva-Faces Page 2List.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-2\Eva-Faces Page 2List.tsx\eva-faces-page-2\Eva-Faces Page 2Detail.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-2\Eva-Faces Page 2List.tsx\eva-faces-page-2\Eva-Faces Page 2Detail.tsx\eva-faces-page-2\Eva-Faces Page 2Create.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-2\Eva-Faces Page 2List.tsx\eva-faces-page-2\Eva-Faces Page 2Detail.tsx\eva-faces-page-2\Eva-Faces Page 2Create.tsx\eva-faces-page-2\Eva-Faces Page 2Edit.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-2\Eva-Faces Page 2List.tsx\eva-faces-page-2\Eva-Faces Page 2Detail.tsx\eva-faces-page-2\Eva-Faces Page 2Create.tsx\eva-faces-page-2\Eva-Faces Page 2Edit.tsx\eva-faces-page-2\Eva-Faces Page 2Graph.tsx' is denied.
+2026-03-13 06:20:05 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-2-20260313_062005.json
+2026-03-13 06:20:05 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:05 [INFO] Starting generation for layer eva-faces-page-20 (eva-faces-page-20)
+2026-03-13 06:20:05 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:05 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:05 [INFO] Using directory: eva-faces-page-20
+2026-03-13 06:20:05 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:05 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-20\Eva-Faces Page 20List.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-20\Eva-Faces Page 20List.tsx\eva-faces-page-20\Eva-Faces Page 20Detail.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-20\Eva-Faces Page 20List.tsx\eva-faces-page-20\Eva-Faces Page 20Detail.tsx\eva-faces-page-20\Eva-Faces Page 20Create.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-20\Eva-Faces Page 20List.tsx\eva-faces-page-20\Eva-Faces Page 20Detail.tsx\eva-faces-page-20\Eva-Faces Page 20Create.tsx\eva-faces-page-20\Eva-Faces Page 20Edit.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-20\Eva-Faces Page 20List.tsx\eva-faces-page-20\Eva-Faces Page 20Detail.tsx\eva-faces-page-20\Eva-Faces Page 20Create.tsx\eva-faces-page-20\Eva-Faces Page 20Edit.tsx\eva-faces-page-20\Eva-Faces Page 20Graph.tsx' is denied.
+2026-03-13 06:20:05 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-20-20260313_062005.json
+2026-03-13 06:20:05 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:05 [INFO] Starting generation for layer eva-faces-page-21 (eva-faces-page-21)
+2026-03-13 06:20:05 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:05 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:05 [INFO] Using directory: eva-faces-page-21
+2026-03-13 06:20:05 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:05 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-21\Eva-Faces Page 21List.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-21\Eva-Faces Page 21List.tsx\eva-faces-page-21\Eva-Faces Page 21Detail.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-21\Eva-Faces Page 21List.tsx\eva-faces-page-21\Eva-Faces Page 21Detail.tsx\eva-faces-page-21\Eva-Faces Page 21Create.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-21\Eva-Faces Page 21List.tsx\eva-faces-page-21\Eva-Faces Page 21Detail.tsx\eva-faces-page-21\Eva-Faces Page 21Create.tsx\eva-faces-page-21\Eva-Faces Page 21Edit.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-21\Eva-Faces Page 21List.tsx\eva-faces-page-21\Eva-Faces Page 21Detail.tsx\eva-faces-page-21\Eva-Faces Page 21Create.tsx\eva-faces-page-21\Eva-Faces Page 21Edit.tsx\eva-faces-page-21\Eva-Faces Page 21Graph.tsx' is denied.
+2026-03-13 06:20:05 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-21-20260313_062005.json
+2026-03-13 06:20:05 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:05 [INFO] Starting generation for layer eva-faces-page-22 (eva-faces-page-22)
+2026-03-13 06:20:05 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:05 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:05 [INFO] Using directory: eva-faces-page-22
+2026-03-13 06:20:05 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:05 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-22\Eva-Faces Page 22List.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-22\Eva-Faces Page 22List.tsx\eva-faces-page-22\Eva-Faces Page 22Detail.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-22\Eva-Faces Page 22List.tsx\eva-faces-page-22\Eva-Faces Page 22Detail.tsx\eva-faces-page-22\Eva-Faces Page 22Create.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-22\Eva-Faces Page 22List.tsx\eva-faces-page-22\Eva-Faces Page 22Detail.tsx\eva-faces-page-22\Eva-Faces Page 22Create.tsx\eva-faces-page-22\Eva-Faces Page 22Edit.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-22\Eva-Faces Page 22List.tsx\eva-faces-page-22\Eva-Faces Page 22Detail.tsx\eva-faces-page-22\Eva-Faces Page 22Create.tsx\eva-faces-page-22\Eva-Faces Page 22Edit.tsx\eva-faces-page-22\Eva-Faces Page 22Graph.tsx' is denied.
+2026-03-13 06:20:05 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-22-20260313_062005.json
+2026-03-13 06:20:05 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:05 [INFO] Starting generation for layer eva-faces-page-23 (eva-faces-page-23)
+2026-03-13 06:20:05 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:05 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:05 [INFO] Using directory: eva-faces-page-23
+2026-03-13 06:20:05 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:05 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-23\Eva-Faces Page 23List.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-23\Eva-Faces Page 23List.tsx\eva-faces-page-23\Eva-Faces Page 23Detail.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-23\Eva-Faces Page 23List.tsx\eva-faces-page-23\Eva-Faces Page 23Detail.tsx\eva-faces-page-23\Eva-Faces Page 23Create.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-23\Eva-Faces Page 23List.tsx\eva-faces-page-23\Eva-Faces Page 23Detail.tsx\eva-faces-page-23\Eva-Faces Page 23Create.tsx\eva-faces-page-23\Eva-Faces Page 23Edit.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-23\Eva-Faces Page 23List.tsx\eva-faces-page-23\Eva-Faces Page 23Detail.tsx\eva-faces-page-23\Eva-Faces Page 23Create.tsx\eva-faces-page-23\Eva-Faces Page 23Edit.tsx\eva-faces-page-23\Eva-Faces Page 23Graph.tsx' is denied.
+2026-03-13 06:20:05 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-23-20260313_062005.json
+2026-03-13 06:20:05 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:05 [INFO] Starting generation for layer eva-faces-page-3 (eva-faces-page-3)
+2026-03-13 06:20:05 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:05 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:05 [INFO] Using directory: eva-faces-page-3
+2026-03-13 06:20:05 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:05 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-3\Eva-Faces Page 3List.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-3\Eva-Faces Page 3List.tsx\eva-faces-page-3\Eva-Faces Page 3Detail.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-3\Eva-Faces Page 3List.tsx\eva-faces-page-3\Eva-Faces Page 3Detail.tsx\eva-faces-page-3\Eva-Faces Page 3Create.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-3\Eva-Faces Page 3List.tsx\eva-faces-page-3\Eva-Faces Page 3Detail.tsx\eva-faces-page-3\Eva-Faces Page 3Create.tsx\eva-faces-page-3\Eva-Faces Page 3Edit.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-3\Eva-Faces Page 3List.tsx\eva-faces-page-3\Eva-Faces Page 3Detail.tsx\eva-faces-page-3\Eva-Faces Page 3Create.tsx\eva-faces-page-3\Eva-Faces Page 3Edit.tsx\eva-faces-page-3\Eva-Faces Page 3Graph.tsx' is denied.
+2026-03-13 06:20:05 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-3-20260313_062005.json
+2026-03-13 06:20:05 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:05 [INFO] Starting generation for layer eva-faces-page-4 (eva-faces-page-4)
+2026-03-13 06:20:05 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:05 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:05 [INFO] Using directory: eva-faces-page-4
+2026-03-13 06:20:05 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:05 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-4\Eva-Faces Page 4List.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-4\Eva-Faces Page 4List.tsx\eva-faces-page-4\Eva-Faces Page 4Detail.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-4\Eva-Faces Page 4List.tsx\eva-faces-page-4\Eva-Faces Page 4Detail.tsx\eva-faces-page-4\Eva-Faces Page 4Create.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-4\Eva-Faces Page 4List.tsx\eva-faces-page-4\Eva-Faces Page 4Detail.tsx\eva-faces-page-4\Eva-Faces Page 4Create.tsx\eva-faces-page-4\Eva-Faces Page 4Edit.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-4\Eva-Faces Page 4List.tsx\eva-faces-page-4\Eva-Faces Page 4Detail.tsx\eva-faces-page-4\Eva-Faces Page 4Create.tsx\eva-faces-page-4\Eva-Faces Page 4Edit.tsx\eva-faces-page-4\Eva-Faces Page 4Graph.tsx' is denied.
+2026-03-13 06:20:05 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-4-20260313_062005.json
+2026-03-13 06:20:05 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:05 [INFO] Starting generation for layer eva-faces-page-5 (eva-faces-page-5)
+2026-03-13 06:20:05 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:05 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:05 [INFO] Using directory: eva-faces-page-5
+2026-03-13 06:20:05 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:05 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-5\Eva-Faces Page 5List.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-5\Eva-Faces Page 5List.tsx\eva-faces-page-5\Eva-Faces Page 5Detail.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-5\Eva-Faces Page 5List.tsx\eva-faces-page-5\Eva-Faces Page 5Detail.tsx\eva-faces-page-5\Eva-Faces Page 5Create.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-5\Eva-Faces Page 5List.tsx\eva-faces-page-5\Eva-Faces Page 5Detail.tsx\eva-faces-page-5\Eva-Faces Page 5Create.tsx\eva-faces-page-5\Eva-Faces Page 5Edit.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-5\Eva-Faces Page 5List.tsx\eva-faces-page-5\Eva-Faces Page 5Detail.tsx\eva-faces-page-5\Eva-Faces Page 5Create.tsx\eva-faces-page-5\Eva-Faces Page 5Edit.tsx\eva-faces-page-5\Eva-Faces Page 5Graph.tsx' is denied.
+2026-03-13 06:20:05 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-5-20260313_062005.json
+2026-03-13 06:20:05 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:05 [INFO] Starting generation for layer eva-faces-page-6 (eva-faces-page-6)
+2026-03-13 06:20:05 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:05 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:05 [INFO] Using directory: eva-faces-page-6
+2026-03-13 06:20:05 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:05 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-6\Eva-Faces Page 6List.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-6\Eva-Faces Page 6List.tsx\eva-faces-page-6\Eva-Faces Page 6Detail.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-6\Eva-Faces Page 6List.tsx\eva-faces-page-6\Eva-Faces Page 6Detail.tsx\eva-faces-page-6\Eva-Faces Page 6Create.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-6\Eva-Faces Page 6List.tsx\eva-faces-page-6\Eva-Faces Page 6Detail.tsx\eva-faces-page-6\Eva-Faces Page 6Create.tsx\eva-faces-page-6\Eva-Faces Page 6Edit.tsx' is denied.
+2026-03-13 06:20:05 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-6\Eva-Faces Page 6List.tsx\eva-faces-page-6\Eva-Faces Page 6Detail.tsx\eva-faces-page-6\Eva-Faces Page 6Create.tsx\eva-faces-page-6\Eva-Faces Page 6Edit.tsx\eva-faces-page-6\Eva-Faces Page 6Graph.tsx' is denied.
+2026-03-13 06:20:05 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-6-20260313_062005.json
+2026-03-13 06:20:05 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:05 [INFO] Starting generation for layer eva-faces-page-7 (eva-faces-page-7)
+2026-03-13 06:20:05 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:05 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:05 [INFO] Using directory: eva-faces-page-7
+2026-03-13 06:20:05 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:05 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-7\Eva-Faces Page 7List.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-7\Eva-Faces Page 7List.tsx\eva-faces-page-7\Eva-Faces Page 7Detail.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-7\Eva-Faces Page 7List.tsx\eva-faces-page-7\Eva-Faces Page 7Detail.tsx\eva-faces-page-7\Eva-Faces Page 7Create.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-7\Eva-Faces Page 7List.tsx\eva-faces-page-7\Eva-Faces Page 7Detail.tsx\eva-faces-page-7\Eva-Faces Page 7Create.tsx\eva-faces-page-7\Eva-Faces Page 7Edit.tsx' is denied.
+2026-03-13 06:20:06 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-7\Eva-Faces Page 7List.tsx\eva-faces-page-7\Eva-Faces Page 7Detail.tsx\eva-faces-page-7\Eva-Faces Page 7Create.tsx\eva-faces-page-7\Eva-Faces Page 7Edit.tsx\eva-faces-page-7\Eva-Faces Page 7Graph.tsx' is denied.
+2026-03-13 06:20:06 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-7-20260313_062005.json
+2026-03-13 06:20:06 [FAIL] Generation complete: 0/5 components - FAIL

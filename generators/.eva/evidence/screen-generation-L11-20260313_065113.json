@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\cost_allocations\\CostallocationsList.tsx",
+                                "component":  "ListView",
+                                "file":  "CostallocationsList.tsx",
+                                "bytes":  6080
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\cost_allocations\\CostallocationsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "CostallocationsDetail.tsx",
+                                "bytes":  5758
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\cost_allocations\\CostallocationsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "CostallocationsCreate.tsx",
+                                "bytes":  8691
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\cost_allocations\\CostallocationsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "CostallocationsEdit.tsx",
+                                "bytes":  10018
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\cost_allocations\\CostallocationsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "CostallocationsGraph.tsx",
+                                "bytes":  7690
+                            }
+                        ],
+    "entity_type":  "L11Record",
+    "timestamp":  "2026-03-13T06:51:13.4140618-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "cost_allocations",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L11",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

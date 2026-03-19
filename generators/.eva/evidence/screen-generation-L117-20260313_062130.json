@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l117\\vulnerability_scan_resultsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "vulnerability_scan_resultsDetail.tsx",
+                                "bytes":  5767
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l117\\vulnerability_scan_resultsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "vulnerability_scan_resultsCreate.tsx",
+                                "bytes":  8717
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l117\\vulnerability_scan_resultsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "vulnerability_scan_resultsEdit.tsx",
+                                "bytes":  10091
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l117\\vulnerability_scan_resultsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "vulnerability_scan_resultsGraph.tsx",
+                                "bytes":  7696
+                            }
+                        ],
+    "entity_type":  "vulnerability_scan_resultsRecord",
+    "timestamp":  "2026-03-13T06:21:30.1976660-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l117",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l117\\vulnerability_scan_resultsList.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L117",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

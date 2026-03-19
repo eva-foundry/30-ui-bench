@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-deployment\\DeploymentPipelineList.tsx",
+                                "component":  "ListView",
+                                "file":  "DeploymentPipelineList.tsx",
+                                "bytes":  6152
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-deployment\\DeploymentPipelineDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "DeploymentPipelineDetail.tsx",
+                                "bytes":  5821
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-deployment\\DeploymentPipelineCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "DeploymentPipelineCreate.tsx",
+                                "bytes":  8774
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-deployment\\DeploymentPipelineEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "DeploymentPipelineEdit.tsx",
+                                "bytes":  10144
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-deployment\\DeploymentPipelineGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "DeploymentPipelineGraph.tsx",
+                                "bytes":  7732
+                            }
+                        ],
+    "entity_type":  "Deployment PipelineRecord",
+    "timestamp":  "2026-03-13T06:38:53.2717184-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "ops-deployment",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "ops-deployment",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

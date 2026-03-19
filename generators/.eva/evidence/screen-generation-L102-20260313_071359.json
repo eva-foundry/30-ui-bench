@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l102\\L102List.tsx",
+                                "component":  "ListView",
+                                "file":  "L102List.tsx",
+                                "bytes":  7709
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l102\\L102Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L102Detail.tsx",
+                                "bytes":  5703
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l102\\L102Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L102Create.tsx",
+                                "bytes":  8362
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l102\\L102Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L102Edit.tsx",
+                                "bytes":  5878
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l102\\L102Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L102Graph.tsx",
+                                "bytes":  7647
+                            }
+                        ],
+    "entity_type":  "L102Record",
+    "timestamp":  "2026-03-13T07:13:59.6066470-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l102",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L102",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

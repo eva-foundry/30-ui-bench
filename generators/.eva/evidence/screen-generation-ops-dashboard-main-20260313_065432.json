@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-dashboard-main\\OpsdashboardmainList.tsx",
+                                "component":  "ListView",
+                                "file":  "OpsdashboardmainList.tsx",
+                                "bytes":  6166
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-dashboard-main\\OpsdashboardmainDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "OpsdashboardmainDetail.tsx",
+                                "bytes":  5847
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-dashboard-main\\OpsdashboardmainCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "OpsdashboardmainCreate.tsx",
+                                "bytes":  8803
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-dashboard-main\\OpsdashboardmainEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "OpsdashboardmainEdit.tsx",
+                                "bytes":  10171
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-dashboard-main\\OpsdashboardmainGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "OpsdashboardmainGraph.tsx",
+                                "bytes":  7752
+                            }
+                        ],
+    "entity_type":  "OpsDashboardMainRecord",
+    "timestamp":  "2026-03-13T06:54:32.7979697-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "ops-dashboard-main",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "ops-dashboard-main",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

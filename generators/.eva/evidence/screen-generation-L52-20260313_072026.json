@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_execution_units\\WorkexecutionunitsList.tsx",
+                                "component":  "ListView",
+                                "file":  "WorkexecutionunitsList.tsx",
+                                "bytes":  6152
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_execution_units\\WorkexecutionunitsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "WorkexecutionunitsDetail.tsx",
+                                "bytes":  5798
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_execution_units\\WorkexecutionunitsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "WorkexecutionunitsCreate.tsx",
+                                "bytes":  8761
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_execution_units\\WorkexecutionunitsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "WorkexecutionunitsEdit.tsx",
+                                "bytes":  10088
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_execution_units\\WorkexecutionunitsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "WorkexecutionunitsGraph.tsx",
+                                "bytes":  7737
+                            }
+                        ],
+    "entity_type":  "L52Record",
+    "timestamp":  "2026-03-13T07:20:26.8228823-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "work_execution_units",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L52",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-dashboard-main\\Ops Main DashboardDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "Ops Main DashboardDetail.tsx",
+                                "bytes":  5859
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-dashboard-main\\Ops Main DashboardCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "Ops Main DashboardCreate.tsx",
+                                "bytes":  8825
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-dashboard-main\\Ops Main DashboardEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "Ops Main DashboardEdit.tsx",
+                                "bytes":  10197
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-dashboard-main\\Ops Main DashboardGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "Ops Main DashboardGraph.tsx",
+                                "bytes":  7766
+                            }
+                        ],
+    "entity_type":  "Ops Main DashboardRecord",
+    "timestamp":  "2026-03-13T06:21:30.7663166-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "ops-dashboard-main",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-dashboard-main\\Ops Main DashboardList.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "ops-dashboard-main",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

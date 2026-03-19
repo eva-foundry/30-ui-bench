@@ -1,0 +1,32 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\project-39-SprintBoardPageList.tsx",
+                                "component":  "ListView",
+                                "file":  "project-39-SprintBoardPageList.tsx",
+                                "bytes":  6223
+                            }
+                        ],
+    "entity_type":  "project-39-SprintBoardPageRecord",
+    "timestamp":  "2026-03-13T06:11:28.6831199-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "unknown",
+    "errors":  [
+                   "Failed to generate DetailView : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\project-39-SprintBoardPageList.tsx\\unknown\\project-39-SprintBoardPageDetail.tsx\u0027.",
+                   "Failed to generate CreateForm : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\project-39-SprintBoardPageList.tsx\\unknown\\project-39-SprintBoardPageDetail.tsx\\unknown\\project-39-SprintBoardPageCreateForm.tsx\u0027.",
+                   "Failed to generate EditForm : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\project-39-SprintBoardPageList.tsx\\unknown\\project-39-SprintBoardPageDetail.tsx\\unknown\\project-39-SprintBoardPageCreateForm.tsx\\unknown\\project-39-SprintBoardPageEditForm.tsx\u0027.",
+                   "Failed to generate GraphView : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\project-39-SprintBoardPageList.tsx\\unknown\\project-39-SprintBoardPageDetail.tsx\\unknown\\project-39-SprintBoardPageCreateForm.tsx\\unknown\\project-39-SprintBoardPageEditForm.tsx\\unknown\\project-39-SprintBoardPageGraph.tsx\u0027."
+               ],
+    "components_generated":  1,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  20,
+    "components_failed":  4,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "project-39-SprintBoardPage",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

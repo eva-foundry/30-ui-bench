@@ -1,0 +1,144 @@
+2026-03-13 06:20:02 [INFO] Starting generation for layer L112 (l112)
+2026-03-13 06:20:02 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:02 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:02 [INFO] Using directory: l112
+2026-03-13 06:20:02 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:02 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l112\red_team_test_suitesList.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l112\red_team_test_suitesList.tsx\l112\red_team_test_suitesDetail.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l112\red_team_test_suitesList.tsx\l112\red_team_test_suitesDetail.tsx\l112\red_team_test_suitesCreate.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l112\red_team_test_suitesList.tsx\l112\red_team_test_suitesDetail.tsx\l112\red_team_test_suitesCreate.tsx\l112\red_team_test_suitesEdit.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l112\red_team_test_suitesList.tsx\l112\red_team_test_suitesDetail.tsx\l112\red_team_test_suitesCreate.tsx\l112\red_team_test_suitesEdit.tsx\l112\red_team_test_suitesGraph.tsx' is denied.
+2026-03-13 06:20:02 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L112-20260313_062002.json
+2026-03-13 06:20:02 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:02 [INFO] Starting generation for layer L113 (l113)
+2026-03-13 06:20:02 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:02 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:02 [INFO] Using directory: l113
+2026-03-13 06:20:02 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:02 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l113\attack_tactic_catalogList.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l113\attack_tactic_catalogList.tsx\l113\attack_tactic_catalogDetail.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l113\attack_tactic_catalogList.tsx\l113\attack_tactic_catalogDetail.tsx\l113\attack_tactic_catalogCreate.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l113\attack_tactic_catalogList.tsx\l113\attack_tactic_catalogDetail.tsx\l113\attack_tactic_catalogCreate.tsx\l113\attack_tactic_catalogEdit.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l113\attack_tactic_catalogList.tsx\l113\attack_tactic_catalogDetail.tsx\l113\attack_tactic_catalogCreate.tsx\l113\attack_tactic_catalogEdit.tsx\l113\attack_tactic_catalogGraph.tsx' is denied.
+2026-03-13 06:20:02 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L113-20260313_062002.json
+2026-03-13 06:20:02 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:02 [INFO] Starting generation for layer L114 (l114)
+2026-03-13 06:20:02 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:02 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:02 [INFO] Using directory: l114
+2026-03-13 06:20:02 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:02 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l114\ai_security_findingsList.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l114\ai_security_findingsList.tsx\l114\ai_security_findingsDetail.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l114\ai_security_findingsList.tsx\l114\ai_security_findingsDetail.tsx\l114\ai_security_findingsCreate.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l114\ai_security_findingsList.tsx\l114\ai_security_findingsDetail.tsx\l114\ai_security_findingsCreate.tsx\l114\ai_security_findingsEdit.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l114\ai_security_findingsList.tsx\l114\ai_security_findingsDetail.tsx\l114\ai_security_findingsCreate.tsx\l114\ai_security_findingsEdit.tsx\l114\ai_security_findingsGraph.tsx' is denied.
+2026-03-13 06:20:02 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L114-20260313_062002.json
+2026-03-13 06:20:02 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:02 [INFO] Starting generation for layer L115 (l115)
+2026-03-13 06:20:02 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:02 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:02 [INFO] Using directory: l115
+2026-03-13 06:20:02 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:02 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l115\assertions_catalogList.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l115\assertions_catalogList.tsx\l115\assertions_catalogDetail.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l115\assertions_catalogList.tsx\l115\assertions_catalogDetail.tsx\l115\assertions_catalogCreate.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l115\assertions_catalogList.tsx\l115\assertions_catalogDetail.tsx\l115\assertions_catalogCreate.tsx\l115\assertions_catalogEdit.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l115\assertions_catalogList.tsx\l115\assertions_catalogDetail.tsx\l115\assertions_catalogCreate.tsx\l115\assertions_catalogEdit.tsx\l115\assertions_catalogGraph.tsx' is denied.
+2026-03-13 06:20:02 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L115-20260313_062002.json
+2026-03-13 06:20:02 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:02 [INFO] Starting generation for layer L116 (l116)
+2026-03-13 06:20:02 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:02 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:02 [INFO] Using directory: l116
+2026-03-13 06:20:02 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:02 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l116\ai_security_metricsList.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l116\ai_security_metricsList.tsx\l116\ai_security_metricsDetail.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l116\ai_security_metricsList.tsx\l116\ai_security_metricsDetail.tsx\l116\ai_security_metricsCreate.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l116\ai_security_metricsList.tsx\l116\ai_security_metricsDetail.tsx\l116\ai_security_metricsCreate.tsx\l116\ai_security_metricsEdit.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l116\ai_security_metricsList.tsx\l116\ai_security_metricsDetail.tsx\l116\ai_security_metricsCreate.tsx\l116\ai_security_metricsEdit.tsx\l116\ai_security_metricsGraph.tsx' is denied.
+2026-03-13 06:20:02 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L116-20260313_062002.json
+2026-03-13 06:20:02 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:02 [INFO] Starting generation for layer L117 (l117)
+2026-03-13 06:20:02 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:02 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:02 [INFO] Using directory: l117
+2026-03-13 06:20:02 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:02 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l117\vulnerability_scan_resultsList.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l117\vulnerability_scan_resultsList.tsx\l117\vulnerability_scan_resultsDetail.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l117\vulnerability_scan_resultsList.tsx\l117\vulnerability_scan_resultsDetail.tsx\l117\vulnerability_scan_resultsCreate.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l117\vulnerability_scan_resultsList.tsx\l117\vulnerability_scan_resultsDetail.tsx\l117\vulnerability_scan_resultsCreate.tsx\l117\vulnerability_scan_resultsEdit.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l117\vulnerability_scan_resultsList.tsx\l117\vulnerability_scan_resultsDetail.tsx\l117\vulnerability_scan_resultsCreate.tsx\l117\vulnerability_scan_resultsEdit.tsx\l117\vulnerability_scan_resultsGraph.tsx' is denied.
+2026-03-13 06:20:02 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L117-20260313_062002.json
+2026-03-13 06:20:02 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:02 [INFO] Starting generation for layer L118 (l118)
+2026-03-13 06:20:02 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:02 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:02 [INFO] Using directory: l118
+2026-03-13 06:20:02 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:02 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l118\infrastructure_cve_findingsList.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l118\infrastructure_cve_findingsList.tsx\l118\infrastructure_cve_findingsDetail.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l118\infrastructure_cve_findingsList.tsx\l118\infrastructure_cve_findingsDetail.tsx\l118\infrastructure_cve_findingsCreate.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l118\infrastructure_cve_findingsList.tsx\l118\infrastructure_cve_findingsDetail.tsx\l118\infrastructure_cve_findingsCreate.tsx\l118\infrastructure_cve_findingsEdit.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l118\infrastructure_cve_findingsList.tsx\l118\infrastructure_cve_findingsDetail.tsx\l118\infrastructure_cve_findingsCreate.tsx\l118\infrastructure_cve_findingsEdit.tsx\l118\infrastructure_cve_findingsGraph.tsx' is denied.
+2026-03-13 06:20:02 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L118-20260313_062002.json
+2026-03-13 06:20:02 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:02 [INFO] Starting generation for layer L119 (l119)
+2026-03-13 06:20:02 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:02 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:02 [INFO] Using directory: l119
+2026-03-13 06:20:02 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:02 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l119\risk_ranking_analysisList.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l119\risk_ranking_analysisList.tsx\l119\risk_ranking_analysisDetail.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l119\risk_ranking_analysisList.tsx\l119\risk_ranking_analysisDetail.tsx\l119\risk_ranking_analysisCreate.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l119\risk_ranking_analysisList.tsx\l119\risk_ranking_analysisDetail.tsx\l119\risk_ranking_analysisCreate.tsx\l119\risk_ranking_analysisEdit.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l119\risk_ranking_analysisList.tsx\l119\risk_ranking_analysisDetail.tsx\l119\risk_ranking_analysisCreate.tsx\l119\risk_ranking_analysisEdit.tsx\l119\risk_ranking_analysisGraph.tsx' is denied.
+2026-03-13 06:20:02 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L119-20260313_062002.json
+2026-03-13 06:20:02 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:02 [INFO] Starting generation for layer L120 (l120)
+2026-03-13 06:20:02 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:02 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:02 [INFO] Using directory: l120
+2026-03-13 06:20:02 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:02 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l120\remediation_tasksList.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l120\remediation_tasksList.tsx\l120\remediation_tasksDetail.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l120\remediation_tasksList.tsx\l120\remediation_tasksDetail.tsx\l120\remediation_tasksCreate.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l120\remediation_tasksList.tsx\l120\remediation_tasksDetail.tsx\l120\remediation_tasksCreate.tsx\l120\remediation_tasksEdit.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l120\remediation_tasksList.tsx\l120\remediation_tasksDetail.tsx\l120\remediation_tasksCreate.tsx\l120\remediation_tasksEdit.tsx\l120\remediation_tasksGraph.tsx' is denied.
+2026-03-13 06:20:02 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L120-20260313_062002.json
+2026-03-13 06:20:02 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:02 [INFO] Starting generation for layer L121 (l121)
+2026-03-13 06:20:02 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:02 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:02 [INFO] Using directory: l121
+2026-03-13 06:20:02 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:02 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l121\remediation_effectiveness_metricsList.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l121\remediation_effectiveness_metricsList.tsx\l121\remediation_effectiveness_metricsDetail.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l121\remediation_effectiveness_metricsList.tsx\l121\remediation_effectiveness_metricsDetail.tsx\l121\remediation_effectiveness_metricsCreate.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l121\remediation_effectiveness_metricsList.tsx\l121\remediation_effectiveness_metricsDetail.tsx\l121\remediation_effectiveness_metricsCreate.tsx\l121\remediation_effectiveness_metricsEdit.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l121\remediation_effectiveness_metricsList.tsx\l121\remediation_effectiveness_metricsDetail.tsx\l121\remediation_effectiveness_metricsCreate.tsx\l121\remediation_effectiveness_metricsEdit.tsx\l121\remediation_effectiveness_metricsGraph.tsx' is denied.
+2026-03-13 06:20:02 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L121-20260313_062002.json
+2026-03-13 06:20:02 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:02 [INFO] Starting generation for layer ops-alerts (ops-alerts)
+2026-03-13 06:20:02 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:02 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:02 [INFO] Using directory: ops-alerts
+2026-03-13 06:20:02 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:02 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-alerts\Alerts ManagementList.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-alerts\Alerts ManagementList.tsx\ops-alerts\Alerts ManagementDetail.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-alerts\Alerts ManagementList.tsx\ops-alerts\Alerts ManagementDetail.tsx\ops-alerts\Alerts ManagementCreate.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-alerts\Alerts ManagementList.tsx\ops-alerts\Alerts ManagementDetail.tsx\ops-alerts\Alerts ManagementCreate.tsx\ops-alerts\Alerts ManagementEdit.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-alerts\Alerts ManagementList.tsx\ops-alerts\Alerts ManagementDetail.tsx\ops-alerts\Alerts ManagementCreate.tsx\ops-alerts\Alerts ManagementEdit.tsx\ops-alerts\Alerts ManagementGraph.tsx' is denied.
+2026-03-13 06:20:02 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-alerts-20260313_062002.json
+2026-03-13 06:20:02 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:02 [INFO] Starting generation for layer ops-audit (ops-audit)
+2026-03-13 06:20:02 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:02 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:02 [INFO] Using directory: ops-audit
+2026-03-13 06:20:02 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:02 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-audit\Audit LogsList.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-audit\Audit LogsList.tsx\ops-audit\Audit LogsDetail.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-audit\Audit LogsList.tsx\ops-audit\Audit LogsDetail.tsx\ops-audit\Audit LogsCreate.tsx' is denied.
+2026-03-13 06:20:02 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-audit\Audit LogsList.tsx\ops-audit\Audit LogsDetail.tsx\ops-audit\Audit LogsCreate.tsx\ops-audit\Audit LogsEdit.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-audit\Audit LogsList.tsx\ops-audit\Audit LogsDetail.tsx\ops-audit\Audit LogsCreate.tsx\ops-audit\Audit LogsEdit.tsx\ops-audit\Audit LogsGraph.tsx' is denied.
+2026-03-13 06:20:03 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-audit-20260313_062002.json
+2026-03-13 06:20:03 [FAIL] Generation complete: 0/5 components - FAIL

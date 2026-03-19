@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\environments\\EnvironmentsList.tsx",
+                                "component":  "ListView",
+                                "file":  "EnvironmentsList.tsx",
+                                "bytes":  6008
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\environments\\EnvironmentsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "EnvironmentsDetail.tsx",
+                                "bytes":  5718
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\environments\\EnvironmentsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "EnvironmentsCreate.tsx",
+                                "bytes":  8621
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\environments\\EnvironmentsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "EnvironmentsEdit.tsx",
+                                "bytes":  9948
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\environments\\EnvironmentsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "EnvironmentsGraph.tsx",
+                                "bytes":  7643
+                            }
+                        ],
+    "entity_type":  "L14Record",
+    "timestamp":  "2026-03-13T07:20:24.0262134-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "environments",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L14",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

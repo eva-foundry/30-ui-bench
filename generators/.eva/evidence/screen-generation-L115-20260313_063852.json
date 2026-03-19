@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l115\\AssertionsCatalogList.tsx",
+                                "component":  "ListView",
+                                "file":  "AssertionsCatalogList.tsx",
+                                "bytes":  6028
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l115\\AssertionsCatalogDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "AssertionsCatalogDetail.tsx",
+                                "bytes":  5715
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l115\\AssertionsCatalogCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "AssertionsCatalogCreate.tsx",
+                                "bytes":  8623
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l115\\AssertionsCatalogEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "AssertionsCatalogEdit.tsx",
+                                "bytes":  9981
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l115\\AssertionsCatalogGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "AssertionsCatalogGraph.tsx",
+                                "bytes":  7635
+                            }
+                        ],
+    "entity_type":  "assertions_catalogRecord",
+    "timestamp":  "2026-03-13T06:38:52.4730559-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l115",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L115",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

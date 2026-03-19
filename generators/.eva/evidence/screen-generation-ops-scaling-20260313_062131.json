@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-scaling\\Auto-Scaling ControlDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "Auto-Scaling ControlDetail.tsx",
+                                "bytes":  5801
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-scaling\\Auto-Scaling ControlCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "Auto-Scaling ControlCreate.tsx",
+                                "bytes":  8749
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-scaling\\Auto-Scaling ControlEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "Auto-Scaling ControlEdit.tsx",
+                                "bytes":  10118
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-scaling\\Auto-Scaling ControlGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "Auto-Scaling ControlGraph.tsx",
+                                "bytes":  7717
+                            }
+                        ],
+    "entity_type":  "Auto-Scaling ControlRecord",
+    "timestamp":  "2026-03-13T06:21:31.1019591-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "ops-scaling",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-scaling\\Auto-Scaling ControlList.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "ops-scaling",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l63\\L63Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L63Detail.tsx",
+                                "bytes":  5619
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l63\\L63Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L63Create.tsx",
+                                "bytes":  8450
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l63\\L63Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L63Edit.tsx",
+                                "bytes":  9777
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l63\\L63Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L63Graph.tsx",
+                                "bytes":  7526
+                            }
+                        ],
+    "entity_type":  "L63Record",
+    "timestamp":  "2026-03-13T06:38:49.5260732-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l63",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l63\\L63List.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L63",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l119\\RiskRankingAnalysisList.tsx",
+                                "component":  "ListView",
+                                "file":  "RiskRankingAnalysisList.tsx",
+                                "bytes":  6058
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l119\\RiskRankingAnalysisDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "RiskRankingAnalysisDetail.tsx",
+                                "bytes":  5729
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l119\\RiskRankingAnalysisCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "RiskRankingAnalysisCreate.tsx",
+                                "bytes":  8650
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l119\\RiskRankingAnalysisEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "RiskRankingAnalysisEdit.tsx",
+                                "bytes":  10014
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l119\\RiskRankingAnalysisGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "RiskRankingAnalysisGraph.tsx",
+                                "bytes":  7651
+                            }
+                        ],
+    "entity_type":  "risk_ranking_analysisRecord",
+    "timestamp":  "2026-03-13T06:38:52.7330900-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l119",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L119",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

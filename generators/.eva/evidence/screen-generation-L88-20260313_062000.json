@@ -1,0 +1,27 @@
+﻿{
+    "generated_files":  [
+
+                        ],
+    "entity_type":  "L88Record",
+    "timestamp":  "2026-03-13T06:20:00.9438283-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l88",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l88\\L88List.tsx\u0027 is denied.",
+                   "Failed to generate DetailView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l88\\L88List.tsx\\l88\\L88Detail.tsx\u0027 is denied.",
+                   "Failed to generate CreateForm : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l88\\L88List.tsx\\l88\\L88Detail.tsx\\l88\\L88Create.tsx\u0027 is denied.",
+                   "Failed to generate EditForm : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l88\\L88List.tsx\\l88\\L88Detail.tsx\\l88\\L88Create.tsx\\l88\\L88Edit.tsx\u0027 is denied.",
+                   "Failed to generate GraphView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l88\\L88List.tsx\\l88\\L88Detail.tsx\\l88\\L88Create.tsx\\l88\\L88Edit.tsx\\l88\\L88Graph.tsx\u0027 is denied."
+               ],
+    "components_generated":  0,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  0,
+    "components_failed":  5,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L88",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

@@ -1,0 +1,32 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\L5List.tsx",
+                                "component":  "ListView",
+                                "file":  "L5List.tsx",
+                                "bytes":  5839
+                            }
+                        ],
+    "entity_type":  "L5Record",
+    "timestamp":  "2026-03-13T06:11:20.4033870-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "unknown",
+    "errors":  [
+                   "Failed to generate DetailView : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\L5List.tsx\\unknown\\L5Detail.tsx\u0027.",
+                   "Failed to generate CreateForm : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\L5List.tsx\\unknown\\L5Detail.tsx\\unknown\\L5CreateForm.tsx\u0027.",
+                   "Failed to generate EditForm : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\L5List.tsx\\unknown\\L5Detail.tsx\\unknown\\L5CreateForm.tsx\\unknown\\L5EditForm.tsx\u0027.",
+                   "Failed to generate GraphView : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\L5List.tsx\\unknown\\L5Detail.tsx\\unknown\\L5CreateForm.tsx\\unknown\\L5EditForm.tsx\\unknown\\L5Graph.tsx\u0027."
+               ],
+    "components_generated":  1,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  20,
+    "components_failed":  4,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L5",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

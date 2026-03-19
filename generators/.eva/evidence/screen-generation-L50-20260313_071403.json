@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\performance_trends\\PerformancetrendsList.tsx",
+                                "component":  "ListView",
+                                "file":  "PerformancetrendsList.tsx",
+                                "bytes":  7962
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\performance_trends\\PerformancetrendsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "PerformancetrendsDetail.tsx",
+                                "bytes":  5848
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\performance_trends\\PerformancetrendsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "PerformancetrendsCreate.tsx",
+                                "bytes":  8616
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\performance_trends\\PerformancetrendsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "PerformancetrendsEdit.tsx",
+                                "bytes":  6073
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\performance_trends\\PerformancetrendsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "PerformancetrendsGraph.tsx",
+                                "bytes":  7821
+                            }
+                        ],
+    "entity_type":  "L50Record",
+    "timestamp":  "2026-03-13T07:14:03.1642995-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "performance_trends",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L50",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

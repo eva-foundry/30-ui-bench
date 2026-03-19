@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-deployment\\OpsdeploymentList.tsx",
+                                "component":  "ListView",
+                                "file":  "OpsdeploymentList.tsx",
+                                "bytes":  6080
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-deployment\\OpsdeploymentDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "OpsdeploymentDetail.tsx",
+                                "bytes":  5789
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-deployment\\OpsdeploymentCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "OpsdeploymentCreate.tsx",
+                                "bytes":  8714
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-deployment\\OpsdeploymentEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "OpsdeploymentEdit.tsx",
+                                "bytes":  10072
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-deployment\\OpsdeploymentGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "OpsdeploymentGraph.tsx",
+                                "bytes":  7695
+                            }
+                        ],
+    "entity_type":  "OpsDeploymentRecord",
+    "timestamp":  "2026-03-13T06:53:46.8388513-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "ops-deployment",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "ops-deployment",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

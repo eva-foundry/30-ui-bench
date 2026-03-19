@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-configuration\\Configuration MgmtDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "Configuration MgmtDetail.tsx",
+                                "bytes":  5849
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-configuration\\Configuration MgmtCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "Configuration MgmtCreate.tsx",
+                                "bytes":  8811
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-configuration\\Configuration MgmtEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "Configuration MgmtEdit.tsx",
+                                "bytes":  10182
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-configuration\\Configuration MgmtGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "Configuration MgmtGraph.tsx",
+                                "bytes":  7757
+                            }
+                        ],
+    "entity_type":  "Configuration MgmtRecord",
+    "timestamp":  "2026-03-13T06:21:30.6943067-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "ops-configuration",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-configuration\\Configuration MgmtList.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "ops-configuration",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

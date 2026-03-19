@@ -1,0 +1,27 @@
+﻿{
+    "generated_files":  [
+
+                        ],
+    "entity_type":  "L93Record",
+    "timestamp":  "2026-03-13T06:20:01.4648750-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l93",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l93\\L93List.tsx\u0027 is denied.",
+                   "Failed to generate DetailView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l93\\L93List.tsx\\l93\\L93Detail.tsx\u0027 is denied.",
+                   "Failed to generate CreateForm : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l93\\L93List.tsx\\l93\\L93Detail.tsx\\l93\\L93Create.tsx\u0027 is denied.",
+                   "Failed to generate EditForm : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l93\\L93List.tsx\\l93\\L93Detail.tsx\\l93\\L93Create.tsx\\l93\\L93Edit.tsx\u0027 is denied.",
+                   "Failed to generate GraphView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l93\\L93List.tsx\\l93\\L93Detail.tsx\\l93\\L93Create.tsx\\l93\\L93Edit.tsx\\l93\\L93Graph.tsx\u0027 is denied."
+               ],
+    "components_generated":  0,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  0,
+    "components_failed":  5,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L93",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

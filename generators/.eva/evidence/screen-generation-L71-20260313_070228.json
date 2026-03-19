@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_factory_portfolio\\WorkfactoryportfolioList.tsx",
+                                "component":  "ListView",
+                                "file":  "WorkfactoryportfolioList.tsx",
+                                "bytes":  6194
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_factory_portfolio\\WorkfactoryportfolioDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "WorkfactoryportfolioDetail.tsx",
+                                "bytes":  5820
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_factory_portfolio\\WorkfactoryportfolioCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "WorkfactoryportfolioCreate.tsx",
+                                "bytes":  8799
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_factory_portfolio\\WorkfactoryportfolioEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "WorkfactoryportfolioEdit.tsx",
+                                "bytes":  10126
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_factory_portfolio\\WorkfactoryportfolioGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "WorkfactoryportfolioGraph.tsx",
+                                "bytes":  7763
+                            }
+                        ],
+    "entity_type":  "L71Record",
+    "timestamp":  "2026-03-13T07:02:28.5779962-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "work_factory_portfolio",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L71",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

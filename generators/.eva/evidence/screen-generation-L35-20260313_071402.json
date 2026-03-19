@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project_work\\ProjectworkList.tsx",
+                                "component":  "ListView",
+                                "file":  "ProjectworkList.tsx",
+                                "bytes":  7848
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project_work\\ProjectworkDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "ProjectworkDetail.tsx",
+                                "bytes":  5782
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project_work\\ProjectworkCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "ProjectworkCreate.tsx",
+                                "bytes":  8502
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project_work\\ProjectworkEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "ProjectworkEdit.tsx",
+                                "bytes":  5983
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project_work\\ProjectworkGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "ProjectworkGraph.tsx",
+                                "bytes":  7743
+                            }
+                        ],
+    "entity_type":  "L35Record",
+    "timestamp":  "2026-03-13T07:14:02.0691076-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "project_work",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L35",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

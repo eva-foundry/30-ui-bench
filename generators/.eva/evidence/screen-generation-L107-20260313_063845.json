@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l107\\L107Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L107Detail.tsx",
+                                "bytes":  5635
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l107\\L107Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L107Create.tsx",
+                                "bytes":  8475
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l107\\L107Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L107Edit.tsx",
+                                "bytes":  9805
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l107\\L107Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L107Graph.tsx",
+                                "bytes":  7542
+                            }
+                        ],
+    "entity_type":  "L107Record",
+    "timestamp":  "2026-03-13T06:38:45.2476715-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l107",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l107\\L107List.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L107",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

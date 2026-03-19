@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-logs\\LogViewerList.tsx",
+                                "component":  "ListView",
+                                "file":  "LogViewerList.tsx",
+                                "bytes":  5960
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-logs\\LogViewerDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "LogViewerDetail.tsx",
+                                "bytes":  5707
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-logs\\LogViewerCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "LogViewerCreate.tsx",
+                                "bytes":  8591
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-logs\\LogViewerEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "LogViewerEdit.tsx",
+                                "bytes":  9937
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-logs\\LogViewerGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "LogViewerGraph.tsx",
+                                "bytes":  7615
+                            }
+                        ],
+    "entity_type":  "Log ViewerRecord",
+    "timestamp":  "2026-03-13T06:38:53.4822201-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "ops-logs",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "ops-logs",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

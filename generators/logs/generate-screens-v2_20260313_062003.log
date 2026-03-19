@@ -1,0 +1,120 @@
+2026-03-13 06:20:03 [INFO] Starting generation for layer ops-backup (ops-backup)
+2026-03-13 06:20:03 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:03 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:03 [INFO] Using directory: ops-backup
+2026-03-13 06:20:03 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:03 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-backup\Backup & RecoveryList.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-backup\Backup & RecoveryList.tsx\ops-backup\Backup & RecoveryDetail.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-backup\Backup & RecoveryList.tsx\ops-backup\Backup & RecoveryDetail.tsx\ops-backup\Backup & RecoveryCreate.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-backup\Backup & RecoveryList.tsx\ops-backup\Backup & RecoveryDetail.tsx\ops-backup\Backup & RecoveryCreate.tsx\ops-backup\Backup & RecoveryEdit.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-backup\Backup & RecoveryList.tsx\ops-backup\Backup & RecoveryDetail.tsx\ops-backup\Backup & RecoveryCreate.tsx\ops-backup\Backup & RecoveryEdit.tsx\ops-backup\Backup & RecoveryGraph.tsx' is denied.
+2026-03-13 06:20:03 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-backup-20260313_062003.json
+2026-03-13 06:20:03 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:03 [INFO] Starting generation for layer ops-configuration (ops-configuration)
+2026-03-13 06:20:03 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:03 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:03 [INFO] Using directory: ops-configuration
+2026-03-13 06:20:03 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:03 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-configuration\Configuration MgmtList.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-configuration\Configuration MgmtList.tsx\ops-configuration\Configuration MgmtDetail.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-configuration\Configuration MgmtList.tsx\ops-configuration\Configuration MgmtDetail.tsx\ops-configuration\Configuration MgmtCreate.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-configuration\Configuration MgmtList.tsx\ops-configuration\Configuration MgmtDetail.tsx\ops-configuration\Configuration MgmtCreate.tsx\ops-configuration\Configuration MgmtEdit.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-configuration\Configuration MgmtList.tsx\ops-configuration\Configuration MgmtDetail.tsx\ops-configuration\Configuration MgmtCreate.tsx\ops-configuration\Configuration MgmtEdit.tsx\ops-configuration\Configuration MgmtGraph.tsx' is denied.
+2026-03-13 06:20:03 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-configuration-20260313_062003.json
+2026-03-13 06:20:03 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:03 [INFO] Starting generation for layer ops-dashboard-main (ops-dashboard-main)
+2026-03-13 06:20:03 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:03 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:03 [INFO] Using directory: ops-dashboard-main
+2026-03-13 06:20:03 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:03 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-dashboard-main\Ops Main DashboardList.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-dashboard-main\Ops Main DashboardList.tsx\ops-dashboard-main\Ops Main DashboardDetail.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-dashboard-main\Ops Main DashboardList.tsx\ops-dashboard-main\Ops Main DashboardDetail.tsx\ops-dashboard-main\Ops Main DashboardCreate.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-dashboard-main\Ops Main DashboardList.tsx\ops-dashboard-main\Ops Main DashboardDetail.tsx\ops-dashboard-main\Ops Main DashboardCreate.tsx\ops-dashboard-main\Ops Main DashboardEdit.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-dashboard-main\Ops Main DashboardList.tsx\ops-dashboard-main\Ops Main DashboardDetail.tsx\ops-dashboard-main\Ops Main DashboardCreate.tsx\ops-dashboard-main\Ops Main DashboardEdit.tsx\ops-dashboard-main\Ops Main DashboardGraph.tsx' is denied.
+2026-03-13 06:20:03 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-dashboard-main-20260313_062003.json
+2026-03-13 06:20:03 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:03 [INFO] Starting generation for layer ops-deployment (ops-deployment)
+2026-03-13 06:20:03 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:03 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:03 [INFO] Using directory: ops-deployment
+2026-03-13 06:20:03 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:03 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-deployment\Deployment PipelineList.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-deployment\Deployment PipelineList.tsx\ops-deployment\Deployment PipelineDetail.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-deployment\Deployment PipelineList.tsx\ops-deployment\Deployment PipelineDetail.tsx\ops-deployment\Deployment PipelineCreate.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-deployment\Deployment PipelineList.tsx\ops-deployment\Deployment PipelineDetail.tsx\ops-deployment\Deployment PipelineCreate.tsx\ops-deployment\Deployment PipelineEdit.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-deployment\Deployment PipelineList.tsx\ops-deployment\Deployment PipelineDetail.tsx\ops-deployment\Deployment PipelineCreate.tsx\ops-deployment\Deployment PipelineEdit.tsx\ops-deployment\Deployment PipelineGraph.tsx' is denied.
+2026-03-13 06:20:03 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-deployment-20260313_062003.json
+2026-03-13 06:20:03 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:03 [INFO] Starting generation for layer ops-incidents (ops-incidents)
+2026-03-13 06:20:03 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:03 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:03 [INFO] Using directory: ops-incidents
+2026-03-13 06:20:03 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:03 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-incidents\Incident TrackerList.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-incidents\Incident TrackerList.tsx\ops-incidents\Incident TrackerDetail.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-incidents\Incident TrackerList.tsx\ops-incidents\Incident TrackerDetail.tsx\ops-incidents\Incident TrackerCreate.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-incidents\Incident TrackerList.tsx\ops-incidents\Incident TrackerDetail.tsx\ops-incidents\Incident TrackerCreate.tsx\ops-incidents\Incident TrackerEdit.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-incidents\Incident TrackerList.tsx\ops-incidents\Incident TrackerDetail.tsx\ops-incidents\Incident TrackerCreate.tsx\ops-incidents\Incident TrackerEdit.tsx\ops-incidents\Incident TrackerGraph.tsx' is denied.
+2026-03-13 06:20:03 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-incidents-20260313_062003.json
+2026-03-13 06:20:03 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:03 [INFO] Starting generation for layer ops-infrastructure (ops-infrastructure)
+2026-03-13 06:20:03 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:03 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:03 [INFO] Using directory: ops-infrastructure
+2026-03-13 06:20:03 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:03 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-infrastructure\Infrastructure StatusList.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-infrastructure\Infrastructure StatusList.tsx\ops-infrastructure\Infrastructure StatusDetail.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-infrastructure\Infrastructure StatusList.tsx\ops-infrastructure\Infrastructure StatusDetail.tsx\ops-infrastructure\Infrastructure StatusCreate.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-infrastructure\Infrastructure StatusList.tsx\ops-infrastructure\Infrastructure StatusDetail.tsx\ops-infrastructure\Infrastructure StatusCreate.tsx\ops-infrastructure\Infrastructure StatusEdit.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-infrastructure\Infrastructure StatusList.tsx\ops-infrastructure\Infrastructure StatusDetail.tsx\ops-infrastructure\Infrastructure StatusCreate.tsx\ops-infrastructure\Infrastructure StatusEdit.tsx\ops-infrastructure\Infrastructure StatusGraph.tsx' is denied.
+2026-03-13 06:20:03 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-infrastructure-20260313_062003.json
+2026-03-13 06:20:03 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:03 [INFO] Starting generation for layer ops-logs (ops-logs)
+2026-03-13 06:20:03 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:03 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:03 [INFO] Using directory: ops-logs
+2026-03-13 06:20:03 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:03 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-logs\Log ViewerList.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-logs\Log ViewerList.tsx\ops-logs\Log ViewerDetail.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-logs\Log ViewerList.tsx\ops-logs\Log ViewerDetail.tsx\ops-logs\Log ViewerCreate.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-logs\Log ViewerList.tsx\ops-logs\Log ViewerDetail.tsx\ops-logs\Log ViewerCreate.tsx\ops-logs\Log ViewerEdit.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-logs\Log ViewerList.tsx\ops-logs\Log ViewerDetail.tsx\ops-logs\Log ViewerCreate.tsx\ops-logs\Log ViewerEdit.tsx\ops-logs\Log ViewerGraph.tsx' is denied.
+2026-03-13 06:20:03 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-logs-20260313_062003.json
+2026-03-13 06:20:03 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:03 [INFO] Starting generation for layer ops-scaling (ops-scaling)
+2026-03-13 06:20:03 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:03 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:03 [INFO] Using directory: ops-scaling
+2026-03-13 06:20:03 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:03 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-scaling\Auto-Scaling ControlList.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-scaling\Auto-Scaling ControlList.tsx\ops-scaling\Auto-Scaling ControlDetail.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-scaling\Auto-Scaling ControlList.tsx\ops-scaling\Auto-Scaling ControlDetail.tsx\ops-scaling\Auto-Scaling ControlCreate.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-scaling\Auto-Scaling ControlList.tsx\ops-scaling\Auto-Scaling ControlDetail.tsx\ops-scaling\Auto-Scaling ControlCreate.tsx\ops-scaling\Auto-Scaling ControlEdit.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\ops-scaling\Auto-Scaling ControlList.tsx\ops-scaling\Auto-Scaling ControlDetail.tsx\ops-scaling\Auto-Scaling ControlCreate.tsx\ops-scaling\Auto-Scaling ControlEdit.tsx\ops-scaling\Auto-Scaling ControlGraph.tsx' is denied.
+2026-03-13 06:20:03 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-scaling-20260313_062003.json
+2026-03-13 06:20:03 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:03 [INFO] Starting generation for layer eva-faces-page-1 (eva-faces-page-1)
+2026-03-13 06:20:03 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:03 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:03 [INFO] Using directory: eva-faces-page-1
+2026-03-13 06:20:03 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:03 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-1\Eva-Faces Page 1List.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-1\Eva-Faces Page 1List.tsx\eva-faces-page-1\Eva-Faces Page 1Detail.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-1\Eva-Faces Page 1List.tsx\eva-faces-page-1\Eva-Faces Page 1Detail.tsx\eva-faces-page-1\Eva-Faces Page 1Create.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-1\Eva-Faces Page 1List.tsx\eva-faces-page-1\Eva-Faces Page 1Detail.tsx\eva-faces-page-1\Eva-Faces Page 1Create.tsx\eva-faces-page-1\Eva-Faces Page 1Edit.tsx' is denied.
+2026-03-13 06:20:03 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-1\Eva-Faces Page 1List.tsx\eva-faces-page-1\Eva-Faces Page 1Detail.tsx\eva-faces-page-1\Eva-Faces Page 1Create.tsx\eva-faces-page-1\Eva-Faces Page 1Edit.tsx\eva-faces-page-1\Eva-Faces Page 1Graph.tsx' is denied.
+2026-03-13 06:20:03 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-1-20260313_062003.json
+2026-03-13 06:20:03 [FAIL] Generation complete: 0/5 components - FAIL
+2026-03-13 06:20:03 [INFO] Starting generation for layer eva-faces-page-10 (eva-faces-page-10)
+2026-03-13 06:20:04 [PASS] PASS: All 7 templates verified
+2026-03-13 06:20:04 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:20:04 [INFO] Using directory: eva-faces-page-10
+2026-03-13 06:20:04 [INFO] Substituting templates for 5 components...
+2026-03-13 06:20:04 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-10\Eva-Faces Page 10List.tsx' is denied.
+2026-03-13 06:20:04 [ERROR] Failed to generate DetailView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-10\Eva-Faces Page 10List.tsx\eva-faces-page-10\Eva-Faces Page 10Detail.tsx' is denied.
+2026-03-13 06:20:04 [ERROR] Failed to generate CreateForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-10\Eva-Faces Page 10List.tsx\eva-faces-page-10\Eva-Faces Page 10Detail.tsx\eva-faces-page-10\Eva-Faces Page 10Create.tsx' is denied.
+2026-03-13 06:20:04 [ERROR] Failed to generate EditForm : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-10\Eva-Faces Page 10List.tsx\eva-faces-page-10\Eva-Faces Page 10Detail.tsx\eva-faces-page-10\Eva-Faces Page 10Create.tsx\eva-faces-page-10\Eva-Faces Page 10Edit.tsx' is denied.
+2026-03-13 06:20:04 [ERROR] Failed to generate GraphView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\eva-faces-page-10\Eva-Faces Page 10List.tsx\eva-faces-page-10\Eva-Faces Page 10Detail.tsx\eva-faces-page-10\Eva-Faces Page 10Create.tsx\eva-faces-page-10\Eva-Faces Page 10Edit.tsx\eva-faces-page-10\Eva-Faces Page 10Graph.tsx' is denied.
+2026-03-13 06:20:04 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-10-20260313_062003.json
+2026-03-13 06:20:04 [FAIL] Generation complete: 0/5 components - FAIL

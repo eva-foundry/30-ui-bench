@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l98\\L98List.tsx",
+                                "component":  "ListView",
+                                "file":  "L98List.tsx",
+                                "bytes":  7685
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l98\\L98Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L98Detail.tsx",
+                                "bytes":  5687
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l98\\L98Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L98Create.tsx",
+                                "bytes":  8337
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l98\\L98Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L98Edit.tsx",
+                                "bytes":  5854
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l98\\L98Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L98Graph.tsx",
+                                "bytes":  7631
+                            }
+                        ],
+    "entity_type":  "L98Record",
+    "timestamp":  "2026-03-13T07:14:06.5467472-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l98",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L98",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

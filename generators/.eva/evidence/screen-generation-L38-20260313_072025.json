@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\github_rules\\GithubrulesList.tsx",
+                                "component":  "ListView",
+                                "file":  "GithubrulesList.tsx",
+                                "bytes":  5996
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\github_rules\\GithubrulesDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "GithubrulesDetail.tsx",
+                                "bytes":  5714
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\github_rules\\GithubrulesCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "GithubrulesCreate.tsx",
+                                "bytes":  8615
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\github_rules\\GithubrulesEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "GithubrulesEdit.tsx",
+                                "bytes":  9942
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\github_rules\\GithubrulesGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "GithubrulesGraph.tsx",
+                                "bytes":  7638
+                            }
+                        ],
+    "entity_type":  "L38Record",
+    "timestamp":  "2026-03-13T07:20:25.7578416-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "github_rules",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L38",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

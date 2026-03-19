@@ -1,0 +1,180 @@
+2026-03-13 06:38:46 [INFO] Starting generation for layer L18 (l18)
+2026-03-13 06:38:46 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:46 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:46 [INFO] Using directory: l18
+2026-03-13 06:38:46 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:46 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l18\L18List.tsx' is denied.
+2026-03-13 06:38:46 [INFO] Generated: L18Detail.tsx
+2026-03-13 06:38:46 [INFO] Generated: L18Create.tsx
+2026-03-13 06:38:46 [INFO] Generated: L18Edit.tsx
+2026-03-13 06:38:46 [INFO] Generated: L18Graph.tsx
+2026-03-13 06:38:46 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L18-20260313_063846.json
+2026-03-13 06:38:46 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:38:46 [INFO] Starting generation for layer L19 (l19)
+2026-03-13 06:38:46 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:46 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:46 [INFO] Using directory: l19
+2026-03-13 06:38:46 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:46 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l19\L19List.tsx' is denied.
+2026-03-13 06:38:46 [INFO] Generated: L19Detail.tsx
+2026-03-13 06:38:46 [INFO] Generated: L19Create.tsx
+2026-03-13 06:38:46 [INFO] Generated: L19Edit.tsx
+2026-03-13 06:38:46 [INFO] Generated: L19Graph.tsx
+2026-03-13 06:38:46 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L19-20260313_063846.json
+2026-03-13 06:38:46 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:38:46 [INFO] Starting generation for layer L2 (l2)
+2026-03-13 06:38:46 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:46 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:46 [INFO] Using directory: l2
+2026-03-13 06:38:46 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:46 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l2\L2List.tsx' is denied.
+2026-03-13 06:38:46 [INFO] Generated: L2Detail.tsx
+2026-03-13 06:38:46 [INFO] Generated: L2Create.tsx
+2026-03-13 06:38:46 [INFO] Generated: L2Edit.tsx
+2026-03-13 06:38:46 [INFO] Generated: L2Graph.tsx
+2026-03-13 06:38:46 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L2-20260313_063846.json
+2026-03-13 06:38:46 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:38:46 [INFO] Starting generation for layer L20 (l20)
+2026-03-13 06:38:46 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:46 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:46 [INFO] Using directory: l20
+2026-03-13 06:38:46 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:46 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l20\L20List.tsx' is denied.
+2026-03-13 06:38:46 [INFO] Generated: L20Detail.tsx
+2026-03-13 06:38:46 [INFO] Generated: L20Create.tsx
+2026-03-13 06:38:46 [INFO] Generated: L20Edit.tsx
+2026-03-13 06:38:46 [INFO] Generated: L20Graph.tsx
+2026-03-13 06:38:46 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L20-20260313_063846.json
+2026-03-13 06:38:46 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:38:46 [INFO] Starting generation for layer L21 (l21)
+2026-03-13 06:38:46 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:46 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:46 [INFO] Using directory: l21
+2026-03-13 06:38:46 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:46 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l21\L21List.tsx' is denied.
+2026-03-13 06:38:46 [INFO] Generated: L21Detail.tsx
+2026-03-13 06:38:46 [INFO] Generated: L21Create.tsx
+2026-03-13 06:38:46 [INFO] Generated: L21Edit.tsx
+2026-03-13 06:38:46 [INFO] Generated: L21Graph.tsx
+2026-03-13 06:38:46 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L21-20260313_063846.json
+2026-03-13 06:38:46 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:38:46 [INFO] Starting generation for layer L22 (l22)
+2026-03-13 06:38:46 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:46 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:46 [INFO] Using directory: l22
+2026-03-13 06:38:46 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:46 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l22\L22List.tsx' is denied.
+2026-03-13 06:38:46 [INFO] Generated: L22Detail.tsx
+2026-03-13 06:38:46 [INFO] Generated: L22Create.tsx
+2026-03-13 06:38:46 [INFO] Generated: L22Edit.tsx
+2026-03-13 06:38:46 [INFO] Generated: L22Graph.tsx
+2026-03-13 06:38:46 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L22-20260313_063846.json
+2026-03-13 06:38:46 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:38:46 [INFO] Starting generation for layer L23 (l23)
+2026-03-13 06:38:46 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:46 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:46 [INFO] Using directory: l23
+2026-03-13 06:38:46 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:46 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l23\L23List.tsx' is denied.
+2026-03-13 06:38:46 [INFO] Generated: L23Detail.tsx
+2026-03-13 06:38:46 [INFO] Generated: L23Create.tsx
+2026-03-13 06:38:46 [INFO] Generated: L23Edit.tsx
+2026-03-13 06:38:46 [INFO] Generated: L23Graph.tsx
+2026-03-13 06:38:46 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L23-20260313_063846.json
+2026-03-13 06:38:46 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:38:46 [INFO] Starting generation for layer L24 (l24)
+2026-03-13 06:38:46 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:46 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:46 [INFO] Using directory: l24
+2026-03-13 06:38:46 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:46 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l24\L24List.tsx' is denied.
+2026-03-13 06:38:46 [INFO] Generated: L24Detail.tsx
+2026-03-13 06:38:46 [INFO] Generated: L24Create.tsx
+2026-03-13 06:38:46 [INFO] Generated: L24Edit.tsx
+2026-03-13 06:38:46 [INFO] Generated: L24Graph.tsx
+2026-03-13 06:38:46 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L24-20260313_063846.json
+2026-03-13 06:38:46 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:38:46 [INFO] Starting generation for layer L25 (l25)
+2026-03-13 06:38:46 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:46 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:46 [INFO] Using directory: l25
+2026-03-13 06:38:46 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:46 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l25\L25List.tsx' is denied.
+2026-03-13 06:38:46 [INFO] Generated: L25Detail.tsx
+2026-03-13 06:38:46 [INFO] Generated: L25Create.tsx
+2026-03-13 06:38:46 [INFO] Generated: L25Edit.tsx
+2026-03-13 06:38:46 [INFO] Generated: L25Graph.tsx
+2026-03-13 06:38:46 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L25-20260313_063846.json
+2026-03-13 06:38:46 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:38:46 [INFO] Starting generation for layer L26 (l26)
+2026-03-13 06:38:46 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:46 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:46 [INFO] Using directory: l26
+2026-03-13 06:38:46 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:46 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l26\L26List.tsx' is denied.
+2026-03-13 06:38:46 [INFO] Generated: L26Detail.tsx
+2026-03-13 06:38:46 [INFO] Generated: L26Create.tsx
+2026-03-13 06:38:46 [INFO] Generated: L26Edit.tsx
+2026-03-13 06:38:46 [INFO] Generated: L26Graph.tsx
+2026-03-13 06:38:46 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L26-20260313_063846.json
+2026-03-13 06:38:46 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:38:46 [INFO] Starting generation for layer L27 (l27)
+2026-03-13 06:38:46 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:46 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:46 [INFO] Using directory: l27
+2026-03-13 06:38:46 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:46 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l27\L27List.tsx' is denied.
+2026-03-13 06:38:46 [INFO] Generated: L27Detail.tsx
+2026-03-13 06:38:46 [INFO] Generated: L27Create.tsx
+2026-03-13 06:38:46 [INFO] Generated: L27Edit.tsx
+2026-03-13 06:38:46 [INFO] Generated: L27Graph.tsx
+2026-03-13 06:38:46 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L27-20260313_063846.json
+2026-03-13 06:38:46 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:38:46 [INFO] Starting generation for layer L28 (l28)
+2026-03-13 06:38:46 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:46 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:46 [INFO] Using directory: l28
+2026-03-13 06:38:46 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:46 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l28\L28List.tsx' is denied.
+2026-03-13 06:38:46 [INFO] Generated: L28Detail.tsx
+2026-03-13 06:38:46 [INFO] Generated: L28Create.tsx
+2026-03-13 06:38:46 [INFO] Generated: L28Edit.tsx
+2026-03-13 06:38:46 [INFO] Generated: L28Graph.tsx
+2026-03-13 06:38:46 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L28-20260313_063846.json
+2026-03-13 06:38:46 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:38:46 [INFO] Starting generation for layer L29 (l29)
+2026-03-13 06:38:46 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:46 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:46 [INFO] Using directory: l29
+2026-03-13 06:38:46 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:46 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l29\L29List.tsx' is denied.
+2026-03-13 06:38:46 [INFO] Generated: L29Detail.tsx
+2026-03-13 06:38:46 [INFO] Generated: L29Create.tsx
+2026-03-13 06:38:46 [INFO] Generated: L29Edit.tsx
+2026-03-13 06:38:46 [INFO] Generated: L29Graph.tsx
+2026-03-13 06:38:46 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L29-20260313_063846.json
+2026-03-13 06:38:46 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:38:46 [INFO] Starting generation for layer L3 (l3)
+2026-03-13 06:38:46 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:46 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:46 [INFO] Using directory: l3
+2026-03-13 06:38:46 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:46 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l3\L3List.tsx' is denied.
+2026-03-13 06:38:46 [INFO] Generated: L3Detail.tsx
+2026-03-13 06:38:46 [INFO] Generated: L3Create.tsx
+2026-03-13 06:38:46 [INFO] Generated: L3Edit.tsx
+2026-03-13 06:38:46 [INFO] Generated: L3Graph.tsx
+2026-03-13 06:38:46 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L3-20260313_063846.json
+2026-03-13 06:38:46 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:38:46 [INFO] Starting generation for layer L30 (l30)
+2026-03-13 06:38:46 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:46 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:46 [INFO] Using directory: l30
+2026-03-13 06:38:47 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:47 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l30\L30List.tsx' is denied.
+2026-03-13 06:38:47 [INFO] Generated: L30Detail.tsx
+2026-03-13 06:38:47 [INFO] Generated: L30Create.tsx
+2026-03-13 06:38:47 [INFO] Generated: L30Edit.tsx
+2026-03-13 06:38:47 [INFO] Generated: L30Graph.tsx
+2026-03-13 06:38:47 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L30-20260313_063846.json
+2026-03-13 06:38:47 [FAIL] Generation complete: 4/5 components - FAIL

@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-scaling\\OpsscalingList.tsx",
+                                "component":  "ListView",
+                                "file":  "OpsscalingList.tsx",
+                                "bytes":  6005
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-scaling\\OpsscalingDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "OpsscalingDetail.tsx",
+                                "bytes":  5741
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-scaling\\OpsscalingCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "OpsscalingCreate.tsx",
+                                "bytes":  8639
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-scaling\\OpsscalingEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "OpsscalingEdit.tsx",
+                                "bytes":  9988
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-scaling\\OpsscalingGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "OpsscalingGraph.tsx",
+                                "bytes":  7647
+                            }
+                        ],
+    "entity_type":  "OpsScalingRecord",
+    "timestamp":  "2026-03-13T06:54:33.0706115-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "ops-scaling",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "ops-scaling",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-infrastructure\\Infrastructure StatusDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "Infrastructure StatusDetail.tsx",
+                                "bytes":  5877
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-infrastructure\\Infrastructure StatusCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "Infrastructure StatusCreate.tsx",
+                                "bytes":  8858
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-infrastructure\\Infrastructure StatusEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "Infrastructure StatusEdit.tsx",
+                                "bytes":  10236
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-infrastructure\\Infrastructure StatusGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "Infrastructure StatusGraph.tsx",
+                                "bytes":  7787
+                            }
+                        ],
+    "entity_type":  "Infrastructure StatusRecord",
+    "timestamp":  "2026-03-13T06:21:30.9609278-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "ops-infrastructure",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-infrastructure\\Infrastructure StatusList.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "ops-infrastructure",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

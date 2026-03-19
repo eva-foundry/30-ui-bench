@@ -1,0 +1,165 @@
+2026-03-13 06:38:55 [INFO] Starting generation for layer eva-faces-page-8 (eva-faces-page-8)
+2026-03-13 06:38:55 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:55 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:55 [INFO] Using directory: eva-faces-page-8
+2026-03-13 06:38:55 [INFO] Created directory: eva-faces-page-8
+2026-03-13 06:38:55 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:55 [INFO] Generated: EvaFacesPage8List.tsx
+2026-03-13 06:38:55 [INFO] Generated: EvaFacesPage8Detail.tsx
+2026-03-13 06:38:55 [INFO] Generated: EvaFacesPage8Create.tsx
+2026-03-13 06:38:55 [INFO] Generated: EvaFacesPage8Edit.tsx
+2026-03-13 06:38:55 [INFO] Generated: EvaFacesPage8Graph.tsx
+2026-03-13 06:38:55 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-8-20260313_063855.json
+2026-03-13 06:38:55 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:55 [INFO] Starting generation for layer eva-faces-page-9 (eva-faces-page-9)
+2026-03-13 06:38:55 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:55 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:55 [INFO] Using directory: eva-faces-page-9
+2026-03-13 06:38:55 [INFO] Created directory: eva-faces-page-9
+2026-03-13 06:38:55 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:55 [INFO] Generated: EvaFacesPage9List.tsx
+2026-03-13 06:38:55 [INFO] Generated: EvaFacesPage9Detail.tsx
+2026-03-13 06:38:55 [INFO] Generated: EvaFacesPage9Create.tsx
+2026-03-13 06:38:55 [INFO] Generated: EvaFacesPage9Edit.tsx
+2026-03-13 06:38:55 [INFO] Generated: EvaFacesPage9Graph.tsx
+2026-03-13 06:38:55 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-9-20260313_063855.json
+2026-03-13 06:38:55 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:55 [INFO] Starting generation for layer project-39-EVAHomePage (project-39-evahomepage)
+2026-03-13 06:38:55 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:55 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:55 [INFO] Using directory: project-39-evahomepage
+2026-03-13 06:38:55 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:55 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-39-evahomepage\EvahomepageList.tsx' is denied.
+2026-03-13 06:38:55 [INFO] Generated: EvahomepageDetail.tsx
+2026-03-13 06:38:55 [INFO] Generated: EvahomepageCreate.tsx
+2026-03-13 06:38:55 [INFO] Generated: EvahomepageEdit.tsx
+2026-03-13 06:38:55 [INFO] Generated: EvahomepageGraph.tsx
+2026-03-13 06:38:55 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-39-EVAHomePage-20260313_063855.json
+2026-03-13 06:38:55 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:38:55 [INFO] Starting generation for layer project-39-EVAHomePage.test (project-39-evahomepage.test)
+2026-03-13 06:38:55 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:55 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:55 [INFO] Using directory: project-39-evahomepage.test
+2026-03-13 06:38:55 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:55 [INFO] Generated: EvahomepageTestList.tsx
+2026-03-13 06:38:55 [INFO] Generated: EvahomepageTestDetail.tsx
+2026-03-13 06:38:55 [INFO] Generated: EvahomepageTestCreate.tsx
+2026-03-13 06:38:55 [INFO] Generated: EvahomepageTestEdit.tsx
+2026-03-13 06:38:55 [INFO] Generated: EvahomepageTestGraph.tsx
+2026-03-13 06:38:55 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-39-EVAHomePage.test-20260313_063855.json
+2026-03-13 06:38:55 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:55 [INFO] Starting generation for layer project-39-SprintBoardPage (project-39-sprintboardpage)
+2026-03-13 06:38:55 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:55 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:55 [INFO] Using directory: project-39-sprintboardpage
+2026-03-13 06:38:55 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:55 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\project-39-sprintboardpage\SprintboardpageList.tsx' is denied.
+2026-03-13 06:38:55 [INFO] Generated: SprintboardpageDetail.tsx
+2026-03-13 06:38:55 [INFO] Generated: SprintboardpageCreate.tsx
+2026-03-13 06:38:55 [INFO] Generated: SprintboardpageEdit.tsx
+2026-03-13 06:38:55 [INFO] Generated: SprintboardpageGraph.tsx
+2026-03-13 06:38:55 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-39-SprintBoardPage-20260313_063855.json
+2026-03-13 06:38:55 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:38:55 [INFO] Starting generation for layer project-39-SprintBoardPage.test (project-39-sprintboardpage.test)
+2026-03-13 06:38:55 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:55 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:55 [INFO] Using directory: project-39-sprintboardpage.test
+2026-03-13 06:38:55 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:55 [INFO] Generated: SprintboardpageTestList.tsx
+2026-03-13 06:38:55 [INFO] Generated: SprintboardpageTestDetail.tsx
+2026-03-13 06:38:55 [INFO] Generated: SprintboardpageTestCreate.tsx
+2026-03-13 06:38:55 [INFO] Generated: SprintboardpageTestEdit.tsx
+2026-03-13 06:38:55 [INFO] Generated: SprintboardpageTestGraph.tsx
+2026-03-13 06:38:55 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-39-SprintBoardPage.test-20260313_063855.json
+2026-03-13 06:38:55 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:55 [INFO] Starting generation for layer project-screen-1 (project-screen-1)
+2026-03-13 06:38:55 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:55 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:55 [INFO] Using directory: project-screen-1
+2026-03-13 06:38:55 [INFO] Created directory: project-screen-1
+2026-03-13 06:38:55 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen1TbdList.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen1TbdDetail.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen1TbdCreate.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen1TbdEdit.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen1TbdGraph.tsx
+2026-03-13 06:38:55 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-screen-1-20260313_063855.json
+2026-03-13 06:38:55 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:55 [INFO] Starting generation for layer project-screen-10 (project-screen-10)
+2026-03-13 06:38:55 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:55 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:55 [INFO] Using directory: project-screen-10
+2026-03-13 06:38:55 [INFO] Created directory: project-screen-10
+2026-03-13 06:38:55 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen10TbdList.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen10TbdDetail.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen10TbdCreate.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen10TbdEdit.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen10TbdGraph.tsx
+2026-03-13 06:38:55 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-screen-10-20260313_063855.json
+2026-03-13 06:38:55 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:55 [INFO] Starting generation for layer project-screen-11 (project-screen-11)
+2026-03-13 06:38:55 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:55 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:55 [INFO] Using directory: project-screen-11
+2026-03-13 06:38:55 [INFO] Created directory: project-screen-11
+2026-03-13 06:38:55 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen11TbdList.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen11TbdDetail.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen11TbdCreate.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen11TbdEdit.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen11TbdGraph.tsx
+2026-03-13 06:38:55 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-screen-11-20260313_063855.json
+2026-03-13 06:38:55 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:55 [INFO] Starting generation for layer project-screen-12 (project-screen-12)
+2026-03-13 06:38:55 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:55 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:55 [INFO] Using directory: project-screen-12
+2026-03-13 06:38:55 [INFO] Created directory: project-screen-12
+2026-03-13 06:38:55 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen12TbdList.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen12TbdDetail.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen12TbdCreate.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen12TbdEdit.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen12TbdGraph.tsx
+2026-03-13 06:38:55 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-screen-12-20260313_063855.json
+2026-03-13 06:38:55 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:55 [INFO] Starting generation for layer project-screen-13 (project-screen-13)
+2026-03-13 06:38:55 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:55 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:55 [INFO] Using directory: project-screen-13
+2026-03-13 06:38:55 [INFO] Created directory: project-screen-13
+2026-03-13 06:38:55 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen13TbdList.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen13TbdDetail.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen13TbdCreate.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen13TbdEdit.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen13TbdGraph.tsx
+2026-03-13 06:38:55 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-screen-13-20260313_063855.json
+2026-03-13 06:38:55 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:55 [INFO] Starting generation for layer project-screen-14 (project-screen-14)
+2026-03-13 06:38:55 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:55 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:55 [INFO] Using directory: project-screen-14
+2026-03-13 06:38:55 [INFO] Created directory: project-screen-14
+2026-03-13 06:38:55 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen14TbdList.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen14TbdDetail.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen14TbdCreate.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen14TbdEdit.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen14TbdGraph.tsx
+2026-03-13 06:38:55 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-screen-14-20260313_063855.json
+2026-03-13 06:38:55 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:55 [INFO] Starting generation for layer project-screen-15 (project-screen-15)
+2026-03-13 06:38:55 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:55 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:55 [INFO] Using directory: project-screen-15
+2026-03-13 06:38:55 [INFO] Created directory: project-screen-15
+2026-03-13 06:38:55 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen15TbdList.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen15TbdDetail.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen15TbdCreate.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen15TbdEdit.tsx
+2026-03-13 06:38:55 [INFO] Generated: ProjectScreen15TbdGraph.tsx
+2026-03-13 06:38:55 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-screen-15-20260313_063855.json
+2026-03-13 06:38:55 [PASS] Generation complete: 5/5 components - PASS

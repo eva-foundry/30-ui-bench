@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\eva-faces-page-13\\EvaFacesPage13List.tsx",
+                                "component":  "ListView",
+                                "file":  "EvaFacesPage13List.tsx",
+                                "bytes":  6133
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\eva-faces-page-13\\EvaFacesPage13Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "EvaFacesPage13Detail.tsx",
+                                "bytes":  5831
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\eva-faces-page-13\\EvaFacesPage13Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "EvaFacesPage13Create.tsx",
+                                "bytes":  8782
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\eva-faces-page-13\\EvaFacesPage13Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "EvaFacesPage13Edit.tsx",
+                                "bytes":  10151
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\eva-faces-page-13\\EvaFacesPage13Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "EvaFacesPage13Graph.tsx",
+                                "bytes":  7735
+                            }
+                        ],
+    "entity_type":  "Eva-Faces Page 13Record",
+    "timestamp":  "2026-03-13T06:38:53.9184899-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "eva-faces-page-13",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "eva-faces-page-13",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

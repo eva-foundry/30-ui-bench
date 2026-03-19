@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l61\\L61List.tsx",
+                                "component":  "ListView",
+                                "file":  "L61List.tsx",
+                                "bytes":  5819
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l61\\L61Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L61Detail.tsx",
+                                "bytes":  5619
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l61\\L61Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L61Create.tsx",
+                                "bytes":  8450
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l61\\L61Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L61Edit.tsx",
+                                "bytes":  9777
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l61\\L61Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L61Graph.tsx",
+                                "bytes":  7526
+                            }
+                        ],
+    "entity_type":  "L61Record",
+    "timestamp":  "2026-03-13T06:51:17.5601207-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l61",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L61",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

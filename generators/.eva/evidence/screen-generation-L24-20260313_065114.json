@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\hooks\\HooksList.tsx",
+                                "component":  "ListView",
+                                "file":  "HooksList.tsx",
+                                "bytes":  5861
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\hooks\\HooksDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "HooksDetail.tsx",
+                                "bytes":  5641
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\hooks\\HooksCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "HooksCreate.tsx",
+                                "bytes":  8488
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\hooks\\HooksEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "HooksEdit.tsx",
+                                "bytes":  9815
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\hooks\\HooksGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "HooksGraph.tsx",
+                                "bytes":  7552
+                            }
+                        ],
+    "entity_type":  "L24Record",
+    "timestamp":  "2026-03-13T06:51:14.5193889-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "hooks",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L24",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

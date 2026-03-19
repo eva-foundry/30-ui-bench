@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l107\\L107List.tsx",
+                                "component":  "ListView",
+                                "file":  "L107List.tsx",
+                                "bytes":  5844
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l107\\L107Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L107Detail.tsx",
+                                "bytes":  5635
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l107\\L107Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L107Create.tsx",
+                                "bytes":  8475
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l107\\L107Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L107Edit.tsx",
+                                "bytes":  9805
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l107\\L107Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L107Graph.tsx",
+                                "bytes":  7542
+                            }
+                        ],
+    "entity_type":  "L107Record",
+    "timestamp":  "2026-03-13T06:53:39.3092214-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l107",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L107",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

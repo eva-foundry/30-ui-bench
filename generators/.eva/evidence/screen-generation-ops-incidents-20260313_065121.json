@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-incidents\\OpsincidentsList.tsx",
+                                "component":  "ListView",
+                                "file":  "OpsincidentsList.tsx",
+                                "bytes":  6055
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-incidents\\OpsincidentsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "OpsincidentsDetail.tsx",
+                                "bytes":  5773
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-incidents\\OpsincidentsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "OpsincidentsCreate.tsx",
+                                "bytes":  8689
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-incidents\\OpsincidentsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "OpsincidentsEdit.tsx",
+                                "bytes":  10044
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-incidents\\OpsincidentsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "OpsincidentsGraph.tsx",
+                                "bytes":  7679
+                            }
+                        ],
+    "entity_type":  "OpsIncidentsRecord",
+    "timestamp":  "2026-03-13T06:51:21.7753762-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "ops-incidents",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "ops-incidents",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

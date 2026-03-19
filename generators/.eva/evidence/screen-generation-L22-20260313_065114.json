@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\security_controls\\SecuritycontrolsList.tsx",
+                                "component":  "ListView",
+                                "file":  "SecuritycontrolsList.tsx",
+                                "bytes":  6101
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\security_controls\\SecuritycontrolsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "SecuritycontrolsDetail.tsx",
+                                "bytes":  5769
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\security_controls\\SecuritycontrolsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "SecuritycontrolsCreate.tsx",
+                                "bytes":  8710
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\security_controls\\SecuritycontrolsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "SecuritycontrolsEdit.tsx",
+                                "bytes":  10037
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\security_controls\\SecuritycontrolsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "SecuritycontrolsGraph.tsx",
+                                "bytes":  7703
+                            }
+                        ],
+    "entity_type":  "L22Record",
+    "timestamp":  "2026-03-13T06:51:14.3863479-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "security_controls",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L22",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

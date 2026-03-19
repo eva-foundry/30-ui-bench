@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\milestones\\MilestonesList.tsx",
+                                "component":  "ListView",
+                                "file":  "MilestonesList.tsx",
+                                "bytes":  5980
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\milestones\\MilestonesDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "MilestonesDetail.tsx",
+                                "bytes":  5710
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\milestones\\MilestonesCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "MilestonesCreate.tsx",
+                                "bytes":  8618
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\milestones\\MilestonesEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "MilestonesEdit.tsx",
+                                "bytes":  9959
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\milestones\\MilestonesGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "MilestonesGraph.tsx",
+                                "bytes":  7631
+                            }
+                        ],
+    "entity_type":  "MilestonesRecord",
+    "timestamp":  "2026-03-14T06:19:40.0529831-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "milestones",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L29",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

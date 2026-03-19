@@ -1,0 +1,195 @@
+2026-03-13 06:38:54 [INFO] Starting generation for layer eva-faces-page-15 (eva-faces-page-15)
+2026-03-13 06:38:54 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:54 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:54 [INFO] Using directory: eva-faces-page-15
+2026-03-13 06:38:54 [INFO] Created directory: eva-faces-page-15
+2026-03-13 06:38:54 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage15List.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage15Detail.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage15Create.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage15Edit.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage15Graph.tsx
+2026-03-13 06:38:54 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-15-20260313_063854.json
+2026-03-13 06:38:54 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:54 [INFO] Starting generation for layer eva-faces-page-16 (eva-faces-page-16)
+2026-03-13 06:38:54 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:54 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:54 [INFO] Using directory: eva-faces-page-16
+2026-03-13 06:38:54 [INFO] Created directory: eva-faces-page-16
+2026-03-13 06:38:54 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage16List.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage16Detail.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage16Create.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage16Edit.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage16Graph.tsx
+2026-03-13 06:38:54 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-16-20260313_063854.json
+2026-03-13 06:38:54 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:54 [INFO] Starting generation for layer eva-faces-page-17 (eva-faces-page-17)
+2026-03-13 06:38:54 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:54 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:54 [INFO] Using directory: eva-faces-page-17
+2026-03-13 06:38:54 [INFO] Created directory: eva-faces-page-17
+2026-03-13 06:38:54 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage17List.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage17Detail.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage17Create.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage17Edit.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage17Graph.tsx
+2026-03-13 06:38:54 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-17-20260313_063854.json
+2026-03-13 06:38:54 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:54 [INFO] Starting generation for layer eva-faces-page-18 (eva-faces-page-18)
+2026-03-13 06:38:54 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:54 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:54 [INFO] Using directory: eva-faces-page-18
+2026-03-13 06:38:54 [INFO] Created directory: eva-faces-page-18
+2026-03-13 06:38:54 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage18List.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage18Detail.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage18Create.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage18Edit.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage18Graph.tsx
+2026-03-13 06:38:54 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-18-20260313_063854.json
+2026-03-13 06:38:54 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:54 [INFO] Starting generation for layer eva-faces-page-19 (eva-faces-page-19)
+2026-03-13 06:38:54 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:54 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:54 [INFO] Using directory: eva-faces-page-19
+2026-03-13 06:38:54 [INFO] Created directory: eva-faces-page-19
+2026-03-13 06:38:54 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage19List.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage19Detail.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage19Create.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage19Edit.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage19Graph.tsx
+2026-03-13 06:38:54 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-19-20260313_063854.json
+2026-03-13 06:38:54 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:54 [INFO] Starting generation for layer eva-faces-page-2 (eva-faces-page-2)
+2026-03-13 06:38:54 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:54 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:54 [INFO] Using directory: eva-faces-page-2
+2026-03-13 06:38:54 [INFO] Created directory: eva-faces-page-2
+2026-03-13 06:38:54 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage2List.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage2Detail.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage2Create.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage2Edit.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage2Graph.tsx
+2026-03-13 06:38:54 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-2-20260313_063854.json
+2026-03-13 06:38:54 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:54 [INFO] Starting generation for layer eva-faces-page-20 (eva-faces-page-20)
+2026-03-13 06:38:54 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:54 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:54 [INFO] Using directory: eva-faces-page-20
+2026-03-13 06:38:54 [INFO] Created directory: eva-faces-page-20
+2026-03-13 06:38:54 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage20List.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage20Detail.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage20Create.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage20Edit.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage20Graph.tsx
+2026-03-13 06:38:54 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-20-20260313_063854.json
+2026-03-13 06:38:54 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:54 [INFO] Starting generation for layer eva-faces-page-21 (eva-faces-page-21)
+2026-03-13 06:38:54 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:54 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:54 [INFO] Using directory: eva-faces-page-21
+2026-03-13 06:38:54 [INFO] Created directory: eva-faces-page-21
+2026-03-13 06:38:54 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage21List.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage21Detail.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage21Create.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage21Edit.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage21Graph.tsx
+2026-03-13 06:38:54 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-21-20260313_063854.json
+2026-03-13 06:38:54 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:54 [INFO] Starting generation for layer eva-faces-page-22 (eva-faces-page-22)
+2026-03-13 06:38:54 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:54 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:54 [INFO] Using directory: eva-faces-page-22
+2026-03-13 06:38:54 [INFO] Created directory: eva-faces-page-22
+2026-03-13 06:38:54 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage22List.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage22Detail.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage22Create.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage22Edit.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage22Graph.tsx
+2026-03-13 06:38:54 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-22-20260313_063854.json
+2026-03-13 06:38:54 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:54 [INFO] Starting generation for layer eva-faces-page-23 (eva-faces-page-23)
+2026-03-13 06:38:54 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:54 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:54 [INFO] Using directory: eva-faces-page-23
+2026-03-13 06:38:54 [INFO] Created directory: eva-faces-page-23
+2026-03-13 06:38:54 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage23List.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage23Detail.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage23Create.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage23Edit.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage23Graph.tsx
+2026-03-13 06:38:54 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-23-20260313_063854.json
+2026-03-13 06:38:54 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:54 [INFO] Starting generation for layer eva-faces-page-3 (eva-faces-page-3)
+2026-03-13 06:38:54 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:54 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:54 [INFO] Using directory: eva-faces-page-3
+2026-03-13 06:38:54 [INFO] Created directory: eva-faces-page-3
+2026-03-13 06:38:54 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage3List.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage3Detail.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage3Create.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage3Edit.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage3Graph.tsx
+2026-03-13 06:38:54 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-3-20260313_063854.json
+2026-03-13 06:38:54 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:54 [INFO] Starting generation for layer eva-faces-page-4 (eva-faces-page-4)
+2026-03-13 06:38:54 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:54 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:54 [INFO] Using directory: eva-faces-page-4
+2026-03-13 06:38:54 [INFO] Created directory: eva-faces-page-4
+2026-03-13 06:38:54 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage4List.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage4Detail.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage4Create.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage4Edit.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage4Graph.tsx
+2026-03-13 06:38:54 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-4-20260313_063854.json
+2026-03-13 06:38:54 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:54 [INFO] Starting generation for layer eva-faces-page-5 (eva-faces-page-5)
+2026-03-13 06:38:54 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:54 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:54 [INFO] Using directory: eva-faces-page-5
+2026-03-13 06:38:54 [INFO] Created directory: eva-faces-page-5
+2026-03-13 06:38:54 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage5List.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage5Detail.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage5Create.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage5Edit.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage5Graph.tsx
+2026-03-13 06:38:54 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-5-20260313_063854.json
+2026-03-13 06:38:54 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:54 [INFO] Starting generation for layer eva-faces-page-6 (eva-faces-page-6)
+2026-03-13 06:38:54 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:54 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:54 [INFO] Using directory: eva-faces-page-6
+2026-03-13 06:38:54 [INFO] Created directory: eva-faces-page-6
+2026-03-13 06:38:54 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage6List.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage6Detail.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage6Create.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage6Edit.tsx
+2026-03-13 06:38:54 [INFO] Generated: EvaFacesPage6Graph.tsx
+2026-03-13 06:38:54 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-6-20260313_063854.json
+2026-03-13 06:38:54 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:54 [INFO] Starting generation for layer eva-faces-page-7 (eva-faces-page-7)
+2026-03-13 06:38:55 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:55 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:55 [INFO] Using directory: eva-faces-page-7
+2026-03-13 06:38:55 [INFO] Created directory: eva-faces-page-7
+2026-03-13 06:38:55 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:55 [INFO] Generated: EvaFacesPage7List.tsx
+2026-03-13 06:38:55 [INFO] Generated: EvaFacesPage7Detail.tsx
+2026-03-13 06:38:55 [INFO] Generated: EvaFacesPage7Create.tsx
+2026-03-13 06:38:55 [INFO] Generated: EvaFacesPage7Edit.tsx
+2026-03-13 06:38:55 [INFO] Generated: EvaFacesPage7Graph.tsx
+2026-03-13 06:38:55 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-eva-faces-page-7-20260313_063854.json
+2026-03-13 06:38:55 [PASS] Generation complete: 5/5 components - PASS

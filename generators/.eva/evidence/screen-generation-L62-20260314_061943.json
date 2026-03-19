@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_factory_services\\WorkfactoryservicesList.tsx",
+                                "component":  "ListView",
+                                "file":  "WorkfactoryservicesList.tsx",
+                                "bytes":  6205
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_factory_services\\WorkfactoryservicesDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "WorkfactoryservicesDetail.tsx",
+                                "bytes":  5841
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_factory_services\\WorkfactoryservicesCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "WorkfactoryservicesCreate.tsx",
+                                "bytes":  8860
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_factory_services\\WorkfactoryservicesEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "WorkfactoryservicesEdit.tsx",
+                                "bytes":  10219
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_factory_services\\WorkfactoryservicesGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "WorkfactoryservicesGraph.tsx",
+                                "bytes":  7782
+                            }
+                        ],
+    "entity_type":  "WorkFactoryServicesRecord",
+    "timestamp":  "2026-03-14T06:19:43.1730585-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "work_factory_services",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L62",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

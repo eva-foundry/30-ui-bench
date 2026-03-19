@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\cp_workflows\\CpworkflowsList.tsx",
+                                "component":  "ListView",
+                                "file":  "CpworkflowsList.tsx",
+                                "bytes":  6012
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\cp_workflows\\CpworkflowsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "CpworkflowsDetail.tsx",
+                                "bytes":  5730
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\cp_workflows\\CpworkflowsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "CpworkflowsCreate.tsx",
+                                "bytes":  8655
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\cp_workflows\\CpworkflowsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "CpworkflowsEdit.tsx",
+                                "bytes":  9998
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\cp_workflows\\CpworkflowsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "CpworkflowsGraph.tsx",
+                                "bytes":  7654
+                            }
+                        ],
+    "entity_type":  "CpWorkflowsRecord",
+    "timestamp":  "2026-03-14T06:19:39.1710516-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "cp_workflows",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L18",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

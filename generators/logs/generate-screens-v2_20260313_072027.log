@@ -1,0 +1,195 @@
+2026-03-13 07:20:27 [INFO] Starting generation for layer L56 (work_outcomes)
+2026-03-13 07:20:27 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:27 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:27 [INFO] Using directory: work_outcomes
+2026-03-13 07:20:27 [INFO] Created directory: work_outcomes
+2026-03-13 07:20:27 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:27 [INFO] Generated: WorkoutcomesList.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkoutcomesDetail.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkoutcomesCreate.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkoutcomesEdit.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkoutcomesGraph.tsx
+2026-03-13 07:20:27 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L56-20260313_072027.json
+2026-03-13 07:20:27 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:27 [INFO] Starting generation for layer L57 (work_learning_feedback)
+2026-03-13 07:20:27 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:27 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:27 [INFO] Using directory: work_learning_feedback
+2026-03-13 07:20:27 [INFO] Created directory: work_learning_feedback
+2026-03-13 07:20:27 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:27 [INFO] Generated: WorklearningfeedbackList.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorklearningfeedbackDetail.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorklearningfeedbackCreate.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorklearningfeedbackEdit.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorklearningfeedbackGraph.tsx
+2026-03-13 07:20:27 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L57-20260313_072027.json
+2026-03-13 07:20:27 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:27 [INFO] Starting generation for layer L58 (work_reusable_patterns)
+2026-03-13 07:20:27 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:27 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:27 [INFO] Using directory: work_reusable_patterns
+2026-03-13 07:20:27 [INFO] Created directory: work_reusable_patterns
+2026-03-13 07:20:27 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:27 [INFO] Generated: WorkreusablepatternsList.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkreusablepatternsDetail.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkreusablepatternsCreate.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkreusablepatternsEdit.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkreusablepatternsGraph.tsx
+2026-03-13 07:20:27 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L58-20260313_072027.json
+2026-03-13 07:20:27 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:27 [INFO] Starting generation for layer L59 (work_pattern_applications)
+2026-03-13 07:20:27 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:27 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:27 [INFO] Using directory: work_pattern_applications
+2026-03-13 07:20:27 [INFO] Created directory: work_pattern_applications
+2026-03-13 07:20:27 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:27 [INFO] Generated: WorkpatternapplicationsList.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkpatternapplicationsDetail.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkpatternapplicationsCreate.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkpatternapplicationsEdit.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkpatternapplicationsGraph.tsx
+2026-03-13 07:20:27 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L59-20260313_072027.json
+2026-03-13 07:20:27 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:27 [INFO] Starting generation for layer L6 (schemas)
+2026-03-13 07:20:27 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:27 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:27 [INFO] Using directory: schemas
+2026-03-13 07:20:27 [INFO] Created directory: schemas
+2026-03-13 07:20:27 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:27 [INFO] Generated: SchemasList.tsx
+2026-03-13 07:20:27 [INFO] Generated: SchemasDetail.tsx
+2026-03-13 07:20:27 [INFO] Generated: SchemasCreate.tsx
+2026-03-13 07:20:27 [INFO] Generated: SchemasEdit.tsx
+2026-03-13 07:20:27 [INFO] Generated: SchemasGraph.tsx
+2026-03-13 07:20:27 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L6-20260313_072027.json
+2026-03-13 07:20:27 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:27 [INFO] Starting generation for layer L60 (work_pattern_perf_profiles)
+2026-03-13 07:20:27 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:27 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:27 [INFO] Using directory: work_pattern_perf_profiles
+2026-03-13 07:20:27 [INFO] Created directory: work_pattern_perf_profiles
+2026-03-13 07:20:27 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:27 [INFO] Generated: WorkpatternperfprofilesList.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkpatternperfprofilesDetail.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkpatternperfprofilesCreate.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkpatternperfprofilesEdit.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkpatternperfprofilesGraph.tsx
+2026-03-13 07:20:27 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L60-20260313_072027.json
+2026-03-13 07:20:27 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:27 [INFO] Starting generation for layer L61 (work_factory_capabilities)
+2026-03-13 07:20:27 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:27 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:27 [INFO] Using directory: work_factory_capabilities
+2026-03-13 07:20:27 [INFO] Created directory: work_factory_capabilities
+2026-03-13 07:20:27 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:27 [INFO] Generated: WorkfactorycapabilitiesList.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkfactorycapabilitiesDetail.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkfactorycapabilitiesCreate.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkfactorycapabilitiesEdit.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkfactorycapabilitiesGraph.tsx
+2026-03-13 07:20:27 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L61-20260313_072027.json
+2026-03-13 07:20:27 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:27 [INFO] Starting generation for layer L62 (work_factory_services)
+2026-03-13 07:20:27 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:27 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:27 [INFO] Using directory: work_factory_services
+2026-03-13 07:20:27 [INFO] Created directory: work_factory_services
+2026-03-13 07:20:27 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:27 [INFO] Generated: WorkfactoryservicesList.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkfactoryservicesDetail.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkfactoryservicesCreate.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkfactoryservicesEdit.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkfactoryservicesGraph.tsx
+2026-03-13 07:20:27 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L62-20260313_072027.json
+2026-03-13 07:20:27 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:27 [INFO] Starting generation for layer L63 (work_service_requests)
+2026-03-13 07:20:27 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:27 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:27 [INFO] Using directory: work_service_requests
+2026-03-13 07:20:27 [INFO] Created directory: work_service_requests
+2026-03-13 07:20:27 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:27 [INFO] Generated: WorkservicerequestsList.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkservicerequestsDetail.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkservicerequestsCreate.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkservicerequestsEdit.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkservicerequestsGraph.tsx
+2026-03-13 07:20:27 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L63-20260313_072027.json
+2026-03-13 07:20:27 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:27 [INFO] Starting generation for layer L64 (work_service_runs)
+2026-03-13 07:20:27 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:27 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:27 [INFO] Using directory: work_service_runs
+2026-03-13 07:20:27 [INFO] Created directory: work_service_runs
+2026-03-13 07:20:27 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:27 [INFO] Generated: WorkservicerunsList.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkservicerunsDetail.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkservicerunsCreate.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkservicerunsEdit.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkservicerunsGraph.tsx
+2026-03-13 07:20:27 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L64-20260313_072027.json
+2026-03-13 07:20:27 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:27 [INFO] Starting generation for layer L65 (work_service_perf_profiles)
+2026-03-13 07:20:27 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:27 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:27 [INFO] Using directory: work_service_perf_profiles
+2026-03-13 07:20:27 [INFO] Created directory: work_service_perf_profiles
+2026-03-13 07:20:27 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:27 [INFO] Generated: WorkserviceperfprofilesList.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkserviceperfprofilesDetail.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkserviceperfprofilesCreate.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkserviceperfprofilesEdit.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkserviceperfprofilesGraph.tsx
+2026-03-13 07:20:27 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L65-20260313_072027.json
+2026-03-13 07:20:27 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:27 [INFO] Starting generation for layer L66 (work_service_level_objs)
+2026-03-13 07:20:27 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:27 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:27 [INFO] Using directory: work_service_level_objs
+2026-03-13 07:20:27 [INFO] Created directory: work_service_level_objs
+2026-03-13 07:20:27 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:27 [INFO] Generated: WorkservicelevelobjsList.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkservicelevelobjsDetail.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkservicelevelobjsCreate.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkservicelevelobjsEdit.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkservicelevelobjsGraph.tsx
+2026-03-13 07:20:27 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L66-20260313_072027.json
+2026-03-13 07:20:27 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:27 [INFO] Starting generation for layer L67 (work_service_breaches)
+2026-03-13 07:20:27 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:27 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:27 [INFO] Using directory: work_service_breaches
+2026-03-13 07:20:27 [INFO] Created directory: work_service_breaches
+2026-03-13 07:20:27 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:27 [INFO] Generated: WorkservicebreachesList.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkservicebreachesDetail.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkservicebreachesCreate.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkservicebreachesEdit.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkservicebreachesGraph.tsx
+2026-03-13 07:20:27 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L67-20260313_072027.json
+2026-03-13 07:20:27 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:27 [INFO] Starting generation for layer L68 (work_service_remed_plans)
+2026-03-13 07:20:27 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:27 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:27 [INFO] Using directory: work_service_remed_plans
+2026-03-13 07:20:27 [INFO] Created directory: work_service_remed_plans
+2026-03-13 07:20:27 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:27 [INFO] Generated: WorkserviceremedplansList.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkserviceremedplansDetail.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkserviceremedplansCreate.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkserviceremedplansEdit.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkserviceremedplansGraph.tsx
+2026-03-13 07:20:27 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L68-20260313_072027.json
+2026-03-13 07:20:27 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 07:20:27 [INFO] Starting generation for layer L69 (work_service_reval_results)
+2026-03-13 07:20:27 [PASS] PASS: All 7 templates verified
+2026-03-13 07:20:27 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 07:20:27 [INFO] Using directory: work_service_reval_results
+2026-03-13 07:20:27 [INFO] Created directory: work_service_reval_results
+2026-03-13 07:20:27 [INFO] Substituting templates for 5 components...
+2026-03-13 07:20:27 [INFO] Generated: WorkservicerevalresultsList.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkservicerevalresultsDetail.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkservicerevalresultsCreate.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkservicerevalresultsEdit.tsx
+2026-03-13 07:20:27 [INFO] Generated: WorkservicerevalresultsGraph.tsx
+2026-03-13 07:20:27 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L69-20260313_072027.json
+2026-03-13 07:20:27 [PASS] Generation complete: 5/5 components - PASS

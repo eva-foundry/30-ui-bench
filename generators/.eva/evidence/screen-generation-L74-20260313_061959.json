@@ -1,0 +1,27 @@
+﻿{
+    "generated_files":  [
+
+                        ],
+    "entity_type":  "L74Record",
+    "timestamp":  "2026-03-13T06:19:59.6488782-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l74",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l74\\L74List.tsx\u0027 is denied.",
+                   "Failed to generate DetailView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l74\\L74List.tsx\\l74\\L74Detail.tsx\u0027 is denied.",
+                   "Failed to generate CreateForm : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l74\\L74List.tsx\\l74\\L74Detail.tsx\\l74\\L74Create.tsx\u0027 is denied.",
+                   "Failed to generate EditForm : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l74\\L74List.tsx\\l74\\L74Detail.tsx\\l74\\L74Create.tsx\\l74\\L74Edit.tsx\u0027 is denied.",
+                   "Failed to generate GraphView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l74\\L74List.tsx\\l74\\L74Detail.tsx\\l74\\L74Create.tsx\\l74\\L74Edit.tsx\\l74\\L74Graph.tsx\u0027 is denied."
+               ],
+    "components_generated":  0,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  0,
+    "components_failed":  5,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L74",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

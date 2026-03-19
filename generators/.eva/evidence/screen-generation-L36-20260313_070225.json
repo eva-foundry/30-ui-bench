@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\agent_policies\\AgentpoliciesList.tsx",
+                                "component":  "ListView",
+                                "file":  "AgentpoliciesList.tsx",
+                                "bytes":  6038
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\agent_policies\\AgentpoliciesDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "AgentpoliciesDetail.tsx",
+                                "bytes":  5736
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\agent_policies\\AgentpoliciesCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "AgentpoliciesCreate.tsx",
+                                "bytes":  8653
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\agent_policies\\AgentpoliciesEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "AgentpoliciesEdit.tsx",
+                                "bytes":  9980
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\agent_policies\\AgentpoliciesGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "AgentpoliciesGraph.tsx",
+                                "bytes":  7664
+                            }
+                        ],
+    "entity_type":  "L36Record",
+    "timestamp":  "2026-03-13T07:02:25.9139482-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "agent_policies",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L36",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

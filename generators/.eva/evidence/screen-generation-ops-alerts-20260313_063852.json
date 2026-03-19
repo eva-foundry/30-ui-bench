@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-alerts\\AlertsManagementList.tsx",
+                                "component":  "ListView",
+                                "file":  "AlertsManagementList.tsx",
+                                "bytes":  6080
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-alerts\\AlertsManagementDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "AlertsManagementDetail.tsx",
+                                "bytes":  5769
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-alerts\\AlertsManagementCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "AlertsManagementCreate.tsx",
+                                "bytes":  8696
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-alerts\\AlertsManagementEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "AlertsManagementEdit.tsx",
+                                "bytes":  10058
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-alerts\\AlertsManagementGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "AlertsManagementGraph.tsx",
+                                "bytes":  7682
+                            }
+                        ],
+    "entity_type":  "Alerts ManagementRecord",
+    "timestamp":  "2026-03-13T06:38:52.9330037-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "ops-alerts",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "ops-alerts",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

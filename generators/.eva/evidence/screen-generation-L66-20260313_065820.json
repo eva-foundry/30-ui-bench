@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_level_objs\\WorkservicelevelobjsList.tsx",
+                                "component":  "ListView",
+                                "file":  "WorkservicelevelobjsList.tsx",
+                                "bytes":  6203
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_level_objs\\WorkservicelevelobjsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "WorkservicelevelobjsDetail.tsx",
+                                "bytes":  5827
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_level_objs\\WorkservicelevelobjsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "WorkservicelevelobjsCreate.tsx",
+                                "bytes":  8812
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_level_objs\\WorkservicelevelobjsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "WorkservicelevelobjsEdit.tsx",
+                                "bytes":  10139
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_service_level_objs\\WorkservicelevelobjsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "WorkservicelevelobjsGraph.tsx",
+                                "bytes":  7771
+                            }
+                        ],
+    "entity_type":  "L66Record",
+    "timestamp":  "2026-03-13T06:58:20.7964263-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "work_service_level_objs",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L66",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

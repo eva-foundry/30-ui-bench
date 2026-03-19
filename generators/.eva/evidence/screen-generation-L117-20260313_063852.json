@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l117\\VulnerabilityScanResultsList.tsx",
+                                "component":  "ListView",
+                                "file":  "VulnerabilityScanResultsList.tsx",
+                                "bytes":  6128
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l117\\VulnerabilityScanResultsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "VulnerabilityScanResultsDetail.tsx",
+                                "bytes":  5759
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l117\\VulnerabilityScanResultsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "VulnerabilityScanResultsCreate.tsx",
+                                "bytes":  8705
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l117\\VulnerabilityScanResultsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "VulnerabilityScanResultsEdit.tsx",
+                                "bytes":  10079
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l117\\VulnerabilityScanResultsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "VulnerabilityScanResultsGraph.tsx",
+                                "bytes":  7686
+                            }
+                        ],
+    "entity_type":  "vulnerability_scan_resultsRecord",
+    "timestamp":  "2026-03-13T06:38:52.6011320-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l117",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L117",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

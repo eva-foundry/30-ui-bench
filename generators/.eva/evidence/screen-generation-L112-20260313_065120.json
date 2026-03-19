@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l112\\L112List.tsx",
+                                "component":  "ListView",
+                                "file":  "L112List.tsx",
+                                "bytes":  5844
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l112\\L112Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L112Detail.tsx",
+                                "bytes":  5635
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l112\\L112Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L112Create.tsx",
+                                "bytes":  8475
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l112\\L112Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L112Edit.tsx",
+                                "bytes":  9805
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l112\\L112Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L112Graph.tsx",
+                                "bytes":  7542
+                            }
+                        ],
+    "entity_type":  "L112Record",
+    "timestamp":  "2026-03-13T06:51:20.5157634-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l112",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L112",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

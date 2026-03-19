@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-deployment\\Deployment PipelineDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "Deployment PipelineDetail.tsx",
+                                "bytes":  5825
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-deployment\\Deployment PipelineCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "Deployment PipelineCreate.tsx",
+                                "bytes":  8780
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-deployment\\Deployment PipelineEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "Deployment PipelineEdit.tsx",
+                                "bytes":  10150
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-deployment\\Deployment PipelineGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "Deployment PipelineGraph.tsx",
+                                "bytes":  7737
+                            }
+                        ],
+    "entity_type":  "Deployment PipelineRecord",
+    "timestamp":  "2026-03-13T06:21:30.8313967-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "ops-deployment",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-deployment\\Deployment PipelineList.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "ops-deployment",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

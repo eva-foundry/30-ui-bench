@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-alerts\\Alerts ManagementDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "Alerts ManagementDetail.tsx",
+                                "bytes":  5773
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-alerts\\Alerts ManagementCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "Alerts ManagementCreate.tsx",
+                                "bytes":  8702
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-alerts\\Alerts ManagementEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "Alerts ManagementEdit.tsx",
+                                "bytes":  10064
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-alerts\\Alerts ManagementGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "Alerts ManagementGraph.tsx",
+                                "bytes":  7687
+                            }
+                        ],
+    "entity_type":  "Alerts ManagementRecord",
+    "timestamp":  "2026-03-13T06:21:30.5062504-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "ops-alerts",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-alerts\\Alerts ManagementList.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "ops-alerts",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

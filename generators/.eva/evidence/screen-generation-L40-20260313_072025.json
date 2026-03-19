@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\testing_policies\\TestingpoliciesList.tsx",
+                                "component":  "ListView",
+                                "file":  "TestingpoliciesList.tsx",
+                                "bytes":  6080
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\testing_policies\\TestingpoliciesDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "TestingpoliciesDetail.tsx",
+                                "bytes":  5758
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\testing_policies\\TestingpoliciesCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "TestingpoliciesCreate.tsx",
+                                "bytes":  8691
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\testing_policies\\TestingpoliciesEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "TestingpoliciesEdit.tsx",
+                                "bytes":  10018
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\testing_policies\\TestingpoliciesGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "TestingpoliciesGraph.tsx",
+                                "bytes":  7690
+                            }
+                        ],
+    "entity_type":  "L40Record",
+    "timestamp":  "2026-03-13T07:20:25.9465975-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "testing_policies",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L40",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

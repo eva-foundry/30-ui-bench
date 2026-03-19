@@ -1,0 +1,13 @@
+2026-03-13 06:51:25 [INFO] Starting generation for layer project-screen-9 (project-screen-9)
+2026-03-13 06:51:25 [PASS] PASS: All 7 templates verified
+2026-03-13 06:51:25 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:51:25 [INFO] Using directory: project-screen-9
+2026-03-13 06:51:25 [INFO] Created directory: project-screen-9
+2026-03-13 06:51:25 [INFO] Substituting templates for 5 components...
+2026-03-13 06:51:25 [INFO] Generated: Projectscreen9List.tsx
+2026-03-13 06:51:25 [INFO] Generated: Projectscreen9Detail.tsx
+2026-03-13 06:51:25 [INFO] Generated: Projectscreen9Create.tsx
+2026-03-13 06:51:25 [INFO] Generated: Projectscreen9Edit.tsx
+2026-03-13 06:51:25 [INFO] Generated: Projectscreen9Graph.tsx
+2026-03-13 06:51:25 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-project-screen-9-20260313_065125.json
+2026-03-13 06:51:25 [PASS] Generation complete: 5/5 components - PASS

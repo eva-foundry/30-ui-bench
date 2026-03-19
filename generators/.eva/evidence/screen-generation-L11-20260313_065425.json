@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l11\\L11List.tsx",
+                                "component":  "ListView",
+                                "file":  "L11List.tsx",
+                                "bytes":  5819
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l11\\L11Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L11Detail.tsx",
+                                "bytes":  5619
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l11\\L11Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L11Create.tsx",
+                                "bytes":  8450
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l11\\L11Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L11Edit.tsx",
+                                "bytes":  9777
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l11\\L11Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L11Graph.tsx",
+                                "bytes":  7526
+                            }
+                        ],
+    "entity_type":  "L11Record",
+    "timestamp":  "2026-03-13T06:54:26.0084681-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l11",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L11",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

@@ -1,0 +1,32 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\ops-dashboard-mainList.tsx",
+                                "component":  "ListView",
+                                "file":  "ops-dashboard-mainList.tsx",
+                                "bytes":  6095
+                            }
+                        ],
+    "entity_type":  "ops-dashboard-mainRecord",
+    "timestamp":  "2026-03-13T06:11:25.9564220-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "unknown",
+    "errors":  [
+                   "Failed to generate DetailView : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\ops-dashboard-mainList.tsx\\unknown\\ops-dashboard-mainDetail.tsx\u0027.",
+                   "Failed to generate CreateForm : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\ops-dashboard-mainList.tsx\\unknown\\ops-dashboard-mainDetail.tsx\\unknown\\ops-dashboard-mainCreateForm.tsx\u0027.",
+                   "Failed to generate EditForm : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\ops-dashboard-mainList.tsx\\unknown\\ops-dashboard-mainDetail.tsx\\unknown\\ops-dashboard-mainCreateForm.tsx\\unknown\\ops-dashboard-mainEditForm.tsx\u0027.",
+                   "Failed to generate GraphView : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\ops-dashboard-mainList.tsx\\unknown\\ops-dashboard-mainDetail.tsx\\unknown\\ops-dashboard-mainCreateForm.tsx\\unknown\\ops-dashboard-mainEditForm.tsx\\unknown\\ops-dashboard-mainGraph.tsx\u0027."
+               ],
+    "components_generated":  1,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  20,
+    "components_failed":  4,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "ops-dashboard-main",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

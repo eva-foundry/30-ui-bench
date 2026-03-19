@@ -1,203 +1,76 @@
-<!-- eva-primed-plan -->
-
-## EVA Ecosystem Tools
-
-- Data model: GET https://msub-eva-data-model.victoriousgrass-30debbd3.canadacentral.azurecontainerapps.io/model/projects/30-ui-bench
-- 48-eva-veritas audit: run audit_repo MCP tool
-
+---
+project: 30-ui-bench
+last_updated: 20260316 09:07 UTC
+current_phase: 10 / 11
+mtI_target: 70
 ---
 
-# 30-ui-bench -- EVA Screen Factory
+# 30-ui-bench Plan
 
-**Vision**: Code generation factory that produces production-ready UI screens at scale for ANY EVA project.
+> Local cache only. Paperless source of truth is the Project 37 data model API and `project_work` records for `30-ui-bench`.
 
-**Not limited by client count or screen count** - this is a manufacturing system, not a single-purpose tool.
+## Current Phase Summary
 
----
+Project 30 is running a two-sprint packet under the deterministic-orchestration model. Sprint 10 now sits in explicit A1 Act closeout with refreshed story states, fresh Wave 2 verification evidence, and MTI 72 recorded in the live packet. Sprint 11 has moved into D1/P1 execution for FK-aware and ontology-view follow-through now that Project 37 has confirmed runtime dependencies. [EVIDENCE: 37-data-model/evidence/20260316_133100-project30-fk-ontology-runtime-confirmation.md](37-data-model/evidence/20260316_133100-project30-fk-ontology-runtime-confirmation.md)
 
-## Feature: Template System v2.0.0 [ID=F30-01]
+## Sprint Manifest
 
-**Status**: ✅ COMPLETE (Session 46, Commit 3771dcf)
+- Active config: `30-ui-bench/sprint_10_config.json`
+- Ready config: `30-ui-bench/sprint_11_config.json`
+- Active packet record: `30-ui-bench-sprint-10-packet`
+- Handoff authority: `docs/20260315_223500-project37-ui-handoff.md`
+- Paperless reference: `GET /model/project_work/?project_id=30-ui-bench`
+- Packet timestamp anchor: `2026-03-16 09:07 UTC`
 
-### Story: Centralized design tokens [ID=F30-01-001] - ✅ DONE
-- Replace inline GC Design constants with @styles/tokens imports
-- Enable theme switching (light/dark mode preparation)
-- Result: 7 constants × 111 files = 777 constants eliminated
+## Phases Roadmap
 
-### Story: API health monitoring pattern [ID=F30-01-002] - ✅ DONE
-- SM-PATTERN-001: ApiHealthBanner component
-- useApiHealth hook
-- Applied to all ListView templates
+| Phase | Name | Expected Duration | Status |
+| --- | --- | ---: | --- |
+| 9 | Handoff discovery and Wave 1 baseline | complete | done |
+| 10 | Governance reset closeout and Wave 2 execution | current sprint packet | active |
+| 11 | FK-aware UX and ontology-view follow-up | next sprint packet | in D1/P1 execution |
+| 12 | Remaining factory backlog and automation hardening | lookahead | queued |
 
-### Story: Version footer for cache debugging [ID=F30-01-003] - ✅ DONE
-- VersionFooter component showing build timestamp
-- Helps users verify which build is loaded
-- Applied to all ListView templates
+## Active Stories
 
-### Story: 6-language i18n upgrade [ID=F30-01-004] - ✅ DONE
-- Upgraded from bilingual (EN/FR) to 6 languages (EN/FR/ES/DE/PT/CN)
-- Updated all template headers
-- LanguageSelector component (reusable)
+| ID | Story | Size | Phase Gate | Status |
+| --- | --- | ---: | --- | --- |
+| S10-1 | Refresh Project 30 instructions, plan, status, acceptance, and execution guide for deterministic orchestration | M | Governance packet aligned to workspace rules | complete |
+| S10-2 | Execute Project 37 Wave 2 routes in `37-data-model/ui` with explicit route wiring and mock-safe fallbacks | L | Targeted tests plus production build pass | complete |
+| S11-1 | Promote FK-aware and ontology-view patterns from Project 37 into reusable Project 30 delivery rules | M | Project 37 confirms required views and runtime dependencies [EVIDENCE: 37-data-model/evidence/20260316_133100-project30-fk-ontology-runtime-confirmation.md](37-data-model/evidence/20260316_133100-project30-fk-ontology-runtime-confirmation.md) | in_progress |
 
-### Story: WCAG 2.1 AA compliance patterns [ID=F30-01-005] - ✅ DONE
-- Focus indicators (GC_FOCUS)
-- Keyboard navigation patterns
-- ARIA labels and roles
-- Skip links
+## Nested D3PDCA Packet
 
----
+### Sprint 10 Execution Packet
 
-## Feature: Batch Regeneration Pipeline [ID=F30-02]
+- `D1 Discover`: refresh live `project_work`, handoff note, and Project 37 contract endpoints before trusting local closure language.
+- `P1 Plan`: keep 10.1 complete, 10.2 complete, and 11.1 ready; refresh markdown and sprint config to match the paperless packet.
+- `D2 Do`: carry Wave 2 route closeout in `37-data-model/ui` only against live contracts and existing mock-safe fallbacks.
+- `C1 Check`: fresh focused `vitest run` passed 6/6 tests, `npm run build` passed, and `npm run lint` exited 0 with warnings only after the `react-hooks` plugin fix.
+- `A1 Act`: packet record refreshed to `Sprint 10 / A1 Act closeout, Sprint 11 ready packet`, warning-only lint baseline captured, and MTI 72 recorded while Sprint 11 remains ready-only.
 
-**Status**: 🔄 IN PROGRESS (Session 46)
+### Sprint 11 Execution Packet
 
-### Story: Regenerate 111 Data Model pages [ID=F30-02-001] - ⏸️ PENDING
-- Run generate-all-screens.ps1 with v2.0.0 templates
-- Target: 37-data-model/ui/src/pages/
-- Expected: 5 components × 111 layers = 555 files
-- Time: ~9 minutes
+- `D1 Discover`: confirm Project 37 domain-view and FK-aware runtime readiness.
+- `P1 Plan`: scope reusable relation-aware UI patterns without pulling Sprint 12 into execution.
+- `D2 Do`: implement guidance and dependency notes only after runtime views exist.
+- `C1 Check`: verify the guidance matches actual domain views rather than invented layer assumptions.
+- `A1 Act`: promote Sprint 11 to execution only when Sprint 10 is checked and acted.
 
-### Story: Verify build succeeds [ID=F30-02-002] - ⏸️ PENDING
-- npm run build (TypeScript + Vite)
-- Expected: 0 errors, 0 warnings
-- Bundle size: <2MB gzipped
+Sprint 11 has now moved into D1/P1 execution based on the Project 37 runtime confirmation and the Project 30 FK/ontology UX guidance, while Sprint 12 remains a queued lookahead packet.
 
-### Story: Deploy to Azure [ID=F30-02-003] - ⏸️ PENDING
-- Target: msub-sandbox-aca-frontend.azurewebsites.net
-- Build #15+
-- Health check: All 128 routes accessible
+## Blockers
 
-### Story: Validate acceptance criteria [ID=F30-02-004] - ⏸️ PENDING
-- Run all 25 acceptance criteria tests
-- Document results in evidence/
-- Update ACCEPTANCE.md with PASS/FAIL
+- Sprint 11 is no longer blocked on FK-aware and ontology-view readiness, but the dedicated `GET /model/domain-views` route remains a follow-up runtime surface gap rather than a blocker and should be tracked separately. [EVIDENCE: 37-data-model/evidence/20260316_133100-project30-fk-ontology-runtime-confirmation.md](37-data-model/evidence/20260316_133100-project30-fk-ontology-runtime-confirmation.md)
+- Project 37 still owns runtime seeding for some related layers; Project 30 must not invent payloads for unseeded data. [EVIDENCE: docs/20260315_223500-project37-ui-handoff.md]
+- Workspace root and repo working trees contain unrelated dirty-state artifacts, so Project 30 governance edits must stay tightly scoped. [EVIDENCE: workspace diff review 2026-03-15]
+- The Project 37 UI lint command now exits 0, but 578 warning-level findings remain across generated API and type surfaces outside the active Wave 2 page set. [EVIDENCE: `npm run lint` output, 2026-03-16 08:49 UTC]
 
----
+## Success Criteria
 
-## Feature: Multi-Client Support [ID=F30-03]
-
-**Status**: 📋 PLANNED (v2.2.0+)
-
-### Story: EVA Portal templates [ID=F30-03-001] - 📋 PLANNED
-- Copy v2.0.0 templates to portal-specific variants
-- Customize for Project 31 (eva-faces) patterns
-- Dashboard, Admin, Reports screens
-
-### Story: ACA templates [ID=F30-03-002] - 📋 PLANNED
-- Copy v2.0.0 templates to ACA-specific variants
-- Customize for Project 51 (ACA) domain
-- Monitoring, Admin, Config screens
-
-### Story: Template inheritance system [ID=F30-03-003] - 📋 PLANNED
-- Base templates (v2.0.0)
-- Client-specific overrides
-- Merge strategy (base + override)
-
-### Story: Client discovery [ID=F30-03-004] - 📋 PLANNED
-- Scan EVA workspace for projects needing screens
-- Read layer definitions from data model
-- Generate manifests (project → layers → screens)
-
----
-
-## Feature: Test Generation [ID=F30-04]
-
-**Status**: 📋 PLANNED (v3.0.0)
-
-### Story: Jest unit test templates [ID=F30-04-001] - 📋 PLANNED
-- Generate .spec.tsx for each component
-- Test: rendering, props, user interactions
-- Target: 80%+ code coverage
-
-### Story: E2E test templates [ID=F30-04-002] - 📋 PLANNED
-- Generate Playwright tests
-- Test: navigation, CRUD operations, error handling
-- Smoke tests for all routes
-
-### Story: Visual regression templates [ID=F30-04-003] - 📋 PLANNED
-- Generate Percy/Chromatic snapshots
-- Test: layout, responsive design, theme switching
-
-### Story: Accessibility test templates [ID=F30-04-004] - 📋 PLANNED
-- Generate axe-core tests
-- Test: WCAG 2.1 AA compliance
-- Automated keyboard navigation tests
-
----
-
-## Feature: Quality Gates Automation [ID=F30-05]
-
-**Status**: 📋 PLANNED (v2.3.0)
-
-### Story: Pre-generation validation [ID=F30-05-001] - 📋 PLANNED
-- Verify templates exist and are valid
-- Verify layer definitions complete
-- Verify dependencies installed
-- Exit early if prerequisites not met
-
-### Story: Post-generation validation [ID=F30-05-002] - 📋 PLANNED
-- TypeScript compilation check
-- ESLint check
-- Import path validation
-- File naming convention check
-
-### Story: Rollback on failure [ID=F30-05-003] - 📋 PLANNED
-- Backup existing files before regeneration
-- Restore backup if validation fails
-- Evidence trail (what failed, why)
-
-### Story: 25-criteria audit [ID=F30-05-004] - 📋 PLANNED
-- Automated script to run all acceptance criteria
-- Generate report with PASS/FAIL/SKIP
-- Update ACCEPTANCE.md automatically
-
----
-
-## Feature: Evidence & Observability [ID=F30-06]
-
-**Status**: 📋 PLANNED (v2.4.0)
-
-### Story: Generation evidence logging [ID=F30-06-001] - 📋 PLANNED
-- JSON evidence file per generation run
-- Fields: timestamp, generator_version, layers_processed, files_created, duration, errors
-- Store in evidence/ directory
-
-### Story: Build metrics tracking [ID=F30-06-002] - 📋 PLANNED
-- Bundle size over time
-- Build duration over time
-- Module count over time
-- Alert if regression detected
-
-### Story: Quality metrics dashboard [ID=F30-06-003] - 📋 PLANNED
-- Acceptance criteria pass rate
-- Code coverage trend
-- WCAG compliance score
-- Performance metrics (LCP, FID, CLS)
-
----
-
-## Risks
-
-| Risk | Mitigation | Status |
-|------|------------|--------|
-| Breaking changes in templates cause 111 pages to fail | Incremental rollout (3-5 pages first), rollback plan | MITIGATED |
-| Bundle size increases with health monitoring | Tree-shaking, code splitting, lazy loading | MONITORED |
-| 6-language support increases bundle size | Dynamic imports for translations, lazy load languages | MONITORED |
-| Regeneration overwrites manual fixes | Discourage manual edits, improve templates instead | DOCUMENTED |
-| TypeScript compilation errors after regeneration | Pre-generation validation, post-generation checks | PLANNED |
-
----
-
-## Dependencies
-
-- **37-data-model**: Layer definitions (111 layers)
-- **31-eva-faces**: Portal patterns (NavHeader, LanguageSelector)
-- **Project 07 (Foundation)**: Governance standards
-- **Project 48 (Veritas)**: Quality gates and MTI scoring
-- **Azure infrastructure**: Deployment target (msub-sandbox-aca-frontend)
-
----
-
-**Last Updated**: March 12, 2026 (Session 46)  
-**Template Version**: v2.0.0  
-**Status**: Templates ready, awaiting batch regeneration approval
+- Project-local instructions inherit workspace bootstrap and remove stale local-first template guidance.
+- README and skill-index surfaces describe the current factory-and-handoff role instead of the older standalone bench narrative.
+- `PLAN.md`, `STATUS.md`, `ACCEPTANCE.md`, and `docs/EXECUTION-GUIDE.md` describe the active sprint packet accurately.
+- `30-ui-bench/sprint_10_config.json` exists and the packet `30-ui-bench-sprint-10-packet` is registered in the live data model. [EVIDENCE: sprint_activation.py exit 0]
+- Wave 2 delivery is marked complete only after targeted client verification succeeds in `37-data-model/ui`; that threshold is now met with 6/6 focused tests, a production build pass, and a warning-only lint run. [EVIDENCE: focused `vitest run`, `npm run build`, `npm run lint`, 2026-03-16 08:44-08:49 UTC]
+- Sprint 10 closeout is represented in the live packet as `Sprint 10 / A1 Act closeout, Sprint 11 ready packet`, with MTI evidence recorded at 72. [EVIDENCE: direct `PUT /model/project_work/30-ui-bench-sprint-10-packet`, live packet readback, Veritas audit 2026-03-16 09:07 UTC]

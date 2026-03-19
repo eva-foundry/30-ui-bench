@@ -1,0 +1,132 @@
+2026-03-13 06:11:17 [INFO] Starting generation for layer L12 (unknown)
+2026-03-13 06:11:17 [PASS] PASS: All 7 templates verified
+2026-03-13 06:11:17 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:11:17 [INFO] Substituting templates for 5 components...
+2026-03-13 06:11:17 [INFO] Generated: L12List.tsx
+2026-03-13 06:11:17 [ERROR] Failed to generate DetailView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L12List.tsx\unknown\L12Detail.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate CreateForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L12List.tsx\unknown\L12Detail.tsx\unknown\L12CreateForm.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate EditForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L12List.tsx\unknown\L12Detail.tsx\unknown\L12CreateForm.tsx\unknown\L12EditForm.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate GraphView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L12List.tsx\unknown\L12Detail.tsx\unknown\L12CreateForm.tsx\unknown\L12EditForm.tsx\unknown\L12Graph.tsx'.
+2026-03-13 06:11:17 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L12-20260313_061117.json
+2026-03-13 06:11:17 [FAIL] Generation complete: 1/5 components - FAIL
+2026-03-13 06:11:17 [INFO] Starting generation for layer L13 (unknown)
+2026-03-13 06:11:17 [PASS] PASS: All 7 templates verified
+2026-03-13 06:11:17 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:11:17 [INFO] Substituting templates for 5 components...
+2026-03-13 06:11:17 [INFO] Generated: L13List.tsx
+2026-03-13 06:11:17 [ERROR] Failed to generate DetailView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L13List.tsx\unknown\L13Detail.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate CreateForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L13List.tsx\unknown\L13Detail.tsx\unknown\L13CreateForm.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate EditForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L13List.tsx\unknown\L13Detail.tsx\unknown\L13CreateForm.tsx\unknown\L13EditForm.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate GraphView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L13List.tsx\unknown\L13Detail.tsx\unknown\L13CreateForm.tsx\unknown\L13EditForm.tsx\unknown\L13Graph.tsx'.
+2026-03-13 06:11:17 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L13-20260313_061117.json
+2026-03-13 06:11:17 [FAIL] Generation complete: 1/5 components - FAIL
+2026-03-13 06:11:17 [INFO] Starting generation for layer L14 (unknown)
+2026-03-13 06:11:17 [PASS] PASS: All 7 templates verified
+2026-03-13 06:11:17 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:11:17 [INFO] Substituting templates for 5 components...
+2026-03-13 06:11:17 [INFO] Generated: L14List.tsx
+2026-03-13 06:11:17 [ERROR] Failed to generate DetailView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L14List.tsx\unknown\L14Detail.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate CreateForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L14List.tsx\unknown\L14Detail.tsx\unknown\L14CreateForm.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate EditForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L14List.tsx\unknown\L14Detail.tsx\unknown\L14CreateForm.tsx\unknown\L14EditForm.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate GraphView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L14List.tsx\unknown\L14Detail.tsx\unknown\L14CreateForm.tsx\unknown\L14EditForm.tsx\unknown\L14Graph.tsx'.
+2026-03-13 06:11:17 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L14-20260313_061117.json
+2026-03-13 06:11:17 [FAIL] Generation complete: 1/5 components - FAIL
+2026-03-13 06:11:17 [INFO] Starting generation for layer L15 (unknown)
+2026-03-13 06:11:17 [PASS] PASS: All 7 templates verified
+2026-03-13 06:11:17 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:11:17 [INFO] Substituting templates for 5 components...
+2026-03-13 06:11:17 [INFO] Generated: L15List.tsx
+2026-03-13 06:11:17 [ERROR] Failed to generate DetailView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L15List.tsx\unknown\L15Detail.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate CreateForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L15List.tsx\unknown\L15Detail.tsx\unknown\L15CreateForm.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate EditForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L15List.tsx\unknown\L15Detail.tsx\unknown\L15CreateForm.tsx\unknown\L15EditForm.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate GraphView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L15List.tsx\unknown\L15Detail.tsx\unknown\L15CreateForm.tsx\unknown\L15EditForm.tsx\unknown\L15Graph.tsx'.
+2026-03-13 06:11:17 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L15-20260313_061117.json
+2026-03-13 06:11:17 [FAIL] Generation complete: 1/5 components - FAIL
+2026-03-13 06:11:17 [INFO] Starting generation for layer L16 (unknown)
+2026-03-13 06:11:17 [PASS] PASS: All 7 templates verified
+2026-03-13 06:11:17 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:11:17 [INFO] Substituting templates for 5 components...
+2026-03-13 06:11:17 [INFO] Generated: L16List.tsx
+2026-03-13 06:11:17 [ERROR] Failed to generate DetailView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L16List.tsx\unknown\L16Detail.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate CreateForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L16List.tsx\unknown\L16Detail.tsx\unknown\L16CreateForm.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate EditForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L16List.tsx\unknown\L16Detail.tsx\unknown\L16CreateForm.tsx\unknown\L16EditForm.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate GraphView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L16List.tsx\unknown\L16Detail.tsx\unknown\L16CreateForm.tsx\unknown\L16EditForm.tsx\unknown\L16Graph.tsx'.
+2026-03-13 06:11:17 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L16-20260313_061117.json
+2026-03-13 06:11:17 [FAIL] Generation complete: 1/5 components - FAIL
+2026-03-13 06:11:17 [INFO] Starting generation for layer L17 (unknown)
+2026-03-13 06:11:17 [PASS] PASS: All 7 templates verified
+2026-03-13 06:11:17 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:11:17 [INFO] Substituting templates for 5 components...
+2026-03-13 06:11:17 [INFO] Generated: L17List.tsx
+2026-03-13 06:11:17 [ERROR] Failed to generate DetailView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L17List.tsx\unknown\L17Detail.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate CreateForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L17List.tsx\unknown\L17Detail.tsx\unknown\L17CreateForm.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate EditForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L17List.tsx\unknown\L17Detail.tsx\unknown\L17CreateForm.tsx\unknown\L17EditForm.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate GraphView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L17List.tsx\unknown\L17Detail.tsx\unknown\L17CreateForm.tsx\unknown\L17EditForm.tsx\unknown\L17Graph.tsx'.
+2026-03-13 06:11:17 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L17-20260313_061117.json
+2026-03-13 06:11:17 [FAIL] Generation complete: 1/5 components - FAIL
+2026-03-13 06:11:17 [INFO] Starting generation for layer L18 (unknown)
+2026-03-13 06:11:17 [PASS] PASS: All 7 templates verified
+2026-03-13 06:11:17 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:11:17 [INFO] Substituting templates for 5 components...
+2026-03-13 06:11:17 [INFO] Generated: L18List.tsx
+2026-03-13 06:11:17 [ERROR] Failed to generate DetailView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L18List.tsx\unknown\L18Detail.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate CreateForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L18List.tsx\unknown\L18Detail.tsx\unknown\L18CreateForm.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate EditForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L18List.tsx\unknown\L18Detail.tsx\unknown\L18CreateForm.tsx\unknown\L18EditForm.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate GraphView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L18List.tsx\unknown\L18Detail.tsx\unknown\L18CreateForm.tsx\unknown\L18EditForm.tsx\unknown\L18Graph.tsx'.
+2026-03-13 06:11:17 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L18-20260313_061117.json
+2026-03-13 06:11:17 [FAIL] Generation complete: 1/5 components - FAIL
+2026-03-13 06:11:17 [INFO] Starting generation for layer L19 (unknown)
+2026-03-13 06:11:17 [PASS] PASS: All 7 templates verified
+2026-03-13 06:11:17 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:11:17 [INFO] Substituting templates for 5 components...
+2026-03-13 06:11:17 [INFO] Generated: L19List.tsx
+2026-03-13 06:11:17 [ERROR] Failed to generate DetailView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L19List.tsx\unknown\L19Detail.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate CreateForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L19List.tsx\unknown\L19Detail.tsx\unknown\L19CreateForm.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate EditForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L19List.tsx\unknown\L19Detail.tsx\unknown\L19CreateForm.tsx\unknown\L19EditForm.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate GraphView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L19List.tsx\unknown\L19Detail.tsx\unknown\L19CreateForm.tsx\unknown\L19EditForm.tsx\unknown\L19Graph.tsx'.
+2026-03-13 06:11:17 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L19-20260313_061117.json
+2026-03-13 06:11:17 [FAIL] Generation complete: 1/5 components - FAIL
+2026-03-13 06:11:17 [INFO] Starting generation for layer L2 (unknown)
+2026-03-13 06:11:17 [PASS] PASS: All 7 templates verified
+2026-03-13 06:11:17 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:11:17 [INFO] Substituting templates for 5 components...
+2026-03-13 06:11:17 [INFO] Generated: L2List.tsx
+2026-03-13 06:11:17 [ERROR] Failed to generate DetailView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L2List.tsx\unknown\L2Detail.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate CreateForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L2List.tsx\unknown\L2Detail.tsx\unknown\L2CreateForm.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate EditForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L2List.tsx\unknown\L2Detail.tsx\unknown\L2CreateForm.tsx\unknown\L2EditForm.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate GraphView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L2List.tsx\unknown\L2Detail.tsx\unknown\L2CreateForm.tsx\unknown\L2EditForm.tsx\unknown\L2Graph.tsx'.
+2026-03-13 06:11:17 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L2-20260313_061117.json
+2026-03-13 06:11:17 [FAIL] Generation complete: 1/5 components - FAIL
+2026-03-13 06:11:17 [INFO] Starting generation for layer L20 (unknown)
+2026-03-13 06:11:17 [PASS] PASS: All 7 templates verified
+2026-03-13 06:11:17 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:11:17 [INFO] Substituting templates for 5 components...
+2026-03-13 06:11:17 [INFO] Generated: L20List.tsx
+2026-03-13 06:11:17 [ERROR] Failed to generate DetailView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L20List.tsx\unknown\L20Detail.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate CreateForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L20List.tsx\unknown\L20Detail.tsx\unknown\L20CreateForm.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate EditForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L20List.tsx\unknown\L20Detail.tsx\unknown\L20CreateForm.tsx\unknown\L20EditForm.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate GraphView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L20List.tsx\unknown\L20Detail.tsx\unknown\L20CreateForm.tsx\unknown\L20EditForm.tsx\unknown\L20Graph.tsx'.
+2026-03-13 06:11:17 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L20-20260313_061117.json
+2026-03-13 06:11:17 [FAIL] Generation complete: 1/5 components - FAIL
+2026-03-13 06:11:17 [INFO] Starting generation for layer L21 (unknown)
+2026-03-13 06:11:17 [PASS] PASS: All 7 templates verified
+2026-03-13 06:11:17 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:11:17 [INFO] Substituting templates for 5 components...
+2026-03-13 06:11:17 [INFO] Generated: L21List.tsx
+2026-03-13 06:11:17 [ERROR] Failed to generate DetailView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L21List.tsx\unknown\L21Detail.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate CreateForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L21List.tsx\unknown\L21Detail.tsx\unknown\L21CreateForm.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate EditForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L21List.tsx\unknown\L21Detail.tsx\unknown\L21CreateForm.tsx\unknown\L21EditForm.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate GraphView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L21List.tsx\unknown\L21Detail.tsx\unknown\L21CreateForm.tsx\unknown\L21EditForm.tsx\unknown\L21Graph.tsx'.
+2026-03-13 06:11:17 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L21-20260313_061117.json
+2026-03-13 06:11:17 [FAIL] Generation complete: 1/5 components - FAIL
+2026-03-13 06:11:17 [INFO] Starting generation for layer L22 (unknown)
+2026-03-13 06:11:17 [PASS] PASS: All 7 templates verified
+2026-03-13 06:11:17 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:11:17 [INFO] Substituting templates for 5 components...
+2026-03-13 06:11:17 [INFO] Generated: L22List.tsx
+2026-03-13 06:11:17 [ERROR] Failed to generate DetailView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L22List.tsx\unknown\L22Detail.tsx'.
+2026-03-13 06:11:17 [ERROR] Failed to generate CreateForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L22List.tsx\unknown\L22Detail.tsx\unknown\L22CreateForm.tsx'.
+2026-03-13 06:11:18 [ERROR] Failed to generate EditForm : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L22List.tsx\unknown\L22Detail.tsx\unknown\L22CreateForm.tsx\unknown\L22EditForm.tsx'.
+2026-03-13 06:11:18 [ERROR] Failed to generate GraphView : Could not find a part of the path 'C:\eva-foundry\37-data-model\ui\src\pages\unknown\L22List.tsx\unknown\L22Detail.tsx\unknown\L22CreateForm.tsx\unknown\L22EditForm.tsx\unknown\L22Graph.tsx'.
+2026-03-13 06:11:18 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L22-20260313_061117.json
+2026-03-13 06:11:18 [FAIL] Generation complete: 1/5 components - FAIL

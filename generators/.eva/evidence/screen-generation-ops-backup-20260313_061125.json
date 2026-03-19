@@ -1,0 +1,32 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\ops-backupList.tsx",
+                                "component":  "ListView",
+                                "file":  "ops-backupList.tsx",
+                                "bytes":  5967
+                            }
+                        ],
+    "entity_type":  "ops-backupRecord",
+    "timestamp":  "2026-03-13T06:11:25.7843544-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "unknown",
+    "errors":  [
+                   "Failed to generate DetailView : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\ops-backupList.tsx\\unknown\\ops-backupDetail.tsx\u0027.",
+                   "Failed to generate CreateForm : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\ops-backupList.tsx\\unknown\\ops-backupDetail.tsx\\unknown\\ops-backupCreateForm.tsx\u0027.",
+                   "Failed to generate EditForm : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\ops-backupList.tsx\\unknown\\ops-backupDetail.tsx\\unknown\\ops-backupCreateForm.tsx\\unknown\\ops-backupEditForm.tsx\u0027.",
+                   "Failed to generate GraphView : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\ops-backupList.tsx\\unknown\\ops-backupDetail.tsx\\unknown\\ops-backupCreateForm.tsx\\unknown\\ops-backupEditForm.tsx\\unknown\\ops-backupGraph.tsx\u0027."
+               ],
+    "components_generated":  1,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  20,
+    "components_failed":  4,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "ops-backup",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

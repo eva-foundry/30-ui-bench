@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\metrics\\MetricsList.tsx",
+                                "component":  "ListView",
+                                "file":  "MetricsList.tsx",
+                                "bytes":  5903
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\metrics\\MetricsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "MetricsDetail.tsx",
+                                "bytes":  5663
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\metrics\\MetricsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "MetricsCreate.tsx",
+                                "bytes":  8526
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\metrics\\MetricsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "MetricsEdit.tsx",
+                                "bytes":  9853
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\metrics\\MetricsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "MetricsGraph.tsx",
+                                "bytes":  7578
+                            }
+                        ],
+    "entity_type":  "L44Record",
+    "timestamp":  "2026-03-13T06:51:16.1032343-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "metrics",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L44",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

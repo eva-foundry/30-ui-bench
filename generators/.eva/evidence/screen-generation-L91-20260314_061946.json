@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l91\\L91List.tsx",
+                                "component":  "ListView",
+                                "file":  "L91List.tsx",
+                                "bytes":  5819
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l91\\L91Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L91Detail.tsx",
+                                "bytes":  5619
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l91\\L91Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L91Create.tsx",
+                                "bytes":  8450
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l91\\L91Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L91Edit.tsx",
+                                "bytes":  9777
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l91\\L91Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L91Graph.tsx",
+                                "bytes":  7526
+                            }
+                        ],
+    "entity_type":  "L91Record",
+    "timestamp":  "2026-03-14T06:19:46.9412970-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l91",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L91",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

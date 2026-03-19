@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-alerts\\OpsalertsList.tsx",
+                                "component":  "ListView",
+                                "file":  "OpsalertsList.tsx",
+                                "bytes":  5980
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-alerts\\OpsalertsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "OpsalertsDetail.tsx",
+                                "bytes":  5725
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-alerts\\OpsalertsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "OpsalertsCreate.tsx",
+                                "bytes":  8614
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-alerts\\OpsalertsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "OpsalertsEdit.tsx",
+                                "bytes":  9960
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-alerts\\OpsalertsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "OpsalertsGraph.tsx",
+                                "bytes":  7631
+                            }
+                        ],
+    "entity_type":  "OpsAlertsRecord",
+    "timestamp":  "2026-03-13T06:53:46.5109922-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "ops-alerts",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "ops-alerts",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

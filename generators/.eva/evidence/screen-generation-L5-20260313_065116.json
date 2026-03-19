@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\endpoints\\EndpointsList.tsx",
+                                "component":  "ListView",
+                                "file":  "EndpointsList.tsx",
+                                "bytes":  5941
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\endpoints\\EndpointsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "EndpointsDetail.tsx",
+                                "bytes":  5680
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\endpoints\\EndpointsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "EndpointsCreate.tsx",
+                                "bytes":  8558
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\endpoints\\EndpointsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "EndpointsEdit.tsx",
+                                "bytes":  9882
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\endpoints\\EndpointsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "EndpointsGraph.tsx",
+                                "bytes":  7601
+                            }
+                        ],
+    "entity_type":  "L5Record",
+    "timestamp":  "2026-03-13T06:51:16.5804603-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "endpoints",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L5",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

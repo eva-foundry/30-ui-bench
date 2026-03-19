@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l4\\L4List.tsx",
+                                "component":  "ListView",
+                                "file":  "L4List.tsx",
+                                "bytes":  5794
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l4\\L4Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L4Detail.tsx",
+                                "bytes":  5603
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l4\\L4Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L4Create.tsx",
+                                "bytes":  8425
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l4\\L4Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L4Edit.tsx",
+                                "bytes":  9749
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l4\\L4Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L4Graph.tsx",
+                                "bytes":  7510
+                            }
+                        ],
+    "entity_type":  "L4Record",
+    "timestamp":  "2026-03-13T06:53:41.7052128-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l4",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L4",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

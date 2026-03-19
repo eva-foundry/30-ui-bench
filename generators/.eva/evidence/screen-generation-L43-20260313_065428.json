@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l43\\L43List.tsx",
+                                "component":  "ListView",
+                                "file":  "L43List.tsx",
+                                "bytes":  5819
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l43\\L43Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L43Detail.tsx",
+                                "bytes":  5619
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l43\\L43Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L43Create.tsx",
+                                "bytes":  8450
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l43\\L43Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L43Edit.tsx",
+                                "bytes":  9777
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l43\\L43Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L43Graph.tsx",
+                                "bytes":  7526
+                            }
+                        ],
+    "entity_type":  "L43Record",
+    "timestamp":  "2026-03-13T06:54:28.3770667-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l43",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L43",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

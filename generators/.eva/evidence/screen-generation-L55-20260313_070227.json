@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_obligations\\WorkobligationsList.tsx",
+                                "component":  "ListView",
+                                "file":  "WorkobligationsList.tsx",
+                                "bytes":  6080
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_obligations\\WorkobligationsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "WorkobligationsDetail.tsx",
+                                "bytes":  5758
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_obligations\\WorkobligationsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "WorkobligationsCreate.tsx",
+                                "bytes":  8691
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_obligations\\WorkobligationsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "WorkobligationsEdit.tsx",
+                                "bytes":  10018
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_obligations\\WorkobligationsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "WorkobligationsGraph.tsx",
+                                "bytes":  7690
+                            }
+                        ],
+    "entity_type":  "L55Record",
+    "timestamp":  "2026-03-13T07:02:27.3874819-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "work_obligations",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L55",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

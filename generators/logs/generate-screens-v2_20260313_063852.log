@@ -1,0 +1,180 @@
+2026-03-13 06:38:52 [INFO] Starting generation for layer L97 (l97)
+2026-03-13 06:38:52 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:52 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:52 [INFO] Using directory: l97
+2026-03-13 06:38:52 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:52 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l97\L97List.tsx' is denied.
+2026-03-13 06:38:52 [INFO] Generated: L97Detail.tsx
+2026-03-13 06:38:52 [INFO] Generated: L97Create.tsx
+2026-03-13 06:38:52 [INFO] Generated: L97Edit.tsx
+2026-03-13 06:38:52 [INFO] Generated: L97Graph.tsx
+2026-03-13 06:38:52 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L97-20260313_063852.json
+2026-03-13 06:38:52 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:38:52 [INFO] Starting generation for layer L98 (l98)
+2026-03-13 06:38:52 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:52 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:52 [INFO] Using directory: l98
+2026-03-13 06:38:52 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:52 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l98\L98List.tsx' is denied.
+2026-03-13 06:38:52 [INFO] Generated: L98Detail.tsx
+2026-03-13 06:38:52 [INFO] Generated: L98Create.tsx
+2026-03-13 06:38:52 [INFO] Generated: L98Edit.tsx
+2026-03-13 06:38:52 [INFO] Generated: L98Graph.tsx
+2026-03-13 06:38:52 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L98-20260313_063852.json
+2026-03-13 06:38:52 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:38:52 [INFO] Starting generation for layer L99 (l99)
+2026-03-13 06:38:52 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:52 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:52 [INFO] Using directory: l99
+2026-03-13 06:38:52 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:52 [ERROR] Failed to generate ListView : Access to the path 'C:\eva-foundry\37-data-model\ui\src\pages\l99\L99List.tsx' is denied.
+2026-03-13 06:38:52 [INFO] Generated: L99Detail.tsx
+2026-03-13 06:38:52 [INFO] Generated: L99Create.tsx
+2026-03-13 06:38:52 [INFO] Generated: L99Edit.tsx
+2026-03-13 06:38:52 [INFO] Generated: L99Graph.tsx
+2026-03-13 06:38:52 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L99-20260313_063852.json
+2026-03-13 06:38:52 [FAIL] Generation complete: 4/5 components - FAIL
+2026-03-13 06:38:52 [INFO] Starting generation for layer L112 (l112)
+2026-03-13 06:38:52 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:52 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:52 [INFO] Using directory: l112
+2026-03-13 06:38:52 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:52 [INFO] Generated: RedTeamTestSuitesList.tsx
+2026-03-13 06:38:52 [INFO] Generated: RedTeamTestSuitesDetail.tsx
+2026-03-13 06:38:52 [INFO] Generated: RedTeamTestSuitesCreate.tsx
+2026-03-13 06:38:52 [INFO] Generated: RedTeamTestSuitesEdit.tsx
+2026-03-13 06:38:52 [INFO] Generated: RedTeamTestSuitesGraph.tsx
+2026-03-13 06:38:52 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L112-20260313_063852.json
+2026-03-13 06:38:52 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:52 [INFO] Starting generation for layer L113 (l113)
+2026-03-13 06:38:52 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:52 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:52 [INFO] Using directory: l113
+2026-03-13 06:38:52 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:52 [INFO] Generated: AttackTacticCatalogList.tsx
+2026-03-13 06:38:52 [INFO] Generated: AttackTacticCatalogDetail.tsx
+2026-03-13 06:38:52 [INFO] Generated: AttackTacticCatalogCreate.tsx
+2026-03-13 06:38:52 [INFO] Generated: AttackTacticCatalogEdit.tsx
+2026-03-13 06:38:52 [INFO] Generated: AttackTacticCatalogGraph.tsx
+2026-03-13 06:38:52 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L113-20260313_063852.json
+2026-03-13 06:38:52 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:52 [INFO] Starting generation for layer L114 (l114)
+2026-03-13 06:38:52 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:52 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:52 [INFO] Using directory: l114
+2026-03-13 06:38:52 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:52 [INFO] Generated: AiSecurityFindingsList.tsx
+2026-03-13 06:38:52 [INFO] Generated: AiSecurityFindingsDetail.tsx
+2026-03-13 06:38:52 [INFO] Generated: AiSecurityFindingsCreate.tsx
+2026-03-13 06:38:52 [INFO] Generated: AiSecurityFindingsEdit.tsx
+2026-03-13 06:38:52 [INFO] Generated: AiSecurityFindingsGraph.tsx
+2026-03-13 06:38:52 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L114-20260313_063852.json
+2026-03-13 06:38:52 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:52 [INFO] Starting generation for layer L115 (l115)
+2026-03-13 06:38:52 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:52 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:52 [INFO] Using directory: l115
+2026-03-13 06:38:52 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:52 [INFO] Generated: AssertionsCatalogList.tsx
+2026-03-13 06:38:52 [INFO] Generated: AssertionsCatalogDetail.tsx
+2026-03-13 06:38:52 [INFO] Generated: AssertionsCatalogCreate.tsx
+2026-03-13 06:38:52 [INFO] Generated: AssertionsCatalogEdit.tsx
+2026-03-13 06:38:52 [INFO] Generated: AssertionsCatalogGraph.tsx
+2026-03-13 06:38:52 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L115-20260313_063852.json
+2026-03-13 06:38:52 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:52 [INFO] Starting generation for layer L116 (l116)
+2026-03-13 06:38:52 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:52 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:52 [INFO] Using directory: l116
+2026-03-13 06:38:52 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:52 [INFO] Generated: AiSecurityMetricsList.tsx
+2026-03-13 06:38:52 [INFO] Generated: AiSecurityMetricsDetail.tsx
+2026-03-13 06:38:52 [INFO] Generated: AiSecurityMetricsCreate.tsx
+2026-03-13 06:38:52 [INFO] Generated: AiSecurityMetricsEdit.tsx
+2026-03-13 06:38:52 [INFO] Generated: AiSecurityMetricsGraph.tsx
+2026-03-13 06:38:52 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L116-20260313_063852.json
+2026-03-13 06:38:52 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:52 [INFO] Starting generation for layer L117 (l117)
+2026-03-13 06:38:52 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:52 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:52 [INFO] Using directory: l117
+2026-03-13 06:38:52 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:52 [INFO] Generated: VulnerabilityScanResultsList.tsx
+2026-03-13 06:38:52 [INFO] Generated: VulnerabilityScanResultsDetail.tsx
+2026-03-13 06:38:52 [INFO] Generated: VulnerabilityScanResultsCreate.tsx
+2026-03-13 06:38:52 [INFO] Generated: VulnerabilityScanResultsEdit.tsx
+2026-03-13 06:38:52 [INFO] Generated: VulnerabilityScanResultsGraph.tsx
+2026-03-13 06:38:52 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L117-20260313_063852.json
+2026-03-13 06:38:52 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:52 [INFO] Starting generation for layer L118 (l118)
+2026-03-13 06:38:52 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:52 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:52 [INFO] Using directory: l118
+2026-03-13 06:38:52 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:52 [INFO] Generated: InfrastructureCveFindingsList.tsx
+2026-03-13 06:38:52 [INFO] Generated: InfrastructureCveFindingsDetail.tsx
+2026-03-13 06:38:52 [INFO] Generated: InfrastructureCveFindingsCreate.tsx
+2026-03-13 06:38:52 [INFO] Generated: InfrastructureCveFindingsEdit.tsx
+2026-03-13 06:38:52 [INFO] Generated: InfrastructureCveFindingsGraph.tsx
+2026-03-13 06:38:52 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L118-20260313_063852.json
+2026-03-13 06:38:52 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:52 [INFO] Starting generation for layer L119 (l119)
+2026-03-13 06:38:52 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:52 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:52 [INFO] Using directory: l119
+2026-03-13 06:38:52 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:52 [INFO] Generated: RiskRankingAnalysisList.tsx
+2026-03-13 06:38:52 [INFO] Generated: RiskRankingAnalysisDetail.tsx
+2026-03-13 06:38:52 [INFO] Generated: RiskRankingAnalysisCreate.tsx
+2026-03-13 06:38:52 [INFO] Generated: RiskRankingAnalysisEdit.tsx
+2026-03-13 06:38:52 [INFO] Generated: RiskRankingAnalysisGraph.tsx
+2026-03-13 06:38:52 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L119-20260313_063852.json
+2026-03-13 06:38:52 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:52 [INFO] Starting generation for layer L120 (l120)
+2026-03-13 06:38:52 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:52 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:52 [INFO] Using directory: l120
+2026-03-13 06:38:52 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:52 [INFO] Generated: RemediationTasksList.tsx
+2026-03-13 06:38:52 [INFO] Generated: RemediationTasksDetail.tsx
+2026-03-13 06:38:52 [INFO] Generated: RemediationTasksCreate.tsx
+2026-03-13 06:38:52 [INFO] Generated: RemediationTasksEdit.tsx
+2026-03-13 06:38:52 [INFO] Generated: RemediationTasksGraph.tsx
+2026-03-13 06:38:52 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L120-20260313_063852.json
+2026-03-13 06:38:52 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:52 [INFO] Starting generation for layer L121 (l121)
+2026-03-13 06:38:52 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:52 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:52 [INFO] Using directory: l121
+2026-03-13 06:38:52 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:52 [INFO] Generated: RemediationEffectivenessMetricsList.tsx
+2026-03-13 06:38:52 [INFO] Generated: RemediationEffectivenessMetricsDetail.tsx
+2026-03-13 06:38:52 [INFO] Generated: RemediationEffectivenessMetricsCreate.tsx
+2026-03-13 06:38:52 [INFO] Generated: RemediationEffectivenessMetricsEdit.tsx
+2026-03-13 06:38:52 [INFO] Generated: RemediationEffectivenessMetricsGraph.tsx
+2026-03-13 06:38:52 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L121-20260313_063852.json
+2026-03-13 06:38:52 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:52 [INFO] Starting generation for layer ops-alerts (ops-alerts)
+2026-03-13 06:38:52 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:52 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:52 [INFO] Using directory: ops-alerts
+2026-03-13 06:38:52 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:52 [INFO] Generated: AlertsManagementList.tsx
+2026-03-13 06:38:52 [INFO] Generated: AlertsManagementDetail.tsx
+2026-03-13 06:38:52 [INFO] Generated: AlertsManagementCreate.tsx
+2026-03-13 06:38:52 [INFO] Generated: AlertsManagementEdit.tsx
+2026-03-13 06:38:52 [INFO] Generated: AlertsManagementGraph.tsx
+2026-03-13 06:38:52 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-alerts-20260313_063852.json
+2026-03-13 06:38:52 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:38:52 [INFO] Starting generation for layer ops-audit (ops-audit)
+2026-03-13 06:38:52 [PASS] PASS: All 7 templates verified
+2026-03-13 06:38:52 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:38:52 [INFO] Using directory: ops-audit
+2026-03-13 06:38:52 [INFO] Substituting templates for 5 components...
+2026-03-13 06:38:52 [INFO] Generated: AuditLogsList.tsx
+2026-03-13 06:38:52 [INFO] Generated: AuditLogsDetail.tsx
+2026-03-13 06:38:52 [INFO] Generated: AuditLogsCreate.tsx
+2026-03-13 06:38:52 [INFO] Generated: AuditLogsEdit.tsx
+2026-03-13 06:38:53 [INFO] Generated: AuditLogsGraph.tsx
+2026-03-13 06:38:53 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-audit-20260313_063852.json
+2026-03-13 06:38:53 [PASS] Generation complete: 5/5 components - PASS

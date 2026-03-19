@@ -1,0 +1,27 @@
+﻿{
+    "generated_files":  [
+
+                        ],
+    "entity_type":  "vulnerability_scan_resultsRecord",
+    "timestamp":  "2026-03-13T06:20:02.5142017-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l117",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l117\\vulnerability_scan_resultsList.tsx\u0027 is denied.",
+                   "Failed to generate DetailView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l117\\vulnerability_scan_resultsList.tsx\\l117\\vulnerability_scan_resultsDetail.tsx\u0027 is denied.",
+                   "Failed to generate CreateForm : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l117\\vulnerability_scan_resultsList.tsx\\l117\\vulnerability_scan_resultsDetail.tsx\\l117\\vulnerability_scan_resultsCreate.tsx\u0027 is denied.",
+                   "Failed to generate EditForm : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l117\\vulnerability_scan_resultsList.tsx\\l117\\vulnerability_scan_resultsDetail.tsx\\l117\\vulnerability_scan_resultsCreate.tsx\\l117\\vulnerability_scan_resultsEdit.tsx\u0027 is denied.",
+                   "Failed to generate GraphView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l117\\vulnerability_scan_resultsList.tsx\\l117\\vulnerability_scan_resultsDetail.tsx\\l117\\vulnerability_scan_resultsCreate.tsx\\l117\\vulnerability_scan_resultsEdit.tsx\\l117\\vulnerability_scan_resultsGraph.tsx\u0027 is denied."
+               ],
+    "components_generated":  0,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  0,
+    "components_failed":  5,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L117",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

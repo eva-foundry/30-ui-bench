@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\cp_agents\\CpagentsList.tsx",
+                                "component":  "ListView",
+                                "file":  "CpagentsList.tsx",
+                                "bytes":  5933
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\cp_agents\\CpagentsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "CpagentsDetail.tsx",
+                                "bytes":  5681
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\cp_agents\\CpagentsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "CpagentsCreate.tsx",
+                                "bytes":  8558
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\cp_agents\\CpagentsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "CpagentsEdit.tsx",
+                                "bytes":  9885
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\cp_agents\\CpagentsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "CpagentsGraph.tsx",
+                                "bytes":  7599
+                            }
+                        ],
+    "entity_type":  "L16Record",
+    "timestamp":  "2026-03-13T07:20:24.1637345-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "cp_agents",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L16",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

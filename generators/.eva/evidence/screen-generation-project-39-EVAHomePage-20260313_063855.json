@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-39-evahomepage\\EvahomepageDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "EvahomepageDetail.tsx",
+                                "bytes":  5857
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-39-evahomepage\\EvahomepageCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "EvahomepageCreate.tsx",
+                                "bytes":  8804
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-39-evahomepage\\EvahomepageEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "EvahomepageEdit.tsx",
+                                "bytes":  10166
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-39-evahomepage\\EvahomepageGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "EvahomepageGraph.tsx",
+                                "bytes":  7753
+                            }
+                        ],
+    "entity_type":  "EVAHomePageRecord",
+    "timestamp":  "2026-03-13T06:38:55.2615755-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "project-39-evahomepage",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\project-39-evahomepage\\EvahomepageList.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "project-39-EVAHomePage",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

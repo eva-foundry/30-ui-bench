@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_step_events\\WorkstepeventsList.tsx",
+                                "component":  "ListView",
+                                "file":  "WorkstepeventsList.tsx",
+                                "bytes":  7916
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_step_events\\WorkstepeventsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "WorkstepeventsDetail.tsx",
+                                "bytes":  5822
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_step_events\\WorkstepeventsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "WorkstepeventsCreate.tsx",
+                                "bytes":  8572
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_step_events\\WorkstepeventsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "WorkstepeventsEdit.tsx",
+                                "bytes":  6037
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_step_events\\WorkstepeventsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "WorkstepeventsGraph.tsx",
+                                "bytes":  7790
+                            }
+                        ],
+    "entity_type":  "L53Record",
+    "timestamp":  "2026-03-13T07:14:03.3513378-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "work_step_events",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L53",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

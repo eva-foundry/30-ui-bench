@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_pattern_applications\\WorkpatternapplicationsList.tsx",
+                                "component":  "ListView",
+                                "file":  "WorkpatternapplicationsList.tsx",
+                                "bytes":  8087
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_pattern_applications\\WorkpatternapplicationsDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "WorkpatternapplicationsDetail.tsx",
+                                "bytes":  5921
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_pattern_applications\\WorkpatternapplicationsCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "WorkpatternapplicationsCreate.tsx",
+                                "bytes":  8743
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_pattern_applications\\WorkpatternapplicationsEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "WorkpatternapplicationsEdit.tsx",
+                                "bytes":  6172
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\work_pattern_applications\\WorkpatternapplicationsGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "WorkpatternapplicationsGraph.tsx",
+                                "bytes":  7907
+                            }
+                        ],
+    "entity_type":  "L59Record",
+    "timestamp":  "2026-03-13T07:14:03.7299940-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "work_pattern_applications",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L59",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

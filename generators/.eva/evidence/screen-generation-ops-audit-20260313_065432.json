@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-audit\\OpsauditList.tsx",
+                                "component":  "ListView",
+                                "file":  "OpsauditList.tsx",
+                                "bytes":  5955
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-audit\\OpsauditDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "OpsauditDetail.tsx",
+                                "bytes":  5709
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-audit\\OpsauditCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "OpsauditCreate.tsx",
+                                "bytes":  8589
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-audit\\OpsauditEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "OpsauditEdit.tsx",
+                                "bytes":  9932
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-audit\\OpsauditGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "OpsauditGraph.tsx",
+                                "bytes":  7615
+                            }
+                        ],
+    "entity_type":  "OpsAuditRecord",
+    "timestamp":  "2026-03-13T06:54:32.6336495-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "ops-audit",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "ops-audit",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

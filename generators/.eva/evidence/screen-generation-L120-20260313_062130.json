@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l120\\remediation_tasksDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "remediation_tasksDetail.tsx",
+                                "bytes":  5713
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l120\\remediation_tasksCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "remediation_tasksCreate.tsx",
+                                "bytes":  8618
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l120\\remediation_tasksEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "remediation_tasksEdit.tsx",
+                                "bytes":  9974
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l120\\remediation_tasksGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "remediation_tasksGraph.tsx",
+                                "bytes":  7633
+                            }
+                        ],
+    "entity_type":  "remediation_tasksRecord",
+    "timestamp":  "2026-03-13T06:21:30.3837257-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l120",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l120\\remediation_tasksList.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L120",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

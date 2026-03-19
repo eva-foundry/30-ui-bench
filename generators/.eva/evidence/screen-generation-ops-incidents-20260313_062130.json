@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-incidents\\Incident TrackerDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "Incident TrackerDetail.tsx",
+                                "bytes":  5797
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-incidents\\Incident TrackerCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "Incident TrackerCreate.tsx",
+                                "bytes":  8733
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-incidents\\Incident TrackerEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "Incident TrackerEdit.tsx",
+                                "bytes":  10096
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-incidents\\Incident TrackerGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "Incident TrackerGraph.tsx",
+                                "bytes":  7707
+                            }
+                        ],
+    "entity_type":  "Incident TrackerRecord",
+    "timestamp":  "2026-03-13T06:21:30.8969171-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "ops-incidents",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-incidents\\Incident TrackerList.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "ops-incidents",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

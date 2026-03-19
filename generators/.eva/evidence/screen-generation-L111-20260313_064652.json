@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l111\\L111Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L111Detail.tsx",
+                                "bytes":  5635
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l111\\L111Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L111Create.tsx",
+                                "bytes":  8475
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l111\\L111Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L111Edit.tsx",
+                                "bytes":  9805
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l111\\L111Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L111Graph.tsx",
+                                "bytes":  7542
+                            }
+                        ],
+    "entity_type":  "L111Record",
+    "timestamp":  "2026-03-13T06:46:52.1178000-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l111",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l111\\L111List.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L111",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

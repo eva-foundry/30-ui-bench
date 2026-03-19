@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l92\\L92List.tsx",
+                                "component":  "ListView",
+                                "file":  "L92List.tsx",
+                                "bytes":  5819
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l92\\L92Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L92Detail.tsx",
+                                "bytes":  5619
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l92\\L92Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L92Create.tsx",
+                                "bytes":  8450
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l92\\L92Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L92Edit.tsx",
+                                "bytes":  9777
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l92\\L92Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L92Graph.tsx",
+                                "bytes":  7526
+                            }
+                        ],
+    "entity_type":  "L92Record",
+    "timestamp":  "2026-03-13T07:02:30.1276957-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l92",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L92",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

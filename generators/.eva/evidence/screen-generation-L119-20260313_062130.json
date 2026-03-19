@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l119\\risk_ranking_analysisDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "risk_ranking_analysisDetail.tsx",
+                                "bytes":  5737
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l119\\risk_ranking_analysisCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "risk_ranking_analysisCreate.tsx",
+                                "bytes":  8662
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l119\\risk_ranking_analysisEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "risk_ranking_analysisEdit.tsx",
+                                "bytes":  10026
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l119\\risk_ranking_analysisGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "risk_ranking_analysisGraph.tsx",
+                                "bytes":  7661
+                            }
+                        ],
+    "entity_type":  "risk_ranking_analysisRecord",
+    "timestamp":  "2026-03-13T06:21:30.3242041-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l119",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l119\\risk_ranking_analysisList.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L119",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

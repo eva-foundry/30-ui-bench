@@ -1,0 +1,175 @@
+2026-03-13 06:46:59 [INFO] Starting generation for layer L115 (l115)
+2026-03-13 06:46:59 [PASS] PASS: All 7 templates verified
+2026-03-13 06:46:59 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:46:59 [INFO] Using directory: l115
+2026-03-13 06:46:59 [INFO] Substituting templates for 5 components...
+2026-03-13 06:46:59 [INFO] Generated: L115List.tsx
+2026-03-13 06:46:59 [INFO] Generated: L115Detail.tsx
+2026-03-13 06:46:59 [INFO] Generated: L115Create.tsx
+2026-03-13 06:46:59 [INFO] Generated: L115Edit.tsx
+2026-03-13 06:46:59 [INFO] Generated: L115Graph.tsx
+2026-03-13 06:46:59 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L115-20260313_064659.json
+2026-03-13 06:46:59 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:46:59 [INFO] Starting generation for layer L116 (l116)
+2026-03-13 06:46:59 [PASS] PASS: All 7 templates verified
+2026-03-13 06:46:59 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:46:59 [INFO] Using directory: l116
+2026-03-13 06:46:59 [INFO] Substituting templates for 5 components...
+2026-03-13 06:46:59 [INFO] Generated: L116List.tsx
+2026-03-13 06:46:59 [INFO] Generated: L116Detail.tsx
+2026-03-13 06:46:59 [INFO] Generated: L116Create.tsx
+2026-03-13 06:46:59 [INFO] Generated: L116Edit.tsx
+2026-03-13 06:46:59 [INFO] Generated: L116Graph.tsx
+2026-03-13 06:46:59 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L116-20260313_064659.json
+2026-03-13 06:46:59 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:46:59 [INFO] Starting generation for layer L117 (l117)
+2026-03-13 06:46:59 [PASS] PASS: All 7 templates verified
+2026-03-13 06:46:59 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:46:59 [INFO] Using directory: l117
+2026-03-13 06:46:59 [INFO] Substituting templates for 5 components...
+2026-03-13 06:46:59 [INFO] Generated: L117List.tsx
+2026-03-13 06:46:59 [INFO] Generated: L117Detail.tsx
+2026-03-13 06:46:59 [INFO] Generated: L117Create.tsx
+2026-03-13 06:46:59 [INFO] Generated: L117Edit.tsx
+2026-03-13 06:46:59 [INFO] Generated: L117Graph.tsx
+2026-03-13 06:46:59 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L117-20260313_064659.json
+2026-03-13 06:46:59 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:46:59 [INFO] Starting generation for layer L118 (l118)
+2026-03-13 06:46:59 [PASS] PASS: All 7 templates verified
+2026-03-13 06:46:59 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:46:59 [INFO] Using directory: l118
+2026-03-13 06:46:59 [INFO] Substituting templates for 5 components...
+2026-03-13 06:46:59 [INFO] Generated: L118List.tsx
+2026-03-13 06:46:59 [INFO] Generated: L118Detail.tsx
+2026-03-13 06:46:59 [INFO] Generated: L118Create.tsx
+2026-03-13 06:46:59 [INFO] Generated: L118Edit.tsx
+2026-03-13 06:46:59 [INFO] Generated: L118Graph.tsx
+2026-03-13 06:46:59 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L118-20260313_064659.json
+2026-03-13 06:46:59 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:46:59 [INFO] Starting generation for layer L119 (l119)
+2026-03-13 06:46:59 [PASS] PASS: All 7 templates verified
+2026-03-13 06:46:59 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:46:59 [INFO] Using directory: l119
+2026-03-13 06:46:59 [INFO] Substituting templates for 5 components...
+2026-03-13 06:46:59 [INFO] Generated: L119List.tsx
+2026-03-13 06:46:59 [INFO] Generated: L119Detail.tsx
+2026-03-13 06:46:59 [INFO] Generated: L119Create.tsx
+2026-03-13 06:46:59 [INFO] Generated: L119Edit.tsx
+2026-03-13 06:46:59 [INFO] Generated: L119Graph.tsx
+2026-03-13 06:46:59 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L119-20260313_064659.json
+2026-03-13 06:46:59 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:46:59 [INFO] Starting generation for layer L120 (l120)
+2026-03-13 06:46:59 [PASS] PASS: All 7 templates verified
+2026-03-13 06:46:59 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:46:59 [INFO] Using directory: l120
+2026-03-13 06:46:59 [INFO] Substituting templates for 5 components...
+2026-03-13 06:46:59 [INFO] Generated: L120List.tsx
+2026-03-13 06:46:59 [INFO] Generated: L120Detail.tsx
+2026-03-13 06:46:59 [INFO] Generated: L120Create.tsx
+2026-03-13 06:46:59 [INFO] Generated: L120Edit.tsx
+2026-03-13 06:46:59 [INFO] Generated: L120Graph.tsx
+2026-03-13 06:46:59 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L120-20260313_064659.json
+2026-03-13 06:46:59 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:46:59 [INFO] Starting generation for layer L121 (l121)
+2026-03-13 06:46:59 [PASS] PASS: All 7 templates verified
+2026-03-13 06:46:59 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:46:59 [INFO] Using directory: l121
+2026-03-13 06:46:59 [INFO] Substituting templates for 5 components...
+2026-03-13 06:46:59 [INFO] Generated: L121List.tsx
+2026-03-13 06:46:59 [INFO] Generated: L121Detail.tsx
+2026-03-13 06:46:59 [INFO] Generated: L121Create.tsx
+2026-03-13 06:46:59 [INFO] Generated: L121Edit.tsx
+2026-03-13 06:46:59 [INFO] Generated: L121Graph.tsx
+2026-03-13 06:46:59 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-L121-20260313_064659.json
+2026-03-13 06:46:59 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:46:59 [INFO] Starting generation for layer ops-alerts (ops-alerts)
+2026-03-13 06:46:59 [PASS] PASS: All 7 templates verified
+2026-03-13 06:46:59 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:46:59 [INFO] Using directory: ops-alerts
+2026-03-13 06:46:59 [INFO] Created directory: ops-alerts
+2026-03-13 06:46:59 [INFO] Substituting templates for 5 components...
+2026-03-13 06:46:59 [INFO] Generated: OpsalertsList.tsx
+2026-03-13 06:46:59 [INFO] Generated: OpsalertsDetail.tsx
+2026-03-13 06:46:59 [INFO] Generated: OpsalertsCreate.tsx
+2026-03-13 06:46:59 [INFO] Generated: OpsalertsEdit.tsx
+2026-03-13 06:46:59 [INFO] Generated: OpsalertsGraph.tsx
+2026-03-13 06:46:59 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-alerts-20260313_064659.json
+2026-03-13 06:46:59 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:46:59 [INFO] Starting generation for layer ops-audit (ops-audit)
+2026-03-13 06:46:59 [PASS] PASS: All 7 templates verified
+2026-03-13 06:46:59 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:46:59 [INFO] Using directory: ops-audit
+2026-03-13 06:46:59 [INFO] Created directory: ops-audit
+2026-03-13 06:46:59 [INFO] Substituting templates for 5 components...
+2026-03-13 06:46:59 [INFO] Generated: OpsauditList.tsx
+2026-03-13 06:46:59 [INFO] Generated: OpsauditDetail.tsx
+2026-03-13 06:46:59 [INFO] Generated: OpsauditCreate.tsx
+2026-03-13 06:46:59 [INFO] Generated: OpsauditEdit.tsx
+2026-03-13 06:46:59 [INFO] Generated: OpsauditGraph.tsx
+2026-03-13 06:46:59 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-audit-20260313_064659.json
+2026-03-13 06:46:59 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:46:59 [INFO] Starting generation for layer ops-backup (ops-backup)
+2026-03-13 06:46:59 [PASS] PASS: All 7 templates verified
+2026-03-13 06:46:59 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:46:59 [INFO] Using directory: ops-backup
+2026-03-13 06:46:59 [INFO] Created directory: ops-backup
+2026-03-13 06:46:59 [INFO] Substituting templates for 5 components...
+2026-03-13 06:46:59 [INFO] Generated: OpsbackupList.tsx
+2026-03-13 06:46:59 [INFO] Generated: OpsbackupDetail.tsx
+2026-03-13 06:46:59 [INFO] Generated: OpsbackupCreate.tsx
+2026-03-13 06:46:59 [INFO] Generated: OpsbackupEdit.tsx
+2026-03-13 06:46:59 [INFO] Generated: OpsbackupGraph.tsx
+2026-03-13 06:46:59 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-backup-20260313_064659.json
+2026-03-13 06:46:59 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:46:59 [INFO] Starting generation for layer ops-configuration (ops-configuration)
+2026-03-13 06:46:59 [PASS] PASS: All 7 templates verified
+2026-03-13 06:46:59 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:46:59 [INFO] Using directory: ops-configuration
+2026-03-13 06:46:59 [INFO] Created directory: ops-configuration
+2026-03-13 06:46:59 [INFO] Substituting templates for 5 components...
+2026-03-13 06:46:59 [INFO] Generated: OpsconfigurationList.tsx
+2026-03-13 06:46:59 [INFO] Generated: OpsconfigurationDetail.tsx
+2026-03-13 06:46:59 [INFO] Generated: OpsconfigurationCreate.tsx
+2026-03-13 06:46:59 [INFO] Generated: OpsconfigurationEdit.tsx
+2026-03-13 06:46:59 [INFO] Generated: OpsconfigurationGraph.tsx
+2026-03-13 06:46:59 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-configuration-20260313_064659.json
+2026-03-13 06:46:59 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:46:59 [INFO] Starting generation for layer ops-dashboard-main (ops-dashboard-main)
+2026-03-13 06:46:59 [PASS] PASS: All 7 templates verified
+2026-03-13 06:46:59 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:46:59 [INFO] Using directory: ops-dashboard-main
+2026-03-13 06:46:59 [INFO] Created directory: ops-dashboard-main
+2026-03-13 06:46:59 [INFO] Substituting templates for 5 components...
+2026-03-13 06:46:59 [INFO] Generated: OpsdashboardmainList.tsx
+2026-03-13 06:46:59 [INFO] Generated: OpsdashboardmainDetail.tsx
+2026-03-13 06:46:59 [INFO] Generated: OpsdashboardmainCreate.tsx
+2026-03-13 06:46:59 [INFO] Generated: OpsdashboardmainEdit.tsx
+2026-03-13 06:46:59 [INFO] Generated: OpsdashboardmainGraph.tsx
+2026-03-13 06:46:59 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-dashboard-main-20260313_064659.json
+2026-03-13 06:46:59 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:46:59 [INFO] Starting generation for layer ops-deployment (ops-deployment)
+2026-03-13 06:46:59 [PASS] PASS: All 7 templates verified
+2026-03-13 06:46:59 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:46:59 [INFO] Using directory: ops-deployment
+2026-03-13 06:46:59 [INFO] Created directory: ops-deployment
+2026-03-13 06:46:59 [INFO] Substituting templates for 5 components...
+2026-03-13 06:46:59 [INFO] Generated: OpsdeploymentList.tsx
+2026-03-13 06:46:59 [INFO] Generated: OpsdeploymentDetail.tsx
+2026-03-13 06:46:59 [INFO] Generated: OpsdeploymentCreate.tsx
+2026-03-13 06:46:59 [INFO] Generated: OpsdeploymentEdit.tsx
+2026-03-13 06:46:59 [INFO] Generated: OpsdeploymentGraph.tsx
+2026-03-13 06:46:59 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-deployment-20260313_064659.json
+2026-03-13 06:46:59 [PASS] Generation complete: 5/5 components - PASS
+2026-03-13 06:46:59 [INFO] Starting generation for layer ops-incidents (ops-incidents)
+2026-03-13 06:46:59 [PASS] PASS: All 7 templates verified
+2026-03-13 06:46:59 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:46:59 [INFO] Using directory: ops-incidents
+2026-03-13 06:46:59 [INFO] Created directory: ops-incidents
+2026-03-13 06:46:59 [INFO] Substituting templates for 5 components...
+2026-03-13 06:46:59 [INFO] Generated: OpsincidentsList.tsx
+2026-03-13 06:47:00 [INFO] Generated: OpsincidentsDetail.tsx
+2026-03-13 06:47:00 [INFO] Generated: OpsincidentsCreate.tsx
+2026-03-13 06:47:00 [INFO] Generated: OpsincidentsEdit.tsx
+2026-03-13 06:47:00 [INFO] Generated: OpsincidentsGraph.tsx
+2026-03-13 06:47:00 [INFO] Evidence written to: C:\eva-foundry\30-ui-bench\generators\.eva\evidence\screen-generation-ops-incidents-20260313_064659.json
+2026-03-13 06:47:00 [PASS] Generation complete: 5/5 components - PASS

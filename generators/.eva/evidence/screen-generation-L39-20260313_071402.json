@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\deployment_policies\\DeploymentpoliciesList.tsx",
+                                "component":  "ListView",
+                                "file":  "DeploymentpoliciesList.tsx",
+                                "bytes":  7981
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\deployment_policies\\DeploymentpoliciesDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "DeploymentpoliciesDetail.tsx",
+                                "bytes":  5859
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\deployment_policies\\DeploymentpoliciesCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "DeploymentpoliciesCreate.tsx",
+                                "bytes":  8635
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\deployment_policies\\DeploymentpoliciesEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "DeploymentpoliciesEdit.tsx",
+                                "bytes":  6088
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\deployment_policies\\DeploymentpoliciesGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "DeploymentpoliciesGraph.tsx",
+                                "bytes":  7834
+                            }
+                        ],
+    "entity_type":  "L39Record",
+    "timestamp":  "2026-03-13T07:14:02.3276670-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "deployment_policies",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L39",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

@@ -1,0 +1,32 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\L14List.tsx",
+                                "component":  "ListView",
+                                "file":  "L14List.tsx",
+                                "bytes":  5855
+                            }
+                        ],
+    "entity_type":  "L14Record",
+    "timestamp":  "2026-03-13T06:11:17.2968131-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "unknown",
+    "errors":  [
+                   "Failed to generate DetailView : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\L14List.tsx\\unknown\\L14Detail.tsx\u0027.",
+                   "Failed to generate CreateForm : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\L14List.tsx\\unknown\\L14Detail.tsx\\unknown\\L14CreateForm.tsx\u0027.",
+                   "Failed to generate EditForm : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\L14List.tsx\\unknown\\L14Detail.tsx\\unknown\\L14CreateForm.tsx\\unknown\\L14EditForm.tsx\u0027.",
+                   "Failed to generate GraphView : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\L14List.tsx\\unknown\\L14Detail.tsx\\unknown\\L14CreateForm.tsx\\unknown\\L14EditForm.tsx\\unknown\\L14Graph.tsx\u0027."
+               ],
+    "components_generated":  1,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  20,
+    "components_failed":  4,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L14",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

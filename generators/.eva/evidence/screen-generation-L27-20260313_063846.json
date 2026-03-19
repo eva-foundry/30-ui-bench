@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l27\\L27Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L27Detail.tsx",
+                                "bytes":  5619
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l27\\L27Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L27Create.tsx",
+                                "bytes":  8450
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l27\\L27Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L27Edit.tsx",
+                                "bytes":  9777
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l27\\L27Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L27Graph.tsx",
+                                "bytes":  7526
+                            }
+                        ],
+    "entity_type":  "L27Record",
+    "timestamp":  "2026-03-13T06:38:46.7606279-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l27",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l27\\L27List.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L27",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

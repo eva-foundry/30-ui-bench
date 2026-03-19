@@ -1,0 +1,32 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\project-39-EVAHomePageList.tsx",
+                                "component":  "ListView",
+                                "file":  "project-39-EVAHomePageList.tsx",
+                                "bytes":  6159
+                            }
+                        ],
+    "entity_type":  "project-39-EVAHomePageRecord",
+    "timestamp":  "2026-03-13T06:11:28.5220877-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "unknown",
+    "errors":  [
+                   "Failed to generate DetailView : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\project-39-EVAHomePageList.tsx\\unknown\\project-39-EVAHomePageDetail.tsx\u0027.",
+                   "Failed to generate CreateForm : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\project-39-EVAHomePageList.tsx\\unknown\\project-39-EVAHomePageDetail.tsx\\unknown\\project-39-EVAHomePageCreateForm.tsx\u0027.",
+                   "Failed to generate EditForm : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\project-39-EVAHomePageList.tsx\\unknown\\project-39-EVAHomePageDetail.tsx\\unknown\\project-39-EVAHomePageCreateForm.tsx\\unknown\\project-39-EVAHomePageEditForm.tsx\u0027.",
+                   "Failed to generate GraphView : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\project-39-EVAHomePageList.tsx\\unknown\\project-39-EVAHomePageDetail.tsx\\unknown\\project-39-EVAHomePageCreateForm.tsx\\unknown\\project-39-EVAHomePageEditForm.tsx\\unknown\\project-39-EVAHomePageGraph.tsx\u0027."
+               ],
+    "components_generated":  1,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  20,
+    "components_failed":  4,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "project-39-EVAHomePage",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

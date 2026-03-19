@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l3\\L3Detail.tsx",
+                                "component":  "DetailView",
+                                "file":  "L3Detail.tsx",
+                                "bytes":  5603
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l3\\L3Create.tsx",
+                                "component":  "CreateForm",
+                                "file":  "L3Create.tsx",
+                                "bytes":  8425
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l3\\L3Edit.tsx",
+                                "component":  "EditForm",
+                                "file":  "L3Edit.tsx",
+                                "bytes":  9749
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l3\\L3Graph.tsx",
+                                "component":  "GraphView",
+                                "file":  "L3Graph.tsx",
+                                "bytes":  7510
+                            }
+                        ],
+    "entity_type":  "L3Record",
+    "timestamp":  "2026-03-13T06:46:53.5302852-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l3",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l3\\L3List.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L3",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

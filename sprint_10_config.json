@@ -1,0 +1,62 @@
+{
+  "project_id": "30-ui-bench",
+  "project_name": "30-ui-bench - Sprint 10 execution packet and Sprint 11 ready packet",
+  "status": "in-progress",
+  "phase": "Sprint 10 - Wave 2 verified closeout and Sprint 11 packet preparation",
+  "sprint_number": 10,
+  "user_stories": [
+    {
+      "id": "10.1",
+      "epic": "Project 37 UI Handoff",
+      "title": "Reset Project 30 governance surfaces",
+      "status": "complete",
+      "description": "Align Project 30 instructions, plan, status, acceptance, and execution guide to workspace bootstrap and deterministic orchestration.",
+      "layers": [],
+      "acceptance_criteria": [
+        "Project-local instructions describe Project 30 as the factory and governance repo rather than a standalone runtime app.",
+        "PLAN.md, STATUS.md, ACCEPTANCE.md, and EXECUTION-GUIDE.md match the active sprint packet and handoff note.",
+        "Sprint activation scaffold exists for workspace scrum-tool execution."
+      ]
+    },
+    {
+      "id": "10.2",
+      "epic": "Project 37 UI Handoff",
+      "title": "Deliver Wave 2 routes in the Project 37 client surface",
+      "status": "complete",
+      "depends_on": "10.1",
+      "description": "Implement and verify the Wave 2 identity and operator-shell routes in 37-data-model/ui with explicit route wiring and mock-safe behavior.",
+      "layers": [],
+      "acceptance_criteria": [
+        "The five Wave 2 routes are wired in the client router.",
+        "Targeted tests pass for the active route set.",
+        "npm run build passes in 37-data-model/ui."
+      ]
+    },
+    {
+      "id": "11.1",
+      "epic": "Ready Packet",
+      "title": "Prepare FK-aware and ontology-view follow-up",
+      "status": "planned",
+      "depends_on": "10.2",
+      "description": "Define the Sprint 11 ready packet for relation-aware UX guidance once Project 37 confirms remaining dependencies.",
+      "layers": [],
+      "acceptance_criteria": [
+        "A timestamped dependency note exists for any required Project 37 runtime view work.",
+        "The ready packet remains separate from the active execution packet.",
+        "Project 30 guidance explains when to escalate back to Project 37 instead of inventing runtime payloads."
+      ]
+    }
+  ],
+  "blockers": [
+    "Project 37 UI lint now exits 0 after the react-hooks plugin fix, but 578 warning-level findings remain across generated API and type surfaces and should be burned down outside the verified Wave 2 route set.",
+    "Project 37 still owns runtime seeding for some related layers, so Project 30 must not invent production payloads for unseeded data."
+  ],
+  "data_model_layers": [],
+  "metadata": {
+    "sprint_start_date": "2026-03-15",
+    "sprint_end_date": "2026-03-29",
+    "story_points_total": 13,
+    "team_members": 1,
+    "notes": "Execution pair at 2026-03-16 09:07 UTC: 10.1 complete, 10.2 complete after fresh 6/6 focused tests, build pass, warning-only lint pass, and MTI 72; 11.1 remains ready. The live packet phase now reads 'Sprint 10 / A1 Act closeout, Sprint 11 ready packet'. Consumes live Project 37 contracts; no new data-model layers are introduced by this packet."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "project_id": "30-ui-bench",
+  "project_name": "30-ui-bench - Sprint 11 ready packet for FK-aware and ontology-view follow-up",
+  "status": "planned",
+  "phase": "Sprint 11 - FK-aware UX and ontology-view follow-up",
+  "sprint_number": 11,
+  "user_stories": [
+    {
+      "id": "11.1",
+      "epic": "Relation-aware UX",
+      "title": "Prepare FK-aware and ontology-view follow-up",
+      "status": "planned",
+      "description": "Promote reusable Project 30 guidance for relation-aware UX after Project 37 confirms domain views, layer metadata, and remaining runtime dependencies.",
+      "layers": [],
+      "acceptance_criteria": [
+        "Project 37 confirms the required domain views and relation-aware runtime surfaces.",
+        "Project 30 guidance explains when to render links, breadcrumbs, grouped relationships, and pending-runtime states instead of raw ids.",
+        "Any dependency that still requires Project 37 seeding is captured as a timestamped handoff artifact rather than mocked into fake production data."
+      ]
+    }
+  ],
+  "data_model_layers": [],
+  "metadata": {
+    "sprint_start_date": "2026-03-29",
+    "sprint_end_date": "2026-04-12",
+    "story_points_total": 5,
+    "team_members": 1,
+    "notes": "Ready packet only at 2026-03-16 08:26 UTC. Promote after Sprint 10 is checked and acted."
+  }
+}

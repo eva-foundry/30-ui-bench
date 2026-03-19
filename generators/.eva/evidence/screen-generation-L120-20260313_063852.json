@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l120\\RemediationTasksList.tsx",
+                                "component":  "ListView",
+                                "file":  "RemediationTasksList.tsx",
+                                "bytes":  6014
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l120\\RemediationTasksDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "RemediationTasksDetail.tsx",
+                                "bytes":  5709
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l120\\RemediationTasksCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "RemediationTasksCreate.tsx",
+                                "bytes":  8612
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l120\\RemediationTasksEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "RemediationTasksEdit.tsx",
+                                "bytes":  9968
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l120\\RemediationTasksGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "RemediationTasksGraph.tsx",
+                                "bytes":  7628
+                            }
+                        ],
+    "entity_type":  "remediation_tasksRecord",
+    "timestamp":  "2026-03-13T06:38:52.7967455-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l120",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L120",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

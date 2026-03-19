@@ -1,0 +1,10 @@
+2026-03-13 06:10:00 [INFO] Starting generation for layer L25 (projects)
+2026-03-13 06:10:00 [PASS] PASS: All 7 templates verified
+2026-03-13 06:10:00 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-13 06:10:00 [INFO] Substituting templates for 5 components...
+2026-03-13 06:10:00 [INFO] DRY_RUN: Would generate ProjectsList.tsx
+2026-03-13 06:10:00 [INFO] DRY_RUN: Would generate ProjectsDetail.tsx
+2026-03-13 06:10:00 [INFO] DRY_RUN: Would generate ProjectsCreateForm.tsx
+2026-03-13 06:10:00 [INFO] DRY_RUN: Would generate ProjectsEditForm.tsx
+2026-03-13 06:10:00 [INFO] DRY_RUN: Would generate ProjectsGraph.tsx
+2026-03-13 06:10:00 [PASS] Generation complete: 5/5 components - PASS

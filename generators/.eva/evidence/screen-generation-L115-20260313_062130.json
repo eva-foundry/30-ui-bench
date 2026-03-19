@@ -1,0 +1,50 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l115\\assertions_catalogDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "assertions_catalogDetail.tsx",
+                                "bytes":  5719
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l115\\assertions_catalogCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "assertions_catalogCreate.tsx",
+                                "bytes":  8629
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l115\\assertions_catalogEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "assertions_catalogEdit.tsx",
+                                "bytes":  9987
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l115\\assertions_catalogGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "assertions_catalogGraph.tsx",
+                                "bytes":  7640
+                            }
+                        ],
+    "entity_type":  "assertions_catalogRecord",
+    "timestamp":  "2026-03-13T06:21:30.0721439-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "l115",
+    "errors":  [
+                   "Failed to generate ListView : Access to the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\l115\\assertions_catalogList.tsx\u0027 is denied."
+               ],
+    "components_generated":  4,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  80,
+    "components_failed":  1,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L115",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

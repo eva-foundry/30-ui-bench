@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\stories\\StoriesList.tsx",
+                                "component":  "ListView",
+                                "file":  "StoriesList.tsx",
+                                "bytes":  5903
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\stories\\StoriesDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "StoriesDetail.tsx",
+                                "bytes":  5663
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\stories\\StoriesCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "StoriesCreate.tsx",
+                                "bytes":  8526
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\stories\\StoriesEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "StoriesEdit.tsx",
+                                "bytes":  9853
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\stories\\StoriesGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "StoriesGraph.tsx",
+                                "bytes":  7578
+                            }
+                        ],
+    "entity_type":  "L28Record",
+    "timestamp":  "2026-03-13T06:51:14.8076724-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "stories",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "L28",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

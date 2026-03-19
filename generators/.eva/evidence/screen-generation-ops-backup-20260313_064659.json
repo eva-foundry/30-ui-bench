@@ -1,0 +1,57 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-backup\\OpsbackupList.tsx",
+                                "component":  "ListView",
+                                "file":  "OpsbackupList.tsx",
+                                "bytes":  5980
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-backup\\OpsbackupDetail.tsx",
+                                "component":  "DetailView",
+                                "file":  "OpsbackupDetail.tsx",
+                                "bytes":  5725
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-backup\\OpsbackupCreate.tsx",
+                                "component":  "CreateForm",
+                                "file":  "OpsbackupCreate.tsx",
+                                "bytes":  8614
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-backup\\OpsbackupEdit.tsx",
+                                "component":  "EditForm",
+                                "file":  "OpsbackupEdit.tsx",
+                                "bytes":  9960
+                            },
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\ops-backup\\OpsbackupGraph.tsx",
+                                "component":  "GraphView",
+                                "file":  "OpsbackupGraph.tsx",
+                                "bytes":  7631
+                            }
+                        ],
+    "entity_type":  "OpsBackupRecord",
+    "timestamp":  "2026-03-13T06:46:59.7541491-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "ops-backup",
+    "errors":  [
+
+               ],
+    "components_generated":  5,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  100,
+    "components_failed":  0,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "ops-backup",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

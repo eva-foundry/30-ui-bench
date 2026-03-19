@@ -1,0 +1,32 @@
+﻿{
+    "generated_files":  [
+                            {
+                                "status":  "GENERATED",
+                                "path":  "C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\ops-auditList.tsx",
+                                "component":  "ListView",
+                                "file":  "ops-auditList.tsx",
+                                "bytes":  5951
+                            }
+                        ],
+    "entity_type":  "ops-auditRecord",
+    "timestamp":  "2026-03-13T06:11:25.7098398-03:00",
+    "generator":  "generate-screens-v2.ps1",
+    "layer_name":  "unknown",
+    "errors":  [
+                   "Failed to generate DetailView : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\ops-auditList.tsx\\unknown\\ops-auditDetail.tsx\u0027.",
+                   "Failed to generate CreateForm : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\ops-auditList.tsx\\unknown\\ops-auditDetail.tsx\\unknown\\ops-auditCreateForm.tsx\u0027.",
+                   "Failed to generate EditForm : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\ops-auditList.tsx\\unknown\\ops-auditDetail.tsx\\unknown\\ops-auditCreateForm.tsx\\unknown\\ops-auditEditForm.tsx\u0027.",
+                   "Failed to generate GraphView : Could not find a part of the path \u0027C:\\eva-foundry\\37-data-model\\ui\\src\\pages\\unknown\\ops-auditList.tsx\\unknown\\ops-auditDetail.tsx\\unknown\\ops-auditCreateForm.tsx\\unknown\\ops-auditEditForm.tsx\\unknown\\ops-auditGraph.tsx\u0027."
+               ],
+    "components_generated":  1,
+    "components_planned":  5,
+    "version":  "1.0.0",
+    "success_rate":  20,
+    "components_failed":  4,
+    "phase":  "DO",
+    "operation":  "screen_generation",
+    "layer_id":  "ops-audit",
+    "dry_run":  {
+                    "IsPresent":  false
+                }
+}

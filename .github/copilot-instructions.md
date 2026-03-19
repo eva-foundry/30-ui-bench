@@ -1,252 +1,98 @@
 # GitHub Copilot Instructions -- UI Bench
 
-**Template Version**: 3.0.0
-**Last Updated**: February 23, 2026
-**Project**: UI Bench -- Component design bench and Fluent UI v9 playground for EVA Platform frontend engineers
-**Path**: `C:\AICOE\eva-foundry\30-ui-bench\`
-**Stack**: [TODO: language, framework, key libs]
-**Category**: Developer
-**Maturity**: poc
-**WBS**: WBS-030
+**Last Updated**: 2026-03-15
+**Project**: UI Bench
+**Path**: `C:\eva-foundry\30-ui-bench\`
+**Role**: Screen-factory governance and handoff authority for EVA UI work
+**Primary Client Surface**: `C:\eva-foundry\37-data-model\ui`
 
-> This file is the Copilot operating manual for this repository.
-> PART 1 is universal -- identical across all EVA Foundation projects.
-> PART 2 is project-specific -- fill all [TODO] placeholders during first active session.
+This repo is not the runtime app for the current mission. Project 30 owns the sprint packet, governance, acceptance framing, and generation patterns. For the active Project 37 handoff, implementation work may land in `37-data-model/ui` while this repo stays authoritative for scope, evidence, and next-wave planning.
 
----
+## Session Bootstrap
 
-## PART 1 -- UNIVERSAL RULES
-> Applies to every EVA Foundation project. Do not modify.
+1. Complete the workspace bootstrap in `C:\eva-foundry\.github\copilot-instructions.md` first. Do not reintroduce localhost, `C:\AICOE\...`, or disk-fallback guidance here.
+2. Acknowledge the workspace skills and scrum tools before sprint planning:
+   - `@eva-factory-guide`, `@foundation-expert`, `@scrum-master`, `@workflow-forensics-expert`
+   - `97-workspace-notes/scripts/sprint_activation.py`, `sprint_progress.py`, `velocity_tracker.py`, `sprint_retrospective.py`
+3. Read `README.md`, `PLAN.md`, `STATUS.md`, `ACCEPTANCE.md`, and the latest Project 37 handoff note in `docs/`.
+4. Query the cloud API for live truth before inspecting generated UI:
+   - `GET /model/projects/30-ui-bench`
+   - `GET /model/project_work/?project_id=30-ui-bench`
+   - `GET /model/screens/`
+   - `GET /model/endpoints/`
+   - `GET /model/domain-views`
+   - `GET /model/layer-metadata/`
+5. Write a short session brief: active sprint packet, verified evidence, next task, blockers.
 
----
+## Operating Boundaries
 
-### 1. Session Bootstrap (run in this order, every session)
+- Project 30 owns sprint framing, acceptance, route intent, handoff notes, and generation strategy.
+- Project 37 owns runtime layers, API contracts, seeded data, and the active UI deployment surface.
+- If a screen depends on still-empty runtime layers, raise the dependency back to Project 37 in a timestamped handoff note instead of inventing payloads.
+- If ontology-category or FK-aware views are required, request them from Project 37 as a timestamped handoff artifact before building bespoke fallback logic.
 
-Before answering any question or writing any code:
+## Nested D3PDCA Packet
 
-1. **Ping 37-data-model API**: `Invoke-RestMethod http://localhost:8010/health`
-   - If `{"status":"ok"}` use HTTP queries for all discovery (fastest)
-   - If down: `env:PYTHONPATH="C:\AICOE\eva-foundry\37-data-model"; C:\AICOE\.venv\Scripts\python -m uvicorn api.server:app --port 8010 --reload`
-   - If no venv: `m = Get-Content C:\AICOE\eva-foundry\37-data-model\model\eva-model.json | ConvertFrom-Json`
+Use the workspace deterministic-orchestration pattern with at most two forward sprints packaged at once.
 
-2. **Read this project's governance docs** (in order):
-   - `README.md` -- identity, stack, quick start
-   - `PLAN.md` -- phases, current phase, next tasks
-   - `STATUS.md` -- last session snapshot, open blockers
-   - `ACCEPTANCE.md` -- DoD checklist, quality gates (if exists)
-   - Latest `docs/YYYYMMDD-plan.md` and `docs/YYYYMMDD-findings.md` (if exists)
+`D1 Discover`
+- Refresh API truth, handoff packet status, blockers, and prior evidence.
 
-3. **Read the skills index** (if `.github/copilot-skills/` exists):
-   `powershell
-   Get-ChildItem ".github/copilot-skills" -Filter "*.skill.md" | Select-Object Name
-   `
-   - Read `00-skill-index.skill.md` for the skill menu
-   - Match the trigger phrase in `triggers:` YAML block to the user's current intent
-   - Read the matched skill file in full before doing any work
+`P1 Plan`
+- Keep Sprint 10 as the execution packet and Sprint 11 as the ready packet.
+- Update `PLAN.md`, `STATUS.md`, and `ACCEPTANCE.md` to match the paperless record.
 
-4. **Query the data model** for this project's record:
-   `powershell
-   Invoke-RestMethod "http://localhost:8010/model/projects/30-ui-bench" | Select-Object id, maturity, notes
-   `
+`D2 Do`
+- Implement governance or generator changes in Project 30.
+- Implement active-client UI changes in `37-data-model/ui` when the handoff requires it.
 
-5. **Produce a Session Brief** -- one paragraph: active phase, last test count, next task, open blockers.
-   Do not skip this. Do not start implementing before the brief is written.
+`C1 Check`
+- Run only the verification that matches the changed surface.
+- For Project 37 UI work, treat `npm run build` and targeted tests in `37-data-model/ui` as the primary gate.
 
----
+`A1 Act`
+- Record verified outcomes, blockers, and next-wave scope in Project 30 governance docs.
+- Prepare the next sprint packet and keep markdown aligned to the live API state.
 
-### 2. DPDCA Execution Loop
+## Active Sprint Scaffold
 
-Every session runs this cycle. Do not skip steps.
+- Active config: `C:\eva-foundry\30-ui-bench\sprint_10_config.json`
+- Template source: `C:\eva-foundry\97-workspace-notes\scripts\sprint_config_template.json`
+- Register from the workspace root:
 
-`
-Discover  --> synthesise current sprint from plan + findings docs
-Plan      --> pick next unchecked task from YYYYMMDD-plan.md checklist
-Do        --> implement -- make the change, do not just describe it
-Check     --> run the project test command (see PART 2); must exit 0
-Act       --> update STATUS.md, PLAN.md, YYYYMMDD-plan.md, findings doc
-Loop      --> return to Discover if tasks remain
-`
+```powershell
+python 97-workspace-notes/scripts/sprint_activation.py --config 30-ui-bench/sprint_10_config.json
+```
 
-**Execution Rule**: Make the change. Do not propose, narrate, or ask for permission
-on a step you can determine yourself. If uncertain about scope, ask one clarifying
-question then proceed.
+## Verification Commands
 
----
+```powershell
+Set-Location C:\eva-foundry\30-ui-bench
+npm test
 
-### 3. EVA Data Model API -- Mandatory Protocol
+Set-Location C:\eva-foundry\37-data-model\ui
+npm run build
+npm run lint
+pwsh scripts/generate-layer-routes.ps1
+```
 
-**Full reference**: `C:\AICOE\eva-foundry\37-data-model\USER-GUIDE.md`
-Read it at every sprint boundary or when a query pattern is unfamiliar.
+## Anti-Patterns
 
-**Rule: query the model first -- never grep when the model has the answer**
-
-| You want to know... | Use (1 turn) | Do NOT (10 turns) |
-|---|---|---|
-| All endpoints for a service | `GET /model/endpoints/` filtered | grep router files |
-| What a screen calls | `GET /model/screens/{id}` -> `.api_calls` | read screen source |
-| Auth/feature flag for an endpoint | `GET /model/endpoints/{id}` | grep auth middleware |
-| What breaks if X changes | `GET /model/impact/?container=X` | trace imports manually |
-| Navigate to source line | `.repo_path` + `.repo_line` -> `code --goto` | file_search |
-
-**5-step write cycle (mandatory -- every model change)**
-
-`
-1. PUT /model/{layer}/{id}          -- X-Actor: agent:copilot header required
-2. GET /model/{layer}/{id}          -- assert row_version incremented + modified_by matches
-3. POST /model/admin/export         -- Authorization: Bearer dev-admin
-4. scripts/assemble-model.ps1       -- must report 27/27 layers OK
-5. scripts/validate-model.ps1       -- must exit 0; [FAIL] lines block; [WARN] are noise
-`
-
----
-
-### 4. Encoding and Output Safety
-
-- All Python scripts: `PYTHONIOENCODING=utf-8` in any .bat wrapper
-- All PowerShell output: `[PASS]` / `[FAIL]` / `[WARN]` / `[INFO]` -- never emoji
-- Machine-readable outputs (JSON, YAML, evidence files): ASCII-only always
-- Markdown human-facing docs: emoji allowed for readability only
-
----
-
-### 5. Python Environment
-
-`
-venv exec: C:\AICOE\.venv\Scripts\python.exe
-activate:  C:\AICOE\.venv\Scripts\Activate.ps1
-`
-
-Never use bare `python` or `python3`. Always use the full venv path.
-
----
-
-## PART 2 -- PROJECT-SPECIFIC
-
-### Project Lock
-
-This file is the copilot-instructions for **30-ui-bench** (UI Bench).
-
-The workspace-level bootstrap rule "Step 1 -- Identify the active project from the currently open file path"
-applies **only at the initial load of this file** (first read at session start).
-Once this file has been loaded, the active project is locked to **30-ui-bench** for the entire session.
-Do NOT re-evaluate project identity from editorContext or terminal CWD on each subsequent request.
-Work state and sprint context are read from `STATUS.md` and `PLAN.md` at bootstrap -- not from this file.
-
----
-> Fill all [TODO] values during the first active session on this project.
-
----
-
-### Project Identity
-
-**Name**: UI Bench
-**Folder**: `C:\AICOE\eva-foundry\30-ui-bench`
-**ADO Epic**: #24
-**37-data-model record**: `GET /model/projects/30-ui-bench`
-**Maturity**: poc
-**Phase**: Phase 1
-
-**Depends on**:
-- [TODO: dependencies or None]
-
-**Consumed by**:
-- [TODO: who uses the output of this project]
-
----
-
-### Stack and Conventions
-
-`
-[TODO: runtime / language + version]
-[TODO: framework + version]
-[TODO: key libraries]
-`
-
----
-
-### Test Command
-
-`powershell
-# [TODO: primary test command -- must exit 0 before any commit]
-# Example: pytest tests/ -x -q
-# Example: npm run typecheck && npm run test
-`
-
-**Current test count**: [TODO] tests
-
----
-
-### Key Commands
-
-`powershell
-# [TODO: start / build / lint commands]
-`
-
----
-
-### Critical Patterns
-
-[TODO: describe 1-3 patterns specific to this project's architecture.
-Example: "All Azure calls use MSI -- no secrets in code."
-Example: "All React components use Fluent UI v9 primitives only."]
-
----
-
-### Known Anti-Patterns
-
-| Do NOT | Do instead |
+| Do not | Do instead |
 |---|---|
-| [TODO: common mistake] | [TODO: correct approach] |
+| Treat Project 30 as a standalone UI runtime | Treat it as the factory and governance repo while targeting the client surface explicitly |
+| Trust old generated files over live contracts | Query the cloud model and handoff packet first |
+| Mark UI delivery complete without client-surface verification | Record the exact Project 37 build and test evidence that passed |
+| Leave template placeholders in repo guidance | Replace them with current sprint-packet facts or remove them |
 
----
+## Skills In This Repo
 
-### Skills in This Project
+Only `00-skill-index.skill.md` is currently published. If repeated screen-factory workflows emerge, add real skill files and update the index in the same change.
 
-`powershell
-Get-ChildItem ".github/copilot-skills" -Filter "*.skill.md" | Select-Object Name
-`
+## References
 
-| Skill file | Trigger phrases | Purpose |
-|---|---|---|
-| 00-skill-index.skill.md | list skills, what can you do | Skill menu + index |
-| [TODO: add skills as they are created] | | |
-
----
-
-### 37-data-model -- This Project's Entities
-
-`powershell
-# Endpoints implemented by this project
-Invoke-RestMethod "http://localhost:8010/model/endpoints/" |
-  Where-Object { $_.implemented_in -like '*30-ui-bench*' } |
-  Select-Object id, status
-
-# Feature flags gating this project
-Invoke-RestMethod "http://localhost:8010/model/feature_flags/" |
-  Where-Object { $_.id -like '*[TODO:feature-prefix]*' }
-`
-
----
-
-### Deployment
-
-**Environment**: [TODO: dev URL] / [TODO: prod URL]
-**Deploy**: `[TODO: deploy command]`
-
----
-
-## PART 3 -- QUALITY GATES
-
-All must pass before merging a PR:
-
-- [ ] Test command exits 0
-- [ ] `validate-model.ps1` exits 0 (if any model layer was changed)
-- [ ] No encoding violations in new code
-- [ ] STATUS.md updated with session summary
-- [ ] PLAN.md reflects actual remaining work
-- [ ] If new screen / endpoint / component added: model PUT + write cycle closed
-
----
-
-*Source template*: `C:\AICOE\eva-foundry\07-foundation-layer\02-design\artifact-templates\copilot-instructions-template.md` v3.0.0
-*EVA Data Model USER-GUIDE*: `C:\AICOE\eva-foundry\37-data-model\USER-GUIDE.md`
+- Workspace authority: `C:\eva-foundry\.github\copilot-instructions.md`
+- Workspace skills registry: `C:\eva-foundry\97-workspace-notes\scripts\WORKSPACE-SKILLS-REGISTRY.md`
+- Workspace tools registry: `C:\eva-foundry\97-workspace-notes\scripts\WORKSPACE-TOOLS-REGISTRY.md`
+- Active handoff packet: `C:\eva-foundry\30-ui-bench\docs\20260315_223500-project37-ui-handoff.md`
+- Active client surface: `C:\eva-foundry\37-data-model\ui`
