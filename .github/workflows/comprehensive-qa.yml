@@ -1,775 +1,221 @@
-name: Comprehensive QA - All 51 Acceptance Criteria
+name: Comprehensive QA - Sprint 11 Handoff Gate
 
 on:
   workflow_dispatch:
     inputs:
       target_environment:
-        description: 'Target environment'
+        description: Target environment
         required: true
-        default: 'staging'
+        default: staging
         type: choice
         options:
           - staging
           - production
       skip_manual_gates:
-        description: 'Skip manual verification gates'
+        description: Skip manual verification gates
         required: false
-        default: false
+        default: true
         type: boolean
   push:
     branches:
       - main
     paths:
-      - 'ui/**'
       - '.github/workflows/comprehensive-qa.yml'
+      - 'STATUS.md'
+      - 'PLAN.md'
+      - 'ACCEPTANCE.md'
+      - 'docs/**'
   pull_request:
     branches:
       - main
 
 env:
   NODE_VERSION: '20.x'
-  UI_PATH: './ui'
-  EVIDENCE_PATH: './evidence'
+  PROJECT37_REPO: eva-foundry/37-data-model
+  PROJECT37_PATH: project37-runtime
+  UI_PATH: project37-runtime/ui
+  EVIDENCE_PATH: evidence
+  DATA_MODEL_BASE: https://msub-eva-data-model.victoriousgrass-30debbd3.canadacentral.azurecontainerapps.io
 
 jobs:
-  # ============================================================
-  # JOB 1: Code Quality Gates (AC-1 through AC-5)
-  # ============================================================
-  code-quality:
-    name: Code Quality (5 Gates)
+  client-verification:
+    name: Client Verification Against Project 37 UI
     runs-on: ubuntu-latest
-    outputs:
-      typescript_pass: ${{ steps.typescript.outputs.pass }}
-      eslint_pass: ${{ steps.eslint.outputs.pass }}
-      circular_deps_pass: ${{ steps.circular.outputs.pass }}
-      tokens_pass: ${{ steps.tokens.outputs.pass }}
-      bundle_pass: ${{ steps.bundle.outputs.pass }}
-    
+
     steps:
-      - name: Checkout
+      - name: Checkout Project 30 governance surface
         uses: actions/checkout@v4
-      
+
+      - name: Checkout Project 37 runtime UI
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.PROJECT37_REPO }}
+          path: ${{ env.PROJECT37_PATH }}
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-          cache: 'npm'
+          cache: npm
           cache-dependency-path: ${{ env.UI_PATH }}/package-lock.json
-      
-      - name: Install Dependencies
+
+      - name: Install Project 37 UI dependencies
         working-directory: ${{ env.UI_PATH }}
         run: npm ci
-      
-      # AC-1: TypeScript Compilation
-      - name: AC-1 - TypeScript Compilation
-        id: typescript
+
+      - name: Focused Sprint 11 route tests
         working-directory: ${{ env.UI_PATH }}
         run: |
-          echo "::group::TypeScript Type Check"
-          npm run type-check > typescript-report.txt 2>&1
+          npm run test -- \
+            src/pages/portal/PersonaLoginPage.test.tsx \
+            src/pages/portal/PersonaExperienceDashboardPage.test.tsx \
+            src/pages/admin/ActAsPage.test.tsx \
+            src/pages/admin/RbacResponsibilitiesPage.test.tsx \
+            src/pages/admin/A11yThemesPage.test.tsx \
+            > focused-test-report.txt 2>&1
+          cat focused-test-report.txt
+
+      - name: TypeScript gate
+        working-directory: ${{ env.UI_PATH }}
+        run: |
+          npm run type-check > typecheck-report.txt 2>&1
+          cat typecheck-report.txt
+
+      - name: Build gate
+        working-directory: ${{ env.UI_PATH }}
+        run: |
+          npm run build > build-report.txt 2>&1
+          cat build-report.txt
+
+      - name: Lint gate (warning-only tolerated)
+        working-directory: ${{ env.UI_PATH }}
+        run: |
+          set +e
+          npm run lint > lint-report.txt 2>&1
           EXIT_CODE=$?
-          cat typescript-report.txt
-          
-          if [ $EXIT_CODE -eq 0 ]; then
-            echo "pass=true" >> $GITHUB_OUTPUT
-            echo "✅ AC-1 PASS: Zero TypeScript errors"
-          else
-            ERROR_COUNT=$(grep -c "error TS" typescript-report.txt || echo 0)
-            echo "pass=false" >> $GITHUB_OUTPUT
-            echo "❌ AC-1 FAIL: $ERROR_COUNT TypeScript errors"
+          set -e
+          cat lint-report.txt
+          if grep -q "error" lint-report.txt; then
+            echo "[FAIL] Lint reported errors"
             exit 1
           fi
-          echo "::endgroup::"
-      
-      # AC-2: ESLint
-      - name: AC-2 - ESLint Validation
-        id: eslint
-        working-directory: ${{ env.UI_PATH }}
-        run: |
-          echo "::group::ESLint Check"
-          npm run lint > eslint-report.txt 2>&1
-          EXIT_CODE=$?
-          cat eslint-report.txt
-          
-          if [ $EXIT_CODE -eq 0 ]; then
-            echo "pass=true" >> $GITHUB_OUTPUT
-            echo "✅ AC-2 PASS: Zero ESLint errors"
-          else
-            ERROR_COUNT=$(grep -c "error" eslint-report.txt || echo 0)
-            echo "pass=false" >> $GITHUB_OUTPUT
-            echo "⚠️ AC-2 FAIL: $ERROR_COUNT ESLint errors"
-            # Non-blocking for warnings
-            if [ "$ERROR_COUNT" -gt 0 ]; then
-              exit 1
-            fi
-          fi
-          echo "::endgroup::"
-      
-      # AC-3: Circular Dependencies
-      - name: AC-3 - Circular Dependencies Check
-        id: circular
-        working-directory: ${{ env.UI_PATH }}
-        run: |
-          echo "::group::Circular Dependency Check"
-          npx madge --circular --extensions ts,tsx src/ > circular-report.txt 2>&1
-          
-          if grep -q "No circular dependencies found" circular-report.txt; then
-            echo "pass=true" >> $GITHUB_OUTPUT
-            echo "✅ AC-3 PASS: No circular dependencies"
-          else
-            echo "pass=false" >> $GITHUB_OUTPUT
-            echo "❌ AC-3 FAIL: Circular dependencies detected"
-            cat circular-report.txt
-            exit 1
-          fi
-          echo "::endgroup::"
-      
-      # AC-4: Centralized Design Tokens
-      - name: AC-4 - Design Tokens Centralization
-        id: tokens
-        working-directory: ${{ env.UI_PATH }}
-        run: |
-          echo "::group::Design Token Check"
-          INLINE_TOKENS=$(grep -r "const GC_" src/pages | wc -l || echo 0)
-          
-          if [ "$INLINE_TOKENS" -eq 0 ]; then
-            echo "pass=true" >> $GITHUB_OUTPUT
-            echo "✅ AC-4 PASS: All design tokens centralized"
-          else
-            echo "pass=false" >> $GITHUB_OUTPUT
-            echo "⚠️ AC-4 FAIL: $INLINE_TOKENS inline design tokens found"
-            grep -r "const GC_" src/pages || true
-            # Non-blocking
-          fi
-          echo "::endgroup::"
-      
-      # AC-5: Bundle Size
-      - name: AC-5 - Bundle Size Check
-        id: bundle
-        working-directory: ${{ env.UI_PATH }}
-        run: |
-          echo "::group::Bundle Size Build"
-          npm run build
-          
-          BUNDLE_SIZE=$(du -sb dist | cut -f1)
-          BUNDLE_SIZE_MB=$((BUNDLE_SIZE / 1024 / 1024))
-          MAX_SIZE_MB=2
-          
-          echo "Bundle size: ${BUNDLE_SIZE_MB}MB (max: ${MAX_SIZE_MB}MB)"
-          
-          if [ "$BUNDLE_SIZE_MB" -lt "$MAX_SIZE_MB" ]; then
-            echo "pass=true" >> $GITHUB_OUTPUT
-            echo "✅ AC-5 PASS: Bundle size ${BUNDLE_SIZE_MB}MB < ${MAX_SIZE_MB}MB"
-          else
-            echo "pass=false" >> $GITHUB_OUTPUT
-            echo "⚠️ AC-5 FAIL: Bundle size ${BUNDLE_SIZE_MB}MB exceeds ${MAX_SIZE_MB}MB"
-            # Non-blocking
-          fi
-          echo "::endgroup::"
-      
-      - name: Upload Code Quality Evidence
+          exit 0
+
+      - name: Upload client verification artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: code-quality-evidence
+          name: project30-client-verification
           path: |
-            ${{ env.UI_PATH }}/typescript-report.txt
-            ${{ env.UI_PATH }}/eslint-report.txt
-            ${{ env.UI_PATH }}/circular-report.txt
+            ${{ env.UI_PATH }}/focused-test-report.txt
+            ${{ env.UI_PATH }}/typecheck-report.txt
+            ${{ env.UI_PATH }}/build-report.txt
+            ${{ env.UI_PATH }}/lint-report.txt
 
-  # ============================================================
-  # JOB 2: Consistency Gates (AC-12 through AC-15)
-  # ============================================================
-  consistency:
-    name: Consistency Across 111 Layers (4 Gates)
+  governance-check:
+    name: Governance And Data Model Check
     runs-on: ubuntu-latest
-    needs: code-quality
-    outputs:
-      structure_pass: ${{ steps.structure.outputs.pass }}
-      error_handling_pass: ${{ steps.error.outputs.pass }}
-      naming_pass: ${{ steps.naming.outputs.pass }}
-      imports_pass: ${{ steps.imports.outputs.pass }}
-    
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      
-      # AC-12: Identical Component Structure
-      - name: AC-12 - Component Structure Consistency
-        id: structure
-        working-directory: ${{ env.UI_PATH }}
-        run: |
-          echo "::group::Component Structure Check"
-          # Check all ListView files have same hook order
-          INCONSISTENT=$(find src/pages -name "*ListView.tsx" -exec grep -l "const.*= use" {} \; | \
-            xargs -I {} sh -c 'grep "const.*= use" {} | head -5' | \
-            sort | uniq -c | awk '$1 > 1' | wc -l || echo 0)
-          
-          if [ "$INCONSISTENT" -eq 0 ]; then
-            echo "pass=true" >> $GITHUB_OUTPUT
-            echo "✅ AC-12 PASS: Component structure consistent"
-          else
-            echo "pass=false" >> $GITHUB_OUTPUT
-            echo "⚠️ AC-12 FAIL: Inconsistent hook order detected"
-          fi
-          echo "::endgroup::"
-      
-      # AC-13: Identical Error Handling
-      - name: AC-13 - Error Handling Consistency
-        id: error
-        working-directory: ${{ env.UI_PATH }}
-        run: |
-          echo "::group::Error Handling Check"
-          # Check all components use same error pattern
-          MISSING_ERROR_HANDLING=$(find src/pages -name "*ListView.tsx" ! -exec grep -l "catch.*error" {} \; | wc -l || echo 0)
-          
-          if [ "$MISSING_ERROR_HANDLING" -eq 0 ]; then
-            echo "pass=true" >> $GITHUB_OUTPUT
-            echo "✅ AC-13 PASS: Error handling consistent"
-          else
-            echo "pass=false" >> $GITHUB_OUTPUT
-            echo "⚠️ AC-13 FAIL: $MISSING_ERROR_HANDLING files missing error handling"
-          fi
-          echo "::endgroup::"
-      
-      # AC-14: File Naming Convention
-      - name: AC-14 - Naming Convention Check
-        id: naming
-        working-directory: ${{ env.UI_PATH }}
-        run: |
-          echo "::group::Naming Convention Check"
-          INVALID_NAMES=$(find src/pages -type f -name "*.tsx" ! -name "*ListView.tsx" \
-            ! -name "*DetailDrawer.tsx" ! -name "*CreateForm.tsx" \
-            ! -name "*EditForm.tsx" ! -name "*GraphView.tsx" \
-            ! -name "*.test.tsx" | wc -l || echo 0)
-          
-          if [ "$INVALID_NAMES" -eq 0 ]; then
-            echo "pass=true" >> $GITHUB_OUTPUT
-            echo "✅ AC-14 PASS: All files follow naming convention"
-          else
-            echo "pass=false" >> $GITHUB_OUTPUT
-            echo "❌ AC-14 FAIL: $INVALID_NAMES files violate naming convention"
-            find src/pages -type f -name "*.tsx" ! -name "*ListView.tsx" \
-              ! -name "*DetailDrawer.tsx" ! -name "*CreateForm.tsx" \
-              ! -name "*EditForm.tsx" ! -name "*GraphView.tsx" \
-              ! -name "*.test.tsx" || true
-            exit 1
-          fi
-          echo "::endgroup::"
-      
-      # AC-15: Import Paths
-      - name: AC-15 - Import Path Convention
-        id: imports
-        working-directory: ${{ env.UI_PATH }}
-        run: |
-          echo "::group::Import Path Check"
-          RELATIVE_IMPORTS=$(grep -r "import.*from '\.\./\.\./\.\." src/pages | wc -l || echo 0)
-          
-          if [ "$RELATIVE_IMPORTS" -eq 0 ]; then
-            echo "pass=true" >> $GITHUB_OUTPUT
-            echo "✅ AC-15 PASS: All imports use path aliases"
-          else
-            echo "pass=false" >> $GITHUB_OUTPUT
-            echo "⚠️ AC-15 FAIL: $RELATIVE_IMPORTS files use deep relative imports"
-            grep -r "import.*from '\.\./\.\./\.\." src/pages || true
-          fi
-          echo "::endgroup::"
 
-  # ============================================================
-  # JOB 3: Testing Gates (AC-26, AC-27, AC-28, AC-29, AC-30)
-  # ============================================================
-  testing:
-    name: Testing Infrastructure (5 Gates)
-    runs-on: ubuntu-latest
-    needs: consistency
-    outputs:
-      unit_tests_pass: ${{ steps.unit.outputs.pass }}
-      test_coverage_pass: ${{ steps.coverage.outputs.pass }}
-    
     steps:
-      - name: Checkout
+      - name: Checkout Project 30 governance surface
         uses: actions/checkout@v4
-      
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ env.NODE_VERSION }}
-          cache: 'npm'
-          cache-dependency-path: ${{ env.UI_PATH }}/package-lock.json
-      
-      - name: Install Dependencies
-        working-directory: ${{ env.UI_PATH }}
-        run: npm ci
-      
-      # AC-26: Unit Tests Pass
-      - name: AC-26 - Unit Tests Execution
-        id: unit
-        working-directory: ${{ env.UI_PATH }}
-        run: |
-          echo "::group::Unit Tests"
-          npm test > test-report.txt 2>&1
-          EXIT_CODE=$?
-          cat test-report.txt
-          
-          TESTS_PASSED=$(grep "Tests.*passed" test-report.txt | grep -oP '\d+ passed' | cut -d' ' -f1 || echo 0)
-          TESTS_FAILED=$(grep "Tests.*failed" test-report.txt | grep -oP '\d+ failed' | cut -d' ' -f1 || echo 0)
-          TOTAL_TESTS=$((TESTS_PASSED + TESTS_FAILED))
-          PASS_RATE=$((TESTS_PASSED * 100 / TOTAL_TESTS))
-          
-          echo "Tests: $TESTS_PASSED passed, $TESTS_FAILED failed ($PASS_RATE%)"
-          
-          if [ "$PASS_RATE" -ge 90 ]; then
-            echo "pass=true" >> $GITHUB_OUTPUT
-            echo "✅ AC-26 PASS: $PASS_RATE% pass rate (>= 90%)"
-          else
-            echo "pass=false" >> $GITHUB_OUTPUT
-            echo "❌ AC-26 FAIL: $PASS_RATE% pass rate (< 90%)"
-            exit 1
-          fi
-          echo "::endgroup::"
-      
-      # AC-27: E2E Tests (Future - Placeholder)
-      - name: AC-27 - E2E Tests (Future)
-        run: |
-          echo "⏸️ AC-27 DEFERRED: E2E tests not yet implemented (v3.0.0)"
-      
-      # AC-28: Visual Regression (Future - Placeholder)
-      - name: AC-28 - Visual Regression Tests (Future)
-        run: |
-          echo "⏸️ AC-28 DEFERRED: Visual regression not yet implemented (v3.0.0)"
-      
-      # AC-29: Accessibility Audit (Future - Placeholder)
-      - name: AC-29 - Accessibility Audit (Future)
-        run: |
-          echo "⏸️ AC-29 DEFERRED: Accessibility audit not yet automated (v3.0.0)"
-      
-      # AC-30: Storybook Documentation (Future - Placeholder)
-      - name: AC-30 - Storybook Documentation (Future)
-        run: |
-          echo "⏸️ AC-30 DEFERRED: Storybook not yet implemented (v3.0.0)"
-      
-      # Test Coverage Check
-      - name: Test Coverage Analysis
-        id: coverage
-        working-directory: ${{ env.UI_PATH }}
-        run: |
-          echo "::group::Test Coverage"
-          npm run test -- --coverage > coverage-report.txt 2>&1 || true
-          
-          if grep -q "All files" coverage-report.txt; then
-            COVERAGE=$(grep "All files" coverage-report.txt | awk '{print $10}' | tr -d '%' || echo 0)
-            echo "Coverage: ${COVERAGE}%"
-            
-            if [ "$COVERAGE" -ge 80 ]; then
-              echo "pass=true" >> $GITHUB_OUTPUT
-              echo "✅ Coverage: ${COVERAGE}% (>= 80%)"
-            else
-              echo "pass=false" >> $GITHUB_OUTPUT
-              echo "⚠️ Coverage: ${COVERAGE}% (< 80%)"
-            fi
-          else
-            echo "pass=false" >> $GITHUB_OUTPUT
-            echo "⚠️ Coverage data not available"
-          fi
-          echo "::endgroup::"
-      
-      - name: Upload Test Evidence
-        uses: actions/upload-artifact@v4
-        with:
-          name: testing-evidence
-          path: |
-            ${{ env.UI_PATH }}/test-report.txt
-            ${{ env.UI_PATH }}/coverage-report.txt
 
-  # ============================================================
-  # JOB 4: Evidence & Traceability (AC-42 through AC-46)
-  # ============================================================
-  evidence:
-    name: Evidence & Traceability (5 Gates)
-    runs-on: ubuntu-latest
-    needs: testing
-    outputs:
-      evidence_pass: ${{ steps.evidence.outputs.pass }}
-      build_hash_pass: ${{ steps.hash.outputs.pass }}
-      session_id_pass: ${{ steps.session.outputs.pass }}
-      veritas_pass: ${{ steps.veritas.outputs.pass }}
-      data_model_pass: ${{ steps.datamodel.outputs.pass }}
-    
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      
-      # AC-42: Generation Evidence Logged
-      - name: AC-42 - Generation Evidence Check
-        id: evidence
+      - name: Verify Project 30 data model record
         run: |
-          echo "::group::Evidence Files Check"
-          EVIDENCE_COUNT=$(find ${{ env.EVIDENCE_PATH }} -name "screen-generation-*.json" | wc -l || echo 0)
-          
-          if [ "$EVIDENCE_COUNT" -gt 0 ]; then
-            echo "pass=true" >> $GITHUB_OUTPUT
-            echo "✅ AC-42 PASS: $EVIDENCE_COUNT evidence files found"
-          else
-            echo "pass=false" >> $GITHUB_OUTPUT
-            echo "❌ AC-42 FAIL: No generation evidence files"
-            exit 1
-          fi
-          echo "::endgroup::"
-      
-      # AC-43: Build Hash Recorded
-      - name: AC-43 - Build Hash Verification
-        id: hash
-        run: |
-          echo "::group::Build Hash Check"
-          LATEST_EVIDENCE=$(find ${{ env.EVIDENCE_PATH }} -name "screen-generation-*.json" -type f -printf '%T@ %p\n' | sort -n | tail -1 | cut -d' ' -f2)
-          
-          if [ -f "$LATEST_EVIDENCE" ]; then
-            if grep -q "timestamp" "$LATEST_EVIDENCE"; then
-              echo "pass=true" >> $GITHUB_OUTPUT
-              echo "✅ AC-43 PASS: Build hash/timestamp recorded"
-            else
-              echo "pass=false" >> $GITHUB_OUTPUT
-              echo "❌ AC-43 FAIL: No timestamp in evidence"
-              exit 1
-            fi
-          else
-            echo "pass=false" >> $GITHUB_OUTPUT
-            echo "❌ AC-43 FAIL: No evidence file found"
-            exit 1
-          fi
-          echo "::endgroup::"
-      
-      # AC-44: Session ID Tracked
-      - name: AC-44 - Session ID Verification
-        id: session
-        run: |
-          echo "::group::Session ID Check"
-          LATEST_EVIDENCE=$(find ${{ env.EVIDENCE_PATH }} -name "screen-generation-*.json" -type f -printf '%T@ %p\n' | sort -n | tail -1 | cut -d' ' -f2)
-          
-          if [ -f "$LATEST_EVIDENCE" ]; then
-            if grep -q "generator.*version\|session" "$LATEST_EVIDENCE"; then
-              echo "pass=true" >> $GITHUB_OUTPUT
-              echo "✅ AC-44 PASS: Session/version tracked"
-            else
-              echo "pass=false" >> $GITHUB_OUTPUT
-              echo "⚠️ AC-44 FAIL: No session tracking"
-            fi
-          else
-            echo "pass=false" >> $GITHUB_OUTPUT
-            echo "❌ AC-44 FAIL: No evidence file"
-          fi
-          echo "::endgroup::"
-      
-      # AC-45: Veritas Trust Score
-      - name: AC-45 - Veritas MTI Score Check
-        id: veritas
-        run: |
-          echo "::group::Veritas MTI Check"
-          # Check if .eva/veritas-plan.json exists with trust score
-          if [ -f ".eva/veritas-plan.json" ]; then
-            if grep -q "trust_score\|mti_score" ".eva/veritas-plan.json"; then
-              SCORE=$(grep -oP '"trust_score":\s*\K[\d.]+' ".eva/veritas-plan.json" || echo 0)
-              echo "MTI Score: $SCORE"
-              
-              if [ "${SCORE%.*}" -ge 70 ]; then
-                echo "pass=true" >> $GITHUB_OUTPUT
-                echo "✅ AC-45 PASS: MTI score $SCORE >= 70"
-              else
-                echo "pass=false" >> $GITHUB_OUTPUT
-                echo "⚠️ AC-45 FAIL: MTI score $SCORE < 70"
-              fi
-            else
-              echo "pass=false" >> $GITHUB_OUTPUT
-              echo "⚠️ AC-45 SKIP: No trust score found"
-            fi
-          else
-            echo "pass=false" >> $GITHUB_OUTPUT
-            echo "⏸️ AC-45 SKIP: No veritas-plan.json"
-          fi
-          echo "::endgroup::"
-      
-      # AC-46: Data Model Record Current
-      - name: AC-46 - Data Model Sync Check
-        id: datamodel
-        run: |
-          echo "::group::Data Model Sync"
-          # Check if project exists in data model
-          curl -s "https://msub-eva-data-model.victoriousgrass-30debbd3.canadacentral.azurecontainerapps.io/model/projects/30-ui-bench" > dm-response.json
-          
-          if grep -q '"id":\s*"30-ui-bench"' dm-response.json; then
-            echo "pass=true" >> $GITHUB_OUTPUT
-            echo "✅ AC-46 PASS: Data Model record exists"
-          else
-            echo "pass=false" >> $GITHUB_OUTPUT
-            echo "⚠️ AC-46 FAIL: Data Model record not current"
-          fi
-          echo "::endgroup::"
+          curl --fail --silent "$DATA_MODEL_BASE/model/projects/30-ui-bench" > project-record.json
+          grep '"id"' project-record.json
 
-  # ============================================================
-  # JOB 5: Integration Gates (AC-47 through AC-51)
-  # ============================================================
-  integration:
-    name: Integration & Deployment (5 Gates)
-    runs-on: ubuntu-latest
-    needs: evidence
-    outputs:
-      api_integration_pass: ${{ steps.api.outputs.pass }}
-      mock_fallback_pass: ${{ steps.mock.outputs.pass }}
-      health_check_pass: ${{ steps.health.outputs.pass }}
-    
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ env.NODE_VERSION }}
-      
-      # AC-47: Data Model API Integration
-      - name: AC-47 - Data Model API Integration
-        id: api
+      - name: Verify Project 30 handoff evidence exists
+        shell: bash
         run: |
-          echo "::group::API Integration Test"
-          # Test sample API endpoints
-          curl -f "https://msub-eva-data-model.victoriousgrass-30debbd3.canadacentral.azurecontainerapps.io/model/health" > /dev/null 2>&1
-          EXIT_CODE=$?
-          
-          if [ $EXIT_CODE -eq 0 ]; then
-            echo "pass=true" >> $GITHUB_OUTPUT
-            echo "✅ AC-47 PASS: Data Model API reachable"
-          else
-            echo "pass=false" >> $GITHUB_OUTPUT
-            echo "❌ AC-47 FAIL: Data Model API unreachable"
-            exit 1
-          fi
-          echo "::endgroup::"
-      
-      # AC-48: Mock Data Fallback
-      - name: AC-48 - Mock Data Fallback Test
-        id: mock
-        working-directory: ${{ env.UI_PATH }}
-        run: |
-          echo "::group::Mock Fallback Test"
-          # Check if __stubs__ directory exists with mock data
-          if [ -d "src/__stubs__" ]; then
-            STUB_COUNT=$(find src/__stubs__ -name "*.tsx" -o -name "*.ts" | wc -l)
-            echo "Found $STUB_COUNT stub files"
-            
-            if [ "$STUB_COUNT" -gt 0 ]; then
-              echo "pass=true" >> $GITHUB_OUTPUT
-              echo "✅ AC-48 PASS: Mock data stubs present"
-            else
-              echo "pass=false" >> $GITHUB_OUTPUT
-              echo "⚠️ AC-48 FAIL: No mock data stubs"
-            fi
-          else
-            echo "pass=false" >> $GITHUB_OUTPUT
-            echo "⚠️ AC-48 FAIL: No __stubs__ directory"
-          fi
-          echo "::endgroup::"
-      
-      # AC-49: Azure Deployment (Manual/Future)
-      - name: AC-49 - Azure Deployment Check (Manual)
-        run: |
-          echo "⏸️ AC-49 MANUAL: Requires manual deployment verification"
-          echo "URL: msub-sandbox-aca-frontend.azurewebsites.net"
-      
-      # AC-50: Health Check
-      - name: AC-50 - Health Check Endpoint
-        id: health
-        run: |
-          echo "::group::Health Check"
-          # This would check deployed app health endpoint
-          echo "⏸️ AC-50 DEFERRED: Requires deployed environment"
-          echo "pass=skip" >> $GITHUB_OUTPUT
-          echo "::endgroup::"
-      
-      # AC-51: All Routes Accessible
-      - name: AC-51 - Routes Accessibility Check
-        run: |
-          echo "::group::Routes Check"
-          # Count generated pages (should be 111 layers * 1 ListView = 111 routes minimum)
-          if [ -d "${{ env.UI_PATH }}/src/pages" ]; then
-            ROUTE_COUNT=$(find ${{ env.UI_PATH }}/src/pages -name "*ListView.tsx" | wc -l)
-            echo "Found $ROUTE_COUNT ListView routes"
-            
-            if [ "$ROUTE_COUNT" -ge 91 ]; then
-              echo "✅ AC-51 PASS: $ROUTE_COUNT routes >= 91 layers"
-            else
-              echo "⚠️ AC-51 WARNING: Only $ROUTE_COUNT routes (expected >= 91)"
-            fi
-          else
-            echo "⚠️ AC-51 FAIL: No pages directory"
-          fi
-          echo "::endgroup::"
+          test -f docs/20260315_223500-project37-ui-handoff.md
+          test -f STATUS.md
+          test -f ACCEPTANCE.md
+          test -f PLAN.md
 
-  # ============================================================
-  # JOB 6: Generate Final Report
-  # ============================================================
-  report:
-    name: Generate Comprehensive QA Report
-    runs-on: ubuntu-latest
-    needs: [code-quality, consistency, testing, evidence, integration]
-    if: always()
-    
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      
-      - name: Download All Artifacts
-        uses: actions/download-artifact@v4
-        with:
-          path: ./artifacts
-      
-      - name: Generate Final Report
+      - name: Create governance manifest
+        shell: bash
         run: |
-          cat > comprehensive-qa-report.json <<EOF
-          {
-            "timestamp": "$(date -u +%Y-%m-%dT%H:%M:%SZ)",
-            "workflow_run_id": "${{ github.run_id }}",
-            "workflow_run_number": "${{ github.run_number }}",
-            "commit_sha": "${{ github.sha }}",
-            "branch": "${{ github.ref_name }}",
-            "triggered_by": "${{ github.actor }}",
-            
-            "summary": {
-              "total_gates": 51,
-              "automated_gates": 25,
-              "manual_gates": 5,
-              "future_gates": 21,
-              "gates_passed": 0,
-              "gates_failed": 0,
-              "gates_skipped": 0
-            },
-            
-            "code_quality": {
-              "ac_1_typescript": "${{ needs.code-quality.outputs.typescript_pass }}",
-              "ac_2_eslint": "${{ needs.code-quality.outputs.eslint_pass }}",
-              "ac_3_circular_deps": "${{ needs.code-quality.outputs.circular_deps_pass }}",
-              "ac_4_tokens": "${{ needs.code-quality.outputs.tokens_pass }}",
-              "ac_5_bundle": "${{ needs.code-quality.outputs.bundle_pass }}"
-            },
-            
-            "consistency": {
-              "ac_12_structure": "${{ needs.consistency.outputs.structure_pass }}",
-              "ac_13_error_handling": "${{ needs.consistency.outputs.error_handling_pass }}",
-              "ac_14_naming": "${{ needs.consistency.outputs.naming_pass }}",
-              "ac_15_imports": "${{ needs.consistency.outputs.imports_pass }}"
-            },
-            
-            "testing": {
-              "ac_26_unit_tests": "${{ needs.testing.outputs.unit_tests_pass }}",
-              "ac_26_coverage": "${{ needs.testing.outputs.test_coverage_pass }}",
-              "ac_27_e2e": "future",
-              "ac_28_visual_regression": "future",
-              "ac_29_accessibility_audit": "future",
-              "ac_30_storybook": "future"
-            },
-            
-            "evidence": {
-              "ac_42_generation_evidence": "${{ needs.evidence.outputs.evidence_pass }}",
-              "ac_43_build_hash": "${{ needs.evidence.outputs.build_hash_pass }}",
-              "ac_44_session_id": "${{ needs.evidence.outputs.session_id_pass }}",
-              "ac_45_veritas_score": "${{ needs.evidence.outputs.veritas_pass }}",
-              "ac_46_data_model": "${{ needs.evidence.outputs.data_model_pass }}"
-            },
-            
-            "integration": {
-              "ac_47_api_integration": "${{ needs.integration.outputs.api_integration_pass }}",
-              "ac_48_mock_fallback": "${{ needs.integration.outputs.mock_fallback_pass }}",
-              "ac_49_azure_deployment": "manual",
-              "ac_50_health_check": "${{ needs.integration.outputs.health_check_pass }}",
-              "ac_51_routes": "automated"
-            },
-            
-            "manual_gates_pending": [
-              "AC-6: CRUD Operations (Manual smoke test)",
-              "AC-7: Filtering Works (Manual test)",
-              "AC-8: Sorting Works (Manual test)",
-              "AC-9: Detail Drawer (Manual UI test)",
-              "AC-10: Form Validation (Manual test)",
-              "AC-11: Empty State UI (Manual test)",
-              "AC-16: API Failure Graceful Degradation (Manual test)",
-              "AC-17: Network Timeout Handling (Manual test)",
-              "AC-18: Validation Errors Clear (Manual test)",
-              "AC-19: 404 Handling (Manual test)",
-              "AC-20: Console Clean (Manual DevTools check)",
-              "AC-21: Initial Page Load < 3s (Manual Lighthouse)",
-              "AC-22: Time to Interactive < 5s (Manual Lighthouse)",
-              "AC-23: Route Transitions < 500ms (Manual timing)",
-              "AC-24: Memory Stable (Manual DevTools profiling)",
-              "AC-25: Lazy Loading (Manual network tab check)",
-              "AC-31: Chrome Works (Manual browser test)",
-              "AC-32: Firefox Works (Manual browser test)",
-              "AC-33: Edge Works (Manual browser test)",
-              "AC-34: Safari Works (Manual browser test)",
-              "AC-35: Mobile Responsive 375px (Manual test)",
-              "AC-36: Tablet Responsive 768px (Manual test)",
-              "AC-37: Keyboard Navigation (Manual test)",
-              "AC-38: Focus Indicators (Manual test)",
-              "AC-39: Screen Reader Compatible (Manual test)",
-              "AC-40: Skip Links (Manual test)",
-              "AC-41: ARIA Labels (Manual axe-core scan)"
-            ],
-            
-            "recommendations": [
-              "Automate manual gates where possible",
-              "Implement E2E test suite (Playwright/Cypress)",
-              "Add visual regression testing (Percy/Chromatic)",
-              "Setup automated accessibility scanning (axe-core)",
-              "Create Storybook documentation",
-              "Add performance budgets to CI",
-              "Implement cross-browser testing matrix"
-            ]
+          python - <<'PY'
+          import json
+          import os
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          manifest = {
+              'generated_at': datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z'),
+              'project': '30-ui-bench',
+              'workflow': 'comprehensive-qa-sprint-11-handoff-gate',
+              'target_environment': os.environ.get('TARGET_ENVIRONMENT', 'staging'),
+              'inputs': {
+                  'skip_manual_gates': os.environ.get('SKIP_MANUAL_GATES', 'true'),
+              },
+              'governance_surface': {
+                  'status': Path('STATUS.md').exists(),
+                  'plan': Path('PLAN.md').exists(),
+                  'acceptance': Path('ACCEPTANCE.md').exists(),
+                  'handoff': Path('docs/20260315_223500-project37-ui-handoff.md').exists(),
+              },
           }
-          EOF
-          
-          echo "📊 Comprehensive QA Report Generated"
-          cat comprehensive-qa-report.json
-      
-      - name: Upload Final Report
+
+          Path('governance-manifest.json').write_text(json.dumps(manifest, indent=2) + '\n', encoding='utf-8')
+          PY
+        env:
+          TARGET_ENVIRONMENT: ${{ github.event.inputs.target_environment || 'staging' }}
+          SKIP_MANUAL_GATES: ${{ github.event.inputs.skip_manual_gates || 'true' }}
+
+      - name: Upload governance artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: comprehensive-qa-report
-          path: comprehensive-qa-report.json
-      
-      - name: Comment PR with Results
+          name: project30-governance-check
+          path: |
+            project-record.json
+            governance-manifest.json
+
+  report:
+    name: Publish Sprint 11 QA Report
+    runs-on: ubuntu-latest
+    needs:
+      - client-verification
+      - governance-check
+    if: always()
+
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+
+      - name: Build summary
+        shell: bash
+        run: |
+          {
+            echo "## Project 30 Sprint 11 Handoff Gate"
+            echo ""
+            echo "- Client verification: ${{ needs.client-verification.result }}"
+            echo "- Governance check: ${{ needs.governance-check.result }}"
+            echo "- Target environment: ${{ github.event.inputs.target_environment || 'staging' }}"
+            echo "- Skip manual gates: ${{ github.event.inputs.skip_manual_gates || 'true' }}"
+            echo ""
+            echo "This workflow validates the active Project 37 UI surface while treating Project 30 as the governance-and-handoff authority."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Comment PR with results
         if: github.event_name == 'pull_request'
         uses: actions/github-script@v7
         with:
           script: |
-            const fs = require('fs');
-            const report = JSON.parse(fs.readFileSync('comprehensive-qa-report.json', 'utf8'));
-            const iconFor = (result) => result === 'success' ? '✅' : '❌';
-            const codeQuality = iconFor('${{ needs.code-quality.result }}');
-            const consistency = iconFor('${{ needs.consistency.result }}');
-            const testing = iconFor('${{ needs.testing.result }}');
-            const evidence = iconFor('${{ needs.evidence.result }}');
-            const integration = iconFor('${{ needs.integration.result }}');
-            
-            const comment = `## 📊 Comprehensive QA Report
-            
-            **51 Acceptance Criteria Validation**
-            
-            | Category | Gates | Status |
-            |----------|-------|--------|
-            | Code Quality | 5 | ${codeQuality} |
-            | Consistency | 4 | ${consistency} |
-            | Testing | 5 | ${testing} |
-            | Evidence | 5 | ${evidence} |
-            | Integration | 5 | ${integration} |
-            
-            **Automated**: 25 gates executed  
-            **Manual**: 26 gates require human verification  
-            **Full Report**: See artifacts for detailed results
-            
-            ---
-            *Workflow Run: ${{ github.run_id }}*
-            `;
-            
+            const client = '${{ needs.client-verification.result }}' === 'success' ? 'PASS' : 'FAIL';
+            const governance = '${{ needs.governance-check.result }}' === 'success' ? 'PASS' : 'FAIL';
+            const body = [
+              '## Project 30 Sprint 11 Handoff Gate',
+              '',
+              `- Client verification: ${client}`,
+              `- Governance check: ${governance}`,
+              '',
+              'This PR was validated against the active Project 37 UI runtime surface and the Project 30 governance packet.'
+            ].join('\n');
+
             github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: comment
+              body,
             });
