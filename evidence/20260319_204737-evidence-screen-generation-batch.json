@@ -1,0 +1,23 @@
+{
+  "phase": "DO",
+  "duration_seconds": 6,
+  "batch_stats": {
+    "total_screens": 173,
+    "generation_speed_sec_per_screen": 0.05,
+    "screens_generated": 121,
+    "estimated_remaining_time": "COMPLETE",
+    "total_components_planned": 865,
+    "screens_failed": 0,
+    "components_generated": 605
+  },
+  "generator": "generate-all-screens.ps1",
+  "version": "1.0.0",
+  "operation": "screen_generation_batch",
+  "dry_run": {
+    "IsPresent": true
+  },
+  "execution_mode": "parallel (2 workers)",
+  "success_rate": 69.94,
+  "timestamp": "2026-03-19T20:47:44.7783013-04:00",
+  "failed_screens": []
+}

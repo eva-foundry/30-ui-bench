@@ -95,16 +95,21 @@ $ProgressPreference = "SilentlyContinue"
 
 $timestamp = Get-Date -Format "yyyyMMdd_HHmmss"
 $scriptName = "generate-screens-v2"
+$projectRoot = Split-Path $PSScriptRoot -Parent
 
-# Logging infrastructure
-$logsDir = "$PSScriptRoot\logs"
-if (-not (Test-Path $logsDir)) { New-Item -ItemType Directory -Path $logsDir -Force | Out-Null }
+# Logging and evidence infrastructure
+$logsDir = Join-Path $projectRoot "logs"
+$evidenceDir = Join-Path $projectRoot "evidence"
+$debugDir = Join-Path $projectRoot "debug"
 
-$logFile = "$logsDir\${scriptName}_${timestamp}.log"
-$evidenceDir = "$PSScriptRoot\.eva\evidence"
-if (-not (Test-Path $evidenceDir)) { New-Item -ItemType Directory -Path $evidenceDir -Force | Out-Null }
+foreach ($directory in @($logsDir, $evidenceDir, $debugDir)) {
+    if (-not (Test-Path $directory)) {
+        New-Item -ItemType Directory -Path $directory -Force | Out-Null
+    }
+}
 
-$evidenceFile = "$evidenceDir\screen-generation-${LayerId}-${timestamp}.json"
+$logFile = Join-Path $logsDir "${timestamp}-log-${scriptName}.log"
+$evidenceFile = Join-Path $evidenceDir "${timestamp}-evidence-screen-generation-${LayerId}.json"
 
 function Log {
     [CmdletBinding()]
@@ -169,7 +174,7 @@ foreach ($tmpl in $requiredTemplates) {
 
 if ($missingTemplates.Count -gt 0) {
     Log "FAIL: $($missingTemplates.Count) templates missing. Cannot proceed." "FAIL"
-    exit 1
+    exit 2
 }
 
 Log "PASS: All $($requiredTemplates.Count) templates verified" "PASS"
@@ -184,7 +189,7 @@ Log "Output path: $OutputPath" "INFO"
 # Verify output directory  
 if (-not (Test-Path $OutputPath)) {
     Log "ERROR: Output path not found: $OutputPath" "ERROR"
-    exit 1
+    exit 2
 }
 
 # Normalize layer name (use as directory, fall back to layer ID if empty/unknown)

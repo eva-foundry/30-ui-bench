@@ -1,0 +1,285 @@
+2026-03-19 20:47:40 [INFO] Starting generation for layer L59 (work_pattern_applications)
+2026-03-19 20:47:40 [INFO] Starting generation for layer L106 (l106)
+2026-03-19 20:47:40 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:40 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-19 20:47:40 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:40 [INFO] Using directory: work_pattern_applications
+2026-03-19 20:47:40 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-19 20:47:40 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:40 [INFO] Using directory: l106
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkpatternapplicationsList.tsx
+2026-03-19 20:47:40 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkpatternapplicationsDetail.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L106List.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkpatternapplicationsCreate.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L106Detail.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkpatternapplicationsEdit.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L106Create.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkpatternapplicationsGraph.tsx
+2026-03-19 20:47:40 [PASS] Generation complete: 5/5 components - PASS
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L106Edit.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L106Graph.tsx
+2026-03-19 20:47:40 [PASS] Generation complete: 5/5 components - PASS
+2026-03-19 20:47:40 [INFO] Starting generation for layer L6 (schemas)
+2026-03-19 20:47:40 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:40 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-19 20:47:40 [INFO] Starting generation for layer L107 (l107)
+2026-03-19 20:47:40 [INFO] Using directory: schemas
+2026-03-19 20:47:40 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:40 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:40 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate SchemasList.tsx
+2026-03-19 20:47:40 [INFO] Using directory: l107
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate SchemasDetail.tsx
+2026-03-19 20:47:40 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L107List.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate SchemasCreate.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L107Detail.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L107Create.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate SchemasEdit.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L107Edit.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate SchemasGraph.tsx
+2026-03-19 20:47:40 [PASS] Generation complete: 5/5 components - PASS
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L107Graph.tsx
+2026-03-19 20:47:40 [PASS] Generation complete: 5/5 components - PASS
+2026-03-19 20:47:40 [INFO] Starting generation for layer L60 (work_pattern_perf_profiles)
+2026-03-19 20:47:40 [INFO] Starting generation for layer L108 (l108)
+2026-03-19 20:47:40 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:40 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-19 20:47:40 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:40 [INFO] Using directory: work_pattern_perf_profiles
+src\pages
+2026-03-19 20:47:40 [INFO] Using directory: l108
+2026-03-19 20:47:40 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:40 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkpatternperfprofilesList.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L108List.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkpatternperfprofilesDetail.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L108Detail.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkpatternperfprofilesCreate.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L108Create.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkpatternperfprofilesEdit.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L108Edit.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkpatternperfprofilesGraph.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L108Graph.tsx
+2026-03-19 20:47:40 [PASS] Generation complete: 5/5 components - PASS
+2026-03-19 20:47:40 [PASS] Generation complete: 5/5 components - PASS
+2026-03-19 20:47:40 [INFO] Starting generation for layer L61 (work_factory_capabilities)
+2026-03-19 20:47:40 [INFO] Starting generation for layer L109 (l109)
+2026-03-19 20:47:40 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:40 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:40 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-19 20:47:40 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-19 20:47:40 [INFO] Using directory: work_factory_capabilities
+2026-03-19 20:47:40 [INFO] Using directory: l109
+2026-03-19 20:47:40 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:40 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkfactorycapabilitiesList.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L109List.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L109Detail.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkfactorycapabilitiesDetail.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L109Create.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkfactorycapabilitiesCreate.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L109Edit.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkfactorycapabilitiesEdit.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L109Graph.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkfactorycapabilitiesGraph.tsx
+2026-03-19 20:47:40 [PASS] Generation complete: 5/5 components - PASS
+2026-03-19 20:47:40 [PASS] Generation complete: 5/5 components - PASS
+2026-03-19 20:47:40 [INFO] Starting generation for layer L11 (requirements)
+2026-03-19 20:47:40 [INFO] Starting generation for layer L62 (work_factory_services)
+2026-03-19 20:47:40 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:40 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:40 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-19 20:47:40 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-19 20:47:40 [INFO] Using directory: requirements
+2026-03-19 20:47:40 [INFO] Using directory: work_factory_services
+2026-03-19 20:47:40 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:40 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate RequirementsList.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkfactoryservicesList.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate RequirementsDetail.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkfactoryservicesDetail.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate RequirementsCreate.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkfactoryservicesCreate.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate RequirementsEdit.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkfactoryservicesEdit.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate RequirementsGraph.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkfactoryservicesGraph.tsx
+2026-03-19 20:47:40 [PASS] Generation complete: 5/5 components - PASS
+2026-03-19 20:47:40 [PASS] Generation complete: 5/5 components - PASS
+2026-03-19 20:47:40 [INFO] Starting generation for layer L110 (l110)
+2026-03-19 20:47:40 [INFO] Starting generation for layer L63 (work_service_requests)
+2026-03-19 20:47:40 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:40 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:40 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-19 20:47:40 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-19 20:47:40 [INFO] Using directory: l110
+2026-03-19 20:47:40 [INFO] Using directory: work_service_requests
+2026-03-19 20:47:40 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:40 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L110List.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkservicerequestsList.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L110Detail.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkservicerequestsDetail.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L110Create.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkservicerequestsCreate.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L110Edit.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkservicerequestsEdit.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L110Graph.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkservicerequestsGraph.tsx
+2026-03-19 20:47:40 [PASS] Generation complete: 5/5 components - PASS
+2026-03-19 20:47:40 [PASS] Generation complete: 5/5 components - PASS
+2026-03-19 20:47:40 [INFO] Starting generation for layer L111 (l111)
+2026-03-19 20:47:40 [INFO] Starting generation for layer L64 (work_service_runs)
+2026-03-19 20:47:40 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:40 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:40 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-19 20:47:40 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-19 20:47:40 [INFO] Using directory: l111
+2026-03-19 20:47:40 [INFO] Using directory: work_service_runs
+2026-03-19 20:47:40 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:40 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L111List.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkservicerunsList.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L111Detail.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkservicerunsDetail.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L111Create.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkservicerunsCreate.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L111Edit.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkservicerunsEdit.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate L111Graph.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkservicerunsGraph.tsx
+2026-03-19 20:47:40 [PASS] Generation complete: 5/5 components - PASS
+2026-03-19 20:47:40 [PASS] Generation complete: 5/5 components - PASS
+2026-03-19 20:47:40 [INFO] Starting generation for layer L12 (planes)
+2026-03-19 20:47:40 [INFO] Starting generation for layer L65 (work_service_perf_profiles)
+2026-03-19 20:47:40 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:40 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-19 20:47:40 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:40 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-19 20:47:40 [INFO] Using directory: planes
+2026-03-19 20:47:40 [INFO] Using directory: work_service_perf_profiles
+2026-03-19 20:47:40 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:40 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate PlanesList.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkserviceperfprofilesList.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate PlanesDetail.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkserviceperfprofilesDetail.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate PlanesCreate.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkserviceperfprofilesCreate.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate PlanesEdit.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkserviceperfprofilesEdit.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate PlanesGraph.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkserviceperfprofilesGraph.tsx
+2026-03-19 20:47:40 [PASS] Generation complete: 5/5 components - PASS
+2026-03-19 20:47:40 [PASS] Generation complete: 5/5 components - PASS
+2026-03-19 20:47:40 [INFO] Starting generation for layer L13 (connections)
+2026-03-19 20:47:40 [INFO] Starting generation for layer L66 (work_service_level_objs)
+2026-03-19 20:47:40 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:40 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:40 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-19 20:47:40 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-19 20:47:40 [INFO] Using directory: connections
+2026-03-19 20:47:40 [INFO] Using directory: work_service_level_objs
+2026-03-19 20:47:40 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:40 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate ConnectionsList.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkservicelevelobjsList.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate ConnectionsDetail.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkservicelevelobjsDetail.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate ConnectionsCreate.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkservicelevelobjsCreate.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate ConnectionsEdit.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkservicelevelobjsEdit.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate ConnectionsGraph.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkservicelevelobjsGraph.tsx
+2026-03-19 20:47:40 [PASS] Generation complete: 5/5 components - PASS
+2026-03-19 20:47:40 [PASS] Generation complete: 5/5 components - PASS
+2026-03-19 20:47:40 [INFO] Starting generation for layer L14 (environments)
+2026-03-19 20:47:40 [INFO] Starting generation for layer L67 (work_service_breaches)
+2026-03-19 20:47:40 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:40 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:40 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-19 20:47:40 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-19 20:47:40 [INFO] Using directory: environments
+2026-03-19 20:47:40 [INFO] Using directory: work_service_breaches
+2026-03-19 20:47:40 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:40 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate EnvironmentsList.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkservicebreachesList.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate EnvironmentsDetail.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkservicebreachesDetail.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate EnvironmentsCreate.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkservicebreachesCreate.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate EnvironmentsEdit.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkservicebreachesEdit.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate EnvironmentsGraph.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkservicebreachesGraph.tsx
+2026-03-19 20:47:40 [PASS] Generation complete: 5/5 components - PASS
+2026-03-19 20:47:40 [PASS] Generation complete: 5/5 components - PASS
+2026-03-19 20:47:40 [INFO] Starting generation for layer L15 (cp_skills)
+2026-03-19 20:47:40 [INFO] Starting generation for layer L68 (work_service_remed_plans)
+2026-03-19 20:47:40 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:40 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:40 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-19 20:47:40 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-19 20:47:40 [INFO] Using directory: cp_skills
+2026-03-19 20:47:40 [INFO] Using directory: work_service_remed_plans
+2026-03-19 20:47:40 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:40 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate CpskillsList.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkserviceremedplansList.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate CpskillsDetail.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkserviceremedplansDetail.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate CpskillsCreate.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkserviceremedplansCreate.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate CpskillsEdit.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkserviceremedplansEdit.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate CpskillsGraph.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkserviceremedplansGraph.tsx
+2026-03-19 20:47:40 [PASS] Generation complete: 5/5 components - PASS
+2026-03-19 20:47:40 [PASS] Generation complete: 5/5 components - PASS
+2026-03-19 20:47:40 [INFO] Starting generation for layer L16 (cp_agents)
+2026-03-19 20:47:40 [INFO] Starting generation for layer L69 (work_service_reval_results)
+2026-03-19 20:47:40 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:40 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:40 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-19 20:47:40 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-19 20:47:40 [INFO] Using directory: cp_agents
+2026-03-19 20:47:40 [INFO] Using directory: work_service_reval_results
+2026-03-19 20:47:40 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:40 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate CpagentsList.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkservicerevalresultsList.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate CpagentsDetail.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkservicerevalresultsDetail.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate CpagentsCreate.tsx
+ltsCreate.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate CpagentsEdit.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkservicerevalresultsEdit.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate CpagentsGraph.tsx
+2026-03-19 20:47:40 [INFO] DRY_RUN: Would generate WorkservicerevalresultsGraph.tsx
+2026-03-19 20:47:40 [PASS] Generation complete: 5/5 components - PASS
+2026-03-19 20:47:40 [INFO] Starting generation for layer L7 (screens)
+2026-03-19 20:47:40 [INFO] Starting generation for layer L17 (runbooks)
+2026-03-19 20:47:40 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:40 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:40 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-19 20:47:40 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-19 20:47:40 [INFO] Using directory: runbooks
+2026-03-19 20:47:41 [INFO] Using directory: screens
+2026-03-19 20:47:41 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:41 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:41 [INFO] DRY_RUN: Would generate ScreensList.tsx
+2026-03-19 20:47:41 [INFO] DRY_RUN: Would generate RunbooksList.tsx
+2026-03-19 20:47:41 [INFO] DRY_RUN: Would generate RunbooksDetail.tsx
+2026-03-19 20:47:41 [INFO] DRY_RUN: Would generate ScreensDetail.tsx
+2026-03-19 20:47:41 [INFO] DRY_RUN: Would generate RunbooksCreate.tsx
+2026-03-19 20:47:41 [INFO] DRY_RUN: Would generate ScreensCreate.tsx
+2026-03-19 20:47:41 [INFO] DRY_RUN: Would generate ScreensEdit.tsx
+2026-03-19 20:47:41 [INFO] DRY_RUN: Would generate RunbooksEdit.tsx
+2026-03-19 20:47:41 [INFO] DRY_RUN: Would generate ScreensGraph.tsx
+2026-03-19 20:47:41 [INFO] DRY_RUN: Would generate RunbooksGraph.tsx
+2026-03-19 20:47:41 [PASS] Generation complete: 5/5 components - PASS
+2026-03-19 20:47:41 [PASS] Generation complete: 5/5 components - PASS

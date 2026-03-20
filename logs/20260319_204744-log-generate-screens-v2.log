@@ -1,0 +1,22 @@
+2026-03-19 20:47:44 [INFO] Starting generation for layer L120 (l120)
+2026-03-19 20:47:44 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:44 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-19 20:47:44 [INFO] Using directory: l120
+2026-03-19 20:47:44 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:44 [INFO] DRY_RUN: Would generate L120List.tsx
+2026-03-19 20:47:44 [INFO] DRY_RUN: Would generate L120Detail.tsx
+2026-03-19 20:47:44 [INFO] DRY_RUN: Would generate L120Create.tsx
+2026-03-19 20:47:44 [INFO] DRY_RUN: Would generate L120Edit.tsx
+2026-03-19 20:47:44 [INFO] DRY_RUN: Would generate L120Graph.tsx
+2026-03-19 20:47:44 [PASS] Generation complete: 5/5 components - PASS
+2026-03-19 20:47:44 [INFO] Starting generation for layer L121 (l121)
+2026-03-19 20:47:44 [PASS] PASS: All 7 templates verified
+2026-03-19 20:47:44 [INFO] Output path: C:\eva-foundry\37-data-model\ui\src\pages
+2026-03-19 20:47:44 [INFO] Using directory: l121
+2026-03-19 20:47:44 [INFO] Substituting templates for 5 components...
+2026-03-19 20:47:44 [INFO] DRY_RUN: Would generate L121List.tsx
+2026-03-19 20:47:44 [INFO] DRY_RUN: Would generate L121Detail.tsx
+2026-03-19 20:47:44 [INFO] DRY_RUN: Would generate L121Create.tsx
+2026-03-19 20:47:44 [INFO] DRY_RUN: Would generate L121Edit.tsx
+2026-03-19 20:47:44 [INFO] DRY_RUN: Would generate L121Graph.tsx
+2026-03-19 20:47:44 [PASS] Generation complete: 5/5 components - PASS

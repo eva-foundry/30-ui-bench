@@ -75,7 +75,8 @@ function ToPascalCase {
 
 $timestamp = Get-Date -Format "yyyyMMdd_HHmmss"
 $scriptDir = Split-Path $MyInvocation.MyCommand.Path -Parent
-$projectRoot = Split-Path (Split-Path $scriptDir -Parent) -Parent
+$projectRoot = Split-Path $scriptDir -Parent
+$workspaceRoot = Split-Path $projectRoot -Parent
 
 # ============================================================================
 # METADATA INITIALIZATION: Fetch Layer Catalog from API
@@ -92,8 +93,8 @@ function Load-LayerMetadata {
     $metadata = @{}
     
     try {
-        Write-Host "[MetadataInit] Fetching layer metadata from API: $ApiBase/model/layer-metadata" -ForegroundColor Cyan
-        $response = Invoke-RestMethod "$ApiBase/model/layer-metadata" -TimeoutSec 10 -ErrorAction Stop
+        Write-Host "[MetadataInit] Fetching layer metadata from API: $ApiBase/model/layer-metadata/" -ForegroundColor Cyan
+        $response = Invoke-RestMethod "$ApiBase/model/layer-metadata/" -TimeoutSec 10 -ErrorAction Stop
         
         if ($response -and $response.layers) {
             foreach ($layer in $response.layers) {
@@ -197,6 +198,53 @@ function Load-LayerMetadata {
     return $metadata
 }
 
+function Resolve-ScreenGenerationParams {
+    param([psobject]$Screen)
+
+    $layerId = if ($Screen.id) { $Screen.id } elseif ($Screen.layer_id) { $Screen.layer_id } else { "UNKNOWN" }
+
+    $layerName = $null
+    if ($script:LayerIdMap.ContainsKey($layerId)) {
+        $layerName = $script:LayerIdMap[$layerId]
+    } elseif ($Screen.layer_name -and $Screen.layer_name -ne "null") {
+        $layerName = $Screen.layer_name
+    } else {
+        $layerName = $layerId.ToLower()
+    }
+
+    $layerTitleForComponents = ToPascalCase -Text $layerName
+
+    if ($Screen.entity_type -and $Screen.entity_type -ne "null" -and $Screen.entity_type -ne "") {
+        $entityType = $Screen.entity_type
+    } else {
+        $entityType = "$layerTitleForComponents`Record"
+    }
+
+    return [pscustomobject]@{
+        LayerId = $layerId
+        LayerName = $layerName
+        LayerTitle = $layerTitleForComponents
+        EntityType = $entityType
+        FieldSchema = ($Screen.fields | ConvertTo-Json -Compress)
+    }
+}
+
+function New-Batches {
+    param(
+        [array]$Items,
+        [int]$BatchSize
+    )
+
+    $batches = @()
+    for ($index = 0; $index -lt $Items.Count; $index += $BatchSize) {
+        $endIndex = [math]::Min($index + $BatchSize - 1, $Items.Count - 1)
+        $batchItems = @($Items[$index..$endIndex])
+        $batches += ,$batchItems
+    }
+
+    return $batches
+}
+
 # Initialize metadata once at startup
 $script:LayerIdMap = Load-LayerMetadata -ApiBase $ModelApiBase
 
@@ -204,12 +252,17 @@ $script:LayerIdMap = Load-LayerMetadata -ApiBase $ModelApiBase
 # LOGGING
 # ============================================================================
 
-$logsDir = "$projectRoot\logs"
-if (-not (Test-Path $logsDir)) { New-Item -ItemType Directory -Path $logsDir -Force |Out-Null }
+$logsDir = Join-Path $projectRoot "logs"
+$evidenceDir = Join-Path $projectRoot "evidence"
+$debugDir = Join-Path $projectRoot "debug"
 
-$logFile = "$logsDir\generate-all-screens_${timestamp}.log"
-$evidenceDir = "$projectRoot\.eva\evidence"
-if (-not (Test-Path $evidenceDir)) { New-Item -ItemType Directory -Path $evidenceDir -Force | Out-Null }
+foreach ($directory in @($logsDir, $evidenceDir, $debugDir)) {
+    if (-not (Test-Path $directory)) {
+        New-Item -ItemType Directory -Path $directory -Force | Out-Null
+    }
+}
+
+$logFile = Join-Path $logsDir "${timestamp}-log-generate-all-screens.log"
 
 function Log {
     [CmdletBinding()]
@@ -257,7 +310,7 @@ function Load-RegistryFromJson {
     param([string]$Path)
     
     if ([string]::IsNullOrEmpty($Path)) {
-        $Path = "$projectRoot\37-data-model\docs\examples\screen-registry-bulk-upload.jsonl"
+        $Path = "$workspaceRoot\37-data-model\docs\examples\screen-registry-bulk-upload.jsonl"
     }
     
     if (-not (Test-Path $Path)) {
@@ -283,10 +336,29 @@ function Load-RegistryFromJson {
 }
 
 function Load-RegistryFromCosmos {
-    # Placeholder - would call Data Model API
-    # For now, fall back to JSON
-    Log "Cosmos DB access not yet implemented, falling back to JSON..." "WARN"
-    return Load-RegistryFromJson -Path $RegistryPath
+    try {
+        $response = Invoke-RestMethod "$ModelApiBase/model/screens/" -TimeoutSec 15 -ErrorAction Stop
+        $screenData = if ($response.data) { @($response.data) } else { @($response) }
+
+        if ($screenData.Count -eq 0) {
+            throw "API returned no screen records"
+        }
+
+        $layerBackedRecords = @(
+            $screenData | Where-Object {
+                ($_.id -match '^L[0-9]+$') -or ($_.layer_id -match '^L[0-9]+$')
+            }
+        )
+
+        if ($layerBackedRecords.Count -eq 0) {
+            throw "API returned screen pages but no layer-backed screen registry records"
+        }
+
+        return $screenData
+    }
+    catch {
+        throw "Screen API query failed: $($_.Exception.Message)"
+    }
 }
 
 # Detect registry source
@@ -332,110 +404,88 @@ $failedScreens = @()
 $skippedScreens = @()
 
 # Filter: Only process screens with layer IDs (L1-L999, not eva-faces-*, project-screen-*, etc.)
-$layerScreens = @($screens | Where-Object { $_.id -match '^L[0-9]+$' })
-$skippedScreens = @($screens | Where-Object { $_.id -notmatch '^L[0-9]+$' })
+$layerScreens = @(
+    $screens | Where-Object {
+        ($_.id -match '^L[0-9]+$') -or ($_.layer_id -match '^L[0-9]+$')
+    }
+)
+$skippedScreens = @(
+    $screens | Where-Object {
+        ($_.id -notmatch '^L[0-9]+$') -and ($_.layer_id -notmatch '^L[0-9]+$')
+    }
+)
+$resolvedLayerScreens = @($layerScreens | ForEach-Object { Resolve-ScreenGenerationParams -Screen $_ })
 
 Log "Screen filter: $($layerScreens.Count) layer screens (L[0-9]+) | $($skippedScreens.Count) non-layer screens (skipped)" "INFO"
 
 if ($ParallelJobs -eq 1) {
     # Sequential execution
-    foreach ($screen in $layerScreens) {
-        # Map registry fields to generation parameters
-        $layerId = if ($screen.id) { $screen.id } elseif ($screen.layer_id) { $screen.layer_id } else { "UNKNOWN" }
-        
-        # Get layer name from mapping (authoritative source), fallback to layer_name field, else use LayerId
-        $layerName = $null
-        if ($script:LayerIdMap.ContainsKey($layerId)) {
-            $layerName = $script:LayerIdMap[$layerId]
-        } elseif ($screen.layer_name -and $screen.layer_name -ne "null") {
-            $layerName = $screen.layer_name
-        } else {
-            $layerName = $layerId.ToLower()
-        }
-        
-        # Generate LayerTitle (PascalCase of layer name) for component naming
-        # e.g., "services" → "Services", "ts_types" → "TsTypes"
-        $layerTitleForComponents = ToPascalCase -Text $layerName
-        
-        # Use entity_type from registry (now repaired to be valid TypeScript identifiers)
-        if ($screen.entity_type -and $screen.entity_type -ne "null" -and $screen.entity_type -ne "") {
-            $entityType = $screen.entity_type
-        } else {
-            # Fallback: use PascalCase layer ID + 'Record'
-            $entityType = "$layerTitleForComponents`Record"
-        }
-        
-        Log "[$($layerScreens.IndexOf($screen) + 1)/$($layerScreens.Count)] Generating $layerId ($layerName)..." "INFO"
+    for ($index = 0; $index -lt $resolvedLayerScreens.Count; $index++) {
+        $screen = $resolvedLayerScreens[$index]
+
+        Log "[$($index + 1)/$($resolvedLayerScreens.Count)] Generating $($screen.LayerId) ($($screen.LayerName))..." "INFO"
         
         try {
             $result = & "$scriptDir\generate-screens-v2.ps1" `
-                -LayerId $layerId `
-                -LayerName $layerName `
-                -LayerTitle $layerTitleForComponents `
-                -EntityType $entityType `
-                -FieldSchema ($screen.fields | ConvertTo-Json -Compress) `
-                -TemplateDir "$projectRoot\30-ui-bench\templates" `
+                -LayerId $screen.LayerId `
+                -LayerName $screen.LayerName `
+                -LayerTitle $screen.LayerTitle `
+                -EntityType $screen.EntityType `
+                -FieldSchema $screen.FieldSchema `
+                -TemplateDir "$projectRoot\templates" `
                 -DryRun:$DryRun
             
             if ($LASTEXITCODE -eq 0) {
                 $successCount++
-                Log "PASS: $layerId" "PASS"
+                Log "PASS: $($screen.LayerId)" "PASS"
             } else {
                 $failCount++
-                $failedScreens += $layerId
-                Log "FAIL: $layerId (exit code $LASTEXITCODE)" "FAIL"
+                $failedScreens += $screen.LayerId
+                Log "FAIL: $($screen.LayerId) (exit code $LASTEXITCODE)" "FAIL"
             }
         }
         catch {
             $failCount++
-            $failedScreens += $layerId
-            Log "ERROR: $layerId : $_" "ERROR"
+            $failedScreens += $screen.LayerId
+            Log "ERROR: $($screen.LayerId) : $_" "ERROR"
         }
     }
 } else {
     # Parallel execution with job management
     $jobs = @()
-    $jobBatchSize = [math]::Ceiling($screens.Count / $ParallelJobs)
+    $jobBatchSize = [math]::Ceiling($resolvedLayerScreens.Count / $ParallelJobs)
     
-    Log "Starting $ParallelJobs parallel jobs (batch size: ~$jobBatchSize screens/job)..." "INFO"
+    Log "Starting $ParallelJobs parallel jobs (batch size: ~$jobBatchSize layer screens/job)..." "INFO"
     
-    $batches = $screens | Group-Object { [math]::Floor([array]::IndexOf($screens, $_) / $jobBatchSize) }
+    $batches = New-Batches -Items $resolvedLayerScreens -BatchSize $jobBatchSize
     
     foreach ($batch in $batches) {
+        $batchJson = $batch | ConvertTo-Json -Depth 6 -Compress
         $job = Start-Job -ScriptBlock {
-            param($screens, $scriptDir, $projectRoot, $DryRun)
+            param($batchJson, $scriptDir, $projectRoot, $DryRun)
+
+            $screens = @($batchJson | ConvertFrom-Json)
             
             $results = @{ success = 0; fail = 0; errors = @() }
             foreach ($screen in $screens) {
-                # Map registry fields to generation parameters (same logic as sequential)
-                $layerId = if ($screen.id) { $screen.id } elseif ($screen.layer_id) { $screen.layer_id } else { "UNKNOWN" }
-                $layerName = if ($screen.layer_name -and $screen.layer_name -ne "null") { $screen.layer_name } else { $layerId.ToLower() }
-                $layerTitleForComponents = ToPascalCase -Text $layerId
-                
-                if ($screen.entity_type -and $screen.entity_type -ne "null" -and $screen.entity_type -ne "") {
-                    $entityType = $screen.entity_type
-                } else {
-                    $entityType = "$layerTitleForComponents`Record"
-                }
-                
                 & "$scriptDir\generate-screens-v2.ps1" `
-                    -LayerId $layerId `
-                    -LayerName $layerName `
-                    -LayerTitle $layerTitleForComponents `
-                    -EntityType $entityType `
-                    -FieldSchema ($screen.fields | ConvertTo-Json -Compress) `
-                    -TemplateDir "$projectRoot\30-ui-bench\templates" `
+                    -LayerId $screen.LayerId `
+                    -LayerName $screen.LayerName `
+                    -LayerTitle $screen.LayerTitle `
+                    -EntityType $screen.EntityType `
+                    -FieldSchema $screen.FieldSchema `
+                    -TemplateDir "$projectRoot\templates" `
                     -DryRun:$DryRun | Out-Null
                 
                 if ($LASTEXITCODE -eq 0) {
                     $results.success++
                 } else {
                     $results.fail++
-                    $results.errors += $layerId
+                    $results.errors += $screen.LayerId
                 }
             }
             return $results
-        } -ArgumentList @($batch.Group, $scriptDir, $projectRoot, $DryRun)
+        } -ArgumentList $batchJson, $scriptDir, $projectRoot, $DryRun
         
         $jobs += $job
     }
@@ -480,7 +530,7 @@ $evidence = @{
     dry_run = $DryRun
 }
 
-$evidenceFile = "$evidenceDir\PART-3-DO-BATCH-GENERATION-${timestamp}.json"
+$evidenceFile = Join-Path $evidenceDir "${timestamp}-evidence-screen-generation-batch.json"
 $evidence | ConvertTo-Json -Depth 5 | Out-File -FilePath $evidenceFile -Encoding UTF8 -Force
 
 Log "Evidence file: $evidenceFile" "INFO"
@@ -495,9 +545,9 @@ Log "Total registry entries: $($screens.Count)" "INFO"
 Log "Layer screens (L[0-9]+): $($layerScreens.Count) | Non-layer screens (skipped): $($skippedScreens.Count)" "INFO"
 Log "Total components target: $($layerScreens.Count * 5)" "INFO"
 Log "Generated: $($successCount * 5) components | Failed: $($failCount * 5) components" "INFO"
-Log "Success rate: $([math]::Round($successCount / $layerScreens.Count * 100, 1))% (excluding skipped)" "INFO"
+Log "Success rate: $(if ($layerScreens.Count -gt 0) { [math]::Round($successCount / $layerScreens.Count * 100, 1) } else { 0 })% (excluding skipped)" "INFO"
 Log "Duration: $([int]$durationSeconds)s (~$([math]::Round($durationSeconds / 60, 1)) minutes)" "INFO"
-Log "Speed: $([math]::Round($durationSeconds / $layerScreens.Count, 2))s per layer screen" "INFO"
+Log "Speed: $(if ($layerScreens.Count -gt 0) { [math]::Round($durationSeconds / $layerScreens.Count, 2) } else { 0 })s per layer screen" "INFO"
 Log "" "INFO"
 
 if ($skippedScreens.Count -gt 0) {

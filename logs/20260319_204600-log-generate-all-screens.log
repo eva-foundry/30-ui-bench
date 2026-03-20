@@ -1,0 +1,87 @@
+2026-03-19 20:46:00 [INFO] =====[PART 3.DO: Screen Factory Batch Generation]=====
+2026-03-19 20:46:00 [INFO] Loading screen registry (source: auto, parallel: 2 workers)...
+2026-03-19 20:46:00 [PASS] PASS: Loaded registry from Cosmos DB (66 screens)
+2026-03-19 20:46:00 [INFO] Generating components for 66 screens (330 total components)...
+2026-03-19 20:46:01 [INFO] Screen filter: 0 layer screens (L[0-9]+) | 66 non-layer screens (skipped)
+2026-03-19 20:46:01 [INFO] Starting 2 parallel jobs (batch size: ~0 layer screens/job)...
+2026-03-19 20:46:01 [INFO] Waiting for 0 jobs to complete...
+2026-03-19 20:46:01 [INFO] Evidence file: C:\eva-foundry\30-ui-bench\evidence\20260319_204600-evidence-screen-generation-batch.json
+2026-03-19 20:46:01 [INFO] 
+2026-03-19 20:46:01 [INFO] === Generation Summary ===
+2026-03-19 20:46:01 [INFO] Total registry entries: 66
+2026-03-19 20:46:01 [INFO] Layer screens (L[0-9]+): 0 | Non-layer screens (skipped): 66
+2026-03-19 20:46:01 [INFO] Total components target: 0
+2026-03-19 20:46:01 [INFO] Generated: 0 components | Failed: 0 components
+2026-03-19 20:46:01 [INFO] Success rate: 0% (excluding skipped)
+2026-03-19 20:46:01 [INFO] Duration: 0s (~0 minutes)
+2026-03-19 20:46:01 [INFO] Speed: 0s per layer screen
+2026-03-19 20:46:01 [INFO] 
+2026-03-19 20:46:01 [INFO] INFO: Skipped 66 non-layer screens (not L[0-9]+ format):
+2026-03-19 20:46:01 [INFO]   - A11yThemesPage
+2026-03-19 20:46:01 [INFO]   - ActAsPage
+2026-03-19 20:46:01 [INFO]   - AdminI18nByScreenPage
+2026-03-19 20:46:01 [INFO]   - ADOCommandCenterPage
+2026-03-19 20:46:01 [INFO]   - AppsPage
+2026-03-19 20:46:01 [INFO]   - AssistMePage
+2026-03-19 20:46:01 [INFO]   - AuditLogsPage
+2026-03-19 20:46:01 [INFO]   - ChatPane
+2026-03-19 20:46:01 [INFO]   - DataModelExplorerPage
+2026-03-19 20:46:01 [INFO]   - DevbenchContextBundlesPage
+2026-03-19 20:46:01 [INFO]   - DevbenchProjectsPage
+2026-03-19 20:46:01 [INFO]   - DevbenchReviewDemo
+2026-03-19 20:46:01 [INFO]   - DevbenchRunsPage
+2026-03-19 20:46:01 [INFO]   - DevbenchSettingsPage
+2026-03-19 20:46:01 [INFO]   - DevopsHealthDashboardPage
+2026-03-19 20:46:01 [INFO]   - EvaDAAnalysisPage
+2026-03-19 20:46:01 [INFO]   - EvaDAChatPage
+2026-03-19 20:46:01 [INFO]   - EvaDADataLoadPage
+2026-03-19 20:46:01 [INFO]   - EvaDAFeedbackPage
+2026-03-19 20:46:01 [INFO]   - EvaDAKnowledgePage
+2026-03-19 20:46:01 [INFO]   - EvaDASearchPage
+2026-03-19 20:46:01 [INFO]   - EvaDATranslatorPage
+2026-03-19 20:46:01 [INFO]   - EVAHomePage
+2026-03-19 20:46:01 [INFO]   - FeatureFlagsPage
+2026-03-19 20:46:01 [INFO]   - FinOpsDashboardPage
+2026-03-19 20:46:01 [INFO]   - IngestionRunsPage
+2026-03-19 20:46:01 [INFO]   - JpSparkChatPage
+2026-03-19 20:46:01 [INFO]   - JpSparkContentPage
+2026-03-19 20:46:01 [INFO]   - JpSparkLayout
+2026-03-19 20:46:01 [INFO]   - JpSparkNoPage
+2026-03-19 20:46:01 [INFO]   - JpSparkTDAPage
+2026-03-19 20:46:01 [INFO]   - JpSparkTranslatorPage
+2026-03-19 20:46:01 [INFO]   - JpSparkTutorPage
+2026-03-19 20:46:01 [INFO]   - JpSparkUrlScrapperPage
+2026-03-19 20:46:01 [INFO]   - ModelBrowserPage
+2026-03-19 20:46:01 [INFO]   - ModelReportPage
+2026-03-19 20:46:01 [INFO]   - PersonaExperienceDashboard
+2026-03-19 20:46:01 [INFO]   - PersonaLoginPage
+2026-03-19 20:46:01 [INFO]   - ProjectPortfolioPage
+2026-03-19 20:46:01 [INFO]   - RbacPage
+2026-03-19 20:46:01 [INFO]   - RbacResponsibilitiesPage
+2026-03-19 20:46:01 [INFO]   - RbacRolesPage
+2026-03-19 20:46:01 [INFO]   - RedTeamingPage
+2026-03-19 20:46:01 [INFO]   - SearchHealthPage
+2026-03-19 20:46:01 [INFO]   - SettingsPage
+2026-03-19 20:46:01 [INFO]   - SprintBoardPage
+2026-03-19 20:46:01 [INFO]   - SupportTicketsPage
+2026-03-19 20:46:01 [INFO]   - SystemLogsPage
+2026-03-19 20:46:01 [INFO]   - TranslationsPage
+2026-03-19 20:46:01 [INFO]   - WBSTreePage
+2026-03-19 20:46:01 [INFO]   - WorkFactoryCapabilitiesListView
+2026-03-19 20:46:01 [INFO]   - WorkFactoryGovernanceListView
+2026-03-19 20:46:01 [INFO]   - WorkFactoryInvestmentsListView
+2026-03-19 20:46:01 [INFO]   - WorkFactoryMetricsListView
+2026-03-19 20:46:01 [INFO]   - WorkFactoryPortfolioListView
+2026-03-19 20:46:01 [INFO]   - WorkFactoryRoadmapsListView
+2026-03-19 20:46:01 [INFO]   - WorkFactoryServicesListView
+2026-03-19 20:46:01 [INFO]   - WorkOutcomesListView
+2026-03-19 20:46:01 [INFO]   - WorkServiceBreachesListView
+2026-03-19 20:46:01 [INFO]   - WorkServiceLevelObjectivesListView
+2026-03-19 20:46:01 [INFO]   - WorkServiceLifecycleListView
+2026-03-19 20:46:01 [INFO]   - WorkServicePerfProfilesListView
+2026-03-19 20:46:01 [INFO]   - WorkServiceRemediationPlansListView
+2026-03-19 20:46:01 [INFO]   - WorkServiceRequestsListView
+2026-03-19 20:46:01 [INFO]   - WorkServiceRevalidationResultsListView
+2026-03-19 20:46:01 [INFO]   - WorkServiceRunsListView
+2026-03-19 20:46:01 [INFO] 
+2026-03-19 20:46:01 [PASS] PASS: All layer screens generated successfully
