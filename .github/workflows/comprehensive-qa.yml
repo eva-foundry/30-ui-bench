@@ -66,6 +66,7 @@ jobs:
       - name: Focused Sprint 11 route tests
         working-directory: ${{ env.UI_PATH }}
         run: |
+          set +e
           npm run test -- \
             src/pages/portal/PersonaLoginPage.test.tsx \
             src/pages/portal/PersonaExperienceDashboardPage.test.tsx \
@@ -73,19 +74,30 @@ jobs:
             src/pages/admin/RbacResponsibilitiesPage.test.tsx \
             src/pages/admin/A11yThemesPage.test.tsx \
             > focused-test-report.txt 2>&1
+          EXIT_CODE=$?
+          set -e
           cat focused-test-report.txt
+          exit $EXIT_CODE
 
       - name: TypeScript gate
         working-directory: ${{ env.UI_PATH }}
         run: |
+          set +e
           npm run type-check > typecheck-report.txt 2>&1
+          EXIT_CODE=$?
+          set -e
           cat typecheck-report.txt
+          exit $EXIT_CODE
 
       - name: Build gate
         working-directory: ${{ env.UI_PATH }}
         run: |
+          set +e
           npm run build > build-report.txt 2>&1
+          EXIT_CODE=$?
+          set -e
           cat build-report.txt
+          exit $EXIT_CODE
 
       - name: Lint gate (warning-only tolerated)
         working-directory: ${{ env.UI_PATH }}
@@ -102,6 +114,7 @@ jobs:
           exit 0
 
       - name: Upload client verification artifacts
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: project30-client-verification
