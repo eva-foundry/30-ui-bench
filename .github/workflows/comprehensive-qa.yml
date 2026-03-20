@@ -740,6 +740,12 @@ jobs:
           script: |
             const fs = require('fs');
             const report = JSON.parse(fs.readFileSync('comprehensive-qa-report.json', 'utf8'));
+            const iconFor = (result) => result === 'success' ? '✅' : '❌';
+            const codeQuality = iconFor('${{ needs.code-quality.result }}');
+            const consistency = iconFor('${{ needs.consistency.result }}');
+            const testing = iconFor('${{ needs.testing.result }}');
+            const evidence = iconFor('${{ needs.evidence.result }}');
+            const integration = iconFor('${{ needs.integration.result }}');
             
             const comment = `## 📊 Comprehensive QA Report
             
@@ -747,11 +753,11 @@ jobs:
             
             | Category | Gates | Status |
             |----------|-------|--------|
-            | Code Quality | 5 | ${{ needs.code-quality.result == 'success' ? '✅' : '❌' }} |
-            | Consistency | 4 | ${{ needs.consistency.result == 'success' ? '✅' : '❌' }} |
-            | Testing | 5 | ${{ needs.testing.result == 'success' ? '✅' : '❌' }} |
-            | Evidence | 5 | ${{ needs.evidence.result == 'success' ? '✅' : '❌' }} |
-            | Integration | 5 | ${{ needs.integration.result == 'success' ? '✅' : '❌' }} |
+            | Code Quality | 5 | ${codeQuality} |
+            | Consistency | 4 | ${consistency} |
+            | Testing | 5 | ${testing} |
+            | Evidence | 5 | ${evidence} |
+            | Integration | 5 | ${integration} |
             
             **Automated**: 25 gates executed  
             **Manual**: 26 gates require human verification  
