@@ -31,6 +31,8 @@ on:
 
 env:
   NODE_VERSION: '20.x'
+  PROJECT31_REPO: eva-foundry/31-eva-faces
+  PROJECT31_PATH: 31-eva-faces
   PROJECT37_REPO: eva-foundry/37-data-model
   PROJECT37_PATH: project37-runtime
   UI_PATH: project37-runtime/ui
@@ -45,6 +47,12 @@ jobs:
     steps:
       - name: Checkout Project 30 governance surface
         uses: actions/checkout@v4
+
+      - name: Checkout Project 31 shared templates
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.PROJECT31_REPO }}
+          path: ${{ env.PROJECT31_PATH }}
 
       - name: Checkout Project 37 runtime UI
         uses: actions/checkout@v4
