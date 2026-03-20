@@ -7,9 +7,9 @@ For the current mission, runtime implementation and verification may land in `37
 ## Current Operating Model
 
 - Governance truth lives in the Project 37 data model API and the `project_work` packet records for `30-ui-bench`.
-- Active handoff authority lives in `docs/20260315_223500-project37-ui-handoff.md`.
-- Active execution packet: Sprint 10.
-- Ready packet: Sprint 11.
+- Active handoff authority is the Project 37 provider packet in `../37-data-model/docs/20260316_112700-ws06d-provider-handoff-kernel-engine.md`, with local UI guidance retained in `docs/20260315_223500-project37-ui-handoff.md`.
+- Active execution packet: Sprint 10 closeout with Sprint 11 execution follow-through.
+- Sprint 11 is now execution-active against the published Project 37 query-first handoff contract.
 - Runtime owner: `37-data-model/ui`.
 
 ## Current Sprint Packet
@@ -19,7 +19,7 @@ Sprint 10 is the active execution packet for two workstreams:
 1. Reset Project 30 governance and instruction surfaces so they match the paperless, deterministic-orchestration model.
 2. Deliver and verify the Wave 2 Project 37 routes in `37-data-model/ui` without inventing runtime payloads for unseeded layers.
 
-Sprint 11 remains the ready packet for FK-aware and ontology-view follow-up once Project 37 confirms the remaining runtime dependencies.
+Sprint 11 now executes FK-aware and ontology-view follow-up against the published Project 37 handoff packet, without inventing runtime payloads or assuming unpublished direct collection routes.
 
 ## Active Wave Scope
 
